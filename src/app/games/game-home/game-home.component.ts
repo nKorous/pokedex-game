@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { PlayerService } from '../../services/player.service';
+import { Router } from '@angular/router'
 
 @Component({
   selector: 'app-game-home',
@@ -10,18 +11,19 @@ export class GameHomeComponent implements OnInit {
   playerName: string;
   playerPoints: number;
 
-  constructor(private playerService: PlayerService) {}
+  constructor(private playerService: PlayerService, private router: Router) {}
 
   ngOnInit(): void {
-    this.getPlayerInfo()
+    this.getPlayerInfo();
   }
 
   getPlayerInfo() {
+    this.playerService.getPlayerName().subscribe((name) => {
+      if(!name) this.router.navigate(['/gameSelect'])
+      this.playerName = name
+    });
+
     this.playerService
-      .getPlayerName()
-      .subscribe((name) => (this.playerName = name));
-    
-      this.playerService
       .getPlayerPoints()
       .subscribe((points) => (this.playerPoints = points));
   }

@@ -3,6 +3,7 @@
     display: flex;
     padding: 10px;
     justify-content: center;
+    text-align: center;
 }
 
 .textArea {
@@ -13,8 +14,15 @@
     padding: 5px;
     border-radius: 15px 15px 0px 15px;
     font-size: 28px;
+    height: 200px;
 }
 
 #nextButton {
     float: right;
+}
+
+.selectionButton {
+    height: 100px;
+    width: 150px;
+    margin: 10px;
 }
