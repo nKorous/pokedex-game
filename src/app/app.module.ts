@@ -7,12 +7,14 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 import { MatButtonModule } from '@angular/material/button/'
 import { MatCardModule } from '@angular/material/card';
-import { GameSelectComponent } from './game-select/game-select.component'
+import { GameSelectComponent } from './game-select/game-select.component';
+import { HomePageComponent } from './home-page/home-page.component'
 
 @NgModule({
   declarations: [
     AppComponent,
-    GameSelectComponent
+    GameSelectComponent,
+    HomePageComponent
   ],
   imports: [
     BrowserModule,
