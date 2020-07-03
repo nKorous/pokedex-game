@@ -14,7 +14,9 @@ import { HomePageComponent } from './home-page/home-page.component';
 import { PokeGuessComponent } from './games/poke-guess/poke-guess.component';
 import { PokeTypeComponent } from './games/poke-type/poke-type.component';
 import { PokeEvolutionComponent } from './games/poke-evolution/poke-evolution.component';
-import { GameHomeComponent } from './games/game-home/game-home.component'
+import { GameHomeComponent } from './games/game-home/game-home.component';
+import { PokeDexComponent } from './games/poke-dex/poke-dex.component';
+import { PokemonDetailComponent } from './games/poke-dex/pokemon-detail.component'
 
 @NgModule({
   declarations: [
@@ -24,7 +26,9 @@ import { GameHomeComponent } from './games/game-home/game-home.component'
     PokeGuessComponent,
     PokeTypeComponent,
     PokeEvolutionComponent,
-    GameHomeComponent
+    GameHomeComponent,
+    PokeDexComponent,
+    PokemonDetailComponent
   ],
   imports: [
     BrowserModule,

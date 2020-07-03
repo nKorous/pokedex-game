@@ -1,4 +1,6 @@
-[
+import { Pokemon } from "../models/pokemon";
+
+export const PokemonList: Array<Pokemon> =  [
   {
     "classification": "Seed Pokémon",
     "name": "Bulbasaur",
@@ -8,7 +10,8 @@
     "weight_kg": 6.9,
     "height_m": 0.7,
     "generation": 1,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/bulbasaur.png"
   },
   {
     "classification": "Seed Pokémon",
@@ -19,7 +22,8 @@
     "weight_kg": 13,
     "height_m": 1,
     "generation": 1,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/ivysaur.png"
   },
   {
     "classification": "Seed Pokémon",
@@ -30,7 +34,8 @@
     "weight_kg": 100,
     "height_m": 2,
     "generation": 1,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/venusaur.png"
   },
   {
     "classification": "Lizard Pokémon",
@@ -41,7 +46,8 @@
     "weight_kg": 8.5,
     "height_m": 0.6,
     "generation": 1,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/charmander.png"
   },
   {
     "classification": "Flame Pokémon",
@@ -52,7 +58,8 @@
     "weight_kg": 19,
     "height_m": 1.1,
     "generation": 1,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/charmeleon.png"
   },
   {
     "classification": "Flame Pokémon",
@@ -63,7 +70,8 @@
     "weight_kg": 90.5,
     "height_m": 1.7,
     "generation": 1,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/charizard.png"
   },
   {
     "classification": "Tiny Turtle Pokémon",
@@ -74,7 +82,8 @@
     "weight_kg": 9,
     "height_m": 0.5,
     "generation": 1,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/squirtle.png"
   },
   {
     "classification": "Turtle Pokémon",
@@ -85,7 +94,8 @@
     "weight_kg": 22.5,
     "height_m": 1,
     "generation": 1,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/wartortle.png"
   },
   {
     "classification": "Shellfish Pokémon",
@@ -96,7 +106,8 @@
     "weight_kg": 85.5,
     "height_m": 1.6,
     "generation": 1,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/blastoise.png"
   },
   {
     "classification": "Worm Pokémon",
@@ -107,7 +118,8 @@
     "weight_kg": 2.9,
     "height_m": 0.3,
     "generation": 1,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/caterpie.png"
   },
   {
     "classification": "Cocoon Pokémon",
@@ -118,7 +130,8 @@
     "weight_kg": 9.9,
     "height_m": 0.7,
     "generation": 1,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/metapod.png"
   },
   {
     "classification": "Butterfly Pokémon",
@@ -129,7 +142,8 @@
     "weight_kg": 32,
     "height_m": 1.1,
     "generation": 1,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/butterfree.png"
   },
   {
     "classification": "Hairy Pokémon",
@@ -140,7 +154,8 @@
     "weight_kg": 3.2,
     "height_m": 0.3,
     "generation": 1,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/weedle.png"
   },
   {
     "classification": "Cocoon Pokémon",
@@ -151,7 +166,8 @@
     "weight_kg": 10,
     "height_m": 0.6,
     "generation": 1,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/kakuna.png"
   },
   {
     "classification": "Poison Bee Pokémon",
@@ -162,7 +178,8 @@
     "weight_kg": 29.5,
     "height_m": 1,
     "generation": 1,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/beedrill.png"
   },
   {
     "classification": "Tiny Bird Pokémon",
@@ -173,7 +190,8 @@
     "weight_kg": 1.8,
     "height_m": 0.3,
     "generation": 1,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/pidgey.png"
   },
   {
     "classification": "Bird Pokémon",
@@ -184,7 +202,8 @@
     "weight_kg": 30,
     "height_m": 1.1,
     "generation": 1,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/pidgeotto.png"
   },
   {
     "classification": "Bird Pokémon",
@@ -195,7 +214,8 @@
     "weight_kg": 39.5,
     "height_m": 1.5,
     "generation": 1,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/pidgeot.png"
   },
   {
     "classification": "Mouse Pokémon",
@@ -204,7 +224,8 @@
     "type1": "normal",
     "type2": "dark",
     "generation": 1,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/rattata.png"
   },
   {
     "classification": "Mouse Pokémon",
@@ -213,7 +234,8 @@
     "type1": "normal",
     "type2": "dark",
     "generation": 1,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/raticate.png"
   },
   {
     "classification": "Tiny Bird Pokémon",
@@ -224,7 +246,8 @@
     "weight_kg": 2,
     "height_m": 0.3,
     "generation": 1,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/spearow.png"
   },
   {
     "classification": "Beak Pokémon",
@@ -235,7 +258,8 @@
     "weight_kg": 38,
     "height_m": 1.2,
     "generation": 1,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/fearow.png"
   },
   {
     "classification": "Snake Pokémon",
@@ -246,7 +270,8 @@
     "weight_kg": 6.9,
     "height_m": 2,
     "generation": 1,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/ekans.png"
   },
   {
     "classification": "Cobra Pokémon",
@@ -257,7 +282,8 @@
     "weight_kg": 65,
     "height_m": 3.5,
     "generation": 1,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/arbok.png"
   },
   {
     "classification": "Mouse Pokémon",
@@ -268,7 +294,8 @@
     "weight_kg": 6,
     "height_m": 0.4,
     "generation": 1,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/pikachu.png"
   },
   {
     "classification": "Mouse Pokémon",
@@ -277,7 +304,8 @@
     "type1": "electric",
     "type2": "electric",
     "generation": 1,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/raichu.png"
   },
   {
     "classification": "Mouse Pokémon",
@@ -286,7 +314,8 @@
     "type1": "ground",
     "type2": "ice",
     "generation": 1,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/sandshrew.png"
   },
   {
     "classification": "Mouse Pokémon",
@@ -295,7 +324,8 @@
     "type1": "ground",
     "type2": "ice",
     "generation": 1,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/sandslash.png"
   },
   {
     "classification": "Poison Pin Pokémon",
@@ -306,7 +336,8 @@
     "weight_kg": 7,
     "height_m": 0.4,
     "generation": 1,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/nidoran♀.png"
   },
   {
     "classification": "Poison Pin Pokémon",
@@ -317,7 +348,8 @@
     "weight_kg": 20,
     "height_m": 0.8,
     "generation": 1,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/nidorina.png"
   },
   {
     "classification": "Drill Pokémon",
@@ -328,7 +360,8 @@
     "weight_kg": 60,
     "height_m": 1.3,
     "generation": 1,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/nidoqueen.png"
   },
   {
     "classification": "Poison Pin Pokémon",
@@ -339,7 +372,8 @@
     "weight_kg": 9,
     "height_m": 0.5,
     "generation": 1,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/nidoran♂.png"
   },
   {
     "classification": "Poison Pin Pokémon",
@@ -350,7 +384,8 @@
     "weight_kg": 19.5,
     "height_m": 0.9,
     "generation": 1,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/nidorino.png"
   },
   {
     "classification": "Drill Pokémon",
@@ -361,7 +396,8 @@
     "weight_kg": 62,
     "height_m": 1.4,
     "generation": 1,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/nidoking.png"
   },
   {
     "classification": "Fairy Pokémon",
@@ -372,7 +408,8 @@
     "weight_kg": 7.5,
     "height_m": 0.6,
     "generation": 1,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/clefairy.png"
   },
   {
     "classification": "Fairy Pokémon",
@@ -383,7 +420,8 @@
     "weight_kg": 40,
     "height_m": 1.3,
     "generation": 1,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/clefable.png"
   },
   {
     "classification": "Fox Pokémon",
@@ -392,7 +430,8 @@
     "type1": "fire",
     "type2": "ice",
     "generation": 1,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/vulpix.png"
   },
   {
     "classification": "Fox Pokémon",
@@ -401,7 +440,8 @@
     "type1": "fire",
     "type2": "ice",
     "generation": 1,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/ninetales.png"
   },
   {
     "classification": "Balloon Pokémon",
@@ -412,7 +452,8 @@
     "weight_kg": 5.5,
     "height_m": 0.5,
     "generation": 1,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/jigglypuff.png"
   },
   {
     "classification": "Balloon Pokémon",
@@ -423,7 +464,8 @@
     "weight_kg": 12,
     "height_m": 1,
     "generation": 1,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/wigglytuff.png"
   },
   {
     "classification": "Bat Pokémon",
@@ -434,7 +476,8 @@
     "weight_kg": 7.5,
     "height_m": 0.8,
     "generation": 1,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/zubat.png"
   },
   {
     "classification": "Bat Pokémon",
@@ -445,7 +488,8 @@
     "weight_kg": 55,
     "height_m": 1.6,
     "generation": 1,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/golbat.png"
   },
   {
     "classification": "Weed Pokémon",
@@ -456,7 +500,8 @@
     "weight_kg": 5.4,
     "height_m": 0.5,
     "generation": 1,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/oddish.png"
   },
   {
     "classification": "Weed Pokémon",
@@ -467,7 +512,8 @@
     "weight_kg": 8.6,
     "height_m": 0.8,
     "generation": 1,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/gloom.png"
   },
   {
     "classification": "Flower Pokémon",
@@ -478,7 +524,8 @@
     "weight_kg": 18.6,
     "height_m": 1.2,
     "generation": 1,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/vileplume.png"
   },
   {
     "classification": "Mushroom Pokémon",
@@ -489,7 +536,8 @@
     "weight_kg": 5.4,
     "height_m": 0.3,
     "generation": 1,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/paras.png"
   },
   {
     "classification": "Mushroom Pokémon",
@@ -500,7 +548,8 @@
     "weight_kg": 29.5,
     "height_m": 1,
     "generation": 1,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/parasect.png"
   },
   {
     "classification": "Insect Pokémon",
@@ -511,7 +560,8 @@
     "weight_kg": 30,
     "height_m": 1,
     "generation": 1,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/venonat.png"
   },
   {
     "classification": "Poison Moth Pokémon",
@@ -522,7 +572,8 @@
     "weight_kg": 12.5,
     "height_m": 1.5,
     "generation": 1,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/venomoth.png"
   },
   {
     "classification": "Mole Pokémon",
@@ -531,7 +582,8 @@
     "type1": "ground",
     "type2": "ground",
     "generation": 1,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/diglett.png"
   },
   {
     "classification": "Mole Pokémon",
@@ -540,7 +592,8 @@
     "type1": "ground",
     "type2": "ground",
     "generation": 1,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/dugtrio.png"
   },
   {
     "classification": "Scratch Cat Pokémon",
@@ -549,7 +602,8 @@
     "type1": "normal",
     "type2": "dark",
     "generation": 1,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/meowth.png"
   },
   {
     "classification": "Classy Cat Pokémon",
@@ -558,7 +612,8 @@
     "type1": "normal",
     "type2": "dark",
     "generation": 1,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/persian.png"
   },
   {
     "classification": "Duck Pokémon",
@@ -569,7 +624,8 @@
     "weight_kg": 19.6,
     "height_m": 0.8,
     "generation": 1,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/psyduck.png"
   },
   {
     "classification": "Duck Pokémon",
@@ -580,7 +636,8 @@
     "weight_kg": 76.6,
     "height_m": 1.7,
     "generation": 1,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/golduck.png"
   },
   {
     "classification": "Pig Monkey Pokémon",
@@ -591,7 +648,8 @@
     "weight_kg": 28,
     "height_m": 0.5,
     "generation": 1,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/mankey.png"
   },
   {
     "classification": "Pig Monkey Pokémon",
@@ -602,7 +660,8 @@
     "weight_kg": 32,
     "height_m": 1,
     "generation": 1,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/primeape.png"
   },
   {
     "classification": "Puppy Pokémon",
@@ -613,7 +672,8 @@
     "weight_kg": 19,
     "height_m": 0.7,
     "generation": 1,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/growlithe.png"
   },
   {
     "classification": "Legendary Pokémon",
@@ -624,7 +684,8 @@
     "weight_kg": 155,
     "height_m": 1.9,
     "generation": 1,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/arcanine.png"
   },
   {
     "classification": "Tadpole Pokémon",
@@ -635,7 +696,8 @@
     "weight_kg": 12.4,
     "height_m": 0.6,
     "generation": 1,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/poliwag.png"
   },
   {
     "classification": "Tadpole Pokémon",
@@ -646,7 +708,8 @@
     "weight_kg": 20,
     "height_m": 1,
     "generation": 1,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/poliwhirl.png"
   },
   {
     "classification": "Tadpole Pokémon",
@@ -657,7 +720,8 @@
     "weight_kg": 54,
     "height_m": 1.3,
     "generation": 1,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/poliwrath.png"
   },
   {
     "classification": "Psi Pokémon",
@@ -668,7 +732,8 @@
     "weight_kg": 19.5,
     "height_m": 0.9,
     "generation": 1,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/abra.png"
   },
   {
     "classification": "Psi Pokémon",
@@ -679,7 +744,8 @@
     "weight_kg": 56.5,
     "height_m": 1.3,
     "generation": 1,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/kadabra.png"
   },
   {
     "classification": "Psi Pokémon",
@@ -690,7 +756,8 @@
     "weight_kg": 48,
     "height_m": 1.5,
     "generation": 1,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/alakazam.png"
   },
   {
     "classification": "Superpower Pokémon",
@@ -701,7 +768,8 @@
     "weight_kg": 19.5,
     "height_m": 0.8,
     "generation": 1,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/machop.png"
   },
   {
     "classification": "Superpower Pokémon",
@@ -712,7 +780,8 @@
     "weight_kg": 70.5,
     "height_m": 1.5,
     "generation": 1,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/machoke.png"
   },
   {
     "classification": "Superpower Pokémon",
@@ -723,7 +792,8 @@
     "weight_kg": 130,
     "height_m": 1.6,
     "generation": 1,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/machamp.png"
   },
   {
     "classification": "Flower Pokémon",
@@ -734,7 +804,8 @@
     "weight_kg": 4,
     "height_m": 0.7,
     "generation": 1,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/bellsprout.png"
   },
   {
     "classification": "Flycatcher Pokémon",
@@ -745,7 +816,8 @@
     "weight_kg": 6.4,
     "height_m": 1,
     "generation": 1,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/weepinbell.png"
   },
   {
     "classification": "Flycatcher Pokémon",
@@ -756,7 +828,8 @@
     "weight_kg": 15.5,
     "height_m": 1.7,
     "generation": 1,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/victreebel.png"
   },
   {
     "classification": "Jellyfish Pokémon",
@@ -767,7 +840,8 @@
     "weight_kg": 45.5,
     "height_m": 0.9,
     "generation": 1,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/tentacool.png"
   },
   {
     "classification": "Jellyfish Pokémon",
@@ -778,7 +852,8 @@
     "weight_kg": 55,
     "height_m": 1.6,
     "generation": 1,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/tentacruel.png"
   },
   {
     "classification": "Rock Pokémon",
@@ -787,7 +862,8 @@
     "type1": "rock",
     "type2": "ground",
     "generation": 1,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/geodude.png"
   },
   {
     "classification": "Rock Pokémon",
@@ -796,7 +872,8 @@
     "type1": "rock",
     "type2": "ground",
     "generation": 1,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/graveler.png"
   },
   {
     "classification": "Megaton Pokémon",
@@ -805,7 +882,8 @@
     "type1": "rock",
     "type2": "ground",
     "generation": 1,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/golem.png"
   },
   {
     "classification": "Fire Horse Pokémon",
@@ -816,7 +894,8 @@
     "weight_kg": 30,
     "height_m": 1,
     "generation": 1,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/ponyta.png"
   },
   {
     "classification": "Fire Horse Pokémon",
@@ -827,7 +906,8 @@
     "weight_kg": 95,
     "height_m": 1.7,
     "generation": 1,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/rapidash.png"
   },
   {
     "classification": "Dopey Pokémon",
@@ -838,7 +918,8 @@
     "weight_kg": 36,
     "height_m": 1.2,
     "generation": 1,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/slowpoke.png"
   },
   {
     "classification": "Hermit Crab Pokémon",
@@ -849,7 +930,8 @@
     "weight_kg": 78.5,
     "height_m": 1.6,
     "generation": 1,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/slowbro.png"
   },
   {
     "classification": "Magnet Pokémon",
@@ -860,7 +942,8 @@
     "weight_kg": 6,
     "height_m": 0.3,
     "generation": 1,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/magnemite.png"
   },
   {
     "classification": "Magnet Pokémon",
@@ -871,7 +954,8 @@
     "weight_kg": 60,
     "height_m": 1,
     "generation": 1,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/magneton.png"
   },
   {
     "classification": "Wild Duck Pokémon",
@@ -882,7 +966,8 @@
     "weight_kg": 15,
     "height_m": 0.8,
     "generation": 1,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/farfetch'd.png"
   },
   {
     "classification": "Twin Bird Pokémon",
@@ -893,7 +978,8 @@
     "weight_kg": 39.2,
     "height_m": 1.4,
     "generation": 1,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/doduo.png"
   },
   {
     "classification": "Triple Bird Pokémon",
@@ -904,7 +990,8 @@
     "weight_kg": 85.2,
     "height_m": 1.8,
     "generation": 1,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/dodrio.png"
   },
   {
     "classification": "Sea Lion Pokémon",
@@ -915,7 +1002,8 @@
     "weight_kg": 90,
     "height_m": 1.1,
     "generation": 1,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/seel.png"
   },
   {
     "classification": "Sea Lion Pokémon",
@@ -926,7 +1014,8 @@
     "weight_kg": 120,
     "height_m": 1.7,
     "generation": 1,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/dewgong.png"
   },
   {
     "classification": "Sludge Pokémon",
@@ -935,7 +1024,8 @@
     "type1": "poison",
     "type2": "poison",
     "generation": 1,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/grimer.png"
   },
   {
     "classification": "Sludge Pokémon",
@@ -944,7 +1034,8 @@
     "type1": "poison",
     "type2": "poison",
     "generation": 1,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/muk.png"
   },
   {
     "classification": "Bivalve Pokémon",
@@ -955,7 +1046,8 @@
     "weight_kg": 4,
     "height_m": 0.3,
     "generation": 1,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/shellder.png"
   },
   {
     "classification": "Bivalve Pokémon",
@@ -966,7 +1058,8 @@
     "weight_kg": 132.5,
     "height_m": 1.5,
     "generation": 1,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/cloyster.png"
   },
   {
     "classification": "Gas Pokémon",
@@ -977,7 +1070,8 @@
     "weight_kg": 0.1,
     "height_m": 1.3,
     "generation": 1,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/gastly.png"
   },
   {
     "classification": "Gas Pokémon",
@@ -988,7 +1082,8 @@
     "weight_kg": 0.1,
     "height_m": 1.6,
     "generation": 1,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/haunter.png"
   },
   {
     "classification": "Shadow Pokémon",
@@ -999,7 +1094,8 @@
     "weight_kg": 40.5,
     "height_m": 1.5,
     "generation": 1,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/gengar.png"
   },
   {
     "classification": "Rock Snake Pokémon",
@@ -1010,7 +1106,8 @@
     "weight_kg": 210,
     "height_m": 8.8,
     "generation": 1,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/onix.png"
   },
   {
     "classification": "Hypnosis Pokémon",
@@ -1021,7 +1118,8 @@
     "weight_kg": 32.4,
     "height_m": 1,
     "generation": 1,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/drowzee.png"
   },
   {
     "classification": "Hypnosis Pokémon",
@@ -1032,7 +1130,8 @@
     "weight_kg": 75.6,
     "height_m": 1.6,
     "generation": 1,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/hypno.png"
   },
   {
     "classification": "River Crab Pokémon",
@@ -1043,7 +1142,8 @@
     "weight_kg": 6.5,
     "height_m": 0.4,
     "generation": 1,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/krabby.png"
   },
   {
     "classification": "Pincer Pokémon",
@@ -1054,7 +1154,8 @@
     "weight_kg": 60,
     "height_m": 1.3,
     "generation": 1,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/kingler.png"
   },
   {
     "classification": "Ball Pokémon",
@@ -1065,7 +1166,8 @@
     "weight_kg": 10.4,
     "height_m": 0.5,
     "generation": 1,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/voltorb.png"
   },
   {
     "classification": "Ball Pokémon",
@@ -1076,7 +1178,8 @@
     "weight_kg": 66.6,
     "height_m": 1.2,
     "generation": 1,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/electrode.png"
   },
   {
     "classification": "Egg Pokémon",
@@ -1087,7 +1190,8 @@
     "weight_kg": 2.5,
     "height_m": 0.4,
     "generation": 1,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/exeggcute.png"
   },
   {
     "classification": "Coconut Pokémon",
@@ -1096,7 +1200,8 @@
     "type1": "grass",
     "type2": "psychic",
     "generation": 1,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/exeggutor.png"
   },
   {
     "classification": "Lonely Pokémon",
@@ -1107,7 +1212,8 @@
     "weight_kg": 6.5,
     "height_m": 0.4,
     "generation": 1,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/cubone.png"
   },
   {
     "classification": "Bone Keeper Pokémon",
@@ -1116,7 +1222,8 @@
     "type1": "ground",
     "type2": "fire",
     "generation": 1,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/marowak.png"
   },
   {
     "classification": "Kicking Pokémon",
@@ -1127,7 +1234,8 @@
     "weight_kg": 49.8,
     "height_m": 1.5,
     "generation": 1,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/hitmonlee.png"
   },
   {
     "classification": "Punching Pokémon",
@@ -1138,7 +1246,8 @@
     "weight_kg": 50.2,
     "height_m": 1.4,
     "generation": 1,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/hitmonchan.png"
   },
   {
     "classification": "Licking Pokémon",
@@ -1149,7 +1258,8 @@
     "weight_kg": 65.5,
     "height_m": 1.2,
     "generation": 1,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/lickitung.png"
   },
   {
     "classification": "Poison Gas Pokémon",
@@ -1160,7 +1270,8 @@
     "weight_kg": 1,
     "height_m": 0.6,
     "generation": 1,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/koffing.png"
   },
   {
     "classification": "Poison Gas Pokémon",
@@ -1171,7 +1282,8 @@
     "weight_kg": 9.5,
     "height_m": 1.2,
     "generation": 1,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/weezing.png"
   },
   {
     "classification": "Spikes Pokémon",
@@ -1182,7 +1294,8 @@
     "weight_kg": 115,
     "height_m": 1,
     "generation": 1,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/rhyhorn.png"
   },
   {
     "classification": "Drill Pokémon",
@@ -1193,7 +1306,8 @@
     "weight_kg": 120,
     "height_m": 1.9,
     "generation": 1,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/rhydon.png"
   },
   {
     "classification": "Egg Pokémon",
@@ -1204,7 +1318,8 @@
     "weight_kg": 34.6,
     "height_m": 1.1,
     "generation": 1,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/chansey.png"
   },
   {
     "classification": "Vine Pokémon",
@@ -1215,7 +1330,8 @@
     "weight_kg": 35,
     "height_m": 1,
     "generation": 1,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/tangela.png"
   },
   {
     "classification": "Parent Pokémon",
@@ -1226,7 +1342,8 @@
     "weight_kg": 80,
     "height_m": 2.2,
     "generation": 1,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/kangaskhan.png"
   },
   {
     "classification": "Dragon Pokémon",
@@ -1237,7 +1354,8 @@
     "weight_kg": 8,
     "height_m": 0.4,
     "generation": 1,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/horsea.png"
   },
   {
     "classification": "Dragon Pokémon",
@@ -1248,7 +1366,8 @@
     "weight_kg": 25,
     "height_m": 1.2,
     "generation": 1,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/seadra.png"
   },
   {
     "classification": "Goldfish Pokémon",
@@ -1259,7 +1378,8 @@
     "weight_kg": 15,
     "height_m": 0.6,
     "generation": 1,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/goldeen.png"
   },
   {
     "classification": "Goldfish Pokémon",
@@ -1270,7 +1390,8 @@
     "weight_kg": 39,
     "height_m": 1.3,
     "generation": 1,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/seaking.png"
   },
   {
     "classification": "Starshape Pokémon",
@@ -1281,7 +1402,8 @@
     "weight_kg": 34.5,
     "height_m": 0.8,
     "generation": 1,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/staryu.png"
   },
   {
     "classification": "Mysterious Pokémon",
@@ -1292,7 +1414,8 @@
     "weight_kg": 80,
     "height_m": 1.1,
     "generation": 1,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/starmie.png"
   },
   {
     "classification": "Barrier Pokémon",
@@ -1303,7 +1426,8 @@
     "weight_kg": 54.5,
     "height_m": 1.3,
     "generation": 1,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/mr. mime.png"
   },
   {
     "classification": "Mantis Pokémon",
@@ -1314,7 +1438,8 @@
     "weight_kg": 56,
     "height_m": 1.5,
     "generation": 1,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/scyther.png"
   },
   {
     "classification": "Humanshape Pokémon",
@@ -1325,7 +1450,8 @@
     "weight_kg": 40.6,
     "height_m": 1.4,
     "generation": 1,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/jynx.png"
   },
   {
     "classification": "Electric Pokémon",
@@ -1336,7 +1462,8 @@
     "weight_kg": 30,
     "height_m": 1.1,
     "generation": 1,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/electabuzz.png"
   },
   {
     "classification": "Spitfire Pokémon",
@@ -1347,7 +1474,8 @@
     "weight_kg": 44.5,
     "height_m": 1.3,
     "generation": 1,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/magmar.png"
   },
   {
     "classification": "Stagbeetle Pokémon",
@@ -1358,7 +1486,8 @@
     "weight_kg": 55,
     "height_m": 1.5,
     "generation": 1,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/pinsir.png"
   },
   {
     "classification": "Wild Bull Pokémon",
@@ -1369,7 +1498,8 @@
     "weight_kg": 88.4,
     "height_m": 1.4,
     "generation": 1,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/tauros.png"
   },
   {
     "classification": "Fish Pokémon",
@@ -1380,7 +1510,8 @@
     "weight_kg": 10,
     "height_m": 0.9,
     "generation": 1,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/magikarp.png"
   },
   {
     "classification": "Atrocious Pokémon",
@@ -1391,7 +1522,8 @@
     "weight_kg": 235,
     "height_m": 6.5,
     "generation": 1,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/gyarados.png"
   },
   {
     "classification": "Transport Pokémon",
@@ -1402,7 +1534,8 @@
     "weight_kg": 220,
     "height_m": 2.5,
     "generation": 1,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/lapras.png"
   },
   {
     "classification": "Transform Pokémon",
@@ -1413,7 +1546,8 @@
     "weight_kg": 4,
     "height_m": 0.3,
     "generation": 1,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/ditto.png"
   },
   {
     "classification": "Evolution Pokémon",
@@ -1424,7 +1558,8 @@
     "weight_kg": 6.5,
     "height_m": 0.3,
     "generation": 1,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/eevee.png"
   },
   {
     "classification": "Bubble Jet Pokémon",
@@ -1435,7 +1570,8 @@
     "weight_kg": 29,
     "height_m": 1,
     "generation": 1,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/vaporeon.png"
   },
   {
     "classification": "Lightning Pokémon",
@@ -1446,7 +1582,8 @@
     "weight_kg": 24.5,
     "height_m": 0.8,
     "generation": 1,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/jolteon.png"
   },
   {
     "classification": "Flame Pokémon",
@@ -1457,7 +1594,8 @@
     "weight_kg": 25,
     "height_m": 0.9,
     "generation": 1,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/flareon.png"
   },
   {
     "classification": "Virtual Pokémon",
@@ -1468,7 +1606,8 @@
     "weight_kg": 36.5,
     "height_m": 0.8,
     "generation": 1,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/porygon.png"
   },
   {
     "classification": "Spiral Pokémon",
@@ -1479,7 +1618,8 @@
     "weight_kg": 7.5,
     "height_m": 0.4,
     "generation": 1,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/omanyte.png"
   },
   {
     "classification": "Spiral Pokémon",
@@ -1490,7 +1630,8 @@
     "weight_kg": 35,
     "height_m": 1,
     "generation": 1,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/omastar.png"
   },
   {
     "classification": "Shellfish Pokémon",
@@ -1501,7 +1642,8 @@
     "weight_kg": 11.5,
     "height_m": 0.5,
     "generation": 1,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/kabuto.png"
   },
   {
     "classification": "Shellfish Pokémon",
@@ -1512,7 +1654,8 @@
     "weight_kg": 40.5,
     "height_m": 1.3,
     "generation": 1,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/kabutops.png"
   },
   {
     "classification": "Fossil Pokémon",
@@ -1523,7 +1666,8 @@
     "weight_kg": 59,
     "height_m": 1.8,
     "generation": 1,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/aerodactyl.png"
   },
   {
     "classification": "Sleeping Pokémon",
@@ -1534,7 +1678,8 @@
     "weight_kg": 460,
     "height_m": 2.1,
     "generation": 1,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/snorlax.png"
   },
   {
     "classification": "Freeze Pokémon",
@@ -1545,7 +1690,8 @@
     "weight_kg": 55.4,
     "height_m": 1.7,
     "generation": 1,
-    "is_legendary": true
+    "is_legendary": true,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/articuno.png"
   },
   {
     "classification": "Electric Pokémon",
@@ -1556,7 +1702,8 @@
     "weight_kg": 52.6,
     "height_m": 1.6,
     "generation": 1,
-    "is_legendary": true
+    "is_legendary": true,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/zapdos.png"
   },
   {
     "classification": "Flame Pokémon",
@@ -1567,7 +1714,8 @@
     "weight_kg": 60,
     "height_m": 2,
     "generation": 1,
-    "is_legendary": true
+    "is_legendary": true,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/moltres.png"
   },
   {
     "classification": "Dragon Pokémon",
@@ -1578,7 +1726,8 @@
     "weight_kg": 3.3,
     "height_m": 1.8,
     "generation": 1,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/dratini.png"
   },
   {
     "classification": "Dragon Pokémon",
@@ -1589,7 +1738,8 @@
     "weight_kg": 16.5,
     "height_m": 4,
     "generation": 1,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/dragonair.png"
   },
   {
     "classification": "Dragon Pokémon",
@@ -1600,7 +1750,8 @@
     "weight_kg": 210,
     "height_m": 2.2,
     "generation": 1,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/dragonite.png"
   },
   {
     "classification": "Genetic Pokémon",
@@ -1611,7 +1762,8 @@
     "weight_kg": 122,
     "height_m": 2,
     "generation": 1,
-    "is_legendary": true
+    "is_legendary": true,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/mewtwo.png"
   },
   {
     "classification": "New Species Pokémon",
@@ -1622,7 +1774,8 @@
     "weight_kg": 4,
     "height_m": 0.4,
     "generation": 1,
-    "is_legendary": true
+    "is_legendary": true,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/mew.png"
   },
   {
     "classification": "Leaf Pokémon",
@@ -1633,7 +1786,8 @@
     "weight_kg": 6.4,
     "height_m": 0.9,
     "generation": 2,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/chikorita.png"
   },
   {
     "classification": "Leaf Pokémon",
@@ -1644,7 +1798,8 @@
     "weight_kg": 15.8,
     "height_m": 1.2,
     "generation": 2,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/bayleef.png"
   },
   {
     "classification": "Herb Pokémon",
@@ -1655,7 +1810,8 @@
     "weight_kg": 100.5,
     "height_m": 1.8,
     "generation": 2,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/meganium.png"
   },
   {
     "classification": "Fire Mouse Pokémon",
@@ -1666,7 +1822,8 @@
     "weight_kg": 7.9,
     "height_m": 0.5,
     "generation": 2,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/cyndaquil.png"
   },
   {
     "classification": "Volcano Pokémon",
@@ -1677,7 +1834,8 @@
     "weight_kg": 19,
     "height_m": 0.9,
     "generation": 2,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/quilava.png"
   },
   {
     "classification": "Volcano Pokémon",
@@ -1688,7 +1846,8 @@
     "weight_kg": 79.5,
     "height_m": 1.7,
     "generation": 2,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/typhlosion.png"
   },
   {
     "classification": "Big Jaw Pokémon",
@@ -1699,7 +1858,8 @@
     "weight_kg": 9.5,
     "height_m": 0.6,
     "generation": 2,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/totodile.png"
   },
   {
     "classification": "Big Jaw Pokémon",
@@ -1710,7 +1870,8 @@
     "weight_kg": 25,
     "height_m": 1.1,
     "generation": 2,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/croconaw.png"
   },
   {
     "classification": "Big Jaw Pokémon",
@@ -1721,7 +1882,8 @@
     "weight_kg": 88.8,
     "height_m": 2.3,
     "generation": 2,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/feraligatr.png"
   },
   {
     "classification": "Scout Pokémon",
@@ -1732,7 +1894,8 @@
     "weight_kg": 6,
     "height_m": 0.8,
     "generation": 2,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/sentret.png"
   },
   {
     "classification": "Long Body Pokémon",
@@ -1743,7 +1906,8 @@
     "weight_kg": 32.5,
     "height_m": 1.8,
     "generation": 2,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/furret.png"
   },
   {
     "classification": "Owl Pokémon",
@@ -1754,7 +1918,8 @@
     "weight_kg": 21.2,
     "height_m": 0.7,
     "generation": 2,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/hoothoot.png"
   },
   {
     "classification": "Owl Pokémon",
@@ -1765,7 +1930,8 @@
     "weight_kg": 40.8,
     "height_m": 1.6,
     "generation": 2,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/noctowl.png"
   },
   {
     "classification": "Five Star Pokémon",
@@ -1776,7 +1942,8 @@
     "weight_kg": 10.8,
     "height_m": 1,
     "generation": 2,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/ledyba.png"
   },
   {
     "classification": "Five Star Pokémon",
@@ -1787,7 +1954,8 @@
     "weight_kg": 35.6,
     "height_m": 1.4,
     "generation": 2,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/ledian.png"
   },
   {
     "classification": "String Spit Pokémon",
@@ -1798,7 +1966,8 @@
     "weight_kg": 8.5,
     "height_m": 0.5,
     "generation": 2,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/spinarak.png"
   },
   {
     "classification": "Long Leg Pokémon",
@@ -1809,7 +1978,8 @@
     "weight_kg": 33.5,
     "height_m": 1.1,
     "generation": 2,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/ariados.png"
   },
   {
     "classification": "Bat Pokémon",
@@ -1820,7 +1990,8 @@
     "weight_kg": 75,
     "height_m": 1.8,
     "generation": 2,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/crobat.png"
   },
   {
     "classification": "Angler Pokémon",
@@ -1831,7 +2002,8 @@
     "weight_kg": 12,
     "height_m": 0.5,
     "generation": 2,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/chinchou.png"
   },
   {
     "classification": "Light Pokémon",
@@ -1842,7 +2014,8 @@
     "weight_kg": 22.5,
     "height_m": 1.2,
     "generation": 2,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/lanturn.png"
   },
   {
     "classification": "Tiny Mouse Pokémon",
@@ -1853,7 +2026,8 @@
     "weight_kg": 2,
     "height_m": 0.3,
     "generation": 2,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/pichu.png"
   },
   {
     "classification": "Star Shape Pokémon",
@@ -1864,7 +2038,8 @@
     "weight_kg": 3,
     "height_m": 0.3,
     "generation": 2,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/cleffa.png"
   },
   {
     "classification": "Balloon Pokémon",
@@ -1875,7 +2050,8 @@
     "weight_kg": 1,
     "height_m": 0.3,
     "generation": 2,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/igglybuff.png"
   },
   {
     "classification": "Spike Ball Pokémon",
@@ -1886,7 +2062,8 @@
     "weight_kg": 1.5,
     "height_m": 0.3,
     "generation": 2,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/togepi.png"
   },
   {
     "classification": "Happiness Pokémon",
@@ -1897,7 +2074,8 @@
     "weight_kg": 3.2,
     "height_m": 0.6,
     "generation": 2,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/togetic.png"
   },
   {
     "classification": "Little Bird Pokémon",
@@ -1908,7 +2086,8 @@
     "weight_kg": 2,
     "height_m": 0.2,
     "generation": 2,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/natu.png"
   },
   {
     "classification": "Mystic Pokémon",
@@ -1919,7 +2098,8 @@
     "weight_kg": 15,
     "height_m": 1.5,
     "generation": 2,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/xatu.png"
   },
   {
     "classification": "Wool Pokémon",
@@ -1930,7 +2110,8 @@
     "weight_kg": 7.8,
     "height_m": 0.6,
     "generation": 2,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/mareep.png"
   },
   {
     "classification": "Wool Pokémon",
@@ -1941,7 +2122,8 @@
     "weight_kg": 13.3,
     "height_m": 0.8,
     "generation": 2,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/flaaffy.png"
   },
   {
     "classification": "Light Pokémon",
@@ -1952,7 +2134,8 @@
     "weight_kg": 61.5,
     "height_m": 1.4,
     "generation": 2,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/ampharos.png"
   },
   {
     "classification": "Flower Pokémon",
@@ -1963,7 +2146,8 @@
     "weight_kg": 5.8,
     "height_m": 0.4,
     "generation": 2,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/bellossom.png"
   },
   {
     "classification": "Aquamouse Pokémon",
@@ -1974,7 +2158,8 @@
     "weight_kg": 8.5,
     "height_m": 0.4,
     "generation": 2,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/marill.png"
   },
   {
     "classification": "Aquarabbit Pokémon",
@@ -1985,7 +2170,8 @@
     "weight_kg": 28.5,
     "height_m": 0.8,
     "generation": 2,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/azumarill.png"
   },
   {
     "classification": "Imitation Pokémon",
@@ -1996,7 +2182,8 @@
     "weight_kg": 38,
     "height_m": 1.2,
     "generation": 2,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/sudowoodo.png"
   },
   {
     "classification": "Frog Pokémon",
@@ -2007,7 +2194,8 @@
     "weight_kg": 33.9,
     "height_m": 1.1,
     "generation": 2,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/politoed.png"
   },
   {
     "classification": "Cottonweed Pokémon",
@@ -2018,7 +2206,8 @@
     "weight_kg": 0.5,
     "height_m": 0.4,
     "generation": 2,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/hoppip.png"
   },
   {
     "classification": "Cottonweed Pokémon",
@@ -2029,7 +2218,8 @@
     "weight_kg": 1,
     "height_m": 0.6,
     "generation": 2,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/skiploom.png"
   },
   {
     "classification": "Cottonweed Pokémon",
@@ -2040,7 +2230,8 @@
     "weight_kg": 3,
     "height_m": 0.8,
     "generation": 2,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/jumpluff.png"
   },
   {
     "classification": "Long Tail Pokémon",
@@ -2051,7 +2242,8 @@
     "weight_kg": 11.5,
     "height_m": 0.8,
     "generation": 2,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/aipom.png"
   },
   {
     "classification": "Seed Pokémon",
@@ -2062,7 +2254,8 @@
     "weight_kg": 1.8,
     "height_m": 0.3,
     "generation": 2,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/sunkern.png"
   },
   {
     "classification": "Sun Pokémon",
@@ -2073,7 +2266,8 @@
     "weight_kg": 8.5,
     "height_m": 0.8,
     "generation": 2,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/sunflora.png"
   },
   {
     "classification": "Clear Wing Pokémon",
@@ -2084,7 +2278,8 @@
     "weight_kg": 38,
     "height_m": 1.2,
     "generation": 2,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/yanma.png"
   },
   {
     "classification": "Water Fish Pokémon",
@@ -2095,7 +2290,8 @@
     "weight_kg": 8.5,
     "height_m": 0.4,
     "generation": 2,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/wooper.png"
   },
   {
     "classification": "Water Fish Pokémon",
@@ -2106,7 +2302,8 @@
     "weight_kg": 75,
     "height_m": 1.4,
     "generation": 2,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/quagsire.png"
   },
   {
     "classification": "Sun Pokémon",
@@ -2117,7 +2314,8 @@
     "weight_kg": 26.5,
     "height_m": 0.9,
     "generation": 2,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/espeon.png"
   },
   {
     "classification": "Moonlight Pokémon",
@@ -2128,7 +2326,8 @@
     "weight_kg": 27,
     "height_m": 1,
     "generation": 2,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/umbreon.png"
   },
   {
     "classification": "Darkness Pokémon",
@@ -2139,7 +2338,8 @@
     "weight_kg": 2.1,
     "height_m": 0.5,
     "generation": 2,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/murkrow.png"
   },
   {
     "classification": "Royal Pokémon",
@@ -2150,7 +2350,8 @@
     "weight_kg": 79.5,
     "height_m": 2,
     "generation": 2,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/slowking.png"
   },
   {
     "classification": "Screech Pokémon",
@@ -2161,7 +2362,8 @@
     "weight_kg": 1,
     "height_m": 0.7,
     "generation": 2,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/misdreavus.png"
   },
   {
     "classification": "Symbol Pokémon",
@@ -2172,7 +2374,8 @@
     "weight_kg": 5,
     "height_m": 0.5,
     "generation": 2,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/unown.png"
   },
   {
     "classification": "Patient Pokémon",
@@ -2183,7 +2386,8 @@
     "weight_kg": 28.5,
     "height_m": 1.3,
     "generation": 2,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/wobbuffet.png"
   },
   {
     "classification": "Long Neck Pokémon",
@@ -2194,7 +2398,8 @@
     "weight_kg": 41.5,
     "height_m": 1.5,
     "generation": 2,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/girafarig.png"
   },
   {
     "classification": "Bagworm Pokémon",
@@ -2205,7 +2410,8 @@
     "weight_kg": 7.2,
     "height_m": 0.6,
     "generation": 2,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/pineco.png"
   },
   {
     "classification": "Bagworm Pokémon",
@@ -2216,7 +2422,8 @@
     "weight_kg": 125.8,
     "height_m": 1.2,
     "generation": 2,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/forretress.png"
   },
   {
     "classification": "Land Snake Pokémon",
@@ -2227,7 +2434,8 @@
     "weight_kg": 14,
     "height_m": 1.5,
     "generation": 2,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/dunsparce.png"
   },
   {
     "classification": "Flyscorpion Pokémon",
@@ -2238,7 +2446,8 @@
     "weight_kg": 64.8,
     "height_m": 1.1,
     "generation": 2,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/gligar.png"
   },
   {
     "classification": "Iron Snake Pokémon",
@@ -2249,7 +2458,8 @@
     "weight_kg": 400,
     "height_m": 9.2,
     "generation": 2,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/steelix.png"
   },
   {
     "classification": "Fairy Pokémon",
@@ -2260,7 +2470,8 @@
     "weight_kg": 7.8,
     "height_m": 0.6,
     "generation": 2,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/snubbull.png"
   },
   {
     "classification": "Fairy Pokémon",
@@ -2271,7 +2482,8 @@
     "weight_kg": 48.7,
     "height_m": 1.4,
     "generation": 2,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/granbull.png"
   },
   {
     "classification": "Balloon Pokémon",
@@ -2282,7 +2494,8 @@
     "weight_kg": 3.9,
     "height_m": 0.5,
     "generation": 2,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/qwilfish.png"
   },
   {
     "classification": "Pincer Pokémon",
@@ -2293,7 +2506,8 @@
     "weight_kg": 118,
     "height_m": 1.8,
     "generation": 2,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/scizor.png"
   },
   {
     "classification": "Mold Pokémon",
@@ -2304,7 +2518,8 @@
     "weight_kg": 20.5,
     "height_m": 0.6,
     "generation": 2,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/shuckle.png"
   },
   {
     "classification": "Singlehorn Pokémon",
@@ -2315,7 +2530,8 @@
     "weight_kg": 54,
     "height_m": 1.5,
     "generation": 2,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/heracross.png"
   },
   {
     "classification": "Sharp Claw Pokémon",
@@ -2326,7 +2542,8 @@
     "weight_kg": 28,
     "height_m": 0.9,
     "generation": 2,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/sneasel.png"
   },
   {
     "classification": "Little Bear Pokémon",
@@ -2337,7 +2554,8 @@
     "weight_kg": 8.8,
     "height_m": 0.6,
     "generation": 2,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/teddiursa.png"
   },
   {
     "classification": "Hibernator Pokémon",
@@ -2348,7 +2566,8 @@
     "weight_kg": 125.8,
     "height_m": 1.8,
     "generation": 2,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/ursaring.png"
   },
   {
     "classification": "Lava Pokémon",
@@ -2359,7 +2578,8 @@
     "weight_kg": 35,
     "height_m": 0.7,
     "generation": 2,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/slugma.png"
   },
   {
     "classification": "Lava Pokémon",
@@ -2370,7 +2590,8 @@
     "weight_kg": 55,
     "height_m": 0.8,
     "generation": 2,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/magcargo.png"
   },
   {
     "classification": "Pig Pokémon",
@@ -2381,7 +2602,8 @@
     "weight_kg": 6.5,
     "height_m": 0.4,
     "generation": 2,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/swinub.png"
   },
   {
     "classification": "Swine Pokémon",
@@ -2392,7 +2614,8 @@
     "weight_kg": 55.8,
     "height_m": 1.1,
     "generation": 2,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/piloswine.png"
   },
   {
     "classification": "Coral Pokémon",
@@ -2403,7 +2626,8 @@
     "weight_kg": 5,
     "height_m": 0.6,
     "generation": 2,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/corsola.png"
   },
   {
     "classification": "Jet Pokémon",
@@ -2414,7 +2638,8 @@
     "weight_kg": 12,
     "height_m": 0.6,
     "generation": 2,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/remoraid.png"
   },
   {
     "classification": "Jet Pokémon",
@@ -2425,7 +2650,8 @@
     "weight_kg": 28.5,
     "height_m": 0.9,
     "generation": 2,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/octillery.png"
   },
   {
     "classification": "Delivery Pokémon",
@@ -2436,7 +2662,8 @@
     "weight_kg": 16,
     "height_m": 0.9,
     "generation": 2,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/delibird.png"
   },
   {
     "classification": "Kite Pokémon",
@@ -2447,7 +2674,8 @@
     "weight_kg": 220,
     "height_m": 2.1,
     "generation": 2,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/mantine.png"
   },
   {
     "classification": "Armor Bird Pokémon",
@@ -2458,7 +2686,8 @@
     "weight_kg": 50.5,
     "height_m": 1.7,
     "generation": 2,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/skarmory.png"
   },
   {
     "classification": "Dark Pokémon",
@@ -2469,7 +2698,8 @@
     "weight_kg": 10.8,
     "height_m": 0.6,
     "generation": 2,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/houndour.png"
   },
   {
     "classification": "Dark Pokémon",
@@ -2480,7 +2710,8 @@
     "weight_kg": 35,
     "height_m": 1.4,
     "generation": 2,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/houndoom.png"
   },
   {
     "classification": "Dragon Pokémon",
@@ -2491,7 +2722,8 @@
     "weight_kg": 152,
     "height_m": 1.8,
     "generation": 2,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/kingdra.png"
   },
   {
     "classification": "Long Nose Pokémon",
@@ -2502,7 +2734,8 @@
     "weight_kg": 33.5,
     "height_m": 0.5,
     "generation": 2,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/phanpy.png"
   },
   {
     "classification": "Armor Pokémon",
@@ -2513,7 +2746,8 @@
     "weight_kg": 120,
     "height_m": 1.1,
     "generation": 2,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/donphan.png"
   },
   {
     "classification": "Virtual Pokémon",
@@ -2524,7 +2758,8 @@
     "weight_kg": 32.5,
     "height_m": 0.6,
     "generation": 2,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/porygon2.png"
   },
   {
     "classification": "Big Horn Pokémon",
@@ -2535,7 +2770,8 @@
     "weight_kg": 71.2,
     "height_m": 1.4,
     "generation": 2,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/stantler.png"
   },
   {
     "classification": "Painter Pokémon",
@@ -2546,7 +2782,8 @@
     "weight_kg": 58,
     "height_m": 1.2,
     "generation": 2,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/smeargle.png"
   },
   {
     "classification": "Scuffle Pokémon",
@@ -2557,7 +2794,8 @@
     "weight_kg": 21,
     "height_m": 0.7,
     "generation": 2,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/tyrogue.png"
   },
   {
     "classification": "Handstand Pokémon",
@@ -2568,7 +2806,8 @@
     "weight_kg": 48,
     "height_m": 1.4,
     "generation": 2,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/hitmontop.png"
   },
   {
     "classification": "Kiss Pokémon",
@@ -2579,7 +2818,8 @@
     "weight_kg": 6,
     "height_m": 0.4,
     "generation": 2,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/smoochum.png"
   },
   {
     "classification": "Electric Pokémon",
@@ -2590,7 +2830,8 @@
     "weight_kg": 23.5,
     "height_m": 0.6,
     "generation": 2,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/elekid.png"
   },
   {
     "classification": "Live Coal Pokémon",
@@ -2601,7 +2842,8 @@
     "weight_kg": 21.4,
     "height_m": 0.7,
     "generation": 2,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/magby.png"
   },
   {
     "classification": "Milk Cow Pokémon",
@@ -2612,7 +2854,8 @@
     "weight_kg": 75.5,
     "height_m": 1.2,
     "generation": 2,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/miltank.png"
   },
   {
     "classification": "Happiness Pokémon",
@@ -2623,7 +2866,8 @@
     "weight_kg": 46.8,
     "height_m": 1.5,
     "generation": 2,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/blissey.png"
   },
   {
     "classification": "Thunder Pokémon",
@@ -2634,7 +2878,8 @@
     "weight_kg": 178,
     "height_m": 1.9,
     "generation": 2,
-    "is_legendary": true
+    "is_legendary": true,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/raikou.png"
   },
   {
     "classification": "Volcano Pokémon",
@@ -2645,7 +2890,8 @@
     "weight_kg": 198,
     "height_m": 2.1,
     "generation": 2,
-    "is_legendary": true
+    "is_legendary": true,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/entei.png"
   },
   {
     "classification": "Aurora Pokémon",
@@ -2656,7 +2902,8 @@
     "weight_kg": 187,
     "height_m": 2,
     "generation": 2,
-    "is_legendary": true
+    "is_legendary": true,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/suicune.png"
   },
   {
     "classification": "Rock Skin Pokémon",
@@ -2667,7 +2914,8 @@
     "weight_kg": 72,
     "height_m": 0.6,
     "generation": 2,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/larvitar.png"
   },
   {
     "classification": "Hard Shell Pokémon",
@@ -2678,7 +2926,8 @@
     "weight_kg": 152,
     "height_m": 1.2,
     "generation": 2,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/pupitar.png"
   },
   {
     "classification": "Armor Pokémon",
@@ -2689,7 +2938,8 @@
     "weight_kg": 202,
     "height_m": 2,
     "generation": 2,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/tyranitar.png"
   },
   {
     "classification": "Diving Pokémon",
@@ -2700,7 +2950,8 @@
     "weight_kg": 216,
     "height_m": 5.2,
     "generation": 2,
-    "is_legendary": true
+    "is_legendary": true,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/lugia.png"
   },
   {
     "classification": "Rainbow Pokémon",
@@ -2711,7 +2962,8 @@
     "weight_kg": 199,
     "height_m": 3.8,
     "generation": 2,
-    "is_legendary": true
+    "is_legendary": true,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/ho-oh.png"
   },
   {
     "classification": "Time Travel Pokémon",
@@ -2722,7 +2974,8 @@
     "weight_kg": 5,
     "height_m": 0.6,
     "generation": 2,
-    "is_legendary": true
+    "is_legendary": true,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/celebi.png"
   },
   {
     "classification": "Wood Gecko Pokémon",
@@ -2733,7 +2986,8 @@
     "weight_kg": 5,
     "height_m": 0.5,
     "generation": 3,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/treecko.png"
   },
   {
     "classification": "Wood Gecko Pokémon",
@@ -2744,7 +2998,8 @@
     "weight_kg": 21.6,
     "height_m": 0.9,
     "generation": 3,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/grovyle.png"
   },
   {
     "classification": "Forest Pokémon",
@@ -2755,7 +3010,8 @@
     "weight_kg": 52.2,
     "height_m": 1.7,
     "generation": 3,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/sceptile.png"
   },
   {
     "classification": "Chick Pokémon",
@@ -2766,7 +3022,8 @@
     "weight_kg": 2.5,
     "height_m": 0.4,
     "generation": 3,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/torchic.png"
   },
   {
     "classification": "Young Fowl Pokémon",
@@ -2777,7 +3034,8 @@
     "weight_kg": 19.5,
     "height_m": 0.9,
     "generation": 3,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/combusken.png"
   },
   {
     "classification": "Blaze Pokémon",
@@ -2788,7 +3046,8 @@
     "weight_kg": 52,
     "height_m": 1.9,
     "generation": 3,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/blaziken.png"
   },
   {
     "classification": "Mud Fish Pokémon",
@@ -2799,7 +3058,8 @@
     "weight_kg": 7.6,
     "height_m": 0.4,
     "generation": 3,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/mudkip.png"
   },
   {
     "classification": "Mud Fish Pokémon",
@@ -2810,7 +3070,8 @@
     "weight_kg": 28,
     "height_m": 0.7,
     "generation": 3,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/marshtomp.png"
   },
   {
     "classification": "Mud Fish Pokémon",
@@ -2821,7 +3082,8 @@
     "weight_kg": 81.9,
     "height_m": 1.5,
     "generation": 3,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/swampert.png"
   },
   {
     "classification": "Bite Pokémon",
@@ -2832,7 +3094,8 @@
     "weight_kg": 13.6,
     "height_m": 0.5,
     "generation": 3,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/poochyena.png"
   },
   {
     "classification": "Bite Pokémon",
@@ -2843,7 +3106,8 @@
     "weight_kg": 37,
     "height_m": 1,
     "generation": 3,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/mightyena.png"
   },
   {
     "classification": "Tiny Racoon Pokémon",
@@ -2854,7 +3118,8 @@
     "weight_kg": 17.5,
     "height_m": 0.4,
     "generation": 3,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/zigzagoon.png"
   },
   {
     "classification": "Rush Pokémon",
@@ -2865,7 +3130,8 @@
     "weight_kg": 32.5,
     "height_m": 0.5,
     "generation": 3,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/linoone.png"
   },
   {
     "classification": "Worm Pokémon",
@@ -2876,7 +3142,8 @@
     "weight_kg": 3.6,
     "height_m": 0.3,
     "generation": 3,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/wurmple.png"
   },
   {
     "classification": "Cocoon Pokémon",
@@ -2887,7 +3154,8 @@
     "weight_kg": 10,
     "height_m": 0.6,
     "generation": 3,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/silcoon.png"
   },
   {
     "classification": "Butterfly Pokémon",
@@ -2898,7 +3166,8 @@
     "weight_kg": 28.4,
     "height_m": 1,
     "generation": 3,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/beautifly.png"
   },
   {
     "classification": "Cocoon Pokémon",
@@ -2909,7 +3178,8 @@
     "weight_kg": 11.5,
     "height_m": 0.7,
     "generation": 3,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/cascoon.png"
   },
   {
     "classification": "Poison Moth Pokémon",
@@ -2920,7 +3190,8 @@
     "weight_kg": 31.6,
     "height_m": 1.2,
     "generation": 3,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/dustox.png"
   },
   {
     "classification": "Water Weed Pokémon",
@@ -2931,7 +3202,8 @@
     "weight_kg": 2.6,
     "height_m": 0.5,
     "generation": 3,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/lotad.png"
   },
   {
     "classification": "Jolly Pokémon",
@@ -2942,7 +3214,8 @@
     "weight_kg": 32.5,
     "height_m": 1.2,
     "generation": 3,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/lombre.png"
   },
   {
     "classification": "Carefree Pokémon",
@@ -2953,7 +3226,8 @@
     "weight_kg": 55,
     "height_m": 1.5,
     "generation": 3,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/ludicolo.png"
   },
   {
     "classification": "Acorn Pokémon",
@@ -2964,7 +3238,8 @@
     "weight_kg": 4,
     "height_m": 0.5,
     "generation": 3,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/seedot.png"
   },
   {
     "classification": "Wily Pokémon",
@@ -2975,7 +3250,8 @@
     "weight_kg": 28,
     "height_m": 1,
     "generation": 3,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/nuzleaf.png"
   },
   {
     "classification": "Wickid Pokémon",
@@ -2986,7 +3262,8 @@
     "weight_kg": 59.6,
     "height_m": 1.3,
     "generation": 3,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/shiftry.png"
   },
   {
     "classification": "TinySwallow Pokémon",
@@ -2997,7 +3274,8 @@
     "weight_kg": 2.3,
     "height_m": 0.3,
     "generation": 3,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/taillow.png"
   },
   {
     "classification": "Swallow Pokémon",
@@ -3008,7 +3286,8 @@
     "weight_kg": 19.8,
     "height_m": 0.7,
     "generation": 3,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/swellow.png"
   },
   {
     "classification": "Seagull Pokémon",
@@ -3019,7 +3298,8 @@
     "weight_kg": 9.5,
     "height_m": 0.6,
     "generation": 3,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/wingull.png"
   },
   {
     "classification": "Water Bird Pokémon",
@@ -3030,7 +3310,8 @@
     "weight_kg": 28,
     "height_m": 1.2,
     "generation": 3,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/pelipper.png"
   },
   {
     "classification": "Feeling Pokémon",
@@ -3041,7 +3322,8 @@
     "weight_kg": 6.6,
     "height_m": 0.4,
     "generation": 3,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/ralts.png"
   },
   {
     "classification": "Emotion Pokémon",
@@ -3052,7 +3334,8 @@
     "weight_kg": 20.2,
     "height_m": 0.8,
     "generation": 3,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/kirlia.png"
   },
   {
     "classification": "Embrace Pokémon",
@@ -3063,7 +3346,8 @@
     "weight_kg": 48.4,
     "height_m": 1.6,
     "generation": 3,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/gardevoir.png"
   },
   {
     "classification": "Pond Skater Pokémon",
@@ -3074,7 +3358,8 @@
     "weight_kg": 1.7,
     "height_m": 0.5,
     "generation": 3,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/surskit.png"
   },
   {
     "classification": "Eyeball Pokémon",
@@ -3085,7 +3370,8 @@
     "weight_kg": 3.6,
     "height_m": 0.8,
     "generation": 3,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/masquerain.png"
   },
   {
     "classification": "Mushroom Pokémon",
@@ -3096,7 +3382,8 @@
     "weight_kg": 4.5,
     "height_m": 0.4,
     "generation": 3,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/shroomish.png"
   },
   {
     "classification": "Mushroom Pokémon",
@@ -3107,7 +3394,8 @@
     "weight_kg": 39.2,
     "height_m": 1.2,
     "generation": 3,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/breloom.png"
   },
   {
     "classification": "Slacker Pokémon",
@@ -3118,7 +3406,8 @@
     "weight_kg": 24,
     "height_m": 0.8,
     "generation": 3,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/slakoth.png"
   },
   {
     "classification": "Wild Monkey Pokémon",
@@ -3129,7 +3418,8 @@
     "weight_kg": 46.5,
     "height_m": 1.4,
     "generation": 3,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/vigoroth.png"
   },
   {
     "classification": "Lazy Pokémon",
@@ -3140,7 +3430,8 @@
     "weight_kg": 130.5,
     "height_m": 2,
     "generation": 3,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/slaking.png"
   },
   {
     "classification": "Trainee Pokémon",
@@ -3151,7 +3442,8 @@
     "weight_kg": 5.5,
     "height_m": 0.5,
     "generation": 3,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/nincada.png"
   },
   {
     "classification": "Ninja Pokémon",
@@ -3162,7 +3454,8 @@
     "weight_kg": 12,
     "height_m": 0.8,
     "generation": 3,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/ninjask.png"
   },
   {
     "classification": "Shed Pokémon",
@@ -3173,7 +3466,8 @@
     "weight_kg": 1.2,
     "height_m": 0.8,
     "generation": 3,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/shedinja.png"
   },
   {
     "classification": "Whisper Pokémon",
@@ -3184,7 +3478,8 @@
     "weight_kg": 16.3,
     "height_m": 0.6,
     "generation": 3,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/whismur.png"
   },
   {
     "classification": "Big Voice Pokémon",
@@ -3195,7 +3490,8 @@
     "weight_kg": 40.5,
     "height_m": 1,
     "generation": 3,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/loudred.png"
   },
   {
     "classification": "Loud Noise Pokémon",
@@ -3206,7 +3502,8 @@
     "weight_kg": 84,
     "height_m": 1.5,
     "generation": 3,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/exploud.png"
   },
   {
     "classification": "Guts Pokémon",
@@ -3217,7 +3514,8 @@
     "weight_kg": 86.4,
     "height_m": 1,
     "generation": 3,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/makuhita.png"
   },
   {
     "classification": "Arm Thrust Pokémon",
@@ -3228,7 +3526,8 @@
     "weight_kg": 253.8,
     "height_m": 2.3,
     "generation": 3,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/hariyama.png"
   },
   {
     "classification": "Polka Dot Pokémon",
@@ -3239,7 +3538,8 @@
     "weight_kg": 2,
     "height_m": 0.2,
     "generation": 3,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/azurill.png"
   },
   {
     "classification": "Compass Pokémon",
@@ -3250,7 +3550,8 @@
     "weight_kg": 97,
     "height_m": 1,
     "generation": 3,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/nosepass.png"
   },
   {
     "classification": "Kitten Pokémon",
@@ -3261,7 +3562,8 @@
     "weight_kg": 11,
     "height_m": 0.6,
     "generation": 3,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/skitty.png"
   },
   {
     "classification": "Prim Pokémon",
@@ -3272,7 +3574,8 @@
     "weight_kg": 32.6,
     "height_m": 1.1,
     "generation": 3,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/delcatty.png"
   },
   {
     "classification": "Darkness Pokémon",
@@ -3283,7 +3586,8 @@
     "weight_kg": 11,
     "height_m": 0.5,
     "generation": 3,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/sableye.png"
   },
   {
     "classification": "Deceiver Pokémon",
@@ -3294,7 +3598,8 @@
     "weight_kg": 11.5,
     "height_m": 0.6,
     "generation": 3,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/mawile.png"
   },
   {
     "classification": "Iron Armor Pokémon",
@@ -3305,7 +3610,8 @@
     "weight_kg": 60,
     "height_m": 0.4,
     "generation": 3,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/aron.png"
   },
   {
     "classification": "Iron Armor Pokémon",
@@ -3316,7 +3622,8 @@
     "weight_kg": 120,
     "height_m": 0.9,
     "generation": 3,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/lairon.png"
   },
   {
     "classification": "Iron Armor Pokémon",
@@ -3327,7 +3634,8 @@
     "weight_kg": 360,
     "height_m": 2.1,
     "generation": 3,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/aggron.png"
   },
   {
     "classification": "Meditate Pokémon",
@@ -3338,7 +3646,8 @@
     "weight_kg": 11.2,
     "height_m": 0.6,
     "generation": 3,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/meditite.png"
   },
   {
     "classification": "Meditate Pokémon",
@@ -3349,7 +3658,8 @@
     "weight_kg": 31.5,
     "height_m": 1.3,
     "generation": 3,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/medicham.png"
   },
   {
     "classification": "Lightning Pokémon",
@@ -3360,7 +3670,8 @@
     "weight_kg": 15.2,
     "height_m": 0.6,
     "generation": 3,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/electrike.png"
   },
   {
     "classification": "Discharge Pokémon",
@@ -3371,7 +3682,8 @@
     "weight_kg": 40.2,
     "height_m": 1.5,
     "generation": 3,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/manectric.png"
   },
   {
     "classification": "Cheering Pokémon",
@@ -3382,7 +3694,8 @@
     "weight_kg": 4.2,
     "height_m": 0.4,
     "generation": 3,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/plusle.png"
   },
   {
     "classification": "Cheering Pokémon",
@@ -3393,7 +3706,8 @@
     "weight_kg": 4.2,
     "height_m": 0.4,
     "generation": 3,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/minun.png"
   },
   {
     "classification": "Firefly Pokémon",
@@ -3404,7 +3718,8 @@
     "weight_kg": 17.7,
     "height_m": 0.7,
     "generation": 3,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/volbeat.png"
   },
   {
     "classification": "Firefly Pokémon",
@@ -3415,7 +3730,8 @@
     "weight_kg": 17.7,
     "height_m": 0.6,
     "generation": 3,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/illumise.png"
   },
   {
     "classification": "Thorn Pokémon",
@@ -3426,7 +3742,8 @@
     "weight_kg": 2,
     "height_m": 0.3,
     "generation": 3,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/roselia.png"
   },
   {
     "classification": "Stomach Pokémon",
@@ -3437,7 +3754,8 @@
     "weight_kg": 10.3,
     "height_m": 0.4,
     "generation": 3,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/gulpin.png"
   },
   {
     "classification": "Poison Bag Pokémon",
@@ -3448,7 +3766,8 @@
     "weight_kg": 80,
     "height_m": 1.7,
     "generation": 3,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/swalot.png"
   },
   {
     "classification": "Savage Pokémon",
@@ -3459,7 +3778,8 @@
     "weight_kg": 20.8,
     "height_m": 0.8,
     "generation": 3,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/carvanha.png"
   },
   {
     "classification": "Brutal Pokémon",
@@ -3470,7 +3790,8 @@
     "weight_kg": 88.8,
     "height_m": 1.8,
     "generation": 3,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/sharpedo.png"
   },
   {
     "classification": "Ball Whale Pokémon",
@@ -3481,7 +3802,8 @@
     "weight_kg": 130,
     "height_m": 2,
     "generation": 3,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/wailmer.png"
   },
   {
     "classification": "Float Whale Pokémon",
@@ -3492,7 +3814,8 @@
     "weight_kg": 398,
     "height_m": 14.5,
     "generation": 3,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/wailord.png"
   },
   {
     "classification": "Numb Pokémon",
@@ -3503,7 +3826,8 @@
     "weight_kg": 24,
     "height_m": 0.7,
     "generation": 3,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/numel.png"
   },
   {
     "classification": "Eruption Pokémon",
@@ -3514,7 +3838,8 @@
     "weight_kg": 220,
     "height_m": 1.9,
     "generation": 3,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/camerupt.png"
   },
   {
     "classification": "Coal Pokémon",
@@ -3525,7 +3850,8 @@
     "weight_kg": 80.4,
     "height_m": 0.5,
     "generation": 3,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/torkoal.png"
   },
   {
     "classification": "Bounce Pokémon",
@@ -3536,7 +3862,8 @@
     "weight_kg": 30.6,
     "height_m": 0.7,
     "generation": 3,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/spoink.png"
   },
   {
     "classification": "Manipulate Pokémon",
@@ -3547,7 +3874,8 @@
     "weight_kg": 71.5,
     "height_m": 0.9,
     "generation": 3,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/grumpig.png"
   },
   {
     "classification": "Spot Panda Pokémon",
@@ -3558,7 +3886,8 @@
     "weight_kg": 5,
     "height_m": 1.1,
     "generation": 3,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/spinda.png"
   },
   {
     "classification": "Ant Pit Pokémon",
@@ -3569,7 +3898,8 @@
     "weight_kg": 15,
     "height_m": 0.7,
     "generation": 3,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/trapinch.png"
   },
   {
     "classification": "Vibration Pokémon",
@@ -3580,7 +3910,8 @@
     "weight_kg": 15.3,
     "height_m": 1.1,
     "generation": 3,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/vibrava.png"
   },
   {
     "classification": "Mystic Pokémon",
@@ -3591,7 +3922,8 @@
     "weight_kg": 82,
     "height_m": 2,
     "generation": 3,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/flygon.png"
   },
   {
     "classification": "Cactus Pokémon",
@@ -3602,7 +3934,8 @@
     "weight_kg": 51.3,
     "height_m": 0.4,
     "generation": 3,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/cacnea.png"
   },
   {
     "classification": "Scarecrow Pokémon",
@@ -3613,7 +3946,8 @@
     "weight_kg": 77.4,
     "height_m": 1.3,
     "generation": 3,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/cacturne.png"
   },
   {
     "classification": "Cotton Bird Pokémon",
@@ -3624,7 +3958,8 @@
     "weight_kg": 1.2,
     "height_m": 0.4,
     "generation": 3,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/swablu.png"
   },
   {
     "classification": "Humming Pokémon",
@@ -3635,7 +3970,8 @@
     "weight_kg": 20.6,
     "height_m": 1.1,
     "generation": 3,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/altaria.png"
   },
   {
     "classification": "Cat Ferret Pokémon",
@@ -3646,7 +3982,8 @@
     "weight_kg": 40.3,
     "height_m": 1.3,
     "generation": 3,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/zangoose.png"
   },
   {
     "classification": "Fang Snake Pokémon",
@@ -3657,7 +3994,8 @@
     "weight_kg": 52.5,
     "height_m": 2.7,
     "generation": 3,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/seviper.png"
   },
   {
     "classification": "Meteorite Pokémon",
@@ -3668,7 +4006,8 @@
     "weight_kg": 168,
     "height_m": 1,
     "generation": 3,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/lunatone.png"
   },
   {
     "classification": "Meteorite Pokémon",
@@ -3679,7 +4018,8 @@
     "weight_kg": 154,
     "height_m": 1.2,
     "generation": 3,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/solrock.png"
   },
   {
     "classification": "Whiskers Pokémon",
@@ -3690,7 +4030,8 @@
     "weight_kg": 1.9,
     "height_m": 0.4,
     "generation": 3,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/barboach.png"
   },
   {
     "classification": "Whiskers Pokémon",
@@ -3701,7 +4042,8 @@
     "weight_kg": 23.6,
     "height_m": 0.9,
     "generation": 3,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/whiscash.png"
   },
   {
     "classification": "Ruffian Pokémon",
@@ -3712,7 +4054,8 @@
     "weight_kg": 11.5,
     "height_m": 0.6,
     "generation": 3,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/corphish.png"
   },
   {
     "classification": "Rogue Pokémon",
@@ -3723,7 +4066,8 @@
     "weight_kg": 32.8,
     "height_m": 1.1,
     "generation": 3,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/crawdaunt.png"
   },
   {
     "classification": "Clay Doll Pokémon",
@@ -3734,7 +4078,8 @@
     "weight_kg": 21.5,
     "height_m": 0.5,
     "generation": 3,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/baltoy.png"
   },
   {
     "classification": "Clay Doll Pokémon",
@@ -3745,7 +4090,8 @@
     "weight_kg": 108,
     "height_m": 1.5,
     "generation": 3,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/claydol.png"
   },
   {
     "classification": "Sea Lily Pokémon",
@@ -3756,7 +4102,8 @@
     "weight_kg": 23.8,
     "height_m": 1,
     "generation": 3,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/lileep.png"
   },
   {
     "classification": "Barnacle Pokémon",
@@ -3767,7 +4114,8 @@
     "weight_kg": 60.4,
     "height_m": 1.5,
     "generation": 3,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/cradily.png"
   },
   {
     "classification": "Old Shrimp Pokémon",
@@ -3778,7 +4126,8 @@
     "weight_kg": 12.5,
     "height_m": 0.7,
     "generation": 3,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/anorith.png"
   },
   {
     "classification": "Plate Pokémon",
@@ -3789,7 +4138,8 @@
     "weight_kg": 68.2,
     "height_m": 1.5,
     "generation": 3,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/armaldo.png"
   },
   {
     "classification": "Fish Pokémon",
@@ -3800,7 +4150,8 @@
     "weight_kg": 7.4,
     "height_m": 0.6,
     "generation": 3,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/feebas.png"
   },
   {
     "classification": "Tender Pokémon",
@@ -3811,7 +4162,8 @@
     "weight_kg": 162,
     "height_m": 6.2,
     "generation": 3,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/milotic.png"
   },
   {
     "classification": "Weather Pokémon",
@@ -3822,7 +4174,8 @@
     "weight_kg": 0.8,
     "height_m": 0.3,
     "generation": 3,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/castform.png"
   },
   {
     "classification": "Color Swap Pokémon",
@@ -3833,7 +4186,8 @@
     "weight_kg": 22,
     "height_m": 1,
     "generation": 3,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/kecleon.png"
   },
   {
     "classification": "Puppet Pokémon",
@@ -3844,7 +4198,8 @@
     "weight_kg": 2.3,
     "height_m": 0.6,
     "generation": 3,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/shuppet.png"
   },
   {
     "classification": "Marionette Pokémon",
@@ -3855,7 +4210,8 @@
     "weight_kg": 12.5,
     "height_m": 1.1,
     "generation": 3,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/banette.png"
   },
   {
     "classification": "Requiem Pokémon",
@@ -3866,7 +4222,8 @@
     "weight_kg": 15,
     "height_m": 0.8,
     "generation": 3,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/duskull.png"
   },
   {
     "classification": "Beckon Pokémon",
@@ -3877,7 +4234,8 @@
     "weight_kg": 30.6,
     "height_m": 1.6,
     "generation": 3,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/dusclops.png"
   },
   {
     "classification": "Fruit Pokémon",
@@ -3888,7 +4246,8 @@
     "weight_kg": 100,
     "height_m": 2,
     "generation": 3,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/tropius.png"
   },
   {
     "classification": "Wind Chime Pokémon",
@@ -3899,7 +4258,8 @@
     "weight_kg": 1,
     "height_m": 0.6,
     "generation": 3,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/chimecho.png"
   },
   {
     "classification": "Disaster Pokémon",
@@ -3910,7 +4270,8 @@
     "weight_kg": 47,
     "height_m": 1.2,
     "generation": 3,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/absol.png"
   },
   {
     "classification": "Bright Pokémon",
@@ -3921,7 +4282,8 @@
     "weight_kg": 14,
     "height_m": 0.6,
     "generation": 3,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/wynaut.png"
   },
   {
     "classification": "Snow Hat Pokémon",
@@ -3932,7 +4294,8 @@
     "weight_kg": 16.8,
     "height_m": 0.7,
     "generation": 3,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/snorunt.png"
   },
   {
     "classification": "Face Pokémon",
@@ -3943,7 +4306,8 @@
     "weight_kg": 256.5,
     "height_m": 1.5,
     "generation": 3,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/glalie.png"
   },
   {
     "classification": "Clap Pokémon",
@@ -3954,7 +4318,8 @@
     "weight_kg": 39.5,
     "height_m": 0.8,
     "generation": 3,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/spheal.png"
   },
   {
     "classification": "Ball Roll Pokémon",
@@ -3965,7 +4330,8 @@
     "weight_kg": 87.6,
     "height_m": 1.1,
     "generation": 3,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/sealeo.png"
   },
   {
     "classification": "Ice Break Pokémon",
@@ -3976,7 +4342,8 @@
     "weight_kg": 150.6,
     "height_m": 1.4,
     "generation": 3,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/walrein.png"
   },
   {
     "classification": "Bivalve Pokémon",
@@ -3987,7 +4354,8 @@
     "weight_kg": 52.5,
     "height_m": 0.4,
     "generation": 3,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/clamperl.png"
   },
   {
     "classification": "Deep Sea Pokémon",
@@ -3998,7 +4366,8 @@
     "weight_kg": 27,
     "height_m": 1.7,
     "generation": 3,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/huntail.png"
   },
   {
     "classification": "South Sea Pokémon",
@@ -4009,7 +4378,8 @@
     "weight_kg": 22.6,
     "height_m": 1.8,
     "generation": 3,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/gorebyss.png"
   },
   {
     "classification": "Longevity Pokémon",
@@ -4020,7 +4390,8 @@
     "weight_kg": 23.4,
     "height_m": 1,
     "generation": 3,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/relicanth.png"
   },
   {
     "classification": "Rendezvous Pokémon",
@@ -4031,7 +4402,8 @@
     "weight_kg": 8.7,
     "height_m": 0.6,
     "generation": 3,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/luvdisc.png"
   },
   {
     "classification": "Rock Head Pokémon",
@@ -4042,7 +4414,8 @@
     "weight_kg": 42.1,
     "height_m": 0.6,
     "generation": 3,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/bagon.png"
   },
   {
     "classification": "Endurance Pokémon",
@@ -4053,7 +4426,8 @@
     "weight_kg": 110.5,
     "height_m": 1.1,
     "generation": 3,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/shelgon.png"
   },
   {
     "classification": "Dragon Pokémon",
@@ -4064,7 +4438,8 @@
     "weight_kg": 102.6,
     "height_m": 1.5,
     "generation": 3,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/salamence.png"
   },
   {
     "classification": "Iron Ball Pokémon",
@@ -4075,7 +4450,8 @@
     "weight_kg": 95.2,
     "height_m": 0.6,
     "generation": 3,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/beldum.png"
   },
   {
     "classification": "Iron Claw Pokémon",
@@ -4086,7 +4462,8 @@
     "weight_kg": 202.5,
     "height_m": 1.2,
     "generation": 3,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/metang.png"
   },
   {
     "classification": "Iron Leg Pokémon",
@@ -4097,7 +4474,8 @@
     "weight_kg": 550,
     "height_m": 1.6,
     "generation": 3,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/metagross.png"
   },
   {
     "classification": "Rock Peak Pokémon",
@@ -4108,7 +4486,8 @@
     "weight_kg": 230,
     "height_m": 1.7,
     "generation": 3,
-    "is_legendary": true
+    "is_legendary": true,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/regirock.png"
   },
   {
     "classification": "Iceberg Pokémon",
@@ -4119,7 +4498,8 @@
     "weight_kg": 175,
     "height_m": 1.8,
     "generation": 3,
-    "is_legendary": true
+    "is_legendary": true,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/regice.png"
   },
   {
     "classification": "Iron Pokémon",
@@ -4130,7 +4510,8 @@
     "weight_kg": 205,
     "height_m": 1.9,
     "generation": 3,
-    "is_legendary": true
+    "is_legendary": true,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/registeel.png"
   },
   {
     "classification": "Eon Pokémon",
@@ -4141,7 +4522,8 @@
     "weight_kg": 40,
     "height_m": 1.4,
     "generation": 3,
-    "is_legendary": true
+    "is_legendary": true,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/latias.png"
   },
   {
     "classification": "Eon Pokémon",
@@ -4152,7 +4534,8 @@
     "weight_kg": 60,
     "height_m": 2,
     "generation": 3,
-    "is_legendary": true
+    "is_legendary": true,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/latios.png"
   },
   {
     "classification": "Sea Basin Pokémon",
@@ -4163,7 +4546,8 @@
     "weight_kg": 352,
     "height_m": 4.5,
     "generation": 3,
-    "is_legendary": true
+    "is_legendary": true,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/kyogre.png"
   },
   {
     "classification": "Continent Pokémon",
@@ -4174,7 +4558,8 @@
     "weight_kg": 950,
     "height_m": 3.5,
     "generation": 3,
-    "is_legendary": true
+    "is_legendary": true,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/groudon.png"
   },
   {
     "classification": "Sky High Pokémon",
@@ -4185,7 +4570,8 @@
     "weight_kg": 206.5,
     "height_m": 7,
     "generation": 3,
-    "is_legendary": true
+    "is_legendary": true,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/rayquaza.png"
   },
   {
     "classification": "Wish Pokémon",
@@ -4196,7 +4582,8 @@
     "weight_kg": 1.1,
     "height_m": 0.3,
     "generation": 3,
-    "is_legendary": true
+    "is_legendary": true,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/jirachi.png"
   },
   {
     "classification": "DNA Pokémon",
@@ -4207,7 +4594,8 @@
     "weight_kg": 60.8,
     "height_m": 1.7,
     "generation": 3,
-    "is_legendary": true
+    "is_legendary": true,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/deoxys.png"
   },
   {
     "classification": "Tiny Leaf Pokémon",
@@ -4218,7 +4606,8 @@
     "weight_kg": 10.2,
     "height_m": 0.4,
     "generation": 4,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/turtwig.png"
   },
   {
     "classification": "Grove Pokémon",
@@ -4229,7 +4618,8 @@
     "weight_kg": 97,
     "height_m": 1.1,
     "generation": 4,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/grotle.png"
   },
   {
     "classification": "Continent Pokémon",
@@ -4240,7 +4630,8 @@
     "weight_kg": 310,
     "height_m": 2.2,
     "generation": 4,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/torterra.png"
   },
   {
     "classification": "Chimp Pokémon",
@@ -4251,7 +4642,8 @@
     "weight_kg": 6.2,
     "height_m": 0.5,
     "generation": 4,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/chimchar.png"
   },
   {
     "classification": "Playful Pokémon",
@@ -4262,7 +4654,8 @@
     "weight_kg": 22,
     "height_m": 0.9,
     "generation": 4,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/monferno.png"
   },
   {
     "classification": "Flame Pokémon",
@@ -4273,7 +4666,8 @@
     "weight_kg": 55,
     "height_m": 1.2,
     "generation": 4,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/infernape.png"
   },
   {
     "classification": "Penguin Pokémon",
@@ -4284,7 +4678,8 @@
     "weight_kg": 5.2,
     "height_m": 0.4,
     "generation": 4,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/piplup.png"
   },
   {
     "classification": "Penguin Pokémon",
@@ -4295,7 +4690,8 @@
     "weight_kg": 23,
     "height_m": 0.8,
     "generation": 4,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/prinplup.png"
   },
   {
     "classification": "Emperor Pokémon",
@@ -4306,7 +4702,8 @@
     "weight_kg": 84.5,
     "height_m": 1.7,
     "generation": 4,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/empoleon.png"
   },
   {
     "classification": "Starling Pokémon",
@@ -4317,7 +4714,8 @@
     "weight_kg": 2,
     "height_m": 0.3,
     "generation": 4,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/starly.png"
   },
   {
     "classification": "Starling Pokémon",
@@ -4328,7 +4726,8 @@
     "weight_kg": 15.5,
     "height_m": 0.6,
     "generation": 4,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/staravia.png"
   },
   {
     "classification": "Predator Pokémon",
@@ -4339,7 +4738,8 @@
     "weight_kg": 24.9,
     "height_m": 1.2,
     "generation": 4,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/staraptor.png"
   },
   {
     "classification": "Plump Mouse Pokémon",
@@ -4350,7 +4750,8 @@
     "weight_kg": 20,
     "height_m": 0.5,
     "generation": 4,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/bidoof.png"
   },
   {
     "classification": "Beaver Pokémon",
@@ -4361,7 +4762,8 @@
     "weight_kg": 31.5,
     "height_m": 1,
     "generation": 4,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/bibarel.png"
   },
   {
     "classification": "Cricket Pokémon",
@@ -4372,7 +4774,8 @@
     "weight_kg": 2.2,
     "height_m": 0.3,
     "generation": 4,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/kricketot.png"
   },
   {
     "classification": "Cricket Pokémon",
@@ -4383,7 +4786,8 @@
     "weight_kg": 25.5,
     "height_m": 1,
     "generation": 4,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/kricketune.png"
   },
   {
     "classification": "Flash Pokémon",
@@ -4394,7 +4798,8 @@
     "weight_kg": 9.5,
     "height_m": 0.5,
     "generation": 4,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/shinx.png"
   },
   {
     "classification": "Spark Pokémon",
@@ -4405,7 +4810,8 @@
     "weight_kg": 30.5,
     "height_m": 0.9,
     "generation": 4,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/luxio.png"
   },
   {
     "classification": "Gleam Eyes Pokémon",
@@ -4416,7 +4822,8 @@
     "weight_kg": 42,
     "height_m": 1.4,
     "generation": 4,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/luxray.png"
   },
   {
     "classification": "Bud Pokémon",
@@ -4427,7 +4834,8 @@
     "weight_kg": 1.2,
     "height_m": 0.2,
     "generation": 4,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/budew.png"
   },
   {
     "classification": "Bouquet Pokémon",
@@ -4438,7 +4846,8 @@
     "weight_kg": 14.5,
     "height_m": 0.9,
     "generation": 4,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/roserade.png"
   },
   {
     "classification": "Head Butt Pokémon",
@@ -4449,7 +4858,8 @@
     "weight_kg": 31.5,
     "height_m": 0.9,
     "generation": 4,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/cranidos.png"
   },
   {
     "classification": "Head Butt Pokémon",
@@ -4460,7 +4870,8 @@
     "weight_kg": 102.5,
     "height_m": 1.6,
     "generation": 4,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/rampardos.png"
   },
   {
     "classification": "Shield Pokémon",
@@ -4471,7 +4882,8 @@
     "weight_kg": 57,
     "height_m": 0.5,
     "generation": 4,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/shieldon.png"
   },
   {
     "classification": "Shield Pokémon",
@@ -4482,7 +4894,8 @@
     "weight_kg": 149.5,
     "height_m": 1.3,
     "generation": 4,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/bastiodon.png"
   },
   {
     "classification": "Bagworm Pokémon",
@@ -4493,7 +4906,8 @@
     "weight_kg": 3.4,
     "height_m": 0.2,
     "generation": 4,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/burmy.png"
   },
   {
     "classification": "Bagworm Pokémon",
@@ -4504,7 +4918,8 @@
     "weight_kg": 6.5,
     "height_m": 0.5,
     "generation": 4,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/wormadam.png"
   },
   {
     "classification": "Moth Pokémon",
@@ -4515,7 +4930,8 @@
     "weight_kg": 23.3,
     "height_m": 0.9,
     "generation": 4,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/mothim.png"
   },
   {
     "classification": "Tiny Bee Pokémon",
@@ -4526,7 +4942,8 @@
     "weight_kg": 5.5,
     "height_m": 0.3,
     "generation": 4,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/combee.png"
   },
   {
     "classification": "Beehive Pokémon",
@@ -4537,7 +4954,8 @@
     "weight_kg": 38.5,
     "height_m": 1.2,
     "generation": 4,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/vespiquen.png"
   },
   {
     "classification": "EleSquirrel Pokémon",
@@ -4548,7 +4966,8 @@
     "weight_kg": 3.9,
     "height_m": 0.4,
     "generation": 4,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/pachirisu.png"
   },
   {
     "classification": "Sea Weasel Pokémon",
@@ -4559,7 +4978,8 @@
     "weight_kg": 29.5,
     "height_m": 0.7,
     "generation": 4,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/buizel.png"
   },
   {
     "classification": "Sea Weasel Pokémon",
@@ -4570,7 +4990,8 @@
     "weight_kg": 33.5,
     "height_m": 1.1,
     "generation": 4,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/floatzel.png"
   },
   {
     "classification": "Cherry Pokémon",
@@ -4581,7 +5002,8 @@
     "weight_kg": 3.3,
     "height_m": 0.4,
     "generation": 4,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/cherubi.png"
   },
   {
     "classification": "Blossom Pokémon",
@@ -4592,7 +5014,8 @@
     "weight_kg": 9.3,
     "height_m": 0.5,
     "generation": 4,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/cherrim.png"
   },
   {
     "classification": "Sea Slug Pokémon",
@@ -4603,7 +5026,8 @@
     "weight_kg": 6.3,
     "height_m": 0.3,
     "generation": 4,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/shellos.png"
   },
   {
     "classification": "Sea Slug Pokémon",
@@ -4614,7 +5038,8 @@
     "weight_kg": 29.9,
     "height_m": 0.9,
     "generation": 4,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/gastrodon.png"
   },
   {
     "classification": "Long Tail Pokémon",
@@ -4625,7 +5050,8 @@
     "weight_kg": 20.3,
     "height_m": 1.2,
     "generation": 4,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/ambipom.png"
   },
   {
     "classification": "Balloon Pokémon",
@@ -4636,7 +5062,8 @@
     "weight_kg": 1.2,
     "height_m": 0.4,
     "generation": 4,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/drifloon.png"
   },
   {
     "classification": "Blimp Pokémon",
@@ -4647,7 +5074,8 @@
     "weight_kg": 15,
     "height_m": 1.2,
     "generation": 4,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/drifblim.png"
   },
   {
     "classification": "Rabbit Pokémon",
@@ -4658,7 +5086,8 @@
     "weight_kg": 5.5,
     "height_m": 0.4,
     "generation": 4,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/buneary.png"
   },
   {
     "classification": "Rabbit Pokémon",
@@ -4669,7 +5098,8 @@
     "weight_kg": 33.3,
     "height_m": 1.2,
     "generation": 4,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/lopunny.png"
   },
   {
     "classification": "Magical Pokémon",
@@ -4680,7 +5110,8 @@
     "weight_kg": 4.4,
     "height_m": 0.9,
     "generation": 4,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/mismagius.png"
   },
   {
     "classification": "Big Boss Pokémon",
@@ -4691,7 +5122,8 @@
     "weight_kg": 27.3,
     "height_m": 0.9,
     "generation": 4,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/honchkrow.png"
   },
   {
     "classification": "Catty Pokémon",
@@ -4702,7 +5134,8 @@
     "weight_kg": 3.9,
     "height_m": 0.5,
     "generation": 4,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/glameow.png"
   },
   {
     "classification": "Tiger Cat Pokémon",
@@ -4713,7 +5146,8 @@
     "weight_kg": 43.8,
     "height_m": 1,
     "generation": 4,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/purugly.png"
   },
   {
     "classification": "Bell Pokémon",
@@ -4724,7 +5158,8 @@
     "weight_kg": 0.6,
     "height_m": 0.2,
     "generation": 4,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/chingling.png"
   },
   {
     "classification": "Skunk Pokémon",
@@ -4735,7 +5170,8 @@
     "weight_kg": 19.2,
     "height_m": 0.4,
     "generation": 4,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/stunky.png"
   },
   {
     "classification": "Skunk Pokémon",
@@ -4746,7 +5182,8 @@
     "weight_kg": 38,
     "height_m": 1,
     "generation": 4,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/skuntank.png"
   },
   {
     "classification": "Bronze Pokémon",
@@ -4757,7 +5194,8 @@
     "weight_kg": 60.5,
     "height_m": 0.5,
     "generation": 4,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/bronzor.png"
   },
   {
     "classification": "Bronze Bell Pokémon",
@@ -4768,7 +5206,8 @@
     "weight_kg": 187,
     "height_m": 1.3,
     "generation": 4,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/bronzong.png"
   },
   {
     "classification": "Bonsai Pokémon",
@@ -4779,7 +5218,8 @@
     "weight_kg": 15,
     "height_m": 0.5,
     "generation": 4,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/bonsly.png"
   },
   {
     "classification": "Mime Pokémon",
@@ -4790,7 +5230,8 @@
     "weight_kg": 13,
     "height_m": 0.6,
     "generation": 4,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/mime jr..png"
   },
   {
     "classification": "Playhouse Pokémon",
@@ -4801,7 +5242,8 @@
     "weight_kg": 24.4,
     "height_m": 0.6,
     "generation": 4,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/happiny.png"
   },
   {
     "classification": "Music Note Pokémon",
@@ -4812,7 +5254,8 @@
     "weight_kg": 1.9,
     "height_m": 0.5,
     "generation": 4,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/chatot.png"
   },
   {
     "classification": "Forbidden Pokémon",
@@ -4823,7 +5266,8 @@
     "weight_kg": 108,
     "height_m": 1,
     "generation": 4,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/spiritomb.png"
   },
   {
     "classification": "Land Shark Pokémon",
@@ -4834,7 +5278,8 @@
     "weight_kg": 20.5,
     "height_m": 0.7,
     "generation": 4,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/gible.png"
   },
   {
     "classification": "Cave Pokémon",
@@ -4845,7 +5290,8 @@
     "weight_kg": 56,
     "height_m": 1.4,
     "generation": 4,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/gabite.png"
   },
   {
     "classification": "Mach Pokémon",
@@ -4856,7 +5302,8 @@
     "weight_kg": 95,
     "height_m": 1.9,
     "generation": 4,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/garchomp.png"
   },
   {
     "classification": "Big Eater Pokémon",
@@ -4867,7 +5314,8 @@
     "weight_kg": 105,
     "height_m": 0.6,
     "generation": 4,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/munchlax.png"
   },
   {
     "classification": "Emanation Pokémon",
@@ -4878,7 +5326,8 @@
     "weight_kg": 20.2,
     "height_m": 0.7,
     "generation": 4,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/riolu.png"
   },
   {
     "classification": "Aura Pokémon",
@@ -4889,7 +5338,8 @@
     "weight_kg": 54,
     "height_m": 1.2,
     "generation": 4,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/lucario.png"
   },
   {
     "classification": "Hippo Pokémon",
@@ -4900,7 +5350,8 @@
     "weight_kg": 49.5,
     "height_m": 0.8,
     "generation": 4,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/hippopotas.png"
   },
   {
     "classification": "Heavyweight Pokémon",
@@ -4911,7 +5362,8 @@
     "weight_kg": 300,
     "height_m": 2,
     "generation": 4,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/hippowdon.png"
   },
   {
     "classification": "Scorpion Pokémon",
@@ -4922,7 +5374,8 @@
     "weight_kg": 12,
     "height_m": 0.8,
     "generation": 4,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/skorupi.png"
   },
   {
     "classification": "Ogre Scorp Pokémon",
@@ -4933,7 +5386,8 @@
     "weight_kg": 61.5,
     "height_m": 1.3,
     "generation": 4,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/drapion.png"
   },
   {
     "classification": "Toxic Mouth Pokémon",
@@ -4944,7 +5398,8 @@
     "weight_kg": 23,
     "height_m": 0.7,
     "generation": 4,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/croagunk.png"
   },
   {
     "classification": "Toxic Mouth Pokémon",
@@ -4955,7 +5410,8 @@
     "weight_kg": 44.4,
     "height_m": 1.3,
     "generation": 4,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/toxicroak.png"
   },
   {
     "classification": "Bug Catcher Pokémon",
@@ -4966,7 +5422,8 @@
     "weight_kg": 27,
     "height_m": 1.4,
     "generation": 4,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/carnivine.png"
   },
   {
     "classification": "Wing Fish Pokémon",
@@ -4977,7 +5434,8 @@
     "weight_kg": 7,
     "height_m": 0.4,
     "generation": 4,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/finneon.png"
   },
   {
     "classification": "Neon Pokémon",
@@ -4988,7 +5446,8 @@
     "weight_kg": 24,
     "height_m": 1.2,
     "generation": 4,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/lumineon.png"
   },
   {
     "classification": "Kite Pokémon",
@@ -4999,7 +5458,8 @@
     "weight_kg": 65,
     "height_m": 1,
     "generation": 4,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/mantyke.png"
   },
   {
     "classification": "Frosted Tree Pokémon",
@@ -5010,7 +5470,8 @@
     "weight_kg": 50.5,
     "height_m": 1,
     "generation": 4,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/snover.png"
   },
   {
     "classification": "Frosted Tree Pokémon",
@@ -5021,7 +5482,8 @@
     "weight_kg": 135.5,
     "height_m": 2.2,
     "generation": 4,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/abomasnow.png"
   },
   {
     "classification": "Sharp Claw Pokémon",
@@ -5032,7 +5494,8 @@
     "weight_kg": 34,
     "height_m": 1.1,
     "generation": 4,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/weavile.png"
   },
   {
     "classification": "Magnet Area Pokémon",
@@ -5043,7 +5506,8 @@
     "weight_kg": 180,
     "height_m": 1.2,
     "generation": 4,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/magnezone.png"
   },
   {
     "classification": "Licking Pokémon",
@@ -5054,7 +5518,8 @@
     "weight_kg": 140,
     "height_m": 1.7,
     "generation": 4,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/lickilicky.png"
   },
   {
     "classification": "Drill Pokémon",
@@ -5065,7 +5530,8 @@
     "weight_kg": 282.8,
     "height_m": 2.4,
     "generation": 4,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/rhyperior.png"
   },
   {
     "classification": "Vine Pokémon",
@@ -5076,7 +5542,8 @@
     "weight_kg": 128.6,
     "height_m": 2,
     "generation": 4,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/tangrowth.png"
   },
   {
     "classification": "Thunderbolt Pokémon",
@@ -5087,7 +5554,8 @@
     "weight_kg": 138.6,
     "height_m": 1.8,
     "generation": 4,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/electivire.png"
   },
   {
     "classification": "Blast Pokémon",
@@ -5098,7 +5566,8 @@
     "weight_kg": 68,
     "height_m": 1.6,
     "generation": 4,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/magmortar.png"
   },
   {
     "classification": "Jubilee Pokémon",
@@ -5109,7 +5578,8 @@
     "weight_kg": 38,
     "height_m": 1.5,
     "generation": 4,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/togekiss.png"
   },
   {
     "classification": "Ogre Darner Pokémon",
@@ -5120,7 +5590,8 @@
     "weight_kg": 51.5,
     "height_m": 1.9,
     "generation": 4,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/yanmega.png"
   },
   {
     "classification": "Verdant Pokémon",
@@ -5131,7 +5602,8 @@
     "weight_kg": 25.5,
     "height_m": 1,
     "generation": 4,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/leafeon.png"
   },
   {
     "classification": "Fresh Snow Pokémon",
@@ -5142,7 +5614,8 @@
     "weight_kg": 25.9,
     "height_m": 0.8,
     "generation": 4,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/glaceon.png"
   },
   {
     "classification": "Fang Scorp Pokémon",
@@ -5153,7 +5626,8 @@
     "weight_kg": 42.5,
     "height_m": 2,
     "generation": 4,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/gliscor.png"
   },
   {
     "classification": "Twin Tusk Pokémon",
@@ -5164,7 +5638,8 @@
     "weight_kg": 291,
     "height_m": 2.5,
     "generation": 4,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/mamoswine.png"
   },
   {
     "classification": "Virtual Pokémon",
@@ -5175,7 +5650,8 @@
     "weight_kg": 34,
     "height_m": 0.9,
     "generation": 4,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/porygon-z.png"
   },
   {
     "classification": "Blade Pokémon",
@@ -5186,7 +5662,8 @@
     "weight_kg": 52,
     "height_m": 1.6,
     "generation": 4,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/gallade.png"
   },
   {
     "classification": "Compass Pokémon",
@@ -5197,7 +5674,8 @@
     "weight_kg": 340,
     "height_m": 1.4,
     "generation": 4,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/probopass.png"
   },
   {
     "classification": "Gripper Pokémon",
@@ -5208,7 +5686,8 @@
     "weight_kg": 106.6,
     "height_m": 2.2,
     "generation": 4,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/dusknoir.png"
   },
   {
     "classification": "Snow Land Pokémon",
@@ -5219,7 +5698,8 @@
     "weight_kg": 26.6,
     "height_m": 1.3,
     "generation": 4,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/froslass.png"
   },
   {
     "classification": "Plasma Pokémon",
@@ -5230,7 +5710,8 @@
     "weight_kg": 0.3,
     "height_m": 0.3,
     "generation": 4,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/rotom.png"
   },
   {
     "classification": "Knowledge Pokémon",
@@ -5241,7 +5722,8 @@
     "weight_kg": 0.3,
     "height_m": 0.3,
     "generation": 4,
-    "is_legendary": true
+    "is_legendary": true,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/uxie.png"
   },
   {
     "classification": "Emotion Pokémon",
@@ -5252,7 +5734,8 @@
     "weight_kg": 0.3,
     "height_m": 0.3,
     "generation": 4,
-    "is_legendary": true
+    "is_legendary": true,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/mesprit.png"
   },
   {
     "classification": "Willpower Pokémon",
@@ -5263,7 +5746,8 @@
     "weight_kg": 0.3,
     "height_m": 0.3,
     "generation": 4,
-    "is_legendary": true
+    "is_legendary": true,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/azelf.png"
   },
   {
     "classification": "Temporal Pokémon",
@@ -5274,7 +5758,8 @@
     "weight_kg": 683,
     "height_m": 5.4,
     "generation": 4,
-    "is_legendary": true
+    "is_legendary": true,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/dialga.png"
   },
   {
     "classification": "Spatial Pokémon",
@@ -5285,7 +5770,8 @@
     "weight_kg": 336,
     "height_m": 4.2,
     "generation": 4,
-    "is_legendary": true
+    "is_legendary": true,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/palkia.png"
   },
   {
     "classification": "Lava Dome Pokémon",
@@ -5296,7 +5782,8 @@
     "weight_kg": 430,
     "height_m": 1.7,
     "generation": 4,
-    "is_legendary": true
+    "is_legendary": true,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/heatran.png"
   },
   {
     "classification": "Colossal Pokémon",
@@ -5307,7 +5794,8 @@
     "weight_kg": 420,
     "height_m": 3.7,
     "generation": 4,
-    "is_legendary": true
+    "is_legendary": true,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/regigigas.png"
   },
   {
     "classification": "Renegade Pokémon",
@@ -5318,7 +5806,8 @@
     "weight_kg": 750,
     "height_m": 4.5,
     "generation": 4,
-    "is_legendary": true
+    "is_legendary": true,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/giratina.png"
   },
   {
     "classification": "Lunar Pokémon",
@@ -5329,7 +5818,8 @@
     "weight_kg": 85.6,
     "height_m": 1.5,
     "generation": 4,
-    "is_legendary": true
+    "is_legendary": true,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/cresselia.png"
   },
   {
     "classification": "Sea Drifter Pokémon",
@@ -5340,7 +5830,8 @@
     "weight_kg": 3.1,
     "height_m": 0.4,
     "generation": 4,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/phione.png"
   },
   {
     "classification": "Seafaring Pokémon",
@@ -5351,7 +5842,8 @@
     "weight_kg": 1.4,
     "height_m": 0.3,
     "generation": 4,
-    "is_legendary": true
+    "is_legendary": true,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/manaphy.png"
   },
   {
     "classification": "Pitch-Black Pokémon",
@@ -5362,7 +5854,8 @@
     "weight_kg": 50.5,
     "height_m": 1.5,
     "generation": 4,
-    "is_legendary": true
+    "is_legendary": true,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/darkrai.png"
   },
   {
     "classification": "Gratitude Pokémon",
@@ -5373,7 +5866,8 @@
     "weight_kg": 2.1,
     "height_m": 0.2,
     "generation": 4,
-    "is_legendary": true
+    "is_legendary": true,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/shaymin.png"
   },
   {
     "classification": "Alpha Pokémon",
@@ -5384,7 +5878,8 @@
     "weight_kg": 320,
     "height_m": 3.2,
     "generation": 4,
-    "is_legendary": true
+    "is_legendary": true,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/arceus.png"
   },
   {
     "classification": "Victory Pokémon",
@@ -5395,7 +5890,8 @@
     "weight_kg": 4,
     "height_m": 0.4,
     "generation": 5,
-    "is_legendary": true
+    "is_legendary": true,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/victini.png"
   },
   {
     "classification": "Grass Snake Pokémon",
@@ -5406,7 +5902,8 @@
     "weight_kg": 8.1,
     "height_m": 0.6,
     "generation": 5,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/snivy.png"
   },
   {
     "classification": "Grass Snake Pokémon",
@@ -5417,7 +5914,8 @@
     "weight_kg": 16,
     "height_m": 0.8,
     "generation": 5,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/servine.png"
   },
   {
     "classification": "Regal Pokémon",
@@ -5428,7 +5926,8 @@
     "weight_kg": 63,
     "height_m": 3.3,
     "generation": 5,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/serperior.png"
   },
   {
     "classification": "Fire Pig Pokémon",
@@ -5439,7 +5938,8 @@
     "weight_kg": 9.9,
     "height_m": 0.5,
     "generation": 5,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/tepig.png"
   },
   {
     "classification": "Fire Pig Pokémon",
@@ -5450,7 +5950,8 @@
     "weight_kg": 55.5,
     "height_m": 1,
     "generation": 5,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/pignite.png"
   },
   {
     "classification": "Mega Fire Pig Pokémon",
@@ -5461,7 +5962,8 @@
     "weight_kg": 150,
     "height_m": 1.6,
     "generation": 5,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/emboar.png"
   },
   {
     "classification": "Sea Otter Pokémon",
@@ -5472,7 +5974,8 @@
     "weight_kg": 5.9,
     "height_m": 0.5,
     "generation": 5,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/oshawott.png"
   },
   {
     "classification": "Discipline Pokémon",
@@ -5483,7 +5986,8 @@
     "weight_kg": 24.5,
     "height_m": 0.8,
     "generation": 5,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/dewott.png"
   },
   {
     "classification": "Formidable Pokémon",
@@ -5494,7 +5998,8 @@
     "weight_kg": 94.6,
     "height_m": 1.5,
     "generation": 5,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/samurott.png"
   },
   {
     "classification": "Scout Pokémon",
@@ -5505,7 +6010,8 @@
     "weight_kg": 11.6,
     "height_m": 0.5,
     "generation": 5,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/patrat.png"
   },
   {
     "classification": "Lookout Pokémon",
@@ -5516,7 +6022,8 @@
     "weight_kg": 27,
     "height_m": 1.1,
     "generation": 5,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/watchog.png"
   },
   {
     "classification": "Puppy Pokémon",
@@ -5527,7 +6034,8 @@
     "weight_kg": 4.1,
     "height_m": 0.4,
     "generation": 5,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/lillipup.png"
   },
   {
     "classification": "Loyal Dog Pokémon",
@@ -5538,7 +6046,8 @@
     "weight_kg": 14.7,
     "height_m": 0.9,
     "generation": 5,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/herdier.png"
   },
   {
     "classification": "Big-Hearted Pokémon",
@@ -5549,7 +6058,8 @@
     "weight_kg": 61,
     "height_m": 1.2,
     "generation": 5,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/stoutland.png"
   },
   {
     "classification": "Devious Pokémon",
@@ -5560,7 +6070,8 @@
     "weight_kg": 10.1,
     "height_m": 0.4,
     "generation": 5,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/purrloin.png"
   },
   {
     "classification": "Cruel Pokémon",
@@ -5571,7 +6082,8 @@
     "weight_kg": 37.5,
     "height_m": 1.1,
     "generation": 5,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/liepard.png"
   },
   {
     "classification": "Grass Monkey Pokémon",
@@ -5582,7 +6094,8 @@
     "weight_kg": 10.5,
     "height_m": 0.6,
     "generation": 5,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/pansage.png"
   },
   {
     "classification": "Thorn Monkey Pokémon",
@@ -5593,7 +6106,8 @@
     "weight_kg": 30.5,
     "height_m": 1.1,
     "generation": 5,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/simisage.png"
   },
   {
     "classification": "High Temp Pokémon",
@@ -5604,7 +6118,8 @@
     "weight_kg": 11,
     "height_m": 0.6,
     "generation": 5,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/pansear.png"
   },
   {
     "classification": "Ember Pokémon",
@@ -5615,7 +6130,8 @@
     "weight_kg": 28,
     "height_m": 1,
     "generation": 5,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/simisear.png"
   },
   {
     "classification": "Spray Pokémon",
@@ -5626,7 +6142,8 @@
     "weight_kg": 13.5,
     "height_m": 0.6,
     "generation": 5,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/panpour.png"
   },
   {
     "classification": "Geyser Pokémon",
@@ -5637,7 +6154,8 @@
     "weight_kg": 29,
     "height_m": 1,
     "generation": 5,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/simipour.png"
   },
   {
     "classification": "Dream Eater Pokémon",
@@ -5648,7 +6166,8 @@
     "weight_kg": 23.3,
     "height_m": 0.6,
     "generation": 5,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/munna.png"
   },
   {
     "classification": "Drowsing Pokémon",
@@ -5659,7 +6178,8 @@
     "weight_kg": 60.5,
     "height_m": 1.1,
     "generation": 5,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/musharna.png"
   },
   {
     "classification": "Tiny Pigeon Pokémon",
@@ -5670,7 +6190,8 @@
     "weight_kg": 2.1,
     "height_m": 0.3,
     "generation": 5,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/pidove.png"
   },
   {
     "classification": "Wild Pigeon Pokémon",
@@ -5681,7 +6202,8 @@
     "weight_kg": 15,
     "height_m": 0.6,
     "generation": 5,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/tranquill.png"
   },
   {
     "classification": "Proud Pokémon",
@@ -5692,7 +6214,8 @@
     "weight_kg": 29,
     "height_m": 1.2,
     "generation": 5,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/unfezant.png"
   },
   {
     "classification": "Electrified Pokémon",
@@ -5703,7 +6226,8 @@
     "weight_kg": 29.8,
     "height_m": 0.8,
     "generation": 5,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/blitzle.png"
   },
   {
     "classification": "Thunderbolt Pokémon",
@@ -5714,7 +6238,8 @@
     "weight_kg": 79.5,
     "height_m": 1.6,
     "generation": 5,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/zebstrika.png"
   },
   {
     "classification": "Mantle Pokémon",
@@ -5725,7 +6250,8 @@
     "weight_kg": 18,
     "height_m": 0.4,
     "generation": 5,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/roggenrola.png"
   },
   {
     "classification": "Ore Pokémon",
@@ -5736,7 +6262,8 @@
     "weight_kg": 102,
     "height_m": 0.9,
     "generation": 5,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/boldore.png"
   },
   {
     "classification": "Compressed Pokémon",
@@ -5747,7 +6274,8 @@
     "weight_kg": 260,
     "height_m": 1.7,
     "generation": 5,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/gigalith.png"
   },
   {
     "classification": "Bat Pokémon",
@@ -5758,7 +6286,8 @@
     "weight_kg": 2.1,
     "height_m": 0.4,
     "generation": 5,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/woobat.png"
   },
   {
     "classification": "Courting Pokémon",
@@ -5769,7 +6298,8 @@
     "weight_kg": 10.5,
     "height_m": 0.9,
     "generation": 5,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/swoobat.png"
   },
   {
     "classification": "Mole Pokémon",
@@ -5780,7 +6310,8 @@
     "weight_kg": 8.5,
     "height_m": 0.3,
     "generation": 5,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/drilbur.png"
   },
   {
     "classification": "Subterrene Pokémon",
@@ -5791,7 +6322,8 @@
     "weight_kg": 40.4,
     "height_m": 0.7,
     "generation": 5,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/excadrill.png"
   },
   {
     "classification": "Hearing Pokémon",
@@ -5802,7 +6334,8 @@
     "weight_kg": 31,
     "height_m": 1.1,
     "generation": 5,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/audino.png"
   },
   {
     "classification": "Muscular Pokémon",
@@ -5813,7 +6346,8 @@
     "weight_kg": 12.5,
     "height_m": 0.6,
     "generation": 5,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/timburr.png"
   },
   {
     "classification": "Muscular Pokémon",
@@ -5824,7 +6358,8 @@
     "weight_kg": 40,
     "height_m": 1.2,
     "generation": 5,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/gurdurr.png"
   },
   {
     "classification": "Muscular Pokémon",
@@ -5835,7 +6370,8 @@
     "weight_kg": 87,
     "height_m": 1.4,
     "generation": 5,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/conkeldurr.png"
   },
   {
     "classification": "Tadpole Pokémon",
@@ -5846,7 +6382,8 @@
     "weight_kg": 4.5,
     "height_m": 0.5,
     "generation": 5,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/tympole.png"
   },
   {
     "classification": "Vibration Pokémon",
@@ -5857,7 +6394,8 @@
     "weight_kg": 17,
     "height_m": 0.8,
     "generation": 5,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/palpitoad.png"
   },
   {
     "classification": "Vibration Pokémon",
@@ -5868,7 +6406,8 @@
     "weight_kg": 62,
     "height_m": 1.5,
     "generation": 5,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/seismitoad.png"
   },
   {
     "classification": "Judo Pokémon",
@@ -5879,7 +6418,8 @@
     "weight_kg": 55.5,
     "height_m": 1.3,
     "generation": 5,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/throh.png"
   },
   {
     "classification": "Karate Pokémon",
@@ -5890,7 +6430,8 @@
     "weight_kg": 51,
     "height_m": 1.4,
     "generation": 5,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/sawk.png"
   },
   {
     "classification": "Sewing Pokémon",
@@ -5901,7 +6442,8 @@
     "weight_kg": 2.5,
     "height_m": 0.3,
     "generation": 5,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/sewaddle.png"
   },
   {
     "classification": "Leaf-Wrapped Pokémon",
@@ -5912,7 +6454,8 @@
     "weight_kg": 7.3,
     "height_m": 0.5,
     "generation": 5,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/swadloon.png"
   },
   {
     "classification": "Nurturing Pokémon",
@@ -5923,7 +6466,8 @@
     "weight_kg": 20.5,
     "height_m": 1.2,
     "generation": 5,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/leavanny.png"
   },
   {
     "classification": "Centipede Pokémon",
@@ -5934,7 +6478,8 @@
     "weight_kg": 5.3,
     "height_m": 0.4,
     "generation": 5,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/venipede.png"
   },
   {
     "classification": "Curlipede Pokémon",
@@ -5945,7 +6490,8 @@
     "weight_kg": 58.5,
     "height_m": 1.2,
     "generation": 5,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/whirlipede.png"
   },
   {
     "classification": "Megapede Pokémon",
@@ -5956,7 +6502,8 @@
     "weight_kg": 200.5,
     "height_m": 2.5,
     "generation": 5,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/scolipede.png"
   },
   {
     "classification": "Cotton Puff Pokémon",
@@ -5967,7 +6514,8 @@
     "weight_kg": 0.6,
     "height_m": 0.3,
     "generation": 5,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/cottonee.png"
   },
   {
     "classification": "Windveiled Pokémon",
@@ -5978,7 +6526,8 @@
     "weight_kg": 6.6,
     "height_m": 0.7,
     "generation": 5,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/whimsicott.png"
   },
   {
     "classification": "Bulb Pokémon",
@@ -5989,7 +6538,8 @@
     "weight_kg": 6.6,
     "height_m": 0.5,
     "generation": 5,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/petilil.png"
   },
   {
     "classification": "Flowering Pokémon",
@@ -6000,7 +6550,8 @@
     "weight_kg": 16.3,
     "height_m": 1.1,
     "generation": 5,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/lilligant.png"
   },
   {
     "classification": "Hostile Pokémon",
@@ -6011,7 +6562,8 @@
     "weight_kg": 18,
     "height_m": 1,
     "generation": 5,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/basculin.png"
   },
   {
     "classification": "Desert Croc Pokémon",
@@ -6022,7 +6574,8 @@
     "weight_kg": 15.2,
     "height_m": 0.7,
     "generation": 5,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/sandile.png"
   },
   {
     "classification": "Desert Croc Pokémon",
@@ -6033,7 +6586,8 @@
     "weight_kg": 33.4,
     "height_m": 1,
     "generation": 5,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/krokorok.png"
   },
   {
     "classification": "Intimidation Pokémon",
@@ -6044,7 +6598,8 @@
     "weight_kg": 96.3,
     "height_m": 1.5,
     "generation": 5,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/krookodile.png"
   },
   {
     "classification": "Zen Charm Pokémon",
@@ -6055,7 +6610,8 @@
     "weight_kg": 37.5,
     "height_m": 0.6,
     "generation": 5,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/darumaka.png"
   },
   {
     "classification": "Blazing Pokémon",
@@ -6066,7 +6622,8 @@
     "weight_kg": 92.9,
     "height_m": 1.3,
     "generation": 5,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/darmanitan.png"
   },
   {
     "classification": "Cactus Pokémon",
@@ -6077,7 +6634,8 @@
     "weight_kg": 28,
     "height_m": 1,
     "generation": 5,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/maractus.png"
   },
   {
     "classification": "Rock Inn Pokémon",
@@ -6088,7 +6646,8 @@
     "weight_kg": 14.5,
     "height_m": 0.3,
     "generation": 5,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/dwebble.png"
   },
   {
     "classification": "Stone Home Pokémon",
@@ -6099,7 +6658,8 @@
     "weight_kg": 200,
     "height_m": 1.4,
     "generation": 5,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/crustle.png"
   },
   {
     "classification": "Shedding Pokémon",
@@ -6110,7 +6670,8 @@
     "weight_kg": 11.8,
     "height_m": 0.6,
     "generation": 5,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/scraggy.png"
   },
   {
     "classification": "Hoodlum Pokémon",
@@ -6121,7 +6682,8 @@
     "weight_kg": 30,
     "height_m": 1.1,
     "generation": 5,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/scrafty.png"
   },
   {
     "classification": "Avianoid Pokémon",
@@ -6132,7 +6694,8 @@
     "weight_kg": 14,
     "height_m": 1.4,
     "generation": 5,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/sigilyph.png"
   },
   {
     "classification": "Spirit Pokémon",
@@ -6143,7 +6706,8 @@
     "weight_kg": 1.5,
     "height_m": 0.5,
     "generation": 5,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/yamask.png"
   },
   {
     "classification": "Coffin Pokémon",
@@ -6154,7 +6718,8 @@
     "weight_kg": 76.5,
     "height_m": 1.7,
     "generation": 5,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/cofagrigus.png"
   },
   {
     "classification": "Prototurtle Pokémon",
@@ -6165,7 +6730,8 @@
     "weight_kg": 16.5,
     "height_m": 0.7,
     "generation": 5,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/tirtouga.png"
   },
   {
     "classification": "Prototurtle Pokémon",
@@ -6176,7 +6742,8 @@
     "weight_kg": 81,
     "height_m": 1.2,
     "generation": 5,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/carracosta.png"
   },
   {
     "classification": "First Bird Pokémon",
@@ -6187,7 +6754,8 @@
     "weight_kg": 9.5,
     "height_m": 0.5,
     "generation": 5,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/archen.png"
   },
   {
     "classification": "First Bird Pokémon",
@@ -6198,7 +6766,8 @@
     "weight_kg": 32,
     "height_m": 1.4,
     "generation": 5,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/archeops.png"
   },
   {
     "classification": "Trash Bag Pokémon",
@@ -6209,7 +6778,8 @@
     "weight_kg": 31,
     "height_m": 0.6,
     "generation": 5,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/trubbish.png"
   },
   {
     "classification": "Trash Heap Pokémon",
@@ -6220,7 +6790,8 @@
     "weight_kg": 107.3,
     "height_m": 1.9,
     "generation": 5,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/garbodor.png"
   },
   {
     "classification": "Tricky Fox Pokémon",
@@ -6231,7 +6802,8 @@
     "weight_kg": 12.5,
     "height_m": 0.7,
     "generation": 5,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/zorua.png"
   },
   {
     "classification": "Illusion Fox Pokémon",
@@ -6242,7 +6814,8 @@
     "weight_kg": 81.1,
     "height_m": 1.6,
     "generation": 5,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/zoroark.png"
   },
   {
     "classification": "Chinchilla Pokémon",
@@ -6253,7 +6826,8 @@
     "weight_kg": 5.8,
     "height_m": 0.4,
     "generation": 5,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/minccino.png"
   },
   {
     "classification": "Scarf Pokémon",
@@ -6264,7 +6838,8 @@
     "weight_kg": 7.5,
     "height_m": 0.5,
     "generation": 5,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/cinccino.png"
   },
   {
     "classification": "Fixation Pokémon",
@@ -6275,7 +6850,8 @@
     "weight_kg": 5.8,
     "height_m": 0.4,
     "generation": 5,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/gothita.png"
   },
   {
     "classification": "Manipulate Pokémon",
@@ -6286,7 +6862,8 @@
     "weight_kg": 18,
     "height_m": 0.7,
     "generation": 5,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/gothorita.png"
   },
   {
     "classification": "Astral Body Pokémon",
@@ -6297,7 +6874,8 @@
     "weight_kg": 44,
     "height_m": 1.5,
     "generation": 5,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/gothitelle.png"
   },
   {
     "classification": "Cell Pokémon",
@@ -6308,7 +6886,8 @@
     "weight_kg": 1,
     "height_m": 0.3,
     "generation": 5,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/solosis.png"
   },
   {
     "classification": "Mitosis Pokémon",
@@ -6319,7 +6898,8 @@
     "weight_kg": 8,
     "height_m": 0.6,
     "generation": 5,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/duosion.png"
   },
   {
     "classification": "Multiplying Pokémon",
@@ -6330,7 +6910,8 @@
     "weight_kg": 20.1,
     "height_m": 1,
     "generation": 5,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/reuniclus.png"
   },
   {
     "classification": "Water Bird Pokémon",
@@ -6341,7 +6922,8 @@
     "weight_kg": 5.5,
     "height_m": 0.5,
     "generation": 5,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/ducklett.png"
   },
   {
     "classification": "White Bird Pokémon",
@@ -6352,7 +6934,8 @@
     "weight_kg": 24.2,
     "height_m": 1.3,
     "generation": 5,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/swanna.png"
   },
   {
     "classification": "Fresh Snow Pokémon",
@@ -6363,7 +6946,8 @@
     "weight_kg": 5.7,
     "height_m": 0.4,
     "generation": 5,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/vanillite.png"
   },
   {
     "classification": "Icy Snow Pokémon",
@@ -6374,7 +6958,8 @@
     "weight_kg": 41,
     "height_m": 1.1,
     "generation": 5,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/vanillish.png"
   },
   {
     "classification": "Snowstorm Pokémon",
@@ -6385,7 +6970,8 @@
     "weight_kg": 57.5,
     "height_m": 1.3,
     "generation": 5,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/vanilluxe.png"
   },
   {
     "classification": "Season Pokémon",
@@ -6396,7 +6982,8 @@
     "weight_kg": 19.5,
     "height_m": 0.6,
     "generation": 5,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/deerling.png"
   },
   {
     "classification": "Season Pokémon",
@@ -6407,7 +6994,8 @@
     "weight_kg": 92.5,
     "height_m": 1.9,
     "generation": 5,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/sawsbuck.png"
   },
   {
     "classification": "Sky Squirrel Pokémon",
@@ -6418,7 +7006,8 @@
     "weight_kg": 5,
     "height_m": 0.4,
     "generation": 5,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/emolga.png"
   },
   {
     "classification": "Clamping Pokémon",
@@ -6429,7 +7018,8 @@
     "weight_kg": 5.9,
     "height_m": 0.5,
     "generation": 5,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/karrablast.png"
   },
   {
     "classification": "Cavalry Pokémon",
@@ -6440,7 +7030,8 @@
     "weight_kg": 33,
     "height_m": 1,
     "generation": 5,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/escavalier.png"
   },
   {
     "classification": "Mushroom Pokémon",
@@ -6451,7 +7042,8 @@
     "weight_kg": 1,
     "height_m": 0.2,
     "generation": 5,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/foongus.png"
   },
   {
     "classification": "Mushroom Pokémon",
@@ -6462,7 +7054,8 @@
     "weight_kg": 10.5,
     "height_m": 0.6,
     "generation": 5,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/amoonguss.png"
   },
   {
     "classification": "Floating Pokémon",
@@ -6473,7 +7066,8 @@
     "weight_kg": 33,
     "height_m": 1.2,
     "generation": 5,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/frillish.png"
   },
   {
     "classification": "Floating Pokémon",
@@ -6484,7 +7078,8 @@
     "weight_kg": 135,
     "height_m": 2.2,
     "generation": 5,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/jellicent.png"
   },
   {
     "classification": "Caring Pokémon",
@@ -6495,7 +7090,8 @@
     "weight_kg": 31.6,
     "height_m": 1.2,
     "generation": 5,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/alomomola.png"
   },
   {
     "classification": "Attaching Pokémon",
@@ -6506,7 +7102,8 @@
     "weight_kg": 0.6,
     "height_m": 0.1,
     "generation": 5,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/joltik.png"
   },
   {
     "classification": "EleSpider Pokémon",
@@ -6517,7 +7114,8 @@
     "weight_kg": 14.3,
     "height_m": 0.8,
     "generation": 5,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/galvantula.png"
   },
   {
     "classification": "Thorn Seed Pokémon",
@@ -6528,7 +7126,8 @@
     "weight_kg": 18.8,
     "height_m": 0.6,
     "generation": 5,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/ferroseed.png"
   },
   {
     "classification": "Thorn Pod Pokémon",
@@ -6539,7 +7138,8 @@
     "weight_kg": 110,
     "height_m": 1,
     "generation": 5,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/ferrothorn.png"
   },
   {
     "classification": "Gear Pokémon",
@@ -6550,7 +7150,8 @@
     "weight_kg": 21,
     "height_m": 0.3,
     "generation": 5,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/klink.png"
   },
   {
     "classification": "Gear Pokémon",
@@ -6561,7 +7162,8 @@
     "weight_kg": 51,
     "height_m": 0.6,
     "generation": 5,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/klang.png"
   },
   {
     "classification": "Gear Pokémon",
@@ -6572,7 +7174,8 @@
     "weight_kg": 81,
     "height_m": 0.6,
     "generation": 5,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/klinklang.png"
   },
   {
     "classification": "EleFish Pokémon",
@@ -6583,7 +7186,8 @@
     "weight_kg": 0.3,
     "height_m": 0.2,
     "generation": 5,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/tynamo.png"
   },
   {
     "classification": "EleFish Pokémon",
@@ -6594,7 +7198,8 @@
     "weight_kg": 22,
     "height_m": 1.2,
     "generation": 5,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/eelektrik.png"
   },
   {
     "classification": "EleFish Pokémon",
@@ -6605,7 +7210,8 @@
     "weight_kg": 80.5,
     "height_m": 2.1,
     "generation": 5,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/eelektross.png"
   },
   {
     "classification": "Cerebral Pokémon",
@@ -6616,7 +7222,8 @@
     "weight_kg": 9,
     "height_m": 0.5,
     "generation": 5,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/elgyem.png"
   },
   {
     "classification": "Cerebral Pokémon",
@@ -6627,7 +7234,8 @@
     "weight_kg": 34.5,
     "height_m": 1,
     "generation": 5,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/beheeyem.png"
   },
   {
     "classification": "Candle Pokémon",
@@ -6638,7 +7246,8 @@
     "weight_kg": 3.1,
     "height_m": 0.3,
     "generation": 5,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/litwick.png"
   },
   {
     "classification": "Lamp Pokémon",
@@ -6649,7 +7258,8 @@
     "weight_kg": 13,
     "height_m": 0.6,
     "generation": 5,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/lampent.png"
   },
   {
     "classification": "Luring Pokémon",
@@ -6660,7 +7270,8 @@
     "weight_kg": 34.3,
     "height_m": 1,
     "generation": 5,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/chandelure.png"
   },
   {
     "classification": "Tusk Pokémon",
@@ -6671,7 +7282,8 @@
     "weight_kg": 18,
     "height_m": 0.6,
     "generation": 5,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/axew.png"
   },
   {
     "classification": "Axe Jaw Pokémon",
@@ -6682,7 +7294,8 @@
     "weight_kg": 36,
     "height_m": 1,
     "generation": 5,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/fraxure.png"
   },
   {
     "classification": "Axe Jaw Pokémon",
@@ -6693,7 +7306,8 @@
     "weight_kg": 105.5,
     "height_m": 1.8,
     "generation": 5,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/haxorus.png"
   },
   {
     "classification": "Chill Pokémon",
@@ -6704,7 +7318,8 @@
     "weight_kg": 8.5,
     "height_m": 0.5,
     "generation": 5,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/cubchoo.png"
   },
   {
     "classification": "Freezing Pokémon",
@@ -6715,7 +7330,8 @@
     "weight_kg": 260,
     "height_m": 2.6,
     "generation": 5,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/beartic.png"
   },
   {
     "classification": "Crystallizing Pokémon",
@@ -6726,7 +7342,8 @@
     "weight_kg": 148,
     "height_m": 1.1,
     "generation": 5,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/cryogonal.png"
   },
   {
     "classification": "Snail Pokémon",
@@ -6737,7 +7354,8 @@
     "weight_kg": 7.7,
     "height_m": 0.4,
     "generation": 5,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/shelmet.png"
   },
   {
     "classification": "Shell Out Pokémon",
@@ -6748,7 +7366,8 @@
     "weight_kg": 25.3,
     "height_m": 0.8,
     "generation": 5,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/accelgor.png"
   },
   {
     "classification": "Trap Pokémon",
@@ -6759,7 +7378,8 @@
     "weight_kg": 11,
     "height_m": 0.7,
     "generation": 5,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/stunfisk.png"
   },
   {
     "classification": "Martial Arts Pokémon",
@@ -6770,7 +7390,8 @@
     "weight_kg": 20,
     "height_m": 0.9,
     "generation": 5,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/mienfoo.png"
   },
   {
     "classification": "Martial Arts Pokémon",
@@ -6781,7 +7402,8 @@
     "weight_kg": 35.5,
     "height_m": 1.4,
     "generation": 5,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/mienshao.png"
   },
   {
     "classification": "Cave Pokémon",
@@ -6792,7 +7414,8 @@
     "weight_kg": 139,
     "height_m": 1.6,
     "generation": 5,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/druddigon.png"
   },
   {
     "classification": "Automaton Pokémon",
@@ -6803,7 +7426,8 @@
     "weight_kg": 92,
     "height_m": 1,
     "generation": 5,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/golett.png"
   },
   {
     "classification": "Automaton Pokémon",
@@ -6814,7 +7438,8 @@
     "weight_kg": 330,
     "height_m": 2.8,
     "generation": 5,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/golurk.png"
   },
   {
     "classification": "Sharp Blade Pokémon",
@@ -6825,7 +7450,8 @@
     "weight_kg": 10.2,
     "height_m": 0.5,
     "generation": 5,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/pawniard.png"
   },
   {
     "classification": "Sword Blade Pokémon",
@@ -6836,7 +7462,8 @@
     "weight_kg": 70,
     "height_m": 1.6,
     "generation": 5,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/bisharp.png"
   },
   {
     "classification": "Bash Buffalo Pokémon",
@@ -6847,7 +7474,8 @@
     "weight_kg": 94.6,
     "height_m": 1.6,
     "generation": 5,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/bouffalant.png"
   },
   {
     "classification": "Eaglet Pokémon",
@@ -6858,7 +7486,8 @@
     "weight_kg": 10.5,
     "height_m": 0.5,
     "generation": 5,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/rufflet.png"
   },
   {
     "classification": "Valiant Pokémon",
@@ -6869,7 +7498,8 @@
     "weight_kg": 41,
     "height_m": 1.5,
     "generation": 5,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/braviary.png"
   },
   {
     "classification": "Diapered Pokémon",
@@ -6880,7 +7510,8 @@
     "weight_kg": 9,
     "height_m": 0.5,
     "generation": 5,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/vullaby.png"
   },
   {
     "classification": "Bone Vulture Pokémon",
@@ -6891,7 +7522,8 @@
     "weight_kg": 39.5,
     "height_m": 1.2,
     "generation": 5,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/mandibuzz.png"
   },
   {
     "classification": "Anteater Pokémon",
@@ -6902,7 +7534,8 @@
     "weight_kg": 58,
     "height_m": 1.4,
     "generation": 5,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/heatmor.png"
   },
   {
     "classification": "Iron Ant Pokémon",
@@ -6913,7 +7546,8 @@
     "weight_kg": 33,
     "height_m": 0.3,
     "generation": 5,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/durant.png"
   },
   {
     "classification": "Irate Pokémon",
@@ -6924,7 +7558,8 @@
     "weight_kg": 17.3,
     "height_m": 0.8,
     "generation": 5,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/deino.png"
   },
   {
     "classification": "Hostile Pokémon",
@@ -6935,7 +7570,8 @@
     "weight_kg": 50,
     "height_m": 1.4,
     "generation": 5,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/zweilous.png"
   },
   {
     "classification": "Brutal Pokémon",
@@ -6946,7 +7582,8 @@
     "weight_kg": 160,
     "height_m": 1.8,
     "generation": 5,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/hydreigon.png"
   },
   {
     "classification": "Torch Pokémon",
@@ -6957,7 +7594,8 @@
     "weight_kg": 28.8,
     "height_m": 1.1,
     "generation": 5,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/larvesta.png"
   },
   {
     "classification": "Sun Pokémon",
@@ -6968,7 +7606,8 @@
     "weight_kg": 46,
     "height_m": 1.6,
     "generation": 5,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/volcarona.png"
   },
   {
     "classification": "Iron Will Pokémon",
@@ -6979,7 +7618,8 @@
     "weight_kg": 250,
     "height_m": 2.1,
     "generation": 5,
-    "is_legendary": true
+    "is_legendary": true,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/cobalion.png"
   },
   {
     "classification": "Cavern Pokémon",
@@ -6990,7 +7630,8 @@
     "weight_kg": 260,
     "height_m": 1.9,
     "generation": 5,
-    "is_legendary": true
+    "is_legendary": true,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/terrakion.png"
   },
   {
     "classification": "Grassland Pokémon",
@@ -7001,7 +7642,8 @@
     "weight_kg": 200,
     "height_m": 2,
     "generation": 5,
-    "is_legendary": true
+    "is_legendary": true,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/virizion.png"
   },
   {
     "classification": "Cyclone Pokémon",
@@ -7012,7 +7654,8 @@
     "weight_kg": 63,
     "height_m": 1.5,
     "generation": 5,
-    "is_legendary": true
+    "is_legendary": true,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/tornadus.png"
   },
   {
     "classification": "Bolt Strike Pokémon",
@@ -7023,7 +7666,8 @@
     "weight_kg": 61,
     "height_m": 1.5,
     "generation": 5,
-    "is_legendary": true
+    "is_legendary": true,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/thundurus.png"
   },
   {
     "classification": "Vast White Pokémon",
@@ -7034,7 +7678,8 @@
     "weight_kg": 330,
     "height_m": 3.2,
     "generation": 5,
-    "is_legendary": true
+    "is_legendary": true,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/reshiram.png"
   },
   {
     "classification": "Deep Black Pokémon",
@@ -7045,7 +7690,8 @@
     "weight_kg": 345,
     "height_m": 2.9,
     "generation": 5,
-    "is_legendary": true
+    "is_legendary": true,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/zekrom.png"
   },
   {
     "classification": "Abundance Pokémon",
@@ -7056,7 +7702,8 @@
     "weight_kg": 68,
     "height_m": 1.5,
     "generation": 5,
-    "is_legendary": true
+    "is_legendary": true,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/landorus.png"
   },
   {
     "classification": "Boundary Pokémon",
@@ -7067,7 +7714,8 @@
     "weight_kg": 325,
     "height_m": 3,
     "generation": 5,
-    "is_legendary": true
+    "is_legendary": true,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/kyurem.png"
   },
   {
     "classification": "Colt Pokémon",
@@ -7078,7 +7726,8 @@
     "weight_kg": 48.5,
     "height_m": 1.4,
     "generation": 5,
-    "is_legendary": true
+    "is_legendary": true,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/keldeo.png"
   },
   {
     "classification": "Melody Pokémon",
@@ -7089,7 +7738,8 @@
     "weight_kg": 6.5,
     "height_m": 0.6,
     "generation": 5,
-    "is_legendary": true
+    "is_legendary": true,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/meloetta.png"
   },
   {
     "classification": "Paleozoic Pokémon",
@@ -7100,7 +7750,8 @@
     "weight_kg": 82.5,
     "height_m": 1.5,
     "generation": 5,
-    "is_legendary": true
+    "is_legendary": true,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/genesect.png"
   },
   {
     "classification": "Spiky Nut Pokémon",
@@ -7111,7 +7762,8 @@
     "weight_kg": 9,
     "height_m": 0.4,
     "generation": 6,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/chespin.png"
   },
   {
     "classification": "Spiny Armor Pokémon",
@@ -7122,7 +7774,8 @@
     "weight_kg": 29,
     "height_m": 0.7,
     "generation": 6,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/quilladin.png"
   },
   {
     "classification": "Spiny Armor Pokémon",
@@ -7133,7 +7786,8 @@
     "weight_kg": 90,
     "height_m": 1.6,
     "generation": 6,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/chesnaught.png"
   },
   {
     "classification": "Fox Pokémon",
@@ -7144,7 +7798,8 @@
     "weight_kg": 9.4,
     "height_m": 0.4,
     "generation": 6,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/fennekin.png"
   },
   {
     "classification": "Fox Pokémon",
@@ -7155,7 +7810,8 @@
     "weight_kg": 14.5,
     "height_m": 1,
     "generation": 6,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/braixen.png"
   },
   {
     "classification": "Fox Pokémon",
@@ -7166,7 +7822,8 @@
     "weight_kg": 39,
     "height_m": 1.5,
     "generation": 6,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/delphox.png"
   },
   {
     "classification": "Bubble Frog Pokémon",
@@ -7177,7 +7834,8 @@
     "weight_kg": 7,
     "height_m": 0.3,
     "generation": 6,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/froakie.png"
   },
   {
     "classification": "Bubble Frog Pokémon",
@@ -7188,7 +7846,8 @@
     "weight_kg": 10.9,
     "height_m": 0.6,
     "generation": 6,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/frogadier.png"
   },
   {
     "classification": "Ninja Pokémon",
@@ -7199,7 +7858,8 @@
     "weight_kg": 40,
     "height_m": 1.5,
     "generation": 6,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/greninja.png"
   },
   {
     "classification": "Digging Pokémon",
@@ -7210,7 +7870,8 @@
     "weight_kg": 5,
     "height_m": 0.4,
     "generation": 6,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/bunnelby.png"
   },
   {
     "classification": "Digging Pokémon",
@@ -7221,7 +7882,8 @@
     "weight_kg": 42.4,
     "height_m": 1,
     "generation": 6,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/diggersby.png"
   },
   {
     "classification": "Tiny Robin Pokémon",
@@ -7232,7 +7894,8 @@
     "weight_kg": 1.7,
     "height_m": 0.3,
     "generation": 6,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/fletchling.png"
   },
   {
     "classification": "Ember Pokémon",
@@ -7243,7 +7906,8 @@
     "weight_kg": 16,
     "height_m": 0.7,
     "generation": 6,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/fletchinder.png"
   },
   {
     "classification": "Scorching Pokémon",
@@ -7254,7 +7918,8 @@
     "weight_kg": 24.5,
     "height_m": 1.2,
     "generation": 6,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/talonflame.png"
   },
   {
     "classification": "Scatterdust Pokémon",
@@ -7265,7 +7930,8 @@
     "weight_kg": 2.5,
     "height_m": 0.3,
     "generation": 6,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/scatterbug.png"
   },
   {
     "classification": "Scatterdust Pokémon",
@@ -7276,7 +7942,8 @@
     "weight_kg": 8.4,
     "height_m": 0.3,
     "generation": 6,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/spewpa.png"
   },
   {
     "classification": "Scale Pokémon",
@@ -7287,7 +7954,8 @@
     "weight_kg": 17,
     "height_m": 1.2,
     "generation": 6,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/vivillon.png"
   },
   {
     "classification": "Lion Cub Pokémon",
@@ -7298,7 +7966,8 @@
     "weight_kg": 13.5,
     "height_m": 0.6,
     "generation": 6,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/litleo.png"
   },
   {
     "classification": "Royal Pokémon",
@@ -7309,7 +7978,8 @@
     "weight_kg": 81.5,
     "height_m": 1.5,
     "generation": 6,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/pyroar.png"
   },
   {
     "classification": "Single Bloom Pokémon",
@@ -7320,7 +7990,8 @@
     "weight_kg": 0.1,
     "height_m": 0.1,
     "generation": 6,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/flabébé.png"
   },
   {
     "classification": "Fairy Pokémon",
@@ -7331,7 +8002,8 @@
     "weight_kg": 0.9,
     "height_m": 0.2,
     "generation": 6,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/floette.png"
   },
   {
     "classification": "Garden Pokémon",
@@ -7342,7 +8014,8 @@
     "weight_kg": 10,
     "height_m": 1.1,
     "generation": 6,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/florges.png"
   },
   {
     "classification": "Mount Pokémon",
@@ -7353,7 +8026,8 @@
     "weight_kg": 31,
     "height_m": 0.9,
     "generation": 6,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/skiddo.png"
   },
   {
     "classification": "Mount Pokémon",
@@ -7364,7 +8038,8 @@
     "weight_kg": 91,
     "height_m": 1.7,
     "generation": 6,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/gogoat.png"
   },
   {
     "classification": "Playful Pokémon",
@@ -7375,7 +8050,8 @@
     "weight_kg": 8,
     "height_m": 0.6,
     "generation": 6,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/pancham.png"
   },
   {
     "classification": "Daunting Pokémon",
@@ -7386,7 +8062,8 @@
     "weight_kg": 136,
     "height_m": 2.1,
     "generation": 6,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/pangoro.png"
   },
   {
     "classification": "Poodle Pokémon",
@@ -7397,7 +8074,8 @@
     "weight_kg": 28,
     "height_m": 1.2,
     "generation": 6,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/furfrou.png"
   },
   {
     "classification": "Restraint Pokémon",
@@ -7408,7 +8086,8 @@
     "weight_kg": 3.5,
     "height_m": 0.3,
     "generation": 6,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/espurr.png"
   },
   {
     "classification": "Constraint Pokémon",
@@ -7419,7 +8098,8 @@
     "weight_kg": 8.5,
     "height_m": 0.6,
     "generation": 6,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/meowstic.png"
   },
   {
     "classification": "Sword Pokémon",
@@ -7430,7 +8110,8 @@
     "weight_kg": 2,
     "height_m": 0.8,
     "generation": 6,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/honedge.png"
   },
   {
     "classification": "Sword Pokémon",
@@ -7441,7 +8122,8 @@
     "weight_kg": 4.5,
     "height_m": 0.8,
     "generation": 6,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/doublade.png"
   },
   {
     "classification": "Royal Sword Pokémon",
@@ -7452,7 +8134,8 @@
     "weight_kg": 53,
     "height_m": 1.7,
     "generation": 6,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/aegislash.png"
   },
   {
     "classification": "Perfume Pokémon",
@@ -7463,7 +8146,8 @@
     "weight_kg": 0.5,
     "height_m": 0.2,
     "generation": 6,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/spritzee.png"
   },
   {
     "classification": "Fragrance Pokémon",
@@ -7474,7 +8158,8 @@
     "weight_kg": 15.5,
     "height_m": 0.8,
     "generation": 6,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/aromatisse.png"
   },
   {
     "classification": "Cotton Candy Pokémon",
@@ -7485,7 +8170,8 @@
     "weight_kg": 3.5,
     "height_m": 0.4,
     "generation": 6,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/swirlix.png"
   },
   {
     "classification": "Meringue Pokémon",
@@ -7496,7 +8182,8 @@
     "weight_kg": 5,
     "height_m": 0.8,
     "generation": 6,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/slurpuff.png"
   },
   {
     "classification": "Revolving Pokémon",
@@ -7507,7 +8194,8 @@
     "weight_kg": 3.5,
     "height_m": 0.4,
     "generation": 6,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/inkay.png"
   },
   {
     "classification": "Overturning Pokémon",
@@ -7518,7 +8206,8 @@
     "weight_kg": 47,
     "height_m": 1.5,
     "generation": 6,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/malamar.png"
   },
   {
     "classification": "Two-Handed Pokémon",
@@ -7529,7 +8218,8 @@
     "weight_kg": 31,
     "height_m": 0.5,
     "generation": 6,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/binacle.png"
   },
   {
     "classification": "Collective Pokémon",
@@ -7540,7 +8230,8 @@
     "weight_kg": 96,
     "height_m": 1.3,
     "generation": 6,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/barbaracle.png"
   },
   {
     "classification": "Mock Kelp Pokémon",
@@ -7551,7 +8242,8 @@
     "weight_kg": 7.3,
     "height_m": 0.5,
     "generation": 6,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/skrelp.png"
   },
   {
     "classification": "Mock Kelp Pokémon",
@@ -7562,7 +8254,8 @@
     "weight_kg": 81.5,
     "height_m": 1.8,
     "generation": 6,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/dragalge.png"
   },
   {
     "classification": "Water Gun Pokémon",
@@ -7573,7 +8266,8 @@
     "weight_kg": 8.3,
     "height_m": 0.5,
     "generation": 6,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/clauncher.png"
   },
   {
     "classification": "Howitzer Pokémon",
@@ -7584,7 +8278,8 @@
     "weight_kg": 35.3,
     "height_m": 1.3,
     "generation": 6,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/clawitzer.png"
   },
   {
     "classification": "Generator Pokémon",
@@ -7595,7 +8290,8 @@
     "weight_kg": 6,
     "height_m": 0.5,
     "generation": 6,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/helioptile.png"
   },
   {
     "classification": "Generator Pokémon",
@@ -7606,7 +8302,8 @@
     "weight_kg": 21,
     "height_m": 1,
     "generation": 6,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/heliolisk.png"
   },
   {
     "classification": "Royal Heir Pokémon",
@@ -7617,7 +8314,8 @@
     "weight_kg": 26,
     "height_m": 0.8,
     "generation": 6,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/tyrunt.png"
   },
   {
     "classification": "Despot Pokémon",
@@ -7628,7 +8326,8 @@
     "weight_kg": 270,
     "height_m": 2.5,
     "generation": 6,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/tyrantrum.png"
   },
   {
     "classification": "Tundra Pokémon",
@@ -7639,7 +8338,8 @@
     "weight_kg": 25.2,
     "height_m": 1.3,
     "generation": 6,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/amaura.png"
   },
   {
     "classification": "Tundra Pokémon",
@@ -7650,7 +8350,8 @@
     "weight_kg": 225,
     "height_m": 2.7,
     "generation": 6,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/aurorus.png"
   },
   {
     "classification": "Intertwining Pokémon",
@@ -7661,7 +8362,8 @@
     "weight_kg": 23.5,
     "height_m": 1,
     "generation": 6,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/sylveon.png"
   },
   {
     "classification": "Wrestling Pokémon",
@@ -7672,7 +8374,8 @@
     "weight_kg": 21.5,
     "height_m": 0.8,
     "generation": 6,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/hawlucha.png"
   },
   {
     "classification": "Antenna Pokémon",
@@ -7683,7 +8386,8 @@
     "weight_kg": 2.2,
     "height_m": 0.2,
     "generation": 6,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/dedenne.png"
   },
   {
     "classification": "Jewel Pokémon",
@@ -7694,7 +8398,8 @@
     "weight_kg": 5.7,
     "height_m": 0.3,
     "generation": 6,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/carbink.png"
   },
   {
     "classification": "Soft Tissue Pokémon",
@@ -7705,7 +8410,8 @@
     "weight_kg": 2.8,
     "height_m": 0.3,
     "generation": 6,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/goomy.png"
   },
   {
     "classification": "Soft Tissue Pokémon",
@@ -7716,7 +8422,8 @@
     "weight_kg": 17.5,
     "height_m": 0.8,
     "generation": 6,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/sliggoo.png"
   },
   {
     "classification": "Dragon Pokémon",
@@ -7727,7 +8434,8 @@
     "weight_kg": 150.5,
     "height_m": 2,
     "generation": 6,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/goodra.png"
   },
   {
     "classification": "Key Ring Pokémon",
@@ -7738,7 +8446,8 @@
     "weight_kg": 3,
     "height_m": 0.2,
     "generation": 6,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/klefki.png"
   },
   {
     "classification": "Stump Pokémon",
@@ -7749,7 +8458,8 @@
     "weight_kg": 7,
     "height_m": 0.4,
     "generation": 6,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/phantump.png"
   },
   {
     "classification": "Elder Tree Pokémon",
@@ -7760,7 +8470,8 @@
     "weight_kg": 71,
     "height_m": 1.5,
     "generation": 6,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/trevenant.png"
   },
   {
     "classification": "Pumpkin Pokémon",
@@ -7771,7 +8482,8 @@
     "weight_kg": 15,
     "height_m": 0.8,
     "generation": 6,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/pumpkaboo.png"
   },
   {
     "classification": "Pumpkin Pokémon",
@@ -7782,7 +8494,8 @@
     "weight_kg": 39,
     "height_m": 1.7,
     "generation": 6,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/gourgeist.png"
   },
   {
     "classification": "Ice Chunk Pokémon",
@@ -7793,7 +8506,8 @@
     "weight_kg": 99.5,
     "height_m": 1,
     "generation": 6,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/bergmite.png"
   },
   {
     "classification": "Iceberg Pokémon",
@@ -7804,7 +8518,8 @@
     "weight_kg": 505,
     "height_m": 2,
     "generation": 6,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/avalugg.png"
   },
   {
     "classification": "Sound Wave Pokémon",
@@ -7815,7 +8530,8 @@
     "weight_kg": 8,
     "height_m": 0.5,
     "generation": 6,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/noibat.png"
   },
   {
     "classification": "Sound Wave Pokémon",
@@ -7826,7 +8542,8 @@
     "weight_kg": 85,
     "height_m": 1.5,
     "generation": 6,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/noivern.png"
   },
   {
     "classification": "Life Pokémon",
@@ -7837,7 +8554,8 @@
     "weight_kg": 215,
     "height_m": 3,
     "generation": 6,
-    "is_legendary": true
+    "is_legendary": true,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/xerneas.png"
   },
   {
     "classification": "Destruction Pokémon",
@@ -7848,7 +8566,8 @@
     "weight_kg": 203,
     "height_m": 5.8,
     "generation": 6,
-    "is_legendary": true
+    "is_legendary": true,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/yveltal.png"
   },
   {
     "classification": "Order Pokémon",
@@ -7859,7 +8578,8 @@
     "weight_kg": 284.6,
     "height_m": 5,
     "generation": 6,
-    "is_legendary": true
+    "is_legendary": true,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/zygarde.png"
   },
   {
     "classification": "Jewel Pokémon",
@@ -7870,7 +8590,8 @@
     "weight_kg": 8.8,
     "height_m": 0.7,
     "generation": 6,
-    "is_legendary": true
+    "is_legendary": true,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/diancie.png"
   },
   {
     "classification": "Mischief Pokémon (Confined)Djinn Pokémonn (Unbound)",
@@ -7879,7 +8600,8 @@
     "type1": "psychic",
     "type2": "ghost",
     "generation": 6,
-    "is_legendary": true
+    "is_legendary": true,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/hoopa.png"
   },
   {
     "classification": "Steam Pokémon",
@@ -7890,7 +8612,8 @@
     "weight_kg": 195,
     "height_m": 1.7,
     "generation": 6,
-    "is_legendary": true
+    "is_legendary": true,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/volcanion.png"
   },
   {
     "classification": "Grass Quill Pokémon",
@@ -7901,7 +8624,8 @@
     "weight_kg": 1.5,
     "height_m": 0.3,
     "generation": 7,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/rowlet.png"
   },
   {
     "classification": "Blade Quill Pokémon",
@@ -7912,7 +8636,8 @@
     "weight_kg": 16,
     "height_m": 0.7,
     "generation": 7,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/dartrix.png"
   },
   {
     "classification": "Arrow Quill Pokémon",
@@ -7923,7 +8648,8 @@
     "weight_kg": 36.6,
     "height_m": 1.6,
     "generation": 7,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/decidueye.png"
   },
   {
     "classification": "Fire Cat Pokémon",
@@ -7934,7 +8660,8 @@
     "weight_kg": 4.3,
     "height_m": 0.4,
     "generation": 7,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/litten.png"
   },
   {
     "classification": "Fire Cat Pokémon",
@@ -7945,7 +8672,8 @@
     "weight_kg": 25,
     "height_m": 0.7,
     "generation": 7,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/torracat.png"
   },
   {
     "classification": "Heel Pokémon",
@@ -7956,7 +8684,8 @@
     "weight_kg": 83,
     "height_m": 1.8,
     "generation": 7,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/incineroar.png"
   },
   {
     "classification": "Sea Lion Pokémon",
@@ -7967,7 +8696,8 @@
     "weight_kg": 7.5,
     "height_m": 0.4,
     "generation": 7,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/popplio.png"
   },
   {
     "classification": "Pop Star Pokémon",
@@ -7978,7 +8708,8 @@
     "weight_kg": 17.5,
     "height_m": 0.6,
     "generation": 7,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/brionne.png"
   },
   {
     "classification": "Soloist Pokémon",
@@ -7989,7 +8720,8 @@
     "weight_kg": 44,
     "height_m": 1.8,
     "generation": 7,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/primarina.png"
   },
   {
     "classification": "Woodpecker Pokémon",
@@ -8000,7 +8732,8 @@
     "weight_kg": 1.2,
     "height_m": 0.3,
     "generation": 7,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/pikipek.png"
   },
   {
     "classification": "Bugle Beak Pokémon",
@@ -8011,7 +8744,8 @@
     "weight_kg": 14.8,
     "height_m": 0.6,
     "generation": 7,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/trumbeak.png"
   },
   {
     "classification": "Cannon Pokémon",
@@ -8022,7 +8756,8 @@
     "weight_kg": 26,
     "height_m": 1.1,
     "generation": 7,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/toucannon.png"
   },
   {
     "classification": "Loitering Pokémon",
@@ -8033,7 +8768,8 @@
     "weight_kg": 6,
     "height_m": 0.4,
     "generation": 7,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/yungoos.png"
   },
   {
     "classification": "Stakeout Pokémon",
@@ -8044,7 +8780,8 @@
     "weight_kg": 14.2,
     "height_m": 0.7,
     "generation": 7,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/gumshoos.png"
   },
   {
     "classification": "Larva Pokémon",
@@ -8055,7 +8792,8 @@
     "weight_kg": 4.4,
     "height_m": 0.4,
     "generation": 7,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/grubbin.png"
   },
   {
     "classification": "Battery Pokémon",
@@ -8066,7 +8804,8 @@
     "weight_kg": 10.5,
     "height_m": 0.5,
     "generation": 7,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/charjabug.png"
   },
   {
     "classification": "Stag Beetle Pokémon",
@@ -8077,7 +8816,8 @@
     "weight_kg": 45,
     "height_m": 1.5,
     "generation": 7,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/vikavolt.png"
   },
   {
     "classification": "Boxing Pokémon",
@@ -8088,7 +8828,8 @@
     "weight_kg": 7,
     "height_m": 0.6,
     "generation": 7,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/crabrawler.png"
   },
   {
     "classification": "Woolly Crab Pokémon",
@@ -8099,7 +8840,8 @@
     "weight_kg": 180,
     "height_m": 1.7,
     "generation": 7,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/crabominable.png"
   },
   {
     "classification": "Dancing Pokémon",
@@ -8110,7 +8852,8 @@
     "weight_kg": 3.4,
     "height_m": 0.6,
     "generation": 7,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/oricorio.png"
   },
   {
     "classification": "Bee Fly Pokémon",
@@ -8121,7 +8864,8 @@
     "weight_kg": 0.2,
     "height_m": 0.1,
     "generation": 7,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/cutiefly.png"
   },
   {
     "classification": "Bee Fly Pokémon",
@@ -8132,7 +8876,8 @@
     "weight_kg": 0.5,
     "height_m": 0.2,
     "generation": 7,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/ribombee.png"
   },
   {
     "classification": "Puppy Pokémon",
@@ -8143,7 +8888,8 @@
     "weight_kg": 9.2,
     "height_m": 0.5,
     "generation": 7,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/rockruff.png"
   },
   {
     "classification": "Wolf Pokémon",
@@ -8152,7 +8898,8 @@
     "type1": "rock",
     "type2": null,
     "generation": 7,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/lycanroc.png"
   },
   {
     "classification": "Small Fry Pokémon",
@@ -8163,7 +8910,8 @@
     "weight_kg": 0.3,
     "height_m": 0.2,
     "generation": 7,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/wishiwashi.png"
   },
   {
     "classification": "Brutal Star Pokémon",
@@ -8174,7 +8922,8 @@
     "weight_kg": 8,
     "height_m": 0.4,
     "generation": 7,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/mareanie.png"
   },
   {
     "classification": "Brutal Star Pokémon",
@@ -8185,7 +8934,8 @@
     "weight_kg": 14.5,
     "height_m": 0.7,
     "generation": 7,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/toxapex.png"
   },
   {
     "classification": "Donkey Pokémon",
@@ -8196,7 +8946,8 @@
     "weight_kg": 110,
     "height_m": 1,
     "generation": 7,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/mudbray.png"
   },
   {
     "classification": "Draft Horse Pokémon",
@@ -8207,7 +8958,8 @@
     "weight_kg": 920,
     "height_m": 2.5,
     "generation": 7,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/mudsdale.png"
   },
   {
     "classification": "Water Bubble Pokémon",
@@ -8218,7 +8970,8 @@
     "weight_kg": 4,
     "height_m": 0.3,
     "generation": 7,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/dewpider.png"
   },
   {
     "classification": "Water Bubble Pokémon",
@@ -8229,7 +8982,8 @@
     "weight_kg": 82,
     "height_m": 1.8,
     "generation": 7,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/araquanid.png"
   },
   {
     "classification": "Sickle Grass Pokémon",
@@ -8240,7 +8994,8 @@
     "weight_kg": 1.5,
     "height_m": 0.3,
     "generation": 7,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/fomantis.png"
   },
   {
     "classification": "Bloom Sickle Pokémon",
@@ -8251,7 +9006,8 @@
     "weight_kg": 18.5,
     "height_m": 0.9,
     "generation": 7,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/lurantis.png"
   },
   {
     "classification": "Illuminating Pokémon",
@@ -8262,7 +9018,8 @@
     "weight_kg": 1.5,
     "height_m": 0.2,
     "generation": 7,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/morelull.png"
   },
   {
     "classification": "Illuminating Pokémon",
@@ -8273,7 +9030,8 @@
     "weight_kg": 11.5,
     "height_m": 1,
     "generation": 7,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/shiinotic.png"
   },
   {
     "classification": "Toxic Lizard Pokémon",
@@ -8284,7 +9042,8 @@
     "weight_kg": 4.8,
     "height_m": 0.6,
     "generation": 7,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/salandit.png"
   },
   {
     "classification": "Toxic Lizard Pokémon",
@@ -8295,7 +9054,8 @@
     "weight_kg": 22.2,
     "height_m": 1.2,
     "generation": 7,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/salazzle.png"
   },
   {
     "classification": "Flailing Pokémon",
@@ -8306,7 +9066,8 @@
     "weight_kg": 6.8,
     "height_m": 0.5,
     "generation": 7,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/stufful.png"
   },
   {
     "classification": "Strong Arm Pokémon",
@@ -8317,7 +9078,8 @@
     "weight_kg": 135,
     "height_m": 2.1,
     "generation": 7,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/bewear.png"
   },
   {
     "classification": "Fruit Pokémon",
@@ -8328,7 +9090,8 @@
     "weight_kg": 3.2,
     "height_m": 0.3,
     "generation": 7,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/bounsweet.png"
   },
   {
     "classification": "Fruit Pokémon",
@@ -8339,7 +9102,8 @@
     "weight_kg": 8.2,
     "height_m": 0.7,
     "generation": 7,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/steenee.png"
   },
   {
     "classification": "Fruit Pokémon",
@@ -8350,7 +9114,8 @@
     "weight_kg": 21.4,
     "height_m": 1.2,
     "generation": 7,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/tsareena.png"
   },
   {
     "classification": "Posy Picker Pokémon",
@@ -8361,7 +9126,8 @@
     "weight_kg": 0.3,
     "height_m": 0.1,
     "generation": 7,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/comfey.png"
   },
   {
     "classification": "Sage Pokémon",
@@ -8372,7 +9138,8 @@
     "weight_kg": 76,
     "height_m": 1.5,
     "generation": 7,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/oranguru.png"
   },
   {
     "classification": "Teamwork Pokémon",
@@ -8383,7 +9150,8 @@
     "weight_kg": 82.8,
     "height_m": 2,
     "generation": 7,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/passimian.png"
   },
   {
     "classification": "Turn Tail Pokémon",
@@ -8394,7 +9162,8 @@
     "weight_kg": 12,
     "height_m": 0.5,
     "generation": 7,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/wimpod.png"
   },
   {
     "classification": "Hard Scale Pokémon",
@@ -8405,7 +9174,8 @@
     "weight_kg": 108,
     "height_m": 2,
     "generation": 7,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/golisopod.png"
   },
   {
     "classification": "Sand Heap Pokémon",
@@ -8416,7 +9186,8 @@
     "weight_kg": 70,
     "height_m": 0.5,
     "generation": 7,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/sandygast.png"
   },
   {
     "classification": "Sand Castle Pokémon",
@@ -8427,7 +9198,8 @@
     "weight_kg": 250,
     "height_m": 1.3,
     "generation": 7,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/palossand.png"
   },
   {
     "classification": "Sea Cucumber Pokémon",
@@ -8438,7 +9210,8 @@
     "weight_kg": 1.2,
     "height_m": 0.3,
     "generation": 7,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/pyukumuku.png"
   },
   {
     "classification": "Synthetic Pokémon",
@@ -8449,7 +9222,8 @@
     "weight_kg": 120.5,
     "height_m": 1.9,
     "generation": 7,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/type: null.png"
   },
   {
     "classification": "Synthetic Pokémon",
@@ -8460,7 +9234,8 @@
     "weight_kg": 100.5,
     "height_m": 2.3,
     "generation": 7,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/silvally.png"
   },
   {
     "classification": "Meteor Pokémon",
@@ -8471,7 +9246,8 @@
     "weight_kg": 40,
     "height_m": 0.3,
     "generation": 7,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/minior.png"
   },
   {
     "classification": "Drowsing Pokémon",
@@ -8482,7 +9258,8 @@
     "weight_kg": 19.9,
     "height_m": 0.4,
     "generation": 7,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/komala.png"
   },
   {
     "classification": "Blast Turtle Pokémon",
@@ -8493,7 +9270,8 @@
     "weight_kg": 212,
     "height_m": 2,
     "generation": 7,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/turtonator.png"
   },
   {
     "classification": "Roly-Poly Pokémon",
@@ -8504,7 +9282,8 @@
     "weight_kg": 3.3,
     "height_m": 0.3,
     "generation": 7,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/togedemaru.png"
   },
   {
     "classification": "Disguise Pokémon",
@@ -8515,7 +9294,8 @@
     "weight_kg": 0.7,
     "height_m": 0.2,
     "generation": 7,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/mimikyu.png"
   },
   {
     "classification": "Gnash Teeth Pokémon",
@@ -8526,7 +9306,8 @@
     "weight_kg": 19,
     "height_m": 0.9,
     "generation": 7,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/bruxish.png"
   },
   {
     "classification": "Placid Pokémon",
@@ -8537,7 +9318,8 @@
     "weight_kg": 185,
     "height_m": 3,
     "generation": 7,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/drampa.png"
   },
   {
     "classification": "Sea Creeper Pokémon",
@@ -8548,7 +9330,8 @@
     "weight_kg": 210,
     "height_m": 3.9,
     "generation": 7,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/dhelmise.png"
   },
   {
     "classification": "Scaly Pokémon",
@@ -8559,7 +9342,8 @@
     "weight_kg": 29.7,
     "height_m": 0.6,
     "generation": 7,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/jangmo-o.png"
   },
   {
     "classification": "Scaly Pokémon",
@@ -8570,7 +9354,8 @@
     "weight_kg": 47,
     "height_m": 1.2,
     "generation": 7,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/hakamo-o.png"
   },
   {
     "classification": "Scaly Pokémon",
@@ -8581,7 +9366,8 @@
     "weight_kg": 78.2,
     "height_m": 1.6,
     "generation": 7,
-    "is_legendary": false
+    "is_legendary": false,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/kommo-o.png"
   },
   {
     "classification": "Land Spirit Pokémon",
@@ -8592,7 +9378,8 @@
     "weight_kg": 20.5,
     "height_m": 1.8,
     "generation": 7,
-    "is_legendary": true
+    "is_legendary": true,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/tapu koko.png"
   },
   {
     "classification": "Land Spirit Pokémon",
@@ -8603,7 +9390,8 @@
     "weight_kg": 18.6,
     "height_m": 1.2,
     "generation": 7,
-    "is_legendary": true
+    "is_legendary": true,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/tapu lele.png"
   },
   {
     "classification": "Land Spirit Pokémon",
@@ -8614,7 +9402,8 @@
     "weight_kg": 45.5,
     "height_m": 1.9,
     "generation": 7,
-    "is_legendary": true
+    "is_legendary": true,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/tapu bulu.png"
   },
   {
     "classification": "Land Spirit Pokémon",
@@ -8625,7 +9414,8 @@
     "weight_kg": 21.2,
     "height_m": 1.3,
     "generation": 7,
-    "is_legendary": true
+    "is_legendary": true,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/tapu fini.png"
   },
   {
     "classification": "Nebula Pokémon",
@@ -8636,7 +9426,8 @@
     "weight_kg": 0.1,
     "height_m": 0.2,
     "generation": 7,
-    "is_legendary": true
+    "is_legendary": true,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/cosmog.png"
   },
   {
     "classification": "Protostar Pokémon",
@@ -8647,7 +9438,8 @@
     "weight_kg": 999.9,
     "height_m": 0.1,
     "generation": 7,
-    "is_legendary": true
+    "is_legendary": true,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/cosmoem.png"
   },
   {
     "classification": "Sunne Pokémon",
@@ -8658,7 +9450,8 @@
     "weight_kg": 230,
     "height_m": 3.4,
     "generation": 7,
-    "is_legendary": true
+    "is_legendary": true,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/solgaleo.png"
   },
   {
     "classification": "Moone Pokémon",
@@ -8669,7 +9462,8 @@
     "weight_kg": 120,
     "height_m": 4,
     "generation": 7,
-    "is_legendary": true
+    "is_legendary": true,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/lunala.png"
   },
   {
     "classification": "Parasite Pokémon",
@@ -8680,7 +9474,8 @@
     "weight_kg": 55.5,
     "height_m": 1.2,
     "generation": 7,
-    "is_legendary": true
+    "is_legendary": true,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/nihilego.png"
   },
   {
     "classification": "Swollen Pokémon",
@@ -8691,7 +9486,8 @@
     "weight_kg": 333.6,
     "height_m": 2.4,
     "generation": 7,
-    "is_legendary": true
+    "is_legendary": true,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/buzzwole.png"
   },
   {
     "classification": "Lissome Pokémon",
@@ -8702,7 +9498,8 @@
     "weight_kg": 25,
     "height_m": 1.8,
     "generation": 7,
-    "is_legendary": true
+    "is_legendary": true,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/pheromosa.png"
   },
   {
     "classification": "Glowing Pokémon",
@@ -8713,7 +9510,8 @@
     "weight_kg": 100,
     "height_m": 3.8,
     "generation": 7,
-    "is_legendary": true
+    "is_legendary": true,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/xurkitree.png"
   },
   {
     "classification": "Launch Pokémon",
@@ -8724,7 +9522,8 @@
     "weight_kg": 999.9,
     "height_m": 9.2,
     "generation": 7,
-    "is_legendary": true
+    "is_legendary": true,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/celesteela.png"
   },
   {
     "classification": "Drawn Sword Pokémon",
@@ -8735,7 +9534,8 @@
     "weight_kg": 0.1,
     "height_m": 0.3,
     "generation": 7,
-    "is_legendary": true
+    "is_legendary": true,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/kartana.png"
   },
   {
     "classification": "Junkivore Pokémon",
@@ -8746,7 +9546,8 @@
     "weight_kg": 888,
     "height_m": 5.5,
     "generation": 7,
-    "is_legendary": true
+    "is_legendary": true,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/guzzlord.png"
   },
   {
     "classification": "Prism Pokémon",
@@ -8757,7 +9558,8 @@
     "weight_kg": 230,
     "height_m": 2.4,
     "generation": 7,
-    "is_legendary": true
+    "is_legendary": true,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/necrozma.png"
   },
   {
     "classification": "Artificial Pokémon",
@@ -8768,6 +9570,7 @@
     "weight_kg": 80.5,
     "height_m": 1,
     "generation": 7,
-    "is_legendary": true
+    "is_legendary": true,
+    "spriteURL": "https://img.pokemondb.net/sprites/sword-shield/icon/magearna.png"
   }
 ]

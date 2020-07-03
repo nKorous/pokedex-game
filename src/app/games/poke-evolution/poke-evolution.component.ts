@@ -13,6 +13,7 @@ export class PokeEvolutionComponent implements OnInit {
   constructor(private dataService: DataService) { }
 
   ngOnInit(): void {
+    this.pokeList = JSON.stringify(this.dataService.getPokeList())
   }
 
 }
