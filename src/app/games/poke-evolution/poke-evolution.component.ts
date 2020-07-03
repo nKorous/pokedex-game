@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { DataService } from '../../services/data.service';
 
 @Component({
   selector: 'app-poke-evolution',
@@ -7,7 +8,9 @@ import { Component, OnInit } from '@angular/core';
 })
 export class PokeEvolutionComponent implements OnInit {
 
-  constructor() { }
+  pokeList: string;
+
+  constructor(private dataService: DataService) { }
 
   ngOnInit(): void {
   }
