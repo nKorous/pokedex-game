@@ -1,1 +1,27 @@
-<p>game-select works!</p>
+<div class="gameSelectMain">
+  <div class="textArea">
+    <p *ngIf="!showGameSelection">
+      {{ pokeMessage[currentMessageIndex].message }}
+    </p>
+
+    <p *ngIf="showNameInput">
+      <input
+        #playerNameInput
+        (keyup.enter)="setPlayerName(playerNameInput.value)"
+      /> <span style='margin-left: 3px'> (press 'Enter' key to continue)</span>
+    </p>
+
+    <button
+      *ngIf="!showGameSelection"
+      mat-raised-button
+      class="pokeColor"
+      (click)="advanceMessage()"
+      [disabled]="!allowAdvance"
+    >
+      Next...
+    </button>
+  </div>
+  <div class="oakPic"></div>
+
+  <div *ngIf="showGameSelection">{{ playerName }}, Please select a game:</div>
+</div>
