@@ -1,3 +1,20 @@
 .gameSelectMain {
-    
+    width: 100%;
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+}
+
+.textArea {
+    width: 50%;
+    border: 2px ridge black;
+    background-color: whitesmoke;
+    box-shadow: 0px 5px 15px;
+    padding: 5px;
+    border-radius: 15px 15px 0px 15px;
+    font-size: 28px;
+}
+
+#nextButton {
+    float: right;
 }

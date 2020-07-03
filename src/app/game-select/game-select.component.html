@@ -1,6 +1,6 @@
 <div class="gameSelectMain">
-  <div class="textArea">
-    <p *ngIf="!showGameSelection">
+  <div class="textArea" *ngIf="!showGameSelection">
+    <p>
       {{ pokeMessage[currentMessageIndex].message }}
     </p>
 
@@ -8,11 +8,13 @@
       <input
         #playerNameInput
         (keyup.enter)="setPlayerName(playerNameInput.value)"
-      /> <span style='margin-left: 3px'> (press 'Enter' key to continue)</span>
+      />
+      <span style="margin-left: 3px;"> (press 'Enter' key to continue)</span>
     </p>
 
     <button
       *ngIf="!showGameSelection"
+      id="nextButton"
       mat-raised-button
       class="pokeColor"
       (click)="advanceMessage()"
@@ -23,5 +25,13 @@
   </div>
   <div class="oakPic"></div>
 
-  <div *ngIf="showGameSelection">{{ playerName }}, Please select a game:</div>
+  <div *ngIf="showGameSelection">
+    <h3>{{ playerName }}, Please select a game:</h3>
+
+    <div class='selectionButtonContainer'>
+        <button class='pokeColor selectionButton' routerLink='/games/pokeType' routerLinkeActive='true'>PokeType</button>
+        <button class='pokeColor selectionButton' routerLink='/games/pokeGuess' routerLinkeActive='true'>PokeGuess</button>
+        <button class='pokeColor selectionButton' routerLink='/games/pokeEvolution' routerLinkeActive='true'>PokeEvolution</button>
+    </div>
+  </div>
 </div>

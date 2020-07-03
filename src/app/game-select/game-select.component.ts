@@ -53,7 +53,7 @@ export class GameSelectComponent {
       {
         id: '',
         message:
-          'Of course! You are ' +
+          'Of course! Your name is ' +
           this.playerName +
           '! How could I have forgotten?!',
       },

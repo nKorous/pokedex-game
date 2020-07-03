@@ -1,9 +1,22 @@
 /* You can add global styles to this file, and also import other style files */
 
-html, body { height: 100%; }
-body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+html,
+body {
+  height: 100%;
+}
+body {
+  margin: 0;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+}
 
 .pokeColor {
-    color: #FFCC01;
-    background-color: #2772BA;
+  color: #ffcc01;
+  background-color: #2772ba;
+}
+
+.pokeYellow {
+  color: #ffcc01;
+}
+.pokeBlue {
+  background-color: #2772ba;
 }
