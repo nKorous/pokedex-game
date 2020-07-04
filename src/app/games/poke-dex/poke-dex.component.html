@@ -1,5 +1,5 @@
 <div class='pokedexMain'>
-    <dx-data-grid [dataSource]='pokemonList' [rowAlternationEnabled]="true" [showBorders]="true">
+    <dx-data-grid [dataSource]='pokemonList' [rowAlternationEnabled]="true" [showBorders]="true" [height]='600'>
         
         <dxi-column [width]='75' dataField='pokedexNumber' dataType='number' caption='#'></dxi-column>
         <dxi-column [width]='75' cellTemplate='spriteTemplate' caption=''></dxi-column>
@@ -25,7 +25,8 @@
         </div>
 
 
-        
+        <dxo-load-panel [enabled]="true"></dxo-load-panel>
+        <dxo-scrolling mode="virtual"></dxo-scrolling>
         <dxo-search-panel [visible]="true" [width]="240" placeholder="Search..."></dxo-search-panel>
     </dx-data-grid>
 </div>
