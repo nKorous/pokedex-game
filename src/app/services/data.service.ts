@@ -7,14 +7,9 @@ import { of } from 'rxjs';
   providedIn: 'root'
 })
 export class DataService {
-  list = PokemonList
-  private pokeList: Array<Pokemon> = new Array()
+  private pokeList: Array<Pokemon> = PokemonList
 
   constructor() { 
-    this.list.map(pokemon => {
-      let name = pokemon.name.toLowerCase()
-      this.pokeList = [...this.pokeList, {...pokemon, spriteURL: `https://img.pokemondb.net/sprites/sword-shield/icon/${name}.png`}]
-    })
   }
 
   getPokeList() {

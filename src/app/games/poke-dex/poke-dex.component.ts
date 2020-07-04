@@ -21,4 +21,8 @@ export class PokeDexComponent implements OnInit {
     this.dataService.getPokeList().subscribe(data => this.pokemonList = data)
   }
 
+  getTypeColor(type: string) {
+    return `var(--${type}-color)`
+  }
+
 }

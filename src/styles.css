@@ -1,5 +1,28 @@
 /* You can add global styles to this file, and also import other style files */
 
+:root {
+  --poke-blue: #2772ba;
+  --poke-yellow: #ffcc01;
+  --bug-color: #A8B820;																							
+  --dark-color: #705848;																							
+  --dragon-color: #7038F8;																							
+  --electric-color: #F8D030;																																													
+  --fairy-color: #EE99AC;																							
+  --fighting-color: #C03028;																							
+  --fire-color: #F08030;																							
+  --flying-color: #A890F0;																							
+  --ghost-color: #705898;																							
+  --grass-color: #78C850;																							
+  --ground-color: #E0C068;																							
+  --ice-color: #98D8D8;																							
+  --normal-color: #A8A878;																							
+  --poison-color: #A040A0;																							
+  --psychic-color: #F85888;																							
+  --rock-color: #B8A038;																							
+  --steel-color: #B8B8D0;																							
+  --water-color: #6890F0;																							
+}
+
 html,
 body {
   height: 100%;
@@ -10,13 +33,10 @@ body {
 }
 
 .pokeColor {
-  color: #ffcc01;
-  background-color: #2772ba;
+  color: var(--poke-yellow);
+  background-color: var(--poke-blue);
 }
 
-.pokeYellow {
-  color: #ffcc01;
-}
-.pokeBlue {
-  background-color: #2772ba;
-}
+
+
+  
