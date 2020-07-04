@@ -11,7 +11,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 0.7,
     "generation": 1,
     "is_legendary": false,
-    "spriteURL": "bulbasaur.png"
+    "spriteURL": "bulbasaur"
   },
   {
     "classification": "Seed Pokémon",
@@ -23,7 +23,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 1,
     "generation": 1,
     "is_legendary": false,
-    "spriteURL": "ivysaur.png"
+    "spriteURL": "ivysaur"
   },
   {
     "classification": "Seed Pokémon",
@@ -35,7 +35,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 2,
     "generation": 1,
     "is_legendary": false,
-    "spriteURL": "venusaur.png"
+    "spriteURL": "venusaur"
   },
   {
     "classification": "Lizard Pokémon",
@@ -47,7 +47,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 0.6,
     "generation": 1,
     "is_legendary": false,
-    "spriteURL": "charmander.png"
+    "spriteURL": "charmander"
   },
   {
     "classification": "Flame Pokémon",
@@ -59,7 +59,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 1.1,
     "generation": 1,
     "is_legendary": false,
-    "spriteURL": "charmeleon.png"
+    "spriteURL": "charmeleon"
   },
   {
     "classification": "Flame Pokémon",
@@ -71,7 +71,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 1.7,
     "generation": 1,
     "is_legendary": false,
-    "spriteURL": "charizard.png"
+    "spriteURL": "charizard"
   },
   {
     "classification": "Tiny Turtle Pokémon",
@@ -83,7 +83,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 0.5,
     "generation": 1,
     "is_legendary": false,
-    "spriteURL": "squirtle.png"
+    "spriteURL": "squirtle"
   },
   {
     "classification": "Turtle Pokémon",
@@ -95,7 +95,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 1,
     "generation": 1,
     "is_legendary": false,
-    "spriteURL": "wartortle.png"
+    "spriteURL": "wartortle"
   },
   {
     "classification": "Shellfish Pokémon",
@@ -107,7 +107,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 1.6,
     "generation": 1,
     "is_legendary": false,
-    "spriteURL": "blastoise.png"
+    "spriteURL": "blastoise"
   },
   {
     "classification": "Worm Pokémon",
@@ -119,7 +119,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 0.3,
     "generation": 1,
     "is_legendary": false,
-    "spriteURL": "caterpie.png"
+    "spriteURL": "caterpie"
   },
   {
     "classification": "Cocoon Pokémon",
@@ -131,7 +131,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 0.7,
     "generation": 1,
     "is_legendary": false,
-    "spriteURL": "metapod.png"
+    "spriteURL": "metapod"
   },
   {
     "classification": "Butterfly Pokémon",
@@ -143,7 +143,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 1.1,
     "generation": 1,
     "is_legendary": false,
-    "spriteURL": "butterfree.png"
+    "spriteURL": "butterfree"
   },
   {
     "classification": "Hairy Pokémon",
@@ -155,7 +155,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 0.3,
     "generation": 1,
     "is_legendary": false,
-    "spriteURL": "weedle.png"
+    "spriteURL": "weedle"
   },
   {
     "classification": "Cocoon Pokémon",
@@ -167,7 +167,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 0.6,
     "generation": 1,
     "is_legendary": false,
-    "spriteURL": "kakuna.png"
+    "spriteURL": "kakuna"
   },
   {
     "classification": "Poison Bee Pokémon",
@@ -179,7 +179,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 1,
     "generation": 1,
     "is_legendary": false,
-    "spriteURL": "beedrill.png"
+    "spriteURL": "beedrill"
   },
   {
     "classification": "Tiny Bird Pokémon",
@@ -191,7 +191,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 0.3,
     "generation": 1,
     "is_legendary": false,
-    "spriteURL": "pidgey.png"
+    "spriteURL": "pidgey"
   },
   {
     "classification": "Bird Pokémon",
@@ -203,7 +203,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 1.1,
     "generation": 1,
     "is_legendary": false,
-    "spriteURL": "pidgeotto.png"
+    "spriteURL": "pidgeotto"
   },
   {
     "classification": "Bird Pokémon",
@@ -215,7 +215,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 1.5,
     "generation": 1,
     "is_legendary": false,
-    "spriteURL": "pidgeot.png"
+    "spriteURL": "pidgeot"
   },
   {
     "classification": "Mouse Pokémon",
@@ -225,7 +225,7 @@ export const PokemonList: Array<Pokemon> =  [
     "type2": "dark",
     "generation": 1,
     "is_legendary": false,
-    "spriteURL": "rattata.png"
+    "spriteURL": "rattata"
   },
   {
     "classification": "Mouse Pokémon",
@@ -235,7 +235,7 @@ export const PokemonList: Array<Pokemon> =  [
     "type2": "dark",
     "generation": 1,
     "is_legendary": false,
-    "spriteURL": "raticate.png"
+    "spriteURL": "raticate"
   },
   {
     "classification": "Tiny Bird Pokémon",
@@ -247,7 +247,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 0.3,
     "generation": 1,
     "is_legendary": false,
-    "spriteURL": "spearow.png"
+    "spriteURL": "spearow"
   },
   {
     "classification": "Beak Pokémon",
@@ -259,7 +259,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 1.2,
     "generation": 1,
     "is_legendary": false,
-    "spriteURL": "fearow.png"
+    "spriteURL": "fearow"
   },
   {
     "classification": "Snake Pokémon",
@@ -271,7 +271,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 2,
     "generation": 1,
     "is_legendary": false,
-    "spriteURL": "ekans.png"
+    "spriteURL": "ekans"
   },
   {
     "classification": "Cobra Pokémon",
@@ -283,7 +283,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 3.5,
     "generation": 1,
     "is_legendary": false,
-    "spriteURL": "arbok.png"
+    "spriteURL": "arbok"
   },
   {
     "classification": "Mouse Pokémon",
@@ -295,7 +295,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 0.4,
     "generation": 1,
     "is_legendary": false,
-    "spriteURL": "pikachu.png"
+    "spriteURL": "pikachu"
   },
   {
     "classification": "Mouse Pokémon",
@@ -305,7 +305,7 @@ export const PokemonList: Array<Pokemon> =  [
     "type2": "electric",
     "generation": 1,
     "is_legendary": false,
-    "spriteURL": "raichu.png"
+    "spriteURL": "raichu"
   },
   {
     "classification": "Mouse Pokémon",
@@ -315,7 +315,7 @@ export const PokemonList: Array<Pokemon> =  [
     "type2": "ice",
     "generation": 1,
     "is_legendary": false,
-    "spriteURL": "sandshrew.png"
+    "spriteURL": "sandshrew"
   },
   {
     "classification": "Mouse Pokémon",
@@ -325,7 +325,7 @@ export const PokemonList: Array<Pokemon> =  [
     "type2": "ice",
     "generation": 1,
     "is_legendary": false,
-    "spriteURL": "sandslash.png"
+    "spriteURL": "sandslash"
   },
   {
     "classification": "Poison Pin Pokémon",
@@ -337,7 +337,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 0.4,
     "generation": 1,
     "is_legendary": false,
-    "spriteURL": "nidoran-f.png"
+    "spriteURL": "nidoran-f"
   },
   {
     "classification": "Poison Pin Pokémon",
@@ -349,7 +349,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 0.8,
     "generation": 1,
     "is_legendary": false,
-    "spriteURL": "nidorina.png"
+    "spriteURL": "nidorina"
   },
   {
     "classification": "Drill Pokémon",
@@ -361,7 +361,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 1.3,
     "generation": 1,
     "is_legendary": false,
-    "spriteURL": "nidoqueen.png"
+    "spriteURL": "nidoqueen"
   },
   {
     "classification": "Poison Pin Pokémon",
@@ -373,7 +373,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 0.5,
     "generation": 1,
     "is_legendary": false,
-    "spriteURL": "nidoran-m.png"
+    "spriteURL": "nidoran-m"
   },
   {
     "classification": "Poison Pin Pokémon",
@@ -385,7 +385,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 0.9,
     "generation": 1,
     "is_legendary": false,
-    "spriteURL": "nidorino.png"
+    "spriteURL": "nidorino"
   },
   {
     "classification": "Drill Pokémon",
@@ -397,7 +397,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 1.4,
     "generation": 1,
     "is_legendary": false,
-    "spriteURL": "nidoking.png"
+    "spriteURL": "nidoking"
   },
   {
     "classification": "Fairy Pokémon",
@@ -409,7 +409,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 0.6,
     "generation": 1,
     "is_legendary": false,
-    "spriteURL": "clefairy.png"
+    "spriteURL": "clefairy"
   },
   {
     "classification": "Fairy Pokémon",
@@ -421,7 +421,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 1.3,
     "generation": 1,
     "is_legendary": false,
-    "spriteURL": "clefable.png"
+    "spriteURL": "clefable"
   },
   {
     "classification": "Fox Pokémon",
@@ -431,7 +431,7 @@ export const PokemonList: Array<Pokemon> =  [
     "type2": "ice",
     "generation": 1,
     "is_legendary": false,
-    "spriteURL": "vulpix.png"
+    "spriteURL": "vulpix"
   },
   {
     "classification": "Fox Pokémon",
@@ -441,7 +441,7 @@ export const PokemonList: Array<Pokemon> =  [
     "type2": "ice",
     "generation": 1,
     "is_legendary": false,
-    "spriteURL": "ninetales.png"
+    "spriteURL": "ninetales"
   },
   {
     "classification": "Balloon Pokémon",
@@ -453,7 +453,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 0.5,
     "generation": 1,
     "is_legendary": false,
-    "spriteURL": "jigglypuff.png"
+    "spriteURL": "jigglypuff"
   },
   {
     "classification": "Balloon Pokémon",
@@ -465,7 +465,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 1,
     "generation": 1,
     "is_legendary": false,
-    "spriteURL": "wigglytuff.png"
+    "spriteURL": "wigglytuff"
   },
   {
     "classification": "Bat Pokémon",
@@ -477,7 +477,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 0.8,
     "generation": 1,
     "is_legendary": false,
-    "spriteURL": "zubat.png"
+    "spriteURL": "zubat"
   },
   {
     "classification": "Bat Pokémon",
@@ -489,7 +489,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 1.6,
     "generation": 1,
     "is_legendary": false,
-    "spriteURL": "golbat.png"
+    "spriteURL": "golbat"
   },
   {
     "classification": "Weed Pokémon",
@@ -501,7 +501,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 0.5,
     "generation": 1,
     "is_legendary": false,
-    "spriteURL": "oddish.png"
+    "spriteURL": "oddish"
   },
   {
     "classification": "Weed Pokémon",
@@ -513,7 +513,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 0.8,
     "generation": 1,
     "is_legendary": false,
-    "spriteURL": "gloom.png"
+    "spriteURL": "gloom"
   },
   {
     "classification": "Flower Pokémon",
@@ -525,7 +525,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 1.2,
     "generation": 1,
     "is_legendary": false,
-    "spriteURL": "vileplume.png"
+    "spriteURL": "vileplume"
   },
   {
     "classification": "Mushroom Pokémon",
@@ -537,7 +537,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 0.3,
     "generation": 1,
     "is_legendary": false,
-    "spriteURL": "paras.png"
+    "spriteURL": "paras"
   },
   {
     "classification": "Mushroom Pokémon",
@@ -549,7 +549,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 1,
     "generation": 1,
     "is_legendary": false,
-    "spriteURL": "parasect.png"
+    "spriteURL": "parasect"
   },
   {
     "classification": "Insect Pokémon",
@@ -561,7 +561,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 1,
     "generation": 1,
     "is_legendary": false,
-    "spriteURL": "venonat.png"
+    "spriteURL": "venonat"
   },
   {
     "classification": "Poison Moth Pokémon",
@@ -573,7 +573,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 1.5,
     "generation": 1,
     "is_legendary": false,
-    "spriteURL": "venomoth.png"
+    "spriteURL": "venomoth"
   },
   {
     "classification": "Mole Pokémon",
@@ -583,7 +583,7 @@ export const PokemonList: Array<Pokemon> =  [
     "type2": "ground",
     "generation": 1,
     "is_legendary": false,
-    "spriteURL": "diglett.png"
+    "spriteURL": "diglett"
   },
   {
     "classification": "Mole Pokémon",
@@ -593,7 +593,7 @@ export const PokemonList: Array<Pokemon> =  [
     "type2": "ground",
     "generation": 1,
     "is_legendary": false,
-    "spriteURL": "dugtrio.png"
+    "spriteURL": "dugtrio"
   },
   {
     "classification": "Scratch Cat Pokémon",
@@ -603,7 +603,7 @@ export const PokemonList: Array<Pokemon> =  [
     "type2": "dark",
     "generation": 1,
     "is_legendary": false,
-    "spriteURL": "meowth.png"
+    "spriteURL": "meowth"
   },
   {
     "classification": "Classy Cat Pokémon",
@@ -613,7 +613,7 @@ export const PokemonList: Array<Pokemon> =  [
     "type2": "dark",
     "generation": 1,
     "is_legendary": false,
-    "spriteURL": "persian.png"
+    "spriteURL": "persian"
   },
   {
     "classification": "Duck Pokémon",
@@ -625,7 +625,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 0.8,
     "generation": 1,
     "is_legendary": false,
-    "spriteURL": "psyduck.png"
+    "spriteURL": "psyduck"
   },
   {
     "classification": "Duck Pokémon",
@@ -637,7 +637,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 1.7,
     "generation": 1,
     "is_legendary": false,
-    "spriteURL": "golduck.png"
+    "spriteURL": "golduck"
   },
   {
     "classification": "Pig Monkey Pokémon",
@@ -649,7 +649,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 0.5,
     "generation": 1,
     "is_legendary": false,
-    "spriteURL": "mankey.png"
+    "spriteURL": "mankey"
   },
   {
     "classification": "Pig Monkey Pokémon",
@@ -661,7 +661,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 1,
     "generation": 1,
     "is_legendary": false,
-    "spriteURL": "primeape.png"
+    "spriteURL": "primeape"
   },
   {
     "classification": "Puppy Pokémon",
@@ -673,7 +673,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 0.7,
     "generation": 1,
     "is_legendary": false,
-    "spriteURL": "growlithe.png"
+    "spriteURL": "growlithe"
   },
   {
     "classification": "Legendary Pokémon",
@@ -685,7 +685,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 1.9,
     "generation": 1,
     "is_legendary": false,
-    "spriteURL": "arcanine.png"
+    "spriteURL": "arcanine"
   },
   {
     "classification": "Tadpole Pokémon",
@@ -697,7 +697,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 0.6,
     "generation": 1,
     "is_legendary": false,
-    "spriteURL": "poliwag.png"
+    "spriteURL": "poliwag"
   },
   {
     "classification": "Tadpole Pokémon",
@@ -709,7 +709,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 1,
     "generation": 1,
     "is_legendary": false,
-    "spriteURL": "poliwhirl.png"
+    "spriteURL": "poliwhirl"
   },
   {
     "classification": "Tadpole Pokémon",
@@ -721,7 +721,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 1.3,
     "generation": 1,
     "is_legendary": false,
-    "spriteURL": "poliwrath.png"
+    "spriteURL": "poliwrath"
   },
   {
     "classification": "Psi Pokémon",
@@ -733,7 +733,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 0.9,
     "generation": 1,
     "is_legendary": false,
-    "spriteURL": "abra.png"
+    "spriteURL": "abra"
   },
   {
     "classification": "Psi Pokémon",
@@ -745,7 +745,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 1.3,
     "generation": 1,
     "is_legendary": false,
-    "spriteURL": "kadabra.png"
+    "spriteURL": "kadabra"
   },
   {
     "classification": "Psi Pokémon",
@@ -757,7 +757,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 1.5,
     "generation": 1,
     "is_legendary": false,
-    "spriteURL": "alakazam.png"
+    "spriteURL": "alakazam"
   },
   {
     "classification": "Superpower Pokémon",
@@ -769,7 +769,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 0.8,
     "generation": 1,
     "is_legendary": false,
-    "spriteURL": "machop.png"
+    "spriteURL": "machop"
   },
   {
     "classification": "Superpower Pokémon",
@@ -781,7 +781,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 1.5,
     "generation": 1,
     "is_legendary": false,
-    "spriteURL": "machoke.png"
+    "spriteURL": "machoke"
   },
   {
     "classification": "Superpower Pokémon",
@@ -793,7 +793,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 1.6,
     "generation": 1,
     "is_legendary": false,
-    "spriteURL": "machamp.png"
+    "spriteURL": "machamp"
   },
   {
     "classification": "Flower Pokémon",
@@ -805,7 +805,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 0.7,
     "generation": 1,
     "is_legendary": false,
-    "spriteURL": "bellsprout.png"
+    "spriteURL": "bellsprout"
   },
   {
     "classification": "Flycatcher Pokémon",
@@ -817,7 +817,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 1,
     "generation": 1,
     "is_legendary": false,
-    "spriteURL": "weepinbell.png"
+    "spriteURL": "weepinbell"
   },
   {
     "classification": "Flycatcher Pokémon",
@@ -829,7 +829,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 1.7,
     "generation": 1,
     "is_legendary": false,
-    "spriteURL": "victreebel.png"
+    "spriteURL": "victreebel"
   },
   {
     "classification": "Jellyfish Pokémon",
@@ -841,7 +841,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 0.9,
     "generation": 1,
     "is_legendary": false,
-    "spriteURL": "tentacool.png"
+    "spriteURL": "tentacool"
   },
   {
     "classification": "Jellyfish Pokémon",
@@ -853,7 +853,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 1.6,
     "generation": 1,
     "is_legendary": false,
-    "spriteURL": "tentacruel.png"
+    "spriteURL": "tentacruel"
   },
   {
     "classification": "Rock Pokémon",
@@ -863,7 +863,7 @@ export const PokemonList: Array<Pokemon> =  [
     "type2": "ground",
     "generation": 1,
     "is_legendary": false,
-    "spriteURL": "geodude.png"
+    "spriteURL": "geodude"
   },
   {
     "classification": "Rock Pokémon",
@@ -873,7 +873,7 @@ export const PokemonList: Array<Pokemon> =  [
     "type2": "ground",
     "generation": 1,
     "is_legendary": false,
-    "spriteURL": "graveler.png"
+    "spriteURL": "graveler"
   },
   {
     "classification": "Megaton Pokémon",
@@ -883,7 +883,7 @@ export const PokemonList: Array<Pokemon> =  [
     "type2": "ground",
     "generation": 1,
     "is_legendary": false,
-    "spriteURL": "golem.png"
+    "spriteURL": "golem"
   },
   {
     "classification": "Fire Horse Pokémon",
@@ -895,7 +895,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 1,
     "generation": 1,
     "is_legendary": false,
-    "spriteURL": "ponyta.png"
+    "spriteURL": "ponyta"
   },
   {
     "classification": "Fire Horse Pokémon",
@@ -907,7 +907,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 1.7,
     "generation": 1,
     "is_legendary": false,
-    "spriteURL": "rapidash.png"
+    "spriteURL": "rapidash"
   },
   {
     "classification": "Dopey Pokémon",
@@ -919,7 +919,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 1.2,
     "generation": 1,
     "is_legendary": false,
-    "spriteURL": "slowpoke.png"
+    "spriteURL": "slowpoke"
   },
   {
     "classification": "Hermit Crab Pokémon",
@@ -931,7 +931,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 1.6,
     "generation": 1,
     "is_legendary": false,
-    "spriteURL": "slowbro.png"
+    "spriteURL": "slowbro"
   },
   {
     "classification": "Magnet Pokémon",
@@ -943,7 +943,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 0.3,
     "generation": 1,
     "is_legendary": false,
-    "spriteURL": "magnemite.png"
+    "spriteURL": "magnemite"
   },
   {
     "classification": "Magnet Pokémon",
@@ -955,7 +955,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 1,
     "generation": 1,
     "is_legendary": false,
-    "spriteURL": "magneton.png"
+    "spriteURL": "magneton"
   },
   {
     "classification": "Wild Duck Pokémon",
@@ -967,7 +967,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 0.8,
     "generation": 1,
     "is_legendary": false,
-    "spriteURL": "farfetchd.png"
+    "spriteURL": "farfetchd"
   },
   {
     "classification": "Twin Bird Pokémon",
@@ -979,7 +979,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 1.4,
     "generation": 1,
     "is_legendary": false,
-    "spriteURL": "doduo.png"
+    "spriteURL": "doduo"
   },
   {
     "classification": "Triple Bird Pokémon",
@@ -991,7 +991,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 1.8,
     "generation": 1,
     "is_legendary": false,
-    "spriteURL": "dodrio.png"
+    "spriteURL": "dodrio"
   },
   {
     "classification": "Sea Lion Pokémon",
@@ -1003,7 +1003,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 1.1,
     "generation": 1,
     "is_legendary": false,
-    "spriteURL": "seel.png"
+    "spriteURL": "seel"
   },
   {
     "classification": "Sea Lion Pokémon",
@@ -1015,7 +1015,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 1.7,
     "generation": 1,
     "is_legendary": false,
-    "spriteURL": "dewgong.png"
+    "spriteURL": "dewgong"
   },
   {
     "classification": "Sludge Pokémon",
@@ -1025,7 +1025,7 @@ export const PokemonList: Array<Pokemon> =  [
     "type2": "poison",
     "generation": 1,
     "is_legendary": false,
-    "spriteURL": "grimer.png"
+    "spriteURL": "grimer"
   },
   {
     "classification": "Sludge Pokémon",
@@ -1035,7 +1035,7 @@ export const PokemonList: Array<Pokemon> =  [
     "type2": "poison",
     "generation": 1,
     "is_legendary": false,
-    "spriteURL": "muk.png"
+    "spriteURL": "muk"
   },
   {
     "classification": "Bivalve Pokémon",
@@ -1047,7 +1047,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 0.3,
     "generation": 1,
     "is_legendary": false,
-    "spriteURL": "shellder.png"
+    "spriteURL": "shellder"
   },
   {
     "classification": "Bivalve Pokémon",
@@ -1059,7 +1059,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 1.5,
     "generation": 1,
     "is_legendary": false,
-    "spriteURL": "cloyster.png"
+    "spriteURL": "cloyster"
   },
   {
     "classification": "Gas Pokémon",
@@ -1071,7 +1071,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 1.3,
     "generation": 1,
     "is_legendary": false,
-    "spriteURL": "gastly.png"
+    "spriteURL": "gastly"
   },
   {
     "classification": "Gas Pokémon",
@@ -1083,7 +1083,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 1.6,
     "generation": 1,
     "is_legendary": false,
-    "spriteURL": "haunter.png"
+    "spriteURL": "haunter"
   },
   {
     "classification": "Shadow Pokémon",
@@ -1095,7 +1095,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 1.5,
     "generation": 1,
     "is_legendary": false,
-    "spriteURL": "gengar.png"
+    "spriteURL": "gengar"
   },
   {
     "classification": "Rock Snake Pokémon",
@@ -1107,7 +1107,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 8.8,
     "generation": 1,
     "is_legendary": false,
-    "spriteURL": "onix.png"
+    "spriteURL": "onix"
   },
   {
     "classification": "Hypnosis Pokémon",
@@ -1119,7 +1119,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 1,
     "generation": 1,
     "is_legendary": false,
-    "spriteURL": "drowzee.png"
+    "spriteURL": "drowzee"
   },
   {
     "classification": "Hypnosis Pokémon",
@@ -1131,7 +1131,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 1.6,
     "generation": 1,
     "is_legendary": false,
-    "spriteURL": "hypno.png"
+    "spriteURL": "hypno"
   },
   {
     "classification": "River Crab Pokémon",
@@ -1143,7 +1143,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 0.4,
     "generation": 1,
     "is_legendary": false,
-    "spriteURL": "krabby.png"
+    "spriteURL": "krabby"
   },
   {
     "classification": "Pincer Pokémon",
@@ -1155,7 +1155,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 1.3,
     "generation": 1,
     "is_legendary": false,
-    "spriteURL": "kingler.png"
+    "spriteURL": "kingler"
   },
   {
     "classification": "Ball Pokémon",
@@ -1167,7 +1167,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 0.5,
     "generation": 1,
     "is_legendary": false,
-    "spriteURL": "voltorb.png"
+    "spriteURL": "voltorb"
   },
   {
     "classification": "Ball Pokémon",
@@ -1179,7 +1179,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 1.2,
     "generation": 1,
     "is_legendary": false,
-    "spriteURL": "electrode.png"
+    "spriteURL": "electrode"
   },
   {
     "classification": "Egg Pokémon",
@@ -1191,7 +1191,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 0.4,
     "generation": 1,
     "is_legendary": false,
-    "spriteURL": "exeggcute.png"
+    "spriteURL": "exeggcute"
   },
   {
     "classification": "Coconut Pokémon",
@@ -1201,7 +1201,7 @@ export const PokemonList: Array<Pokemon> =  [
     "type2": "psychic",
     "generation": 1,
     "is_legendary": false,
-    "spriteURL": "exeggutor.png"
+    "spriteURL": "exeggutor"
   },
   {
     "classification": "Lonely Pokémon",
@@ -1213,7 +1213,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 0.4,
     "generation": 1,
     "is_legendary": false,
-    "spriteURL": "cubone.png"
+    "spriteURL": "cubone"
   },
   {
     "classification": "Bone Keeper Pokémon",
@@ -1223,7 +1223,7 @@ export const PokemonList: Array<Pokemon> =  [
     "type2": "fire",
     "generation": 1,
     "is_legendary": false,
-    "spriteURL": "marowak.png"
+    "spriteURL": "marowak"
   },
   {
     "classification": "Kicking Pokémon",
@@ -1235,7 +1235,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 1.5,
     "generation": 1,
     "is_legendary": false,
-    "spriteURL": "hitmonlee.png"
+    "spriteURL": "hitmonlee"
   },
   {
     "classification": "Punching Pokémon",
@@ -1247,7 +1247,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 1.4,
     "generation": 1,
     "is_legendary": false,
-    "spriteURL": "hitmonchan.png"
+    "spriteURL": "hitmonchan"
   },
   {
     "classification": "Licking Pokémon",
@@ -1259,7 +1259,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 1.2,
     "generation": 1,
     "is_legendary": false,
-    "spriteURL": "lickitung.png"
+    "spriteURL": "lickitung"
   },
   {
     "classification": "Poison Gas Pokémon",
@@ -1271,7 +1271,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 0.6,
     "generation": 1,
     "is_legendary": false,
-    "spriteURL": "koffing.png"
+    "spriteURL": "koffing"
   },
   {
     "classification": "Poison Gas Pokémon",
@@ -1283,7 +1283,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 1.2,
     "generation": 1,
     "is_legendary": false,
-    "spriteURL": "weezing.png"
+    "spriteURL": "weezing"
   },
   {
     "classification": "Spikes Pokémon",
@@ -1295,7 +1295,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 1,
     "generation": 1,
     "is_legendary": false,
-    "spriteURL": "rhyhorn.png"
+    "spriteURL": "rhyhorn"
   },
   {
     "classification": "Drill Pokémon",
@@ -1307,7 +1307,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 1.9,
     "generation": 1,
     "is_legendary": false,
-    "spriteURL": "rhydon.png"
+    "spriteURL": "rhydon"
   },
   {
     "classification": "Egg Pokémon",
@@ -1319,7 +1319,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 1.1,
     "generation": 1,
     "is_legendary": false,
-    "spriteURL": "chansey.png"
+    "spriteURL": "chansey"
   },
   {
     "classification": "Vine Pokémon",
@@ -1331,7 +1331,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 1,
     "generation": 1,
     "is_legendary": false,
-    "spriteURL": "tangela.png"
+    "spriteURL": "tangela"
   },
   {
     "classification": "Parent Pokémon",
@@ -1343,7 +1343,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 2.2,
     "generation": 1,
     "is_legendary": false,
-    "spriteURL": "kangaskhan.png"
+    "spriteURL": "kangaskhan"
   },
   {
     "classification": "Dragon Pokémon",
@@ -1355,7 +1355,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 0.4,
     "generation": 1,
     "is_legendary": false,
-    "spriteURL": "horsea.png"
+    "spriteURL": "horsea"
   },
   {
     "classification": "Dragon Pokémon",
@@ -1367,7 +1367,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 1.2,
     "generation": 1,
     "is_legendary": false,
-    "spriteURL": "seadra.png"
+    "spriteURL": "seadra"
   },
   {
     "classification": "Goldfish Pokémon",
@@ -1379,7 +1379,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 0.6,
     "generation": 1,
     "is_legendary": false,
-    "spriteURL": "goldeen.png"
+    "spriteURL": "goldeen"
   },
   {
     "classification": "Goldfish Pokémon",
@@ -1391,7 +1391,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 1.3,
     "generation": 1,
     "is_legendary": false,
-    "spriteURL": "seaking.png"
+    "spriteURL": "seaking"
   },
   {
     "classification": "Starshape Pokémon",
@@ -1403,7 +1403,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 0.8,
     "generation": 1,
     "is_legendary": false,
-    "spriteURL": "staryu.png"
+    "spriteURL": "staryu"
   },
   {
     "classification": "Mysterious Pokémon",
@@ -1415,7 +1415,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 1.1,
     "generation": 1,
     "is_legendary": false,
-    "spriteURL": "starmie.png"
+    "spriteURL": "starmie"
   },
   {
     "classification": "Barrier Pokémon",
@@ -1427,7 +1427,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 1.3,
     "generation": 1,
     "is_legendary": false,
-    "spriteURL": "mr-mime.png"
+    "spriteURL": "mr-mime"
   },
   {
     "classification": "Mantis Pokémon",
@@ -1439,7 +1439,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 1.5,
     "generation": 1,
     "is_legendary": false,
-    "spriteURL": "scyther.png"
+    "spriteURL": "scyther"
   },
   {
     "classification": "Humanshape Pokémon",
@@ -1451,7 +1451,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 1.4,
     "generation": 1,
     "is_legendary": false,
-    "spriteURL": "jynx.png"
+    "spriteURL": "jynx"
   },
   {
     "classification": "Electric Pokémon",
@@ -1463,7 +1463,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 1.1,
     "generation": 1,
     "is_legendary": false,
-    "spriteURL": "electabuzz.png"
+    "spriteURL": "electabuzz"
   },
   {
     "classification": "Spitfire Pokémon",
@@ -1475,7 +1475,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 1.3,
     "generation": 1,
     "is_legendary": false,
-    "spriteURL": "magmar.png"
+    "spriteURL": "magmar"
   },
   {
     "classification": "Stagbeetle Pokémon",
@@ -1487,7 +1487,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 1.5,
     "generation": 1,
     "is_legendary": false,
-    "spriteURL": "pinsir.png"
+    "spriteURL": "pinsir"
   },
   {
     "classification": "Wild Bull Pokémon",
@@ -1499,7 +1499,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 1.4,
     "generation": 1,
     "is_legendary": false,
-    "spriteURL": "tauros.png"
+    "spriteURL": "tauros"
   },
   {
     "classification": "Fish Pokémon",
@@ -1511,7 +1511,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 0.9,
     "generation": 1,
     "is_legendary": false,
-    "spriteURL": "magikarp.png"
+    "spriteURL": "magikarp"
   },
   {
     "classification": "Atrocious Pokémon",
@@ -1523,7 +1523,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 6.5,
     "generation": 1,
     "is_legendary": false,
-    "spriteURL": "gyarados.png"
+    "spriteURL": "gyarados"
   },
   {
     "classification": "Transport Pokémon",
@@ -1535,7 +1535,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 2.5,
     "generation": 1,
     "is_legendary": false,
-    "spriteURL": "lapras.png"
+    "spriteURL": "lapras"
   },
   {
     "classification": "Transform Pokémon",
@@ -1547,7 +1547,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 0.3,
     "generation": 1,
     "is_legendary": false,
-    "spriteURL": "ditto.png"
+    "spriteURL": "ditto"
   },
   {
     "classification": "Evolution Pokémon",
@@ -1559,7 +1559,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 0.3,
     "generation": 1,
     "is_legendary": false,
-    "spriteURL": "eevee.png"
+    "spriteURL": "eevee"
   },
   {
     "classification": "Bubble Jet Pokémon",
@@ -1571,7 +1571,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 1,
     "generation": 1,
     "is_legendary": false,
-    "spriteURL": "vaporeon.png"
+    "spriteURL": "vaporeon"
   },
   {
     "classification": "Lightning Pokémon",
@@ -1583,7 +1583,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 0.8,
     "generation": 1,
     "is_legendary": false,
-    "spriteURL": "jolteon.png"
+    "spriteURL": "jolteon"
   },
   {
     "classification": "Flame Pokémon",
@@ -1595,7 +1595,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 0.9,
     "generation": 1,
     "is_legendary": false,
-    "spriteURL": "flareon.png"
+    "spriteURL": "flareon"
   },
   {
     "classification": "Virtual Pokémon",
@@ -1607,7 +1607,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 0.8,
     "generation": 1,
     "is_legendary": false,
-    "spriteURL": "porygon.png"
+    "spriteURL": "porygon"
   },
   {
     "classification": "Spiral Pokémon",
@@ -1619,7 +1619,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 0.4,
     "generation": 1,
     "is_legendary": false,
-    "spriteURL": "omanyte.png"
+    "spriteURL": "omanyte"
   },
   {
     "classification": "Spiral Pokémon",
@@ -1631,7 +1631,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 1,
     "generation": 1,
     "is_legendary": false,
-    "spriteURL": "omastar.png"
+    "spriteURL": "omastar"
   },
   {
     "classification": "Shellfish Pokémon",
@@ -1643,7 +1643,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 0.5,
     "generation": 1,
     "is_legendary": false,
-    "spriteURL": "kabuto.png"
+    "spriteURL": "kabuto"
   },
   {
     "classification": "Shellfish Pokémon",
@@ -1655,7 +1655,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 1.3,
     "generation": 1,
     "is_legendary": false,
-    "spriteURL": "kabutops.png"
+    "spriteURL": "kabutops"
   },
   {
     "classification": "Fossil Pokémon",
@@ -1667,7 +1667,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 1.8,
     "generation": 1,
     "is_legendary": false,
-    "spriteURL": "aerodactyl.png"
+    "spriteURL": "aerodactyl"
   },
   {
     "classification": "Sleeping Pokémon",
@@ -1679,7 +1679,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 2.1,
     "generation": 1,
     "is_legendary": false,
-    "spriteURL": "snorlax.png"
+    "spriteURL": "snorlax"
   },
   {
     "classification": "Freeze Pokémon",
@@ -1691,7 +1691,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 1.7,
     "generation": 1,
     "is_legendary": true,
-    "spriteURL": "articuno.png"
+    "spriteURL": "articuno"
   },
   {
     "classification": "Electric Pokémon",
@@ -1703,7 +1703,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 1.6,
     "generation": 1,
     "is_legendary": true,
-    "spriteURL": "zapdos.png"
+    "spriteURL": "zapdos"
   },
   {
     "classification": "Flame Pokémon",
@@ -1715,7 +1715,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 2,
     "generation": 1,
     "is_legendary": true,
-    "spriteURL": "moltres.png"
+    "spriteURL": "moltres"
   },
   {
     "classification": "Dragon Pokémon",
@@ -1727,7 +1727,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 1.8,
     "generation": 1,
     "is_legendary": false,
-    "spriteURL": "dratini.png"
+    "spriteURL": "dratini"
   },
   {
     "classification": "Dragon Pokémon",
@@ -1739,7 +1739,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 4,
     "generation": 1,
     "is_legendary": false,
-    "spriteURL": "dragonair.png"
+    "spriteURL": "dragonair"
   },
   {
     "classification": "Dragon Pokémon",
@@ -1751,7 +1751,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 2.2,
     "generation": 1,
     "is_legendary": false,
-    "spriteURL": "dragonite.png"
+    "spriteURL": "dragonite"
   },
   {
     "classification": "Genetic Pokémon",
@@ -1763,7 +1763,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 2,
     "generation": 1,
     "is_legendary": true,
-    "spriteURL": "mewtwo.png"
+    "spriteURL": "mewtwo"
   },
   {
     "classification": "New Species Pokémon",
@@ -1775,7 +1775,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 0.4,
     "generation": 1,
     "is_legendary": true,
-    "spriteURL": "mew.png"
+    "spriteURL": "mew"
   },
   {
     "classification": "Leaf Pokémon",
@@ -1787,7 +1787,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 0.9,
     "generation": 2,
     "is_legendary": false,
-    "spriteURL": "chikorita.png"
+    "spriteURL": "chikorita"
   },
   {
     "classification": "Leaf Pokémon",
@@ -1799,7 +1799,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 1.2,
     "generation": 2,
     "is_legendary": false,
-    "spriteURL": "bayleef.png"
+    "spriteURL": "bayleef"
   },
   {
     "classification": "Herb Pokémon",
@@ -1811,7 +1811,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 1.8,
     "generation": 2,
     "is_legendary": false,
-    "spriteURL": "meganium.png"
+    "spriteURL": "meganium"
   },
   {
     "classification": "Fire Mouse Pokémon",
@@ -1823,7 +1823,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 0.5,
     "generation": 2,
     "is_legendary": false,
-    "spriteURL": "cyndaquil.png"
+    "spriteURL": "cyndaquil"
   },
   {
     "classification": "Volcano Pokémon",
@@ -1835,7 +1835,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 0.9,
     "generation": 2,
     "is_legendary": false,
-    "spriteURL": "quilava.png"
+    "spriteURL": "quilava"
   },
   {
     "classification": "Volcano Pokémon",
@@ -1847,7 +1847,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 1.7,
     "generation": 2,
     "is_legendary": false,
-    "spriteURL": "typhlosion.png"
+    "spriteURL": "typhlosion"
   },
   {
     "classification": "Big Jaw Pokémon",
@@ -1859,7 +1859,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 0.6,
     "generation": 2,
     "is_legendary": false,
-    "spriteURL": "totodile.png"
+    "spriteURL": "totodile"
   },
   {
     "classification": "Big Jaw Pokémon",
@@ -1871,7 +1871,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 1.1,
     "generation": 2,
     "is_legendary": false,
-    "spriteURL": "croconaw.png"
+    "spriteURL": "croconaw"
   },
   {
     "classification": "Big Jaw Pokémon",
@@ -1883,7 +1883,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 2.3,
     "generation": 2,
     "is_legendary": false,
-    "spriteURL": "feraligatr.png"
+    "spriteURL": "feraligatr"
   },
   {
     "classification": "Scout Pokémon",
@@ -1895,7 +1895,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 0.8,
     "generation": 2,
     "is_legendary": false,
-    "spriteURL": "sentret.png"
+    "spriteURL": "sentret"
   },
   {
     "classification": "Long Body Pokémon",
@@ -1907,7 +1907,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 1.8,
     "generation": 2,
     "is_legendary": false,
-    "spriteURL": "furret.png"
+    "spriteURL": "furret"
   },
   {
     "classification": "Owl Pokémon",
@@ -1919,7 +1919,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 0.7,
     "generation": 2,
     "is_legendary": false,
-    "spriteURL": "hoothoot.png"
+    "spriteURL": "hoothoot"
   },
   {
     "classification": "Owl Pokémon",
@@ -1931,7 +1931,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 1.6,
     "generation": 2,
     "is_legendary": false,
-    "spriteURL": "noctowl.png"
+    "spriteURL": "noctowl"
   },
   {
     "classification": "Five Star Pokémon",
@@ -1943,7 +1943,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 1,
     "generation": 2,
     "is_legendary": false,
-    "spriteURL": "ledyba.png"
+    "spriteURL": "ledyba"
   },
   {
     "classification": "Five Star Pokémon",
@@ -1955,7 +1955,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 1.4,
     "generation": 2,
     "is_legendary": false,
-    "spriteURL": "ledian.png"
+    "spriteURL": "ledian"
   },
   {
     "classification": "String Spit Pokémon",
@@ -1967,7 +1967,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 0.5,
     "generation": 2,
     "is_legendary": false,
-    "spriteURL": "spinarak.png"
+    "spriteURL": "spinarak"
   },
   {
     "classification": "Long Leg Pokémon",
@@ -1979,7 +1979,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 1.1,
     "generation": 2,
     "is_legendary": false,
-    "spriteURL": "ariados.png"
+    "spriteURL": "ariados"
   },
   {
     "classification": "Bat Pokémon",
@@ -1991,7 +1991,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 1.8,
     "generation": 2,
     "is_legendary": false,
-    "spriteURL": "crobat.png"
+    "spriteURL": "crobat"
   },
   {
     "classification": "Angler Pokémon",
@@ -2003,7 +2003,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 0.5,
     "generation": 2,
     "is_legendary": false,
-    "spriteURL": "chinchou.png"
+    "spriteURL": "chinchou"
   },
   {
     "classification": "Light Pokémon",
@@ -2015,7 +2015,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 1.2,
     "generation": 2,
     "is_legendary": false,
-    "spriteURL": "lanturn.png"
+    "spriteURL": "lanturn"
   },
   {
     "classification": "Tiny Mouse Pokémon",
@@ -2027,7 +2027,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 0.3,
     "generation": 2,
     "is_legendary": false,
-    "spriteURL": "pichu.png"
+    "spriteURL": "pichu"
   },
   {
     "classification": "Star Shape Pokémon",
@@ -2039,7 +2039,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 0.3,
     "generation": 2,
     "is_legendary": false,
-    "spriteURL": "cleffa.png"
+    "spriteURL": "cleffa"
   },
   {
     "classification": "Balloon Pokémon",
@@ -2051,7 +2051,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 0.3,
     "generation": 2,
     "is_legendary": false,
-    "spriteURL": "igglybuff.png"
+    "spriteURL": "igglybuff"
   },
   {
     "classification": "Spike Ball Pokémon",
@@ -2063,7 +2063,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 0.3,
     "generation": 2,
     "is_legendary": false,
-    "spriteURL": "togepi.png"
+    "spriteURL": "togepi"
   },
   {
     "classification": "Happiness Pokémon",
@@ -2075,7 +2075,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 0.6,
     "generation": 2,
     "is_legendary": false,
-    "spriteURL": "togetic.png"
+    "spriteURL": "togetic"
   },
   {
     "classification": "Little Bird Pokémon",
@@ -2087,7 +2087,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 0.2,
     "generation": 2,
     "is_legendary": false,
-    "spriteURL": "natu.png"
+    "spriteURL": "natu"
   },
   {
     "classification": "Mystic Pokémon",
@@ -2099,7 +2099,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 1.5,
     "generation": 2,
     "is_legendary": false,
-    "spriteURL": "xatu.png"
+    "spriteURL": "xatu"
   },
   {
     "classification": "Wool Pokémon",
@@ -2111,7 +2111,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 0.6,
     "generation": 2,
     "is_legendary": false,
-    "spriteURL": "mareep.png"
+    "spriteURL": "mareep"
   },
   {
     "classification": "Wool Pokémon",
@@ -2123,7 +2123,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 0.8,
     "generation": 2,
     "is_legendary": false,
-    "spriteURL": "flaaffy.png"
+    "spriteURL": "flaaffy"
   },
   {
     "classification": "Light Pokémon",
@@ -2135,7 +2135,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 1.4,
     "generation": 2,
     "is_legendary": false,
-    "spriteURL": "ampharos.png"
+    "spriteURL": "ampharos"
   },
   {
     "classification": "Flower Pokémon",
@@ -2147,7 +2147,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 0.4,
     "generation": 2,
     "is_legendary": false,
-    "spriteURL": "bellossom.png"
+    "spriteURL": "bellossom"
   },
   {
     "classification": "Aquamouse Pokémon",
@@ -2159,7 +2159,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 0.4,
     "generation": 2,
     "is_legendary": false,
-    "spriteURL": "marill.png"
+    "spriteURL": "marill"
   },
   {
     "classification": "Aquarabbit Pokémon",
@@ -2171,7 +2171,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 0.8,
     "generation": 2,
     "is_legendary": false,
-    "spriteURL": "azumarill.png"
+    "spriteURL": "azumarill"
   },
   {
     "classification": "Imitation Pokémon",
@@ -2183,7 +2183,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 1.2,
     "generation": 2,
     "is_legendary": false,
-    "spriteURL": "sudowoodo.png"
+    "spriteURL": "sudowoodo"
   },
   {
     "classification": "Frog Pokémon",
@@ -2195,7 +2195,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 1.1,
     "generation": 2,
     "is_legendary": false,
-    "spriteURL": "politoed.png"
+    "spriteURL": "politoed"
   },
   {
     "classification": "Cottonweed Pokémon",
@@ -2207,7 +2207,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 0.4,
     "generation": 2,
     "is_legendary": false,
-    "spriteURL": "hoppip.png"
+    "spriteURL": "hoppip"
   },
   {
     "classification": "Cottonweed Pokémon",
@@ -2219,7 +2219,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 0.6,
     "generation": 2,
     "is_legendary": false,
-    "spriteURL": "skiploom.png"
+    "spriteURL": "skiploom"
   },
   {
     "classification": "Cottonweed Pokémon",
@@ -2231,7 +2231,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 0.8,
     "generation": 2,
     "is_legendary": false,
-    "spriteURL": "jumpluff.png"
+    "spriteURL": "jumpluff"
   },
   {
     "classification": "Long Tail Pokémon",
@@ -2243,7 +2243,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 0.8,
     "generation": 2,
     "is_legendary": false,
-    "spriteURL": "aipom.png"
+    "spriteURL": "aipom"
   },
   {
     "classification": "Seed Pokémon",
@@ -2255,7 +2255,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 0.3,
     "generation": 2,
     "is_legendary": false,
-    "spriteURL": "sunkern.png"
+    "spriteURL": "sunkern"
   },
   {
     "classification": "Sun Pokémon",
@@ -2267,7 +2267,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 0.8,
     "generation": 2,
     "is_legendary": false,
-    "spriteURL": "sunflora.png"
+    "spriteURL": "sunflora"
   },
   {
     "classification": "Clear Wing Pokémon",
@@ -2279,7 +2279,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 1.2,
     "generation": 2,
     "is_legendary": false,
-    "spriteURL": "yanma.png"
+    "spriteURL": "yanma"
   },
   {
     "classification": "Water Fish Pokémon",
@@ -2291,7 +2291,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 0.4,
     "generation": 2,
     "is_legendary": false,
-    "spriteURL": "wooper.png"
+    "spriteURL": "wooper"
   },
   {
     "classification": "Water Fish Pokémon",
@@ -2303,7 +2303,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 1.4,
     "generation": 2,
     "is_legendary": false,
-    "spriteURL": "quagsire.png"
+    "spriteURL": "quagsire"
   },
   {
     "classification": "Sun Pokémon",
@@ -2315,7 +2315,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 0.9,
     "generation": 2,
     "is_legendary": false,
-    "spriteURL": "espeon.png"
+    "spriteURL": "espeon"
   },
   {
     "classification": "Moonlight Pokémon",
@@ -2327,7 +2327,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 1,
     "generation": 2,
     "is_legendary": false,
-    "spriteURL": "umbreon.png"
+    "spriteURL": "umbreon"
   },
   {
     "classification": "Darkness Pokémon",
@@ -2339,7 +2339,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 0.5,
     "generation": 2,
     "is_legendary": false,
-    "spriteURL": "murkrow.png"
+    "spriteURL": "murkrow"
   },
   {
     "classification": "Royal Pokémon",
@@ -2351,7 +2351,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 2,
     "generation": 2,
     "is_legendary": false,
-    "spriteURL": "slowking.png"
+    "spriteURL": "slowking"
   },
   {
     "classification": "Screech Pokémon",
@@ -2363,7 +2363,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 0.7,
     "generation": 2,
     "is_legendary": false,
-    "spriteURL": "misdreavus.png"
+    "spriteURL": "misdreavus"
   },
   {
     "classification": "Symbol Pokémon",
@@ -2375,7 +2375,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 0.5,
     "generation": 2,
     "is_legendary": false,
-    "spriteURL": "unown.png"
+    "spriteURL": "unown"
   },
   {
     "classification": "Patient Pokémon",
@@ -2387,7 +2387,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 1.3,
     "generation": 2,
     "is_legendary": false,
-    "spriteURL": "wobbuffet.png"
+    "spriteURL": "wobbuffet"
   },
   {
     "classification": "Long Neck Pokémon",
@@ -2399,7 +2399,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 1.5,
     "generation": 2,
     "is_legendary": false,
-    "spriteURL": "girafarig.png"
+    "spriteURL": "girafarig"
   },
   {
     "classification": "Bagworm Pokémon",
@@ -2411,7 +2411,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 0.6,
     "generation": 2,
     "is_legendary": false,
-    "spriteURL": "pineco.png"
+    "spriteURL": "pineco"
   },
   {
     "classification": "Bagworm Pokémon",
@@ -2423,7 +2423,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 1.2,
     "generation": 2,
     "is_legendary": false,
-    "spriteURL": "forretress.png"
+    "spriteURL": "forretress"
   },
   {
     "classification": "Land Snake Pokémon",
@@ -2435,7 +2435,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 1.5,
     "generation": 2,
     "is_legendary": false,
-    "spriteURL": "dunsparce.png"
+    "spriteURL": "dunsparce"
   },
   {
     "classification": "Flyscorpion Pokémon",
@@ -2447,7 +2447,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 1.1,
     "generation": 2,
     "is_legendary": false,
-    "spriteURL": "gligar.png"
+    "spriteURL": "gligar"
   },
   {
     "classification": "Iron Snake Pokémon",
@@ -2459,7 +2459,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 9.2,
     "generation": 2,
     "is_legendary": false,
-    "spriteURL": "steelix.png"
+    "spriteURL": "steelix"
   },
   {
     "classification": "Fairy Pokémon",
@@ -2471,7 +2471,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 0.6,
     "generation": 2,
     "is_legendary": false,
-    "spriteURL": "snubbull.png"
+    "spriteURL": "snubbull"
   },
   {
     "classification": "Fairy Pokémon",
@@ -2483,7 +2483,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 1.4,
     "generation": 2,
     "is_legendary": false,
-    "spriteURL": "granbull.png"
+    "spriteURL": "granbull"
   },
   {
     "classification": "Balloon Pokémon",
@@ -2495,7 +2495,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 0.5,
     "generation": 2,
     "is_legendary": false,
-    "spriteURL": "qwilfish.png"
+    "spriteURL": "qwilfish"
   },
   {
     "classification": "Pincer Pokémon",
@@ -2507,7 +2507,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 1.8,
     "generation": 2,
     "is_legendary": false,
-    "spriteURL": "scizor.png"
+    "spriteURL": "scizor"
   },
   {
     "classification": "Mold Pokémon",
@@ -2519,7 +2519,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 0.6,
     "generation": 2,
     "is_legendary": false,
-    "spriteURL": "shuckle.png"
+    "spriteURL": "shuckle"
   },
   {
     "classification": "Singlehorn Pokémon",
@@ -2531,7 +2531,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 1.5,
     "generation": 2,
     "is_legendary": false,
-    "spriteURL": "heracross.png"
+    "spriteURL": "heracross"
   },
   {
     "classification": "Sharp Claw Pokémon",
@@ -2543,7 +2543,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 0.9,
     "generation": 2,
     "is_legendary": false,
-    "spriteURL": "sneasel.png"
+    "spriteURL": "sneasel"
   },
   {
     "classification": "Little Bear Pokémon",
@@ -2555,7 +2555,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 0.6,
     "generation": 2,
     "is_legendary": false,
-    "spriteURL": "teddiursa.png"
+    "spriteURL": "teddiursa"
   },
   {
     "classification": "Hibernator Pokémon",
@@ -2567,7 +2567,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 1.8,
     "generation": 2,
     "is_legendary": false,
-    "spriteURL": "ursaring.png"
+    "spriteURL": "ursaring"
   },
   {
     "classification": "Lava Pokémon",
@@ -2579,7 +2579,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 0.7,
     "generation": 2,
     "is_legendary": false,
-    "spriteURL": "slugma.png"
+    "spriteURL": "slugma"
   },
   {
     "classification": "Lava Pokémon",
@@ -2591,7 +2591,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 0.8,
     "generation": 2,
     "is_legendary": false,
-    "spriteURL": "magcargo.png"
+    "spriteURL": "magcargo"
   },
   {
     "classification": "Pig Pokémon",
@@ -2603,7 +2603,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 0.4,
     "generation": 2,
     "is_legendary": false,
-    "spriteURL": "swinub.png"
+    "spriteURL": "swinub"
   },
   {
     "classification": "Swine Pokémon",
@@ -2615,7 +2615,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 1.1,
     "generation": 2,
     "is_legendary": false,
-    "spriteURL": "piloswine.png"
+    "spriteURL": "piloswine"
   },
   {
     "classification": "Coral Pokémon",
@@ -2627,7 +2627,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 0.6,
     "generation": 2,
     "is_legendary": false,
-    "spriteURL": "corsola.png"
+    "spriteURL": "corsola"
   },
   {
     "classification": "Jet Pokémon",
@@ -2639,7 +2639,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 0.6,
     "generation": 2,
     "is_legendary": false,
-    "spriteURL": "remoraid.png"
+    "spriteURL": "remoraid"
   },
   {
     "classification": "Jet Pokémon",
@@ -2651,7 +2651,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 0.9,
     "generation": 2,
     "is_legendary": false,
-    "spriteURL": "octillery.png"
+    "spriteURL": "octillery"
   },
   {
     "classification": "Delivery Pokémon",
@@ -2663,7 +2663,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 0.9,
     "generation": 2,
     "is_legendary": false,
-    "spriteURL": "delibird.png"
+    "spriteURL": "delibird"
   },
   {
     "classification": "Kite Pokémon",
@@ -2675,7 +2675,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 2.1,
     "generation": 2,
     "is_legendary": false,
-    "spriteURL": "mantine.png"
+    "spriteURL": "mantine"
   },
   {
     "classification": "Armor Bird Pokémon",
@@ -2687,7 +2687,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 1.7,
     "generation": 2,
     "is_legendary": false,
-    "spriteURL": "skarmory.png"
+    "spriteURL": "skarmory"
   },
   {
     "classification": "Dark Pokémon",
@@ -2699,7 +2699,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 0.6,
     "generation": 2,
     "is_legendary": false,
-    "spriteURL": "houndour.png"
+    "spriteURL": "houndour"
   },
   {
     "classification": "Dark Pokémon",
@@ -2711,7 +2711,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 1.4,
     "generation": 2,
     "is_legendary": false,
-    "spriteURL": "houndoom.png"
+    "spriteURL": "houndoom"
   },
   {
     "classification": "Dragon Pokémon",
@@ -2723,7 +2723,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 1.8,
     "generation": 2,
     "is_legendary": false,
-    "spriteURL": "kingdra.png"
+    "spriteURL": "kingdra"
   },
   {
     "classification": "Long Nose Pokémon",
@@ -2735,7 +2735,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 0.5,
     "generation": 2,
     "is_legendary": false,
-    "spriteURL": "phanpy.png"
+    "spriteURL": "phanpy"
   },
   {
     "classification": "Armor Pokémon",
@@ -2747,7 +2747,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 1.1,
     "generation": 2,
     "is_legendary": false,
-    "spriteURL": "donphan.png"
+    "spriteURL": "donphan"
   },
   {
     "classification": "Virtual Pokémon",
@@ -2759,7 +2759,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 0.6,
     "generation": 2,
     "is_legendary": false,
-    "spriteURL": "porygon2.png"
+    "spriteURL": "porygon2"
   },
   {
     "classification": "Big Horn Pokémon",
@@ -2771,7 +2771,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 1.4,
     "generation": 2,
     "is_legendary": false,
-    "spriteURL": "stantler.png"
+    "spriteURL": "stantler"
   },
   {
     "classification": "Painter Pokémon",
@@ -2783,7 +2783,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 1.2,
     "generation": 2,
     "is_legendary": false,
-    "spriteURL": "smeargle.png"
+    "spriteURL": "smeargle"
   },
   {
     "classification": "Scuffle Pokémon",
@@ -2795,7 +2795,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 0.7,
     "generation": 2,
     "is_legendary": false,
-    "spriteURL": "tyrogue.png"
+    "spriteURL": "tyrogue"
   },
   {
     "classification": "Handstand Pokémon",
@@ -2807,7 +2807,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 1.4,
     "generation": 2,
     "is_legendary": false,
-    "spriteURL": "hitmontop.png"
+    "spriteURL": "hitmontop"
   },
   {
     "classification": "Kiss Pokémon",
@@ -2819,7 +2819,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 0.4,
     "generation": 2,
     "is_legendary": false,
-    "spriteURL": "smoochum.png"
+    "spriteURL": "smoochum"
   },
   {
     "classification": "Electric Pokémon",
@@ -2831,7 +2831,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 0.6,
     "generation": 2,
     "is_legendary": false,
-    "spriteURL": "elekid.png"
+    "spriteURL": "elekid"
   },
   {
     "classification": "Live Coal Pokémon",
@@ -2843,7 +2843,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 0.7,
     "generation": 2,
     "is_legendary": false,
-    "spriteURL": "magby.png"
+    "spriteURL": "magby"
   },
   {
     "classification": "Milk Cow Pokémon",
@@ -2855,7 +2855,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 1.2,
     "generation": 2,
     "is_legendary": false,
-    "spriteURL": "miltank.png"
+    "spriteURL": "miltank"
   },
   {
     "classification": "Happiness Pokémon",
@@ -2867,7 +2867,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 1.5,
     "generation": 2,
     "is_legendary": false,
-    "spriteURL": "blissey.png"
+    "spriteURL": "blissey"
   },
   {
     "classification": "Thunder Pokémon",
@@ -2879,7 +2879,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 1.9,
     "generation": 2,
     "is_legendary": true,
-    "spriteURL": "raikou.png"
+    "spriteURL": "raikou"
   },
   {
     "classification": "Volcano Pokémon",
@@ -2891,7 +2891,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 2.1,
     "generation": 2,
     "is_legendary": true,
-    "spriteURL": "entei.png"
+    "spriteURL": "entei"
   },
   {
     "classification": "Aurora Pokémon",
@@ -2903,7 +2903,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 2,
     "generation": 2,
     "is_legendary": true,
-    "spriteURL": "suicune.png"
+    "spriteURL": "suicune"
   },
   {
     "classification": "Rock Skin Pokémon",
@@ -2915,7 +2915,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 0.6,
     "generation": 2,
     "is_legendary": false,
-    "spriteURL": "larvitar.png"
+    "spriteURL": "larvitar"
   },
   {
     "classification": "Hard Shell Pokémon",
@@ -2927,7 +2927,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 1.2,
     "generation": 2,
     "is_legendary": false,
-    "spriteURL": "pupitar.png"
+    "spriteURL": "pupitar"
   },
   {
     "classification": "Armor Pokémon",
@@ -2939,7 +2939,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 2,
     "generation": 2,
     "is_legendary": false,
-    "spriteURL": "tyranitar.png"
+    "spriteURL": "tyranitar"
   },
   {
     "classification": "Diving Pokémon",
@@ -2951,7 +2951,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 5.2,
     "generation": 2,
     "is_legendary": true,
-    "spriteURL": "lugia.png"
+    "spriteURL": "lugia"
   },
   {
     "classification": "Rainbow Pokémon",
@@ -2963,7 +2963,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 3.8,
     "generation": 2,
     "is_legendary": true,
-    "spriteURL": "ho-oh.png"
+    "spriteURL": "ho-oh"
   },
   {
     "classification": "Time Travel Pokémon",
@@ -2975,7 +2975,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 0.6,
     "generation": 2,
     "is_legendary": true,
-    "spriteURL": "celebi.png"
+    "spriteURL": "celebi"
   },
   {
     "classification": "Wood Gecko Pokémon",
@@ -2987,7 +2987,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 0.5,
     "generation": 3,
     "is_legendary": false,
-    "spriteURL": "treecko.png"
+    "spriteURL": "treecko"
   },
   {
     "classification": "Wood Gecko Pokémon",
@@ -2999,7 +2999,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 0.9,
     "generation": 3,
     "is_legendary": false,
-    "spriteURL": "grovyle.png"
+    "spriteURL": "grovyle"
   },
   {
     "classification": "Forest Pokémon",
@@ -3011,7 +3011,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 1.7,
     "generation": 3,
     "is_legendary": false,
-    "spriteURL": "sceptile.png"
+    "spriteURL": "sceptile"
   },
   {
     "classification": "Chick Pokémon",
@@ -3023,7 +3023,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 0.4,
     "generation": 3,
     "is_legendary": false,
-    "spriteURL": "torchic.png"
+    "spriteURL": "torchic"
   },
   {
     "classification": "Young Fowl Pokémon",
@@ -3035,7 +3035,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 0.9,
     "generation": 3,
     "is_legendary": false,
-    "spriteURL": "combusken.png"
+    "spriteURL": "combusken"
   },
   {
     "classification": "Blaze Pokémon",
@@ -3047,7 +3047,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 1.9,
     "generation": 3,
     "is_legendary": false,
-    "spriteURL": "blaziken.png"
+    "spriteURL": "blaziken"
   },
   {
     "classification": "Mud Fish Pokémon",
@@ -3059,7 +3059,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 0.4,
     "generation": 3,
     "is_legendary": false,
-    "spriteURL": "mudkip.png"
+    "spriteURL": "mudkip"
   },
   {
     "classification": "Mud Fish Pokémon",
@@ -3071,7 +3071,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 0.7,
     "generation": 3,
     "is_legendary": false,
-    "spriteURL": "marshtomp.png"
+    "spriteURL": "marshtomp"
   },
   {
     "classification": "Mud Fish Pokémon",
@@ -3083,7 +3083,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 1.5,
     "generation": 3,
     "is_legendary": false,
-    "spriteURL": "swampert.png"
+    "spriteURL": "swampert"
   },
   {
     "classification": "Bite Pokémon",
@@ -3095,7 +3095,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 0.5,
     "generation": 3,
     "is_legendary": false,
-    "spriteURL": "poochyena.png"
+    "spriteURL": "poochyena"
   },
   {
     "classification": "Bite Pokémon",
@@ -3107,7 +3107,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 1,
     "generation": 3,
     "is_legendary": false,
-    "spriteURL": "mightyena.png"
+    "spriteURL": "mightyena"
   },
   {
     "classification": "Tiny Racoon Pokémon",
@@ -3119,7 +3119,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 0.4,
     "generation": 3,
     "is_legendary": false,
-    "spriteURL": "zigzagoon.png"
+    "spriteURL": "zigzagoon"
   },
   {
     "classification": "Rush Pokémon",
@@ -3131,7 +3131,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 0.5,
     "generation": 3,
     "is_legendary": false,
-    "spriteURL": "linoone.png"
+    "spriteURL": "linoone"
   },
   {
     "classification": "Worm Pokémon",
@@ -3143,7 +3143,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 0.3,
     "generation": 3,
     "is_legendary": false,
-    "spriteURL": "wurmple.png"
+    "spriteURL": "wurmple"
   },
   {
     "classification": "Cocoon Pokémon",
@@ -3155,7 +3155,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 0.6,
     "generation": 3,
     "is_legendary": false,
-    "spriteURL": "silcoon.png"
+    "spriteURL": "silcoon"
   },
   {
     "classification": "Butterfly Pokémon",
@@ -3167,7 +3167,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 1,
     "generation": 3,
     "is_legendary": false,
-    "spriteURL": "beautifly.png"
+    "spriteURL": "beautifly"
   },
   {
     "classification": "Cocoon Pokémon",
@@ -3179,7 +3179,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 0.7,
     "generation": 3,
     "is_legendary": false,
-    "spriteURL": "cascoon.png"
+    "spriteURL": "cascoon"
   },
   {
     "classification": "Poison Moth Pokémon",
@@ -3191,7 +3191,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 1.2,
     "generation": 3,
     "is_legendary": false,
-    "spriteURL": "dustox.png"
+    "spriteURL": "dustox"
   },
   {
     "classification": "Water Weed Pokémon",
@@ -3203,7 +3203,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 0.5,
     "generation": 3,
     "is_legendary": false,
-    "spriteURL": "lotad.png"
+    "spriteURL": "lotad"
   },
   {
     "classification": "Jolly Pokémon",
@@ -3215,7 +3215,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 1.2,
     "generation": 3,
     "is_legendary": false,
-    "spriteURL": "lombre.png"
+    "spriteURL": "lombre"
   },
   {
     "classification": "Carefree Pokémon",
@@ -3227,7 +3227,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 1.5,
     "generation": 3,
     "is_legendary": false,
-    "spriteURL": "ludicolo.png"
+    "spriteURL": "ludicolo"
   },
   {
     "classification": "Acorn Pokémon",
@@ -3239,7 +3239,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 0.5,
     "generation": 3,
     "is_legendary": false,
-    "spriteURL": "seedot.png"
+    "spriteURL": "seedot"
   },
   {
     "classification": "Wily Pokémon",
@@ -3251,7 +3251,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 1,
     "generation": 3,
     "is_legendary": false,
-    "spriteURL": "nuzleaf.png"
+    "spriteURL": "nuzleaf"
   },
   {
     "classification": "Wickid Pokémon",
@@ -3263,7 +3263,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 1.3,
     "generation": 3,
     "is_legendary": false,
-    "spriteURL": "shiftry.png"
+    "spriteURL": "shiftry"
   },
   {
     "classification": "TinySwallow Pokémon",
@@ -3275,7 +3275,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 0.3,
     "generation": 3,
     "is_legendary": false,
-    "spriteURL": "taillow.png"
+    "spriteURL": "taillow"
   },
   {
     "classification": "Swallow Pokémon",
@@ -3287,7 +3287,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 0.7,
     "generation": 3,
     "is_legendary": false,
-    "spriteURL": "swellow.png"
+    "spriteURL": "swellow"
   },
   {
     "classification": "Seagull Pokémon",
@@ -3299,7 +3299,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 0.6,
     "generation": 3,
     "is_legendary": false,
-    "spriteURL": "wingull.png"
+    "spriteURL": "wingull"
   },
   {
     "classification": "Water Bird Pokémon",
@@ -3311,7 +3311,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 1.2,
     "generation": 3,
     "is_legendary": false,
-    "spriteURL": "pelipper.png"
+    "spriteURL": "pelipper"
   },
   {
     "classification": "Feeling Pokémon",
@@ -3323,7 +3323,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 0.4,
     "generation": 3,
     "is_legendary": false,
-    "spriteURL": "ralts.png"
+    "spriteURL": "ralts"
   },
   {
     "classification": "Emotion Pokémon",
@@ -3335,7 +3335,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 0.8,
     "generation": 3,
     "is_legendary": false,
-    "spriteURL": "kirlia.png"
+    "spriteURL": "kirlia"
   },
   {
     "classification": "Embrace Pokémon",
@@ -3347,7 +3347,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 1.6,
     "generation": 3,
     "is_legendary": false,
-    "spriteURL": "gardevoir.png"
+    "spriteURL": "gardevoir"
   },
   {
     "classification": "Pond Skater Pokémon",
@@ -3359,7 +3359,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 0.5,
     "generation": 3,
     "is_legendary": false,
-    "spriteURL": "surskit.png"
+    "spriteURL": "surskit"
   },
   {
     "classification": "Eyeball Pokémon",
@@ -3371,7 +3371,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 0.8,
     "generation": 3,
     "is_legendary": false,
-    "spriteURL": "masquerain.png"
+    "spriteURL": "masquerain"
   },
   {
     "classification": "Mushroom Pokémon",
@@ -3383,7 +3383,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 0.4,
     "generation": 3,
     "is_legendary": false,
-    "spriteURL": "shroomish.png"
+    "spriteURL": "shroomish"
   },
   {
     "classification": "Mushroom Pokémon",
@@ -3395,7 +3395,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 1.2,
     "generation": 3,
     "is_legendary": false,
-    "spriteURL": "breloom.png"
+    "spriteURL": "breloom"
   },
   {
     "classification": "Slacker Pokémon",
@@ -3407,7 +3407,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 0.8,
     "generation": 3,
     "is_legendary": false,
-    "spriteURL": "slakoth.png"
+    "spriteURL": "slakoth"
   },
   {
     "classification": "Wild Monkey Pokémon",
@@ -3419,7 +3419,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 1.4,
     "generation": 3,
     "is_legendary": false,
-    "spriteURL": "vigoroth.png"
+    "spriteURL": "vigoroth"
   },
   {
     "classification": "Lazy Pokémon",
@@ -3431,7 +3431,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 2,
     "generation": 3,
     "is_legendary": false,
-    "spriteURL": "slaking.png"
+    "spriteURL": "slaking"
   },
   {
     "classification": "Trainee Pokémon",
@@ -3443,7 +3443,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 0.5,
     "generation": 3,
     "is_legendary": false,
-    "spriteURL": "nincada.png"
+    "spriteURL": "nincada"
   },
   {
     "classification": "Ninja Pokémon",
@@ -3455,7 +3455,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 0.8,
     "generation": 3,
     "is_legendary": false,
-    "spriteURL": "ninjask.png"
+    "spriteURL": "ninjask"
   },
   {
     "classification": "Shed Pokémon",
@@ -3467,7 +3467,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 0.8,
     "generation": 3,
     "is_legendary": false,
-    "spriteURL": "shedinja.png"
+    "spriteURL": "shedinja"
   },
   {
     "classification": "Whisper Pokémon",
@@ -3479,7 +3479,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 0.6,
     "generation": 3,
     "is_legendary": false,
-    "spriteURL": "whismur.png"
+    "spriteURL": "whismur"
   },
   {
     "classification": "Big Voice Pokémon",
@@ -3491,7 +3491,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 1,
     "generation": 3,
     "is_legendary": false,
-    "spriteURL": "loudred.png"
+    "spriteURL": "loudred"
   },
   {
     "classification": "Loud Noise Pokémon",
@@ -3503,7 +3503,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 1.5,
     "generation": 3,
     "is_legendary": false,
-    "spriteURL": "exploud.png"
+    "spriteURL": "exploud"
   },
   {
     "classification": "Guts Pokémon",
@@ -3515,7 +3515,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 1,
     "generation": 3,
     "is_legendary": false,
-    "spriteURL": "makuhita.png"
+    "spriteURL": "makuhita"
   },
   {
     "classification": "Arm Thrust Pokémon",
@@ -3527,7 +3527,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 2.3,
     "generation": 3,
     "is_legendary": false,
-    "spriteURL": "hariyama.png"
+    "spriteURL": "hariyama"
   },
   {
     "classification": "Polka Dot Pokémon",
@@ -3539,7 +3539,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 0.2,
     "generation": 3,
     "is_legendary": false,
-    "spriteURL": "azurill.png"
+    "spriteURL": "azurill"
   },
   {
     "classification": "Compass Pokémon",
@@ -3551,7 +3551,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 1,
     "generation": 3,
     "is_legendary": false,
-    "spriteURL": "nosepass.png"
+    "spriteURL": "nosepass"
   },
   {
     "classification": "Kitten Pokémon",
@@ -3563,7 +3563,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 0.6,
     "generation": 3,
     "is_legendary": false,
-    "spriteURL": "skitty.png"
+    "spriteURL": "skitty"
   },
   {
     "classification": "Prim Pokémon",
@@ -3575,7 +3575,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 1.1,
     "generation": 3,
     "is_legendary": false,
-    "spriteURL": "delcatty.png"
+    "spriteURL": "delcatty"
   },
   {
     "classification": "Darkness Pokémon",
@@ -3587,7 +3587,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 0.5,
     "generation": 3,
     "is_legendary": false,
-    "spriteURL": "sableye.png"
+    "spriteURL": "sableye"
   },
   {
     "classification": "Deceiver Pokémon",
@@ -3599,7 +3599,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 0.6,
     "generation": 3,
     "is_legendary": false,
-    "spriteURL": "mawile.png"
+    "spriteURL": "mawile"
   },
   {
     "classification": "Iron Armor Pokémon",
@@ -3611,7 +3611,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 0.4,
     "generation": 3,
     "is_legendary": false,
-    "spriteURL": "aron.png"
+    "spriteURL": "aron"
   },
   {
     "classification": "Iron Armor Pokémon",
@@ -3623,7 +3623,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 0.9,
     "generation": 3,
     "is_legendary": false,
-    "spriteURL": "lairon.png"
+    "spriteURL": "lairon"
   },
   {
     "classification": "Iron Armor Pokémon",
@@ -3635,7 +3635,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 2.1,
     "generation": 3,
     "is_legendary": false,
-    "spriteURL": "aggron.png"
+    "spriteURL": "aggron"
   },
   {
     "classification": "Meditate Pokémon",
@@ -3647,7 +3647,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 0.6,
     "generation": 3,
     "is_legendary": false,
-    "spriteURL": "meditite.png"
+    "spriteURL": "meditite"
   },
   {
     "classification": "Meditate Pokémon",
@@ -3659,7 +3659,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 1.3,
     "generation": 3,
     "is_legendary": false,
-    "spriteURL": "medicham.png"
+    "spriteURL": "medicham"
   },
   {
     "classification": "Lightning Pokémon",
@@ -3671,7 +3671,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 0.6,
     "generation": 3,
     "is_legendary": false,
-    "spriteURL": "electrike.png"
+    "spriteURL": "electrike"
   },
   {
     "classification": "Discharge Pokémon",
@@ -3683,7 +3683,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 1.5,
     "generation": 3,
     "is_legendary": false,
-    "spriteURL": "manectric.png"
+    "spriteURL": "manectric"
   },
   {
     "classification": "Cheering Pokémon",
@@ -3695,7 +3695,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 0.4,
     "generation": 3,
     "is_legendary": false,
-    "spriteURL": "plusle.png"
+    "spriteURL": "plusle"
   },
   {
     "classification": "Cheering Pokémon",
@@ -3707,7 +3707,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 0.4,
     "generation": 3,
     "is_legendary": false,
-    "spriteURL": "minun.png"
+    "spriteURL": "minun"
   },
   {
     "classification": "Firefly Pokémon",
@@ -3719,7 +3719,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 0.7,
     "generation": 3,
     "is_legendary": false,
-    "spriteURL": "volbeat.png"
+    "spriteURL": "volbeat"
   },
   {
     "classification": "Firefly Pokémon",
@@ -3731,7 +3731,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 0.6,
     "generation": 3,
     "is_legendary": false,
-    "spriteURL": "illumise.png"
+    "spriteURL": "illumise"
   },
   {
     "classification": "Thorn Pokémon",
@@ -3743,7 +3743,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 0.3,
     "generation": 3,
     "is_legendary": false,
-    "spriteURL": "roselia.png"
+    "spriteURL": "roselia"
   },
   {
     "classification": "Stomach Pokémon",
@@ -3755,7 +3755,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 0.4,
     "generation": 3,
     "is_legendary": false,
-    "spriteURL": "gulpin.png"
+    "spriteURL": "gulpin"
   },
   {
     "classification": "Poison Bag Pokémon",
@@ -3767,7 +3767,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 1.7,
     "generation": 3,
     "is_legendary": false,
-    "spriteURL": "swalot.png"
+    "spriteURL": "swalot"
   },
   {
     "classification": "Savage Pokémon",
@@ -3779,7 +3779,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 0.8,
     "generation": 3,
     "is_legendary": false,
-    "spriteURL": "carvanha.png"
+    "spriteURL": "carvanha"
   },
   {
     "classification": "Brutal Pokémon",
@@ -3791,7 +3791,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 1.8,
     "generation": 3,
     "is_legendary": false,
-    "spriteURL": "sharpedo.png"
+    "spriteURL": "sharpedo"
   },
   {
     "classification": "Ball Whale Pokémon",
@@ -3803,7 +3803,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 2,
     "generation": 3,
     "is_legendary": false,
-    "spriteURL": "wailmer.png"
+    "spriteURL": "wailmer"
   },
   {
     "classification": "Float Whale Pokémon",
@@ -3815,7 +3815,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 14.5,
     "generation": 3,
     "is_legendary": false,
-    "spriteURL": "wailord.png"
+    "spriteURL": "wailord"
   },
   {
     "classification": "Numb Pokémon",
@@ -3827,7 +3827,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 0.7,
     "generation": 3,
     "is_legendary": false,
-    "spriteURL": "numel.png"
+    "spriteURL": "numel"
   },
   {
     "classification": "Eruption Pokémon",
@@ -3839,7 +3839,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 1.9,
     "generation": 3,
     "is_legendary": false,
-    "spriteURL": "camerupt.png"
+    "spriteURL": "camerupt"
   },
   {
     "classification": "Coal Pokémon",
@@ -3851,7 +3851,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 0.5,
     "generation": 3,
     "is_legendary": false,
-    "spriteURL": "torkoal.png"
+    "spriteURL": "torkoal"
   },
   {
     "classification": "Bounce Pokémon",
@@ -3863,7 +3863,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 0.7,
     "generation": 3,
     "is_legendary": false,
-    "spriteURL": "spoink.png"
+    "spriteURL": "spoink"
   },
   {
     "classification": "Manipulate Pokémon",
@@ -3875,7 +3875,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 0.9,
     "generation": 3,
     "is_legendary": false,
-    "spriteURL": "grumpig.png"
+    "spriteURL": "grumpig"
   },
   {
     "classification": "Spot Panda Pokémon",
@@ -3887,7 +3887,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 1.1,
     "generation": 3,
     "is_legendary": false,
-    "spriteURL": "spinda.png"
+    "spriteURL": "spinda"
   },
   {
     "classification": "Ant Pit Pokémon",
@@ -3899,7 +3899,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 0.7,
     "generation": 3,
     "is_legendary": false,
-    "spriteURL": "trapinch.png"
+    "spriteURL": "trapinch"
   },
   {
     "classification": "Vibration Pokémon",
@@ -3911,7 +3911,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 1.1,
     "generation": 3,
     "is_legendary": false,
-    "spriteURL": "vibrava.png"
+    "spriteURL": "vibrava"
   },
   {
     "classification": "Mystic Pokémon",
@@ -3923,7 +3923,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 2,
     "generation": 3,
     "is_legendary": false,
-    "spriteURL": "flygon.png"
+    "spriteURL": "flygon"
   },
   {
     "classification": "Cactus Pokémon",
@@ -3935,7 +3935,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 0.4,
     "generation": 3,
     "is_legendary": false,
-    "spriteURL": "cacnea.png"
+    "spriteURL": "cacnea"
   },
   {
     "classification": "Scarecrow Pokémon",
@@ -3947,7 +3947,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 1.3,
     "generation": 3,
     "is_legendary": false,
-    "spriteURL": "cacturne.png"
+    "spriteURL": "cacturne"
   },
   {
     "classification": "Cotton Bird Pokémon",
@@ -3959,7 +3959,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 0.4,
     "generation": 3,
     "is_legendary": false,
-    "spriteURL": "swablu.png"
+    "spriteURL": "swablu"
   },
   {
     "classification": "Humming Pokémon",
@@ -3971,7 +3971,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 1.1,
     "generation": 3,
     "is_legendary": false,
-    "spriteURL": "altaria.png"
+    "spriteURL": "altaria"
   },
   {
     "classification": "Cat Ferret Pokémon",
@@ -3983,7 +3983,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 1.3,
     "generation": 3,
     "is_legendary": false,
-    "spriteURL": "zangoose.png"
+    "spriteURL": "zangoose"
   },
   {
     "classification": "Fang Snake Pokémon",
@@ -3995,7 +3995,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 2.7,
     "generation": 3,
     "is_legendary": false,
-    "spriteURL": "seviper.png"
+    "spriteURL": "seviper"
   },
   {
     "classification": "Meteorite Pokémon",
@@ -4007,7 +4007,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 1,
     "generation": 3,
     "is_legendary": false,
-    "spriteURL": "lunatone.png"
+    "spriteURL": "lunatone"
   },
   {
     "classification": "Meteorite Pokémon",
@@ -4019,7 +4019,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 1.2,
     "generation": 3,
     "is_legendary": false,
-    "spriteURL": "solrock.png"
+    "spriteURL": "solrock"
   },
   {
     "classification": "Whiskers Pokémon",
@@ -4031,7 +4031,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 0.4,
     "generation": 3,
     "is_legendary": false,
-    "spriteURL": "barboach.png"
+    "spriteURL": "barboach"
   },
   {
     "classification": "Whiskers Pokémon",
@@ -4043,7 +4043,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 0.9,
     "generation": 3,
     "is_legendary": false,
-    "spriteURL": "whiscash.png"
+    "spriteURL": "whiscash"
   },
   {
     "classification": "Ruffian Pokémon",
@@ -4055,7 +4055,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 0.6,
     "generation": 3,
     "is_legendary": false,
-    "spriteURL": "corphish.png"
+    "spriteURL": "corphish"
   },
   {
     "classification": "Rogue Pokémon",
@@ -4067,7 +4067,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 1.1,
     "generation": 3,
     "is_legendary": false,
-    "spriteURL": "crawdaunt.png"
+    "spriteURL": "crawdaunt"
   },
   {
     "classification": "Clay Doll Pokémon",
@@ -4079,7 +4079,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 0.5,
     "generation": 3,
     "is_legendary": false,
-    "spriteURL": "baltoy.png"
+    "spriteURL": "baltoy"
   },
   {
     "classification": "Clay Doll Pokémon",
@@ -4091,7 +4091,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 1.5,
     "generation": 3,
     "is_legendary": false,
-    "spriteURL": "claydol.png"
+    "spriteURL": "claydol"
   },
   {
     "classification": "Sea Lily Pokémon",
@@ -4103,7 +4103,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 1,
     "generation": 3,
     "is_legendary": false,
-    "spriteURL": "lileep.png"
+    "spriteURL": "lileep"
   },
   {
     "classification": "Barnacle Pokémon",
@@ -4115,7 +4115,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 1.5,
     "generation": 3,
     "is_legendary": false,
-    "spriteURL": "cradily.png"
+    "spriteURL": "cradily"
   },
   {
     "classification": "Old Shrimp Pokémon",
@@ -4127,7 +4127,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 0.7,
     "generation": 3,
     "is_legendary": false,
-    "spriteURL": "anorith.png"
+    "spriteURL": "anorith"
   },
   {
     "classification": "Plate Pokémon",
@@ -4139,7 +4139,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 1.5,
     "generation": 3,
     "is_legendary": false,
-    "spriteURL": "armaldo.png"
+    "spriteURL": "armaldo"
   },
   {
     "classification": "Fish Pokémon",
@@ -4151,7 +4151,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 0.6,
     "generation": 3,
     "is_legendary": false,
-    "spriteURL": "feebas.png"
+    "spriteURL": "feebas"
   },
   {
     "classification": "Tender Pokémon",
@@ -4163,7 +4163,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 6.2,
     "generation": 3,
     "is_legendary": false,
-    "spriteURL": "milotic.png"
+    "spriteURL": "milotic"
   },
   {
     "classification": "Weather Pokémon",
@@ -4175,7 +4175,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 0.3,
     "generation": 3,
     "is_legendary": false,
-    "spriteURL": "castform.png"
+    "spriteURL": "castform"
   },
   {
     "classification": "Color Swap Pokémon",
@@ -4187,7 +4187,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 1,
     "generation": 3,
     "is_legendary": false,
-    "spriteURL": "kecleon.png"
+    "spriteURL": "kecleon"
   },
   {
     "classification": "Puppet Pokémon",
@@ -4199,7 +4199,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 0.6,
     "generation": 3,
     "is_legendary": false,
-    "spriteURL": "shuppet.png"
+    "spriteURL": "shuppet"
   },
   {
     "classification": "Marionette Pokémon",
@@ -4211,7 +4211,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 1.1,
     "generation": 3,
     "is_legendary": false,
-    "spriteURL": "banette.png"
+    "spriteURL": "banette"
   },
   {
     "classification": "Requiem Pokémon",
@@ -4223,7 +4223,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 0.8,
     "generation": 3,
     "is_legendary": false,
-    "spriteURL": "duskull.png"
+    "spriteURL": "duskull"
   },
   {
     "classification": "Beckon Pokémon",
@@ -4235,7 +4235,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 1.6,
     "generation": 3,
     "is_legendary": false,
-    "spriteURL": "dusclops.png"
+    "spriteURL": "dusclops"
   },
   {
     "classification": "Fruit Pokémon",
@@ -4247,7 +4247,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 2,
     "generation": 3,
     "is_legendary": false,
-    "spriteURL": "tropius.png"
+    "spriteURL": "tropius"
   },
   {
     "classification": "Wind Chime Pokémon",
@@ -4259,7 +4259,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 0.6,
     "generation": 3,
     "is_legendary": false,
-    "spriteURL": "chimecho.png"
+    "spriteURL": "chimecho"
   },
   {
     "classification": "Disaster Pokémon",
@@ -4271,7 +4271,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 1.2,
     "generation": 3,
     "is_legendary": false,
-    "spriteURL": "absol.png"
+    "spriteURL": "absol"
   },
   {
     "classification": "Bright Pokémon",
@@ -4283,7 +4283,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 0.6,
     "generation": 3,
     "is_legendary": false,
-    "spriteURL": "wynaut.png"
+    "spriteURL": "wynaut"
   },
   {
     "classification": "Snow Hat Pokémon",
@@ -4295,7 +4295,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 0.7,
     "generation": 3,
     "is_legendary": false,
-    "spriteURL": "snorunt.png"
+    "spriteURL": "snorunt"
   },
   {
     "classification": "Face Pokémon",
@@ -4307,7 +4307,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 1.5,
     "generation": 3,
     "is_legendary": false,
-    "spriteURL": "glalie.png"
+    "spriteURL": "glalie"
   },
   {
     "classification": "Clap Pokémon",
@@ -4319,7 +4319,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 0.8,
     "generation": 3,
     "is_legendary": false,
-    "spriteURL": "spheal.png"
+    "spriteURL": "spheal"
   },
   {
     "classification": "Ball Roll Pokémon",
@@ -4331,7 +4331,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 1.1,
     "generation": 3,
     "is_legendary": false,
-    "spriteURL": "sealeo.png"
+    "spriteURL": "sealeo"
   },
   {
     "classification": "Ice Break Pokémon",
@@ -4343,7 +4343,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 1.4,
     "generation": 3,
     "is_legendary": false,
-    "spriteURL": "walrein.png"
+    "spriteURL": "walrein"
   },
   {
     "classification": "Bivalve Pokémon",
@@ -4355,7 +4355,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 0.4,
     "generation": 3,
     "is_legendary": false,
-    "spriteURL": "clamperl.png"
+    "spriteURL": "clamperl"
   },
   {
     "classification": "Deep Sea Pokémon",
@@ -4367,7 +4367,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 1.7,
     "generation": 3,
     "is_legendary": false,
-    "spriteURL": "huntail.png"
+    "spriteURL": "huntail"
   },
   {
     "classification": "South Sea Pokémon",
@@ -4379,7 +4379,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 1.8,
     "generation": 3,
     "is_legendary": false,
-    "spriteURL": "gorebyss.png"
+    "spriteURL": "gorebyss"
   },
   {
     "classification": "Longevity Pokémon",
@@ -4391,7 +4391,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 1,
     "generation": 3,
     "is_legendary": false,
-    "spriteURL": "relicanth.png"
+    "spriteURL": "relicanth"
   },
   {
     "classification": "Rendezvous Pokémon",
@@ -4403,7 +4403,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 0.6,
     "generation": 3,
     "is_legendary": false,
-    "spriteURL": "luvdisc.png"
+    "spriteURL": "luvdisc"
   },
   {
     "classification": "Rock Head Pokémon",
@@ -4415,7 +4415,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 0.6,
     "generation": 3,
     "is_legendary": false,
-    "spriteURL": "bagon.png"
+    "spriteURL": "bagon"
   },
   {
     "classification": "Endurance Pokémon",
@@ -4427,7 +4427,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 1.1,
     "generation": 3,
     "is_legendary": false,
-    "spriteURL": "shelgon.png"
+    "spriteURL": "shelgon"
   },
   {
     "classification": "Dragon Pokémon",
@@ -4439,7 +4439,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 1.5,
     "generation": 3,
     "is_legendary": false,
-    "spriteURL": "salamence.png"
+    "spriteURL": "salamence"
   },
   {
     "classification": "Iron Ball Pokémon",
@@ -4451,7 +4451,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 0.6,
     "generation": 3,
     "is_legendary": false,
-    "spriteURL": "beldum.png"
+    "spriteURL": "beldum"
   },
   {
     "classification": "Iron Claw Pokémon",
@@ -4463,7 +4463,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 1.2,
     "generation": 3,
     "is_legendary": false,
-    "spriteURL": "metang.png"
+    "spriteURL": "metang"
   },
   {
     "classification": "Iron Leg Pokémon",
@@ -4475,7 +4475,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 1.6,
     "generation": 3,
     "is_legendary": false,
-    "spriteURL": "metagross.png"
+    "spriteURL": "metagross"
   },
   {
     "classification": "Rock Peak Pokémon",
@@ -4487,7 +4487,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 1.7,
     "generation": 3,
     "is_legendary": true,
-    "spriteURL": "regirock.png"
+    "spriteURL": "regirock"
   },
   {
     "classification": "Iceberg Pokémon",
@@ -4499,7 +4499,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 1.8,
     "generation": 3,
     "is_legendary": true,
-    "spriteURL": "regice.png"
+    "spriteURL": "regice"
   },
   {
     "classification": "Iron Pokémon",
@@ -4511,7 +4511,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 1.9,
     "generation": 3,
     "is_legendary": true,
-    "spriteURL": "registeel.png"
+    "spriteURL": "registeel"
   },
   {
     "classification": "Eon Pokémon",
@@ -4523,7 +4523,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 1.4,
     "generation": 3,
     "is_legendary": true,
-    "spriteURL": "latias.png"
+    "spriteURL": "latias"
   },
   {
     "classification": "Eon Pokémon",
@@ -4535,7 +4535,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 2,
     "generation": 3,
     "is_legendary": true,
-    "spriteURL": "latios.png"
+    "spriteURL": "latios"
   },
   {
     "classification": "Sea Basin Pokémon",
@@ -4547,7 +4547,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 4.5,
     "generation": 3,
     "is_legendary": true,
-    "spriteURL": "kyogre.png"
+    "spriteURL": "kyogre"
   },
   {
     "classification": "Continent Pokémon",
@@ -4559,7 +4559,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 3.5,
     "generation": 3,
     "is_legendary": true,
-    "spriteURL": "groudon.png"
+    "spriteURL": "groudon"
   },
   {
     "classification": "Sky High Pokémon",
@@ -4571,7 +4571,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 7,
     "generation": 3,
     "is_legendary": true,
-    "spriteURL": "rayquaza.png"
+    "spriteURL": "rayquaza"
   },
   {
     "classification": "Wish Pokémon",
@@ -4583,7 +4583,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 0.3,
     "generation": 3,
     "is_legendary": true,
-    "spriteURL": "jirachi.png"
+    "spriteURL": "jirachi"
   },
   {
     "classification": "DNA Pokémon",
@@ -4595,7 +4595,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 1.7,
     "generation": 3,
     "is_legendary": true,
-    "spriteURL": "deoxys.png"
+    "spriteURL": "deoxys"
   },
   {
     "classification": "Tiny Leaf Pokémon",
@@ -4607,7 +4607,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 0.4,
     "generation": 4,
     "is_legendary": false,
-    "spriteURL": "turtwig.png"
+    "spriteURL": "turtwig"
   },
   {
     "classification": "Grove Pokémon",
@@ -4619,7 +4619,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 1.1,
     "generation": 4,
     "is_legendary": false,
-    "spriteURL": "grotle.png"
+    "spriteURL": "grotle"
   },
   {
     "classification": "Continent Pokémon",
@@ -4631,7 +4631,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 2.2,
     "generation": 4,
     "is_legendary": false,
-    "spriteURL": "torterra.png"
+    "spriteURL": "torterra"
   },
   {
     "classification": "Chimp Pokémon",
@@ -4643,7 +4643,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 0.5,
     "generation": 4,
     "is_legendary": false,
-    "spriteURL": "chimchar.png"
+    "spriteURL": "chimchar"
   },
   {
     "classification": "Playful Pokémon",
@@ -4655,7 +4655,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 0.9,
     "generation": 4,
     "is_legendary": false,
-    "spriteURL": "monferno.png"
+    "spriteURL": "monferno"
   },
   {
     "classification": "Flame Pokémon",
@@ -4667,7 +4667,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 1.2,
     "generation": 4,
     "is_legendary": false,
-    "spriteURL": "infernape.png"
+    "spriteURL": "infernape"
   },
   {
     "classification": "Penguin Pokémon",
@@ -4679,7 +4679,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 0.4,
     "generation": 4,
     "is_legendary": false,
-    "spriteURL": "piplup.png"
+    "spriteURL": "piplup"
   },
   {
     "classification": "Penguin Pokémon",
@@ -4691,7 +4691,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 0.8,
     "generation": 4,
     "is_legendary": false,
-    "spriteURL": "prinplup.png"
+    "spriteURL": "prinplup"
   },
   {
     "classification": "Emperor Pokémon",
@@ -4703,7 +4703,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 1.7,
     "generation": 4,
     "is_legendary": false,
-    "spriteURL": "empoleon.png"
+    "spriteURL": "empoleon"
   },
   {
     "classification": "Starling Pokémon",
@@ -4715,7 +4715,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 0.3,
     "generation": 4,
     "is_legendary": false,
-    "spriteURL": "starly.png"
+    "spriteURL": "starly"
   },
   {
     "classification": "Starling Pokémon",
@@ -4727,7 +4727,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 0.6,
     "generation": 4,
     "is_legendary": false,
-    "spriteURL": "staravia.png"
+    "spriteURL": "staravia"
   },
   {
     "classification": "Predator Pokémon",
@@ -4739,7 +4739,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 1.2,
     "generation": 4,
     "is_legendary": false,
-    "spriteURL": "staraptor.png"
+    "spriteURL": "staraptor"
   },
   {
     "classification": "Plump Mouse Pokémon",
@@ -4751,7 +4751,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 0.5,
     "generation": 4,
     "is_legendary": false,
-    "spriteURL": "bidoof.png"
+    "spriteURL": "bidoof"
   },
   {
     "classification": "Beaver Pokémon",
@@ -4763,7 +4763,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 1,
     "generation": 4,
     "is_legendary": false,
-    "spriteURL": "bibarel.png"
+    "spriteURL": "bibarel"
   },
   {
     "classification": "Cricket Pokémon",
@@ -4775,7 +4775,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 0.3,
     "generation": 4,
     "is_legendary": false,
-    "spriteURL": "kricketot.png"
+    "spriteURL": "kricketot"
   },
   {
     "classification": "Cricket Pokémon",
@@ -4787,7 +4787,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 1,
     "generation": 4,
     "is_legendary": false,
-    "spriteURL": "kricketune.png"
+    "spriteURL": "kricketune"
   },
   {
     "classification": "Flash Pokémon",
@@ -4799,7 +4799,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 0.5,
     "generation": 4,
     "is_legendary": false,
-    "spriteURL": "shinx.png"
+    "spriteURL": "shinx"
   },
   {
     "classification": "Spark Pokémon",
@@ -4811,7 +4811,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 0.9,
     "generation": 4,
     "is_legendary": false,
-    "spriteURL": "luxio.png"
+    "spriteURL": "luxio"
   },
   {
     "classification": "Gleam Eyes Pokémon",
@@ -4823,7 +4823,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 1.4,
     "generation": 4,
     "is_legendary": false,
-    "spriteURL": "luxray.png"
+    "spriteURL": "luxray"
   },
   {
     "classification": "Bud Pokémon",
@@ -4835,7 +4835,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 0.2,
     "generation": 4,
     "is_legendary": false,
-    "spriteURL": "budew.png"
+    "spriteURL": "budew"
   },
   {
     "classification": "Bouquet Pokémon",
@@ -4847,7 +4847,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 0.9,
     "generation": 4,
     "is_legendary": false,
-    "spriteURL": "roserade.png"
+    "spriteURL": "roserade"
   },
   {
     "classification": "Head Butt Pokémon",
@@ -4859,7 +4859,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 0.9,
     "generation": 4,
     "is_legendary": false,
-    "spriteURL": "cranidos.png"
+    "spriteURL": "cranidos"
   },
   {
     "classification": "Head Butt Pokémon",
@@ -4871,7 +4871,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 1.6,
     "generation": 4,
     "is_legendary": false,
-    "spriteURL": "rampardos.png"
+    "spriteURL": "rampardos"
   },
   {
     "classification": "Shield Pokémon",
@@ -4883,7 +4883,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 0.5,
     "generation": 4,
     "is_legendary": false,
-    "spriteURL": "shieldon.png"
+    "spriteURL": "shieldon"
   },
   {
     "classification": "Shield Pokémon",
@@ -4895,7 +4895,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 1.3,
     "generation": 4,
     "is_legendary": false,
-    "spriteURL": "bastiodon.png"
+    "spriteURL": "bastiodon"
   },
   {
     "classification": "Bagworm Pokémon",
@@ -4907,7 +4907,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 0.2,
     "generation": 4,
     "is_legendary": false,
-    "spriteURL": "burmy.png"
+    "spriteURL": "burmy"
   },
   {
     "classification": "Bagworm Pokémon",
@@ -4919,7 +4919,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 0.5,
     "generation": 4,
     "is_legendary": false,
-    "spriteURL": "wormadam.png"
+    "spriteURL": "wormadam"
   },
   {
     "classification": "Moth Pokémon",
@@ -4931,7 +4931,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 0.9,
     "generation": 4,
     "is_legendary": false,
-    "spriteURL": "mothim.png"
+    "spriteURL": "mothim"
   },
   {
     "classification": "Tiny Bee Pokémon",
@@ -4943,7 +4943,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 0.3,
     "generation": 4,
     "is_legendary": false,
-    "spriteURL": "combee.png"
+    "spriteURL": "combee"
   },
   {
     "classification": "Beehive Pokémon",
@@ -4955,7 +4955,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 1.2,
     "generation": 4,
     "is_legendary": false,
-    "spriteURL": "vespiquen.png"
+    "spriteURL": "vespiquen"
   },
   {
     "classification": "EleSquirrel Pokémon",
@@ -4967,7 +4967,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 0.4,
     "generation": 4,
     "is_legendary": false,
-    "spriteURL": "pachirisu.png"
+    "spriteURL": "pachirisu"
   },
   {
     "classification": "Sea Weasel Pokémon",
@@ -4979,7 +4979,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 0.7,
     "generation": 4,
     "is_legendary": false,
-    "spriteURL": "buizel.png"
+    "spriteURL": "buizel"
   },
   {
     "classification": "Sea Weasel Pokémon",
@@ -4991,7 +4991,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 1.1,
     "generation": 4,
     "is_legendary": false,
-    "spriteURL": "floatzel.png"
+    "spriteURL": "floatzel"
   },
   {
     "classification": "Cherry Pokémon",
@@ -5003,7 +5003,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 0.4,
     "generation": 4,
     "is_legendary": false,
-    "spriteURL": "cherubi.png"
+    "spriteURL": "cherubi"
   },
   {
     "classification": "Blossom Pokémon",
@@ -5015,7 +5015,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 0.5,
     "generation": 4,
     "is_legendary": false,
-    "spriteURL": "cherrim.png"
+    "spriteURL": "cherrim"
   },
   {
     "classification": "Sea Slug Pokémon",
@@ -5027,7 +5027,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 0.3,
     "generation": 4,
     "is_legendary": false,
-    "spriteURL": "shellos.png"
+    "spriteURL": "shellos"
   },
   {
     "classification": "Sea Slug Pokémon",
@@ -5039,7 +5039,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 0.9,
     "generation": 4,
     "is_legendary": false,
-    "spriteURL": "gastrodon.png"
+    "spriteURL": "gastrodon"
   },
   {
     "classification": "Long Tail Pokémon",
@@ -5051,7 +5051,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 1.2,
     "generation": 4,
     "is_legendary": false,
-    "spriteURL": "ambipom.png"
+    "spriteURL": "ambipom"
   },
   {
     "classification": "Balloon Pokémon",
@@ -5063,7 +5063,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 0.4,
     "generation": 4,
     "is_legendary": false,
-    "spriteURL": "drifloon.png"
+    "spriteURL": "drifloon"
   },
   {
     "classification": "Blimp Pokémon",
@@ -5075,7 +5075,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 1.2,
     "generation": 4,
     "is_legendary": false,
-    "spriteURL": "drifblim.png"
+    "spriteURL": "drifblim"
   },
   {
     "classification": "Rabbit Pokémon",
@@ -5087,7 +5087,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 0.4,
     "generation": 4,
     "is_legendary": false,
-    "spriteURL": "buneary.png"
+    "spriteURL": "buneary"
   },
   {
     "classification": "Rabbit Pokémon",
@@ -5099,7 +5099,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 1.2,
     "generation": 4,
     "is_legendary": false,
-    "spriteURL": "lopunny.png"
+    "spriteURL": "lopunny"
   },
   {
     "classification": "Magical Pokémon",
@@ -5111,7 +5111,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 0.9,
     "generation": 4,
     "is_legendary": false,
-    "spriteURL": "mismagius.png"
+    "spriteURL": "mismagius"
   },
   {
     "classification": "Big Boss Pokémon",
@@ -5123,7 +5123,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 0.9,
     "generation": 4,
     "is_legendary": false,
-    "spriteURL": "honchkrow.png"
+    "spriteURL": "honchkrow"
   },
   {
     "classification": "Catty Pokémon",
@@ -5135,7 +5135,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 0.5,
     "generation": 4,
     "is_legendary": false,
-    "spriteURL": "glameow.png"
+    "spriteURL": "glameow"
   },
   {
     "classification": "Tiger Cat Pokémon",
@@ -5147,7 +5147,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 1,
     "generation": 4,
     "is_legendary": false,
-    "spriteURL": "purugly.png"
+    "spriteURL": "purugly"
   },
   {
     "classification": "Bell Pokémon",
@@ -5159,7 +5159,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 0.2,
     "generation": 4,
     "is_legendary": false,
-    "spriteURL": "chingling.png"
+    "spriteURL": "chingling"
   },
   {
     "classification": "Skunk Pokémon",
@@ -5171,7 +5171,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 0.4,
     "generation": 4,
     "is_legendary": false,
-    "spriteURL": "stunky.png"
+    "spriteURL": "stunky"
   },
   {
     "classification": "Skunk Pokémon",
@@ -5183,7 +5183,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 1,
     "generation": 4,
     "is_legendary": false,
-    "spriteURL": "skuntank.png"
+    "spriteURL": "skuntank"
   },
   {
     "classification": "Bronze Pokémon",
@@ -5195,7 +5195,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 0.5,
     "generation": 4,
     "is_legendary": false,
-    "spriteURL": "bronzor.png"
+    "spriteURL": "bronzor"
   },
   {
     "classification": "Bronze Bell Pokémon",
@@ -5207,7 +5207,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 1.3,
     "generation": 4,
     "is_legendary": false,
-    "spriteURL": "bronzong.png"
+    "spriteURL": "bronzong"
   },
   {
     "classification": "Bonsai Pokémon",
@@ -5219,7 +5219,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 0.5,
     "generation": 4,
     "is_legendary": false,
-    "spriteURL": "bonsly.png"
+    "spriteURL": "bonsly"
   },
   {
     "classification": "Mime Pokémon",
@@ -5231,7 +5231,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 0.6,
     "generation": 4,
     "is_legendary": false,
-    "spriteURL": "mime-jr..png"
+    "spriteURL": "mime-jr."
   },
   {
     "classification": "Playhouse Pokémon",
@@ -5243,7 +5243,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 0.6,
     "generation": 4,
     "is_legendary": false,
-    "spriteURL": "happiny.png"
+    "spriteURL": "happiny"
   },
   {
     "classification": "Music Note Pokémon",
@@ -5255,7 +5255,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 0.5,
     "generation": 4,
     "is_legendary": false,
-    "spriteURL": "chatot.png"
+    "spriteURL": "chatot"
   },
   {
     "classification": "Forbidden Pokémon",
@@ -5267,7 +5267,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 1,
     "generation": 4,
     "is_legendary": false,
-    "spriteURL": "spiritomb.png"
+    "spriteURL": "spiritomb"
   },
   {
     "classification": "Land Shark Pokémon",
@@ -5279,7 +5279,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 0.7,
     "generation": 4,
     "is_legendary": false,
-    "spriteURL": "gible.png"
+    "spriteURL": "gible"
   },
   {
     "classification": "Cave Pokémon",
@@ -5291,7 +5291,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 1.4,
     "generation": 4,
     "is_legendary": false,
-    "spriteURL": "gabite.png"
+    "spriteURL": "gabite"
   },
   {
     "classification": "Mach Pokémon",
@@ -5303,7 +5303,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 1.9,
     "generation": 4,
     "is_legendary": false,
-    "spriteURL": "garchomp.png"
+    "spriteURL": "garchomp"
   },
   {
     "classification": "Big Eater Pokémon",
@@ -5315,7 +5315,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 0.6,
     "generation": 4,
     "is_legendary": false,
-    "spriteURL": "munchlax.png"
+    "spriteURL": "munchlax"
   },
   {
     "classification": "Emanation Pokémon",
@@ -5327,7 +5327,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 0.7,
     "generation": 4,
     "is_legendary": false,
-    "spriteURL": "riolu.png"
+    "spriteURL": "riolu"
   },
   {
     "classification": "Aura Pokémon",
@@ -5339,7 +5339,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 1.2,
     "generation": 4,
     "is_legendary": false,
-    "spriteURL": "lucario.png"
+    "spriteURL": "lucario"
   },
   {
     "classification": "Hippo Pokémon",
@@ -5351,7 +5351,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 0.8,
     "generation": 4,
     "is_legendary": false,
-    "spriteURL": "hippopotas.png"
+    "spriteURL": "hippopotas"
   },
   {
     "classification": "Heavyweight Pokémon",
@@ -5363,7 +5363,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 2,
     "generation": 4,
     "is_legendary": false,
-    "spriteURL": "hippowdon.png"
+    "spriteURL": "hippowdon"
   },
   {
     "classification": "Scorpion Pokémon",
@@ -5375,7 +5375,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 0.8,
     "generation": 4,
     "is_legendary": false,
-    "spriteURL": "skorupi.png"
+    "spriteURL": "skorupi"
   },
   {
     "classification": "Ogre Scorp Pokémon",
@@ -5387,7 +5387,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 1.3,
     "generation": 4,
     "is_legendary": false,
-    "spriteURL": "drapion.png"
+    "spriteURL": "drapion"
   },
   {
     "classification": "Toxic Mouth Pokémon",
@@ -5399,7 +5399,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 0.7,
     "generation": 4,
     "is_legendary": false,
-    "spriteURL": "croagunk.png"
+    "spriteURL": "croagunk"
   },
   {
     "classification": "Toxic Mouth Pokémon",
@@ -5411,7 +5411,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 1.3,
     "generation": 4,
     "is_legendary": false,
-    "spriteURL": "toxicroak.png"
+    "spriteURL": "toxicroak"
   },
   {
     "classification": "Bug Catcher Pokémon",
@@ -5423,7 +5423,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 1.4,
     "generation": 4,
     "is_legendary": false,
-    "spriteURL": "carnivine.png"
+    "spriteURL": "carnivine"
   },
   {
     "classification": "Wing Fish Pokémon",
@@ -5435,7 +5435,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 0.4,
     "generation": 4,
     "is_legendary": false,
-    "spriteURL": "finneon.png"
+    "spriteURL": "finneon"
   },
   {
     "classification": "Neon Pokémon",
@@ -5447,7 +5447,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 1.2,
     "generation": 4,
     "is_legendary": false,
-    "spriteURL": "lumineon.png"
+    "spriteURL": "lumineon"
   },
   {
     "classification": "Kite Pokémon",
@@ -5459,7 +5459,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 1,
     "generation": 4,
     "is_legendary": false,
-    "spriteURL": "mantyke.png"
+    "spriteURL": "mantyke"
   },
   {
     "classification": "Frosted Tree Pokémon",
@@ -5471,7 +5471,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 1,
     "generation": 4,
     "is_legendary": false,
-    "spriteURL": "snover.png"
+    "spriteURL": "snover"
   },
   {
     "classification": "Frosted Tree Pokémon",
@@ -5483,7 +5483,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 2.2,
     "generation": 4,
     "is_legendary": false,
-    "spriteURL": "abomasnow.png"
+    "spriteURL": "abomasnow"
   },
   {
     "classification": "Sharp Claw Pokémon",
@@ -5495,7 +5495,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 1.1,
     "generation": 4,
     "is_legendary": false,
-    "spriteURL": "weavile.png"
+    "spriteURL": "weavile"
   },
   {
     "classification": "Magnet Area Pokémon",
@@ -5507,7 +5507,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 1.2,
     "generation": 4,
     "is_legendary": false,
-    "spriteURL": "magnezone.png"
+    "spriteURL": "magnezone"
   },
   {
     "classification": "Licking Pokémon",
@@ -5519,7 +5519,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 1.7,
     "generation": 4,
     "is_legendary": false,
-    "spriteURL": "lickilicky.png"
+    "spriteURL": "lickilicky"
   },
   {
     "classification": "Drill Pokémon",
@@ -5531,7 +5531,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 2.4,
     "generation": 4,
     "is_legendary": false,
-    "spriteURL": "rhyperior.png"
+    "spriteURL": "rhyperior"
   },
   {
     "classification": "Vine Pokémon",
@@ -5543,7 +5543,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 2,
     "generation": 4,
     "is_legendary": false,
-    "spriteURL": "tangrowth.png"
+    "spriteURL": "tangrowth"
   },
   {
     "classification": "Thunderbolt Pokémon",
@@ -5555,7 +5555,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 1.8,
     "generation": 4,
     "is_legendary": false,
-    "spriteURL": "electivire.png"
+    "spriteURL": "electivire"
   },
   {
     "classification": "Blast Pokémon",
@@ -5567,7 +5567,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 1.6,
     "generation": 4,
     "is_legendary": false,
-    "spriteURL": "magmortar.png"
+    "spriteURL": "magmortar"
   },
   {
     "classification": "Jubilee Pokémon",
@@ -5579,7 +5579,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 1.5,
     "generation": 4,
     "is_legendary": false,
-    "spriteURL": "togekiss.png"
+    "spriteURL": "togekiss"
   },
   {
     "classification": "Ogre Darner Pokémon",
@@ -5591,7 +5591,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 1.9,
     "generation": 4,
     "is_legendary": false,
-    "spriteURL": "yanmega.png"
+    "spriteURL": "yanmega"
   },
   {
     "classification": "Verdant Pokémon",
@@ -5603,7 +5603,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 1,
     "generation": 4,
     "is_legendary": false,
-    "spriteURL": "leafeon.png"
+    "spriteURL": "leafeon"
   },
   {
     "classification": "Fresh Snow Pokémon",
@@ -5615,7 +5615,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 0.8,
     "generation": 4,
     "is_legendary": false,
-    "spriteURL": "glaceon.png"
+    "spriteURL": "glaceon"
   },
   {
     "classification": "Fang Scorp Pokémon",
@@ -5627,7 +5627,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 2,
     "generation": 4,
     "is_legendary": false,
-    "spriteURL": "gliscor.png"
+    "spriteURL": "gliscor"
   },
   {
     "classification": "Twin Tusk Pokémon",
@@ -5639,7 +5639,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 2.5,
     "generation": 4,
     "is_legendary": false,
-    "spriteURL": "mamoswine.png"
+    "spriteURL": "mamoswine"
   },
   {
     "classification": "Virtual Pokémon",
@@ -5651,7 +5651,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 0.9,
     "generation": 4,
     "is_legendary": false,
-    "spriteURL": "porygon-z.png"
+    "spriteURL": "porygon-z"
   },
   {
     "classification": "Blade Pokémon",
@@ -5663,7 +5663,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 1.6,
     "generation": 4,
     "is_legendary": false,
-    "spriteURL": "gallade.png"
+    "spriteURL": "gallade"
   },
   {
     "classification": "Compass Pokémon",
@@ -5675,7 +5675,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 1.4,
     "generation": 4,
     "is_legendary": false,
-    "spriteURL": "probopass.png"
+    "spriteURL": "probopass"
   },
   {
     "classification": "Gripper Pokémon",
@@ -5687,7 +5687,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 2.2,
     "generation": 4,
     "is_legendary": false,
-    "spriteURL": "dusknoir.png"
+    "spriteURL": "dusknoir"
   },
   {
     "classification": "Snow Land Pokémon",
@@ -5699,7 +5699,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 1.3,
     "generation": 4,
     "is_legendary": false,
-    "spriteURL": "froslass.png"
+    "spriteURL": "froslass"
   },
   {
     "classification": "Plasma Pokémon",
@@ -5711,7 +5711,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 0.3,
     "generation": 4,
     "is_legendary": false,
-    "spriteURL": "rotom.png"
+    "spriteURL": "rotom"
   },
   {
     "classification": "Knowledge Pokémon",
@@ -5723,7 +5723,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 0.3,
     "generation": 4,
     "is_legendary": true,
-    "spriteURL": "uxie.png"
+    "spriteURL": "uxie"
   },
   {
     "classification": "Emotion Pokémon",
@@ -5735,7 +5735,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 0.3,
     "generation": 4,
     "is_legendary": true,
-    "spriteURL": "mesprit.png"
+    "spriteURL": "mesprit"
   },
   {
     "classification": "Willpower Pokémon",
@@ -5747,7 +5747,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 0.3,
     "generation": 4,
     "is_legendary": true,
-    "spriteURL": "azelf.png"
+    "spriteURL": "azelf"
   },
   {
     "classification": "Temporal Pokémon",
@@ -5759,7 +5759,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 5.4,
     "generation": 4,
     "is_legendary": true,
-    "spriteURL": "dialga.png"
+    "spriteURL": "dialga"
   },
   {
     "classification": "Spatial Pokémon",
@@ -5771,7 +5771,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 4.2,
     "generation": 4,
     "is_legendary": true,
-    "spriteURL": "palkia.png"
+    "spriteURL": "palkia"
   },
   {
     "classification": "Lava Dome Pokémon",
@@ -5783,7 +5783,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 1.7,
     "generation": 4,
     "is_legendary": true,
-    "spriteURL": "heatran.png"
+    "spriteURL": "heatran"
   },
   {
     "classification": "Colossal Pokémon",
@@ -5795,7 +5795,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 3.7,
     "generation": 4,
     "is_legendary": true,
-    "spriteURL": "regigigas.png"
+    "spriteURL": "regigigas"
   },
   {
     "classification": "Renegade Pokémon",
@@ -5807,7 +5807,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 4.5,
     "generation": 4,
     "is_legendary": true,
-    "spriteURL": "giratina.png"
+    "spriteURL": "giratina"
   },
   {
     "classification": "Lunar Pokémon",
@@ -5819,7 +5819,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 1.5,
     "generation": 4,
     "is_legendary": true,
-    "spriteURL": "cresselia.png"
+    "spriteURL": "cresselia"
   },
   {
     "classification": "Sea Drifter Pokémon",
@@ -5831,7 +5831,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 0.4,
     "generation": 4,
     "is_legendary": false,
-    "spriteURL": "phione.png"
+    "spriteURL": "phione"
   },
   {
     "classification": "Seafaring Pokémon",
@@ -5843,7 +5843,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 0.3,
     "generation": 4,
     "is_legendary": true,
-    "spriteURL": "manaphy.png"
+    "spriteURL": "manaphy"
   },
   {
     "classification": "Pitch-Black Pokémon",
@@ -5855,7 +5855,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 1.5,
     "generation": 4,
     "is_legendary": true,
-    "spriteURL": "darkrai.png"
+    "spriteURL": "darkrai"
   },
   {
     "classification": "Gratitude Pokémon",
@@ -5867,7 +5867,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 0.2,
     "generation": 4,
     "is_legendary": true,
-    "spriteURL": "shaymin.png"
+    "spriteURL": "shaymin"
   },
   {
     "classification": "Alpha Pokémon",
@@ -5879,7 +5879,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 3.2,
     "generation": 4,
     "is_legendary": true,
-    "spriteURL": "arceus.png"
+    "spriteURL": "arceus"
   },
   {
     "classification": "Victory Pokémon",
@@ -5891,7 +5891,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 0.4,
     "generation": 5,
     "is_legendary": true,
-    "spriteURL": "victini.png"
+    "spriteURL": "victini"
   },
   {
     "classification": "Grass Snake Pokémon",
@@ -5903,7 +5903,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 0.6,
     "generation": 5,
     "is_legendary": false,
-    "spriteURL": "snivy.png"
+    "spriteURL": "snivy"
   },
   {
     "classification": "Grass Snake Pokémon",
@@ -5915,7 +5915,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 0.8,
     "generation": 5,
     "is_legendary": false,
-    "spriteURL": "servine.png"
+    "spriteURL": "servine"
   },
   {
     "classification": "Regal Pokémon",
@@ -5927,7 +5927,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 3.3,
     "generation": 5,
     "is_legendary": false,
-    "spriteURL": "serperior.png"
+    "spriteURL": "serperior"
   },
   {
     "classification": "Fire Pig Pokémon",
@@ -5939,7 +5939,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 0.5,
     "generation": 5,
     "is_legendary": false,
-    "spriteURL": "tepig.png"
+    "spriteURL": "tepig"
   },
   {
     "classification": "Fire Pig Pokémon",
@@ -5951,7 +5951,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 1,
     "generation": 5,
     "is_legendary": false,
-    "spriteURL": "pignite.png"
+    "spriteURL": "pignite"
   },
   {
     "classification": "Mega Fire Pig Pokémon",
@@ -5963,7 +5963,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 1.6,
     "generation": 5,
     "is_legendary": false,
-    "spriteURL": "emboar.png"
+    "spriteURL": "emboar"
   },
   {
     "classification": "Sea Otter Pokémon",
@@ -5975,7 +5975,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 0.5,
     "generation": 5,
     "is_legendary": false,
-    "spriteURL": "oshawott.png"
+    "spriteURL": "oshawott"
   },
   {
     "classification": "Discipline Pokémon",
@@ -5987,7 +5987,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 0.8,
     "generation": 5,
     "is_legendary": false,
-    "spriteURL": "dewott.png"
+    "spriteURL": "dewott"
   },
   {
     "classification": "Formidable Pokémon",
@@ -5999,7 +5999,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 1.5,
     "generation": 5,
     "is_legendary": false,
-    "spriteURL": "samurott.png"
+    "spriteURL": "samurott"
   },
   {
     "classification": "Scout Pokémon",
@@ -6011,7 +6011,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 0.5,
     "generation": 5,
     "is_legendary": false,
-    "spriteURL": "patrat.png"
+    "spriteURL": "patrat"
   },
   {
     "classification": "Lookout Pokémon",
@@ -6023,7 +6023,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 1.1,
     "generation": 5,
     "is_legendary": false,
-    "spriteURL": "watchog.png"
+    "spriteURL": "watchog"
   },
   {
     "classification": "Puppy Pokémon",
@@ -6035,7 +6035,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 0.4,
     "generation": 5,
     "is_legendary": false,
-    "spriteURL": "lillipup.png"
+    "spriteURL": "lillipup"
   },
   {
     "classification": "Loyal Dog Pokémon",
@@ -6047,7 +6047,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 0.9,
     "generation": 5,
     "is_legendary": false,
-    "spriteURL": "herdier.png"
+    "spriteURL": "herdier"
   },
   {
     "classification": "Big-Hearted Pokémon",
@@ -6059,7 +6059,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 1.2,
     "generation": 5,
     "is_legendary": false,
-    "spriteURL": "stoutland.png"
+    "spriteURL": "stoutland"
   },
   {
     "classification": "Devious Pokémon",
@@ -6071,7 +6071,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 0.4,
     "generation": 5,
     "is_legendary": false,
-    "spriteURL": "purrloin.png"
+    "spriteURL": "purrloin"
   },
   {
     "classification": "Cruel Pokémon",
@@ -6083,7 +6083,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 1.1,
     "generation": 5,
     "is_legendary": false,
-    "spriteURL": "liepard.png"
+    "spriteURL": "liepard"
   },
   {
     "classification": "Grass Monkey Pokémon",
@@ -6095,7 +6095,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 0.6,
     "generation": 5,
     "is_legendary": false,
-    "spriteURL": "pansage.png"
+    "spriteURL": "pansage"
   },
   {
     "classification": "Thorn Monkey Pokémon",
@@ -6107,7 +6107,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 1.1,
     "generation": 5,
     "is_legendary": false,
-    "spriteURL": "simisage.png"
+    "spriteURL": "simisage"
   },
   {
     "classification": "High Temp Pokémon",
@@ -6119,7 +6119,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 0.6,
     "generation": 5,
     "is_legendary": false,
-    "spriteURL": "pansear.png"
+    "spriteURL": "pansear"
   },
   {
     "classification": "Ember Pokémon",
@@ -6131,7 +6131,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 1,
     "generation": 5,
     "is_legendary": false,
-    "spriteURL": "simisear.png"
+    "spriteURL": "simisear"
   },
   {
     "classification": "Spray Pokémon",
@@ -6143,7 +6143,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 0.6,
     "generation": 5,
     "is_legendary": false,
-    "spriteURL": "panpour.png"
+    "spriteURL": "panpour"
   },
   {
     "classification": "Geyser Pokémon",
@@ -6155,7 +6155,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 1,
     "generation": 5,
     "is_legendary": false,
-    "spriteURL": "simipour.png"
+    "spriteURL": "simipour"
   },
   {
     "classification": "Dream Eater Pokémon",
@@ -6167,7 +6167,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 0.6,
     "generation": 5,
     "is_legendary": false,
-    "spriteURL": "munna.png"
+    "spriteURL": "munna"
   },
   {
     "classification": "Drowsing Pokémon",
@@ -6179,7 +6179,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 1.1,
     "generation": 5,
     "is_legendary": false,
-    "spriteURL": "musharna.png"
+    "spriteURL": "musharna"
   },
   {
     "classification": "Tiny Pigeon Pokémon",
@@ -6191,7 +6191,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 0.3,
     "generation": 5,
     "is_legendary": false,
-    "spriteURL": "pidove.png"
+    "spriteURL": "pidove"
   },
   {
     "classification": "Wild Pigeon Pokémon",
@@ -6203,7 +6203,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 0.6,
     "generation": 5,
     "is_legendary": false,
-    "spriteURL": "tranquill.png"
+    "spriteURL": "tranquill"
   },
   {
     "classification": "Proud Pokémon",
@@ -6215,7 +6215,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 1.2,
     "generation": 5,
     "is_legendary": false,
-    "spriteURL": "unfezant.png"
+    "spriteURL": "unfezant"
   },
   {
     "classification": "Electrified Pokémon",
@@ -6227,7 +6227,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 0.8,
     "generation": 5,
     "is_legendary": false,
-    "spriteURL": "blitzle.png"
+    "spriteURL": "blitzle"
   },
   {
     "classification": "Thunderbolt Pokémon",
@@ -6239,7 +6239,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 1.6,
     "generation": 5,
     "is_legendary": false,
-    "spriteURL": "zebstrika.png"
+    "spriteURL": "zebstrika"
   },
   {
     "classification": "Mantle Pokémon",
@@ -6251,7 +6251,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 0.4,
     "generation": 5,
     "is_legendary": false,
-    "spriteURL": "roggenrola.png"
+    "spriteURL": "roggenrola"
   },
   {
     "classification": "Ore Pokémon",
@@ -6263,7 +6263,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 0.9,
     "generation": 5,
     "is_legendary": false,
-    "spriteURL": "boldore.png"
+    "spriteURL": "boldore"
   },
   {
     "classification": "Compressed Pokémon",
@@ -6275,7 +6275,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 1.7,
     "generation": 5,
     "is_legendary": false,
-    "spriteURL": "gigalith.png"
+    "spriteURL": "gigalith"
   },
   {
     "classification": "Bat Pokémon",
@@ -6287,7 +6287,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 0.4,
     "generation": 5,
     "is_legendary": false,
-    "spriteURL": "woobat.png"
+    "spriteURL": "woobat"
   },
   {
     "classification": "Courting Pokémon",
@@ -6299,7 +6299,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 0.9,
     "generation": 5,
     "is_legendary": false,
-    "spriteURL": "swoobat.png"
+    "spriteURL": "swoobat"
   },
   {
     "classification": "Mole Pokémon",
@@ -6311,7 +6311,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 0.3,
     "generation": 5,
     "is_legendary": false,
-    "spriteURL": "drilbur.png"
+    "spriteURL": "drilbur"
   },
   {
     "classification": "Subterrene Pokémon",
@@ -6323,7 +6323,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 0.7,
     "generation": 5,
     "is_legendary": false,
-    "spriteURL": "excadrill.png"
+    "spriteURL": "excadrill"
   },
   {
     "classification": "Hearing Pokémon",
@@ -6335,7 +6335,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 1.1,
     "generation": 5,
     "is_legendary": false,
-    "spriteURL": "audino.png"
+    "spriteURL": "audino"
   },
   {
     "classification": "Muscular Pokémon",
@@ -6347,7 +6347,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 0.6,
     "generation": 5,
     "is_legendary": false,
-    "spriteURL": "timburr.png"
+    "spriteURL": "timburr"
   },
   {
     "classification": "Muscular Pokémon",
@@ -6359,7 +6359,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 1.2,
     "generation": 5,
     "is_legendary": false,
-    "spriteURL": "gurdurr.png"
+    "spriteURL": "gurdurr"
   },
   {
     "classification": "Muscular Pokémon",
@@ -6371,7 +6371,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 1.4,
     "generation": 5,
     "is_legendary": false,
-    "spriteURL": "conkeldurr.png"
+    "spriteURL": "conkeldurr"
   },
   {
     "classification": "Tadpole Pokémon",
@@ -6383,7 +6383,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 0.5,
     "generation": 5,
     "is_legendary": false,
-    "spriteURL": "tympole.png"
+    "spriteURL": "tympole"
   },
   {
     "classification": "Vibration Pokémon",
@@ -6395,7 +6395,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 0.8,
     "generation": 5,
     "is_legendary": false,
-    "spriteURL": "palpitoad.png"
+    "spriteURL": "palpitoad"
   },
   {
     "classification": "Vibration Pokémon",
@@ -6407,7 +6407,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 1.5,
     "generation": 5,
     "is_legendary": false,
-    "spriteURL": "seismitoad.png"
+    "spriteURL": "seismitoad"
   },
   {
     "classification": "Judo Pokémon",
@@ -6419,7 +6419,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 1.3,
     "generation": 5,
     "is_legendary": false,
-    "spriteURL": "throh.png"
+    "spriteURL": "throh"
   },
   {
     "classification": "Karate Pokémon",
@@ -6431,7 +6431,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 1.4,
     "generation": 5,
     "is_legendary": false,
-    "spriteURL": "sawk.png"
+    "spriteURL": "sawk"
   },
   {
     "classification": "Sewing Pokémon",
@@ -6443,7 +6443,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 0.3,
     "generation": 5,
     "is_legendary": false,
-    "spriteURL": "sewaddle.png"
+    "spriteURL": "sewaddle"
   },
   {
     "classification": "Leaf-Wrapped Pokémon",
@@ -6455,7 +6455,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 0.5,
     "generation": 5,
     "is_legendary": false,
-    "spriteURL": "swadloon.png"
+    "spriteURL": "swadloon"
   },
   {
     "classification": "Nurturing Pokémon",
@@ -6467,7 +6467,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 1.2,
     "generation": 5,
     "is_legendary": false,
-    "spriteURL": "leavanny.png"
+    "spriteURL": "leavanny"
   },
   {
     "classification": "Centipede Pokémon",
@@ -6479,7 +6479,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 0.4,
     "generation": 5,
     "is_legendary": false,
-    "spriteURL": "venipede.png"
+    "spriteURL": "venipede"
   },
   {
     "classification": "Curlipede Pokémon",
@@ -6491,7 +6491,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 1.2,
     "generation": 5,
     "is_legendary": false,
-    "spriteURL": "whirlipede.png"
+    "spriteURL": "whirlipede"
   },
   {
     "classification": "Megapede Pokémon",
@@ -6503,7 +6503,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 2.5,
     "generation": 5,
     "is_legendary": false,
-    "spriteURL": "scolipede.png"
+    "spriteURL": "scolipede"
   },
   {
     "classification": "Cotton Puff Pokémon",
@@ -6515,7 +6515,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 0.3,
     "generation": 5,
     "is_legendary": false,
-    "spriteURL": "cottonee.png"
+    "spriteURL": "cottonee"
   },
   {
     "classification": "Windveiled Pokémon",
@@ -6527,7 +6527,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 0.7,
     "generation": 5,
     "is_legendary": false,
-    "spriteURL": "whimsicott.png"
+    "spriteURL": "whimsicott"
   },
   {
     "classification": "Bulb Pokémon",
@@ -6539,7 +6539,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 0.5,
     "generation": 5,
     "is_legendary": false,
-    "spriteURL": "petilil.png"
+    "spriteURL": "petilil"
   },
   {
     "classification": "Flowering Pokémon",
@@ -6551,7 +6551,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 1.1,
     "generation": 5,
     "is_legendary": false,
-    "spriteURL": "lilligant.png"
+    "spriteURL": "lilligant"
   },
   {
     "classification": "Hostile Pokémon",
@@ -6563,7 +6563,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 1,
     "generation": 5,
     "is_legendary": false,
-    "spriteURL": "basculin.png"
+    "spriteURL": "basculin"
   },
   {
     "classification": "Desert Croc Pokémon",
@@ -6575,7 +6575,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 0.7,
     "generation": 5,
     "is_legendary": false,
-    "spriteURL": "sandile.png"
+    "spriteURL": "sandile"
   },
   {
     "classification": "Desert Croc Pokémon",
@@ -6587,7 +6587,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 1,
     "generation": 5,
     "is_legendary": false,
-    "spriteURL": "krokorok.png"
+    "spriteURL": "krokorok"
   },
   {
     "classification": "Intimidation Pokémon",
@@ -6599,7 +6599,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 1.5,
     "generation": 5,
     "is_legendary": false,
-    "spriteURL": "krookodile.png"
+    "spriteURL": "krookodile"
   },
   {
     "classification": "Zen Charm Pokémon",
@@ -6611,7 +6611,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 0.6,
     "generation": 5,
     "is_legendary": false,
-    "spriteURL": "darumaka.png"
+    "spriteURL": "darumaka"
   },
   {
     "classification": "Blazing Pokémon",
@@ -6623,7 +6623,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 1.3,
     "generation": 5,
     "is_legendary": false,
-    "spriteURL": "darmanitan.png"
+    "spriteURL": "darmanitan"
   },
   {
     "classification": "Cactus Pokémon",
@@ -6635,7 +6635,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 1,
     "generation": 5,
     "is_legendary": false,
-    "spriteURL": "maractus.png"
+    "spriteURL": "maractus"
   },
   {
     "classification": "Rock Inn Pokémon",
@@ -6647,7 +6647,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 0.3,
     "generation": 5,
     "is_legendary": false,
-    "spriteURL": "dwebble.png"
+    "spriteURL": "dwebble"
   },
   {
     "classification": "Stone Home Pokémon",
@@ -6659,7 +6659,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 1.4,
     "generation": 5,
     "is_legendary": false,
-    "spriteURL": "crustle.png"
+    "spriteURL": "crustle"
   },
   {
     "classification": "Shedding Pokémon",
@@ -6671,7 +6671,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 0.6,
     "generation": 5,
     "is_legendary": false,
-    "spriteURL": "scraggy.png"
+    "spriteURL": "scraggy"
   },
   {
     "classification": "Hoodlum Pokémon",
@@ -6683,7 +6683,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 1.1,
     "generation": 5,
     "is_legendary": false,
-    "spriteURL": "scrafty.png"
+    "spriteURL": "scrafty"
   },
   {
     "classification": "Avianoid Pokémon",
@@ -6695,7 +6695,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 1.4,
     "generation": 5,
     "is_legendary": false,
-    "spriteURL": "sigilyph.png"
+    "spriteURL": "sigilyph"
   },
   {
     "classification": "Spirit Pokémon",
@@ -6707,7 +6707,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 0.5,
     "generation": 5,
     "is_legendary": false,
-    "spriteURL": "yamask.png"
+    "spriteURL": "yamask"
   },
   {
     "classification": "Coffin Pokémon",
@@ -6719,7 +6719,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 1.7,
     "generation": 5,
     "is_legendary": false,
-    "spriteURL": "cofagrigus.png"
+    "spriteURL": "cofagrigus"
   },
   {
     "classification": "Prototurtle Pokémon",
@@ -6731,7 +6731,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 0.7,
     "generation": 5,
     "is_legendary": false,
-    "spriteURL": "tirtouga.png"
+    "spriteURL": "tirtouga"
   },
   {
     "classification": "Prototurtle Pokémon",
@@ -6743,7 +6743,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 1.2,
     "generation": 5,
     "is_legendary": false,
-    "spriteURL": "carracosta.png"
+    "spriteURL": "carracosta"
   },
   {
     "classification": "First Bird Pokémon",
@@ -6755,7 +6755,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 0.5,
     "generation": 5,
     "is_legendary": false,
-    "spriteURL": "archen.png"
+    "spriteURL": "archen"
   },
   {
     "classification": "First Bird Pokémon",
@@ -6767,7 +6767,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 1.4,
     "generation": 5,
     "is_legendary": false,
-    "spriteURL": "archeops.png"
+    "spriteURL": "archeops"
   },
   {
     "classification": "Trash Bag Pokémon",
@@ -6779,7 +6779,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 0.6,
     "generation": 5,
     "is_legendary": false,
-    "spriteURL": "trubbish.png"
+    "spriteURL": "trubbish"
   },
   {
     "classification": "Trash Heap Pokémon",
@@ -6791,7 +6791,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 1.9,
     "generation": 5,
     "is_legendary": false,
-    "spriteURL": "garbodor.png"
+    "spriteURL": "garbodor"
   },
   {
     "classification": "Tricky Fox Pokémon",
@@ -6803,7 +6803,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 0.7,
     "generation": 5,
     "is_legendary": false,
-    "spriteURL": "zorua.png"
+    "spriteURL": "zorua"
   },
   {
     "classification": "Illusion Fox Pokémon",
@@ -6815,7 +6815,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 1.6,
     "generation": 5,
     "is_legendary": false,
-    "spriteURL": "zoroark.png"
+    "spriteURL": "zoroark"
   },
   {
     "classification": "Chinchilla Pokémon",
@@ -6827,7 +6827,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 0.4,
     "generation": 5,
     "is_legendary": false,
-    "spriteURL": "minccino.png"
+    "spriteURL": "minccino"
   },
   {
     "classification": "Scarf Pokémon",
@@ -6839,7 +6839,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 0.5,
     "generation": 5,
     "is_legendary": false,
-    "spriteURL": "cinccino.png"
+    "spriteURL": "cinccino"
   },
   {
     "classification": "Fixation Pokémon",
@@ -6851,7 +6851,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 0.4,
     "generation": 5,
     "is_legendary": false,
-    "spriteURL": "gothita.png"
+    "spriteURL": "gothita"
   },
   {
     "classification": "Manipulate Pokémon",
@@ -6863,7 +6863,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 0.7,
     "generation": 5,
     "is_legendary": false,
-    "spriteURL": "gothorita.png"
+    "spriteURL": "gothorita"
   },
   {
     "classification": "Astral Body Pokémon",
@@ -6875,7 +6875,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 1.5,
     "generation": 5,
     "is_legendary": false,
-    "spriteURL": "gothitelle.png"
+    "spriteURL": "gothitelle"
   },
   {
     "classification": "Cell Pokémon",
@@ -6887,7 +6887,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 0.3,
     "generation": 5,
     "is_legendary": false,
-    "spriteURL": "solosis.png"
+    "spriteURL": "solosis"
   },
   {
     "classification": "Mitosis Pokémon",
@@ -6899,7 +6899,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 0.6,
     "generation": 5,
     "is_legendary": false,
-    "spriteURL": "duosion.png"
+    "spriteURL": "duosion"
   },
   {
     "classification": "Multiplying Pokémon",
@@ -6911,7 +6911,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 1,
     "generation": 5,
     "is_legendary": false,
-    "spriteURL": "reuniclus.png"
+    "spriteURL": "reuniclus"
   },
   {
     "classification": "Water Bird Pokémon",
@@ -6923,7 +6923,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 0.5,
     "generation": 5,
     "is_legendary": false,
-    "spriteURL": "ducklett.png"
+    "spriteURL": "ducklett"
   },
   {
     "classification": "White Bird Pokémon",
@@ -6935,7 +6935,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 1.3,
     "generation": 5,
     "is_legendary": false,
-    "spriteURL": "swanna.png"
+    "spriteURL": "swanna"
   },
   {
     "classification": "Fresh Snow Pokémon",
@@ -6947,7 +6947,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 0.4,
     "generation": 5,
     "is_legendary": false,
-    "spriteURL": "vanillite.png"
+    "spriteURL": "vanillite"
   },
   {
     "classification": "Icy Snow Pokémon",
@@ -6959,7 +6959,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 1.1,
     "generation": 5,
     "is_legendary": false,
-    "spriteURL": "vanillish.png"
+    "spriteURL": "vanillish"
   },
   {
     "classification": "Snowstorm Pokémon",
@@ -6971,7 +6971,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 1.3,
     "generation": 5,
     "is_legendary": false,
-    "spriteURL": "vanilluxe.png"
+    "spriteURL": "vanilluxe"
   },
   {
     "classification": "Season Pokémon",
@@ -6983,7 +6983,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 0.6,
     "generation": 5,
     "is_legendary": false,
-    "spriteURL": "deerling.png"
+    "spriteURL": "deerling"
   },
   {
     "classification": "Season Pokémon",
@@ -6995,7 +6995,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 1.9,
     "generation": 5,
     "is_legendary": false,
-    "spriteURL": "sawsbuck.png"
+    "spriteURL": "sawsbuck"
   },
   {
     "classification": "Sky Squirrel Pokémon",
@@ -7007,7 +7007,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 0.4,
     "generation": 5,
     "is_legendary": false,
-    "spriteURL": "emolga.png"
+    "spriteURL": "emolga"
   },
   {
     "classification": "Clamping Pokémon",
@@ -7019,7 +7019,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 0.5,
     "generation": 5,
     "is_legendary": false,
-    "spriteURL": "karrablast.png"
+    "spriteURL": "karrablast"
   },
   {
     "classification": "Cavalry Pokémon",
@@ -7031,7 +7031,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 1,
     "generation": 5,
     "is_legendary": false,
-    "spriteURL": "escavalier.png"
+    "spriteURL": "escavalier"
   },
   {
     "classification": "Mushroom Pokémon",
@@ -7043,7 +7043,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 0.2,
     "generation": 5,
     "is_legendary": false,
-    "spriteURL": "foongus.png"
+    "spriteURL": "foongus"
   },
   {
     "classification": "Mushroom Pokémon",
@@ -7055,7 +7055,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 0.6,
     "generation": 5,
     "is_legendary": false,
-    "spriteURL": "amoonguss.png"
+    "spriteURL": "amoonguss"
   },
   {
     "classification": "Floating Pokémon",
@@ -7067,7 +7067,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 1.2,
     "generation": 5,
     "is_legendary": false,
-    "spriteURL": "frillish.png"
+    "spriteURL": "frillish"
   },
   {
     "classification": "Floating Pokémon",
@@ -7079,7 +7079,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 2.2,
     "generation": 5,
     "is_legendary": false,
-    "spriteURL": "jellicent.png"
+    "spriteURL": "jellicent"
   },
   {
     "classification": "Caring Pokémon",
@@ -7091,7 +7091,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 1.2,
     "generation": 5,
     "is_legendary": false,
-    "spriteURL": "alomomola.png"
+    "spriteURL": "alomomola"
   },
   {
     "classification": "Attaching Pokémon",
@@ -7103,7 +7103,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 0.1,
     "generation": 5,
     "is_legendary": false,
-    "spriteURL": "joltik.png"
+    "spriteURL": "joltik"
   },
   {
     "classification": "EleSpider Pokémon",
@@ -7115,7 +7115,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 0.8,
     "generation": 5,
     "is_legendary": false,
-    "spriteURL": "galvantula.png"
+    "spriteURL": "galvantula"
   },
   {
     "classification": "Thorn Seed Pokémon",
@@ -7127,7 +7127,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 0.6,
     "generation": 5,
     "is_legendary": false,
-    "spriteURL": "ferroseed.png"
+    "spriteURL": "ferroseed"
   },
   {
     "classification": "Thorn Pod Pokémon",
@@ -7139,7 +7139,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 1,
     "generation": 5,
     "is_legendary": false,
-    "spriteURL": "ferrothorn.png"
+    "spriteURL": "ferrothorn"
   },
   {
     "classification": "Gear Pokémon",
@@ -7151,7 +7151,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 0.3,
     "generation": 5,
     "is_legendary": false,
-    "spriteURL": "klink.png"
+    "spriteURL": "klink"
   },
   {
     "classification": "Gear Pokémon",
@@ -7163,7 +7163,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 0.6,
     "generation": 5,
     "is_legendary": false,
-    "spriteURL": "klang.png"
+    "spriteURL": "klang"
   },
   {
     "classification": "Gear Pokémon",
@@ -7175,7 +7175,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 0.6,
     "generation": 5,
     "is_legendary": false,
-    "spriteURL": "klinklang.png"
+    "spriteURL": "klinklang"
   },
   {
     "classification": "EleFish Pokémon",
@@ -7187,7 +7187,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 0.2,
     "generation": 5,
     "is_legendary": false,
-    "spriteURL": "tynamo.png"
+    "spriteURL": "tynamo"
   },
   {
     "classification": "EleFish Pokémon",
@@ -7199,7 +7199,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 1.2,
     "generation": 5,
     "is_legendary": false,
-    "spriteURL": "eelektrik.png"
+    "spriteURL": "eelektrik"
   },
   {
     "classification": "EleFish Pokémon",
@@ -7211,7 +7211,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 2.1,
     "generation": 5,
     "is_legendary": false,
-    "spriteURL": "eelektross.png"
+    "spriteURL": "eelektross"
   },
   {
     "classification": "Cerebral Pokémon",
@@ -7223,7 +7223,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 0.5,
     "generation": 5,
     "is_legendary": false,
-    "spriteURL": "elgyem.png"
+    "spriteURL": "elgyem"
   },
   {
     "classification": "Cerebral Pokémon",
@@ -7235,7 +7235,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 1,
     "generation": 5,
     "is_legendary": false,
-    "spriteURL": "beheeyem.png"
+    "spriteURL": "beheeyem"
   },
   {
     "classification": "Candle Pokémon",
@@ -7247,7 +7247,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 0.3,
     "generation": 5,
     "is_legendary": false,
-    "spriteURL": "litwick.png"
+    "spriteURL": "litwick"
   },
   {
     "classification": "Lamp Pokémon",
@@ -7259,7 +7259,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 0.6,
     "generation": 5,
     "is_legendary": false,
-    "spriteURL": "lampent.png"
+    "spriteURL": "lampent"
   },
   {
     "classification": "Luring Pokémon",
@@ -7271,7 +7271,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 1,
     "generation": 5,
     "is_legendary": false,
-    "spriteURL": "chandelure.png"
+    "spriteURL": "chandelure"
   },
   {
     "classification": "Tusk Pokémon",
@@ -7283,7 +7283,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 0.6,
     "generation": 5,
     "is_legendary": false,
-    "spriteURL": "axew.png"
+    "spriteURL": "axew"
   },
   {
     "classification": "Axe Jaw Pokémon",
@@ -7295,7 +7295,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 1,
     "generation": 5,
     "is_legendary": false,
-    "spriteURL": "fraxure.png"
+    "spriteURL": "fraxure"
   },
   {
     "classification": "Axe Jaw Pokémon",
@@ -7307,7 +7307,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 1.8,
     "generation": 5,
     "is_legendary": false,
-    "spriteURL": "haxorus.png"
+    "spriteURL": "haxorus"
   },
   {
     "classification": "Chill Pokémon",
@@ -7319,7 +7319,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 0.5,
     "generation": 5,
     "is_legendary": false,
-    "spriteURL": "cubchoo.png"
+    "spriteURL": "cubchoo"
   },
   {
     "classification": "Freezing Pokémon",
@@ -7331,7 +7331,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 2.6,
     "generation": 5,
     "is_legendary": false,
-    "spriteURL": "beartic.png"
+    "spriteURL": "beartic"
   },
   {
     "classification": "Crystallizing Pokémon",
@@ -7343,7 +7343,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 1.1,
     "generation": 5,
     "is_legendary": false,
-    "spriteURL": "cryogonal.png"
+    "spriteURL": "cryogonal"
   },
   {
     "classification": "Snail Pokémon",
@@ -7355,7 +7355,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 0.4,
     "generation": 5,
     "is_legendary": false,
-    "spriteURL": "shelmet.png"
+    "spriteURL": "shelmet"
   },
   {
     "classification": "Shell Out Pokémon",
@@ -7367,7 +7367,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 0.8,
     "generation": 5,
     "is_legendary": false,
-    "spriteURL": "accelgor.png"
+    "spriteURL": "accelgor"
   },
   {
     "classification": "Trap Pokémon",
@@ -7379,7 +7379,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 0.7,
     "generation": 5,
     "is_legendary": false,
-    "spriteURL": "stunfisk.png"
+    "spriteURL": "stunfisk"
   },
   {
     "classification": "Martial Arts Pokémon",
@@ -7391,7 +7391,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 0.9,
     "generation": 5,
     "is_legendary": false,
-    "spriteURL": "mienfoo.png"
+    "spriteURL": "mienfoo"
   },
   {
     "classification": "Martial Arts Pokémon",
@@ -7403,7 +7403,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 1.4,
     "generation": 5,
     "is_legendary": false,
-    "spriteURL": "mienshao.png"
+    "spriteURL": "mienshao"
   },
   {
     "classification": "Cave Pokémon",
@@ -7415,7 +7415,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 1.6,
     "generation": 5,
     "is_legendary": false,
-    "spriteURL": "druddigon.png"
+    "spriteURL": "druddigon"
   },
   {
     "classification": "Automaton Pokémon",
@@ -7427,7 +7427,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 1,
     "generation": 5,
     "is_legendary": false,
-    "spriteURL": "golett.png"
+    "spriteURL": "golett"
   },
   {
     "classification": "Automaton Pokémon",
@@ -7439,7 +7439,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 2.8,
     "generation": 5,
     "is_legendary": false,
-    "spriteURL": "golurk.png"
+    "spriteURL": "golurk"
   },
   {
     "classification": "Sharp Blade Pokémon",
@@ -7451,7 +7451,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 0.5,
     "generation": 5,
     "is_legendary": false,
-    "spriteURL": "pawniard.png"
+    "spriteURL": "pawniard"
   },
   {
     "classification": "Sword Blade Pokémon",
@@ -7463,7 +7463,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 1.6,
     "generation": 5,
     "is_legendary": false,
-    "spriteURL": "bisharp.png"
+    "spriteURL": "bisharp"
   },
   {
     "classification": "Bash Buffalo Pokémon",
@@ -7475,7 +7475,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 1.6,
     "generation": 5,
     "is_legendary": false,
-    "spriteURL": "bouffalant.png"
+    "spriteURL": "bouffalant"
   },
   {
     "classification": "Eaglet Pokémon",
@@ -7487,7 +7487,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 0.5,
     "generation": 5,
     "is_legendary": false,
-    "spriteURL": "rufflet.png"
+    "spriteURL": "rufflet"
   },
   {
     "classification": "Valiant Pokémon",
@@ -7499,7 +7499,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 1.5,
     "generation": 5,
     "is_legendary": false,
-    "spriteURL": "braviary.png"
+    "spriteURL": "braviary"
   },
   {
     "classification": "Diapered Pokémon",
@@ -7511,7 +7511,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 0.5,
     "generation": 5,
     "is_legendary": false,
-    "spriteURL": "vullaby.png"
+    "spriteURL": "vullaby"
   },
   {
     "classification": "Bone Vulture Pokémon",
@@ -7523,7 +7523,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 1.2,
     "generation": 5,
     "is_legendary": false,
-    "spriteURL": "mandibuzz.png"
+    "spriteURL": "mandibuzz"
   },
   {
     "classification": "Anteater Pokémon",
@@ -7535,7 +7535,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 1.4,
     "generation": 5,
     "is_legendary": false,
-    "spriteURL": "heatmor.png"
+    "spriteURL": "heatmor"
   },
   {
     "classification": "Iron Ant Pokémon",
@@ -7547,7 +7547,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 0.3,
     "generation": 5,
     "is_legendary": false,
-    "spriteURL": "durant.png"
+    "spriteURL": "durant"
   },
   {
     "classification": "Irate Pokémon",
@@ -7559,7 +7559,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 0.8,
     "generation": 5,
     "is_legendary": false,
-    "spriteURL": "deino.png"
+    "spriteURL": "deino"
   },
   {
     "classification": "Hostile Pokémon",
@@ -7571,7 +7571,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 1.4,
     "generation": 5,
     "is_legendary": false,
-    "spriteURL": "zweilous.png"
+    "spriteURL": "zweilous"
   },
   {
     "classification": "Brutal Pokémon",
@@ -7583,7 +7583,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 1.8,
     "generation": 5,
     "is_legendary": false,
-    "spriteURL": "hydreigon.png"
+    "spriteURL": "hydreigon"
   },
   {
     "classification": "Torch Pokémon",
@@ -7595,7 +7595,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 1.1,
     "generation": 5,
     "is_legendary": false,
-    "spriteURL": "larvesta.png"
+    "spriteURL": "larvesta"
   },
   {
     "classification": "Sun Pokémon",
@@ -7607,7 +7607,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 1.6,
     "generation": 5,
     "is_legendary": false,
-    "spriteURL": "volcarona.png"
+    "spriteURL": "volcarona"
   },
   {
     "classification": "Iron Will Pokémon",
@@ -7619,7 +7619,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 2.1,
     "generation": 5,
     "is_legendary": true,
-    "spriteURL": "cobalion.png"
+    "spriteURL": "cobalion"
   },
   {
     "classification": "Cavern Pokémon",
@@ -7631,7 +7631,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 1.9,
     "generation": 5,
     "is_legendary": true,
-    "spriteURL": "terrakion.png"
+    "spriteURL": "terrakion"
   },
   {
     "classification": "Grassland Pokémon",
@@ -7643,7 +7643,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 2,
     "generation": 5,
     "is_legendary": true,
-    "spriteURL": "virizion.png"
+    "spriteURL": "virizion"
   },
   {
     "classification": "Cyclone Pokémon",
@@ -7655,7 +7655,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 1.5,
     "generation": 5,
     "is_legendary": true,
-    "spriteURL": "tornadus.png"
+    "spriteURL": "tornadus"
   },
   {
     "classification": "Bolt Strike Pokémon",
@@ -7667,7 +7667,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 1.5,
     "generation": 5,
     "is_legendary": true,
-    "spriteURL": "thundurus.png"
+    "spriteURL": "thundurus"
   },
   {
     "classification": "Vast White Pokémon",
@@ -7679,7 +7679,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 3.2,
     "generation": 5,
     "is_legendary": true,
-    "spriteURL": "reshiram.png"
+    "spriteURL": "reshiram"
   },
   {
     "classification": "Deep Black Pokémon",
@@ -7691,7 +7691,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 2.9,
     "generation": 5,
     "is_legendary": true,
-    "spriteURL": "zekrom.png"
+    "spriteURL": "zekrom"
   },
   {
     "classification": "Abundance Pokémon",
@@ -7703,7 +7703,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 1.5,
     "generation": 5,
     "is_legendary": true,
-    "spriteURL": "landorus.png"
+    "spriteURL": "landorus"
   },
   {
     "classification": "Boundary Pokémon",
@@ -7715,7 +7715,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 3,
     "generation": 5,
     "is_legendary": true,
-    "spriteURL": "kyurem.png"
+    "spriteURL": "kyurem"
   },
   {
     "classification": "Colt Pokémon",
@@ -7727,7 +7727,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 1.4,
     "generation": 5,
     "is_legendary": true,
-    "spriteURL": "keldeo.png"
+    "spriteURL": "keldeo"
   },
   {
     "classification": "Melody Pokémon",
@@ -7739,7 +7739,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 0.6,
     "generation": 5,
     "is_legendary": true,
-    "spriteURL": "meloetta.png"
+    "spriteURL": "meloetta"
   },
   {
     "classification": "Paleozoic Pokémon",
@@ -7751,7 +7751,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 1.5,
     "generation": 5,
     "is_legendary": true,
-    "spriteURL": "genesect.png"
+    "spriteURL": "genesect"
   },
   {
     "classification": "Spiky Nut Pokémon",
@@ -7763,7 +7763,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 0.4,
     "generation": 6,
     "is_legendary": false,
-    "spriteURL": "chespin.png"
+    "spriteURL": "chespin"
   },
   {
     "classification": "Spiny Armor Pokémon",
@@ -7775,7 +7775,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 0.7,
     "generation": 6,
     "is_legendary": false,
-    "spriteURL": "quilladin.png"
+    "spriteURL": "quilladin"
   },
   {
     "classification": "Spiny Armor Pokémon",
@@ -7787,7 +7787,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 1.6,
     "generation": 6,
     "is_legendary": false,
-    "spriteURL": "chesnaught.png"
+    "spriteURL": "chesnaught"
   },
   {
     "classification": "Fox Pokémon",
@@ -7799,7 +7799,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 0.4,
     "generation": 6,
     "is_legendary": false,
-    "spriteURL": "fennekin.png"
+    "spriteURL": "fennekin"
   },
   {
     "classification": "Fox Pokémon",
@@ -7811,7 +7811,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 1,
     "generation": 6,
     "is_legendary": false,
-    "spriteURL": "braixen.png"
+    "spriteURL": "braixen"
   },
   {
     "classification": "Fox Pokémon",
@@ -7823,7 +7823,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 1.5,
     "generation": 6,
     "is_legendary": false,
-    "spriteURL": "delphox.png"
+    "spriteURL": "delphox"
   },
   {
     "classification": "Bubble Frog Pokémon",
@@ -7835,7 +7835,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 0.3,
     "generation": 6,
     "is_legendary": false,
-    "spriteURL": "froakie.png"
+    "spriteURL": "froakie"
   },
   {
     "classification": "Bubble Frog Pokémon",
@@ -7847,7 +7847,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 0.6,
     "generation": 6,
     "is_legendary": false,
-    "spriteURL": "frogadier.png"
+    "spriteURL": "frogadier"
   },
   {
     "classification": "Ninja Pokémon",
@@ -7859,7 +7859,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 1.5,
     "generation": 6,
     "is_legendary": false,
-    "spriteURL": "greninja.png"
+    "spriteURL": "greninja"
   },
   {
     "classification": "Digging Pokémon",
@@ -7871,7 +7871,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 0.4,
     "generation": 6,
     "is_legendary": false,
-    "spriteURL": "bunnelby.png"
+    "spriteURL": "bunnelby"
   },
   {
     "classification": "Digging Pokémon",
@@ -7883,7 +7883,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 1,
     "generation": 6,
     "is_legendary": false,
-    "spriteURL": "diggersby.png"
+    "spriteURL": "diggersby"
   },
   {
     "classification": "Tiny Robin Pokémon",
@@ -7895,7 +7895,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 0.3,
     "generation": 6,
     "is_legendary": false,
-    "spriteURL": "fletchling.png"
+    "spriteURL": "fletchling"
   },
   {
     "classification": "Ember Pokémon",
@@ -7907,7 +7907,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 0.7,
     "generation": 6,
     "is_legendary": false,
-    "spriteURL": "fletchinder.png"
+    "spriteURL": "fletchinder"
   },
   {
     "classification": "Scorching Pokémon",
@@ -7919,7 +7919,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 1.2,
     "generation": 6,
     "is_legendary": false,
-    "spriteURL": "talonflame.png"
+    "spriteURL": "talonflame"
   },
   {
     "classification": "Scatterdust Pokémon",
@@ -7931,7 +7931,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 0.3,
     "generation": 6,
     "is_legendary": false,
-    "spriteURL": "scatterbug.png"
+    "spriteURL": "scatterbug"
   },
   {
     "classification": "Scatterdust Pokémon",
@@ -7943,7 +7943,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 0.3,
     "generation": 6,
     "is_legendary": false,
-    "spriteURL": "spewpa.png"
+    "spriteURL": "spewpa"
   },
   {
     "classification": "Scale Pokémon",
@@ -7955,7 +7955,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 1.2,
     "generation": 6,
     "is_legendary": false,
-    "spriteURL": "vivillon.png"
+    "spriteURL": "vivillon"
   },
   {
     "classification": "Lion Cub Pokémon",
@@ -7967,7 +7967,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 0.6,
     "generation": 6,
     "is_legendary": false,
-    "spriteURL": "litleo.png"
+    "spriteURL": "litleo"
   },
   {
     "classification": "Royal Pokémon",
@@ -7979,7 +7979,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 1.5,
     "generation": 6,
     "is_legendary": false,
-    "spriteURL": "pyroar.png"
+    "spriteURL": "pyroar"
   },
   {
     "classification": "Single Bloom Pokémon",
@@ -7991,7 +7991,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 0.1,
     "generation": 6,
     "is_legendary": false,
-    "spriteURL": "flabebe.png"
+    "spriteURL": "flabebe"
   },
   {
     "classification": "Fairy Pokémon",
@@ -8003,7 +8003,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 0.2,
     "generation": 6,
     "is_legendary": false,
-    "spriteURL": "floette.png"
+    "spriteURL": "floette"
   },
   {
     "classification": "Garden Pokémon",
@@ -8015,7 +8015,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 1.1,
     "generation": 6,
     "is_legendary": false,
-    "spriteURL": "florges.png"
+    "spriteURL": "florges"
   },
   {
     "classification": "Mount Pokémon",
@@ -8027,7 +8027,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 0.9,
     "generation": 6,
     "is_legendary": false,
-    "spriteURL": "skiddo.png"
+    "spriteURL": "skiddo"
   },
   {
     "classification": "Mount Pokémon",
@@ -8039,7 +8039,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 1.7,
     "generation": 6,
     "is_legendary": false,
-    "spriteURL": "gogoat.png"
+    "spriteURL": "gogoat"
   },
   {
     "classification": "Playful Pokémon",
@@ -8051,7 +8051,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 0.6,
     "generation": 6,
     "is_legendary": false,
-    "spriteURL": "pancham.png"
+    "spriteURL": "pancham"
   },
   {
     "classification": "Daunting Pokémon",
@@ -8063,7 +8063,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 2.1,
     "generation": 6,
     "is_legendary": false,
-    "spriteURL": "pangoro.png"
+    "spriteURL": "pangoro"
   },
   {
     "classification": "Poodle Pokémon",
@@ -8075,7 +8075,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 1.2,
     "generation": 6,
     "is_legendary": false,
-    "spriteURL": "furfrou.png"
+    "spriteURL": "furfrou"
   },
   {
     "classification": "Restraint Pokémon",
@@ -8087,7 +8087,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 0.3,
     "generation": 6,
     "is_legendary": false,
-    "spriteURL": "espurr.png"
+    "spriteURL": "espurr"
   },
   {
     "classification": "Constraint Pokémon",
@@ -8099,7 +8099,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 0.6,
     "generation": 6,
     "is_legendary": false,
-    "spriteURL": "meowstic.png"
+    "spriteURL": "meowstic"
   },
   {
     "classification": "Sword Pokémon",
@@ -8111,7 +8111,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 0.8,
     "generation": 6,
     "is_legendary": false,
-    "spriteURL": "honedge.png"
+    "spriteURL": "honedge"
   },
   {
     "classification": "Sword Pokémon",
@@ -8123,7 +8123,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 0.8,
     "generation": 6,
     "is_legendary": false,
-    "spriteURL": "doublade.png"
+    "spriteURL": "doublade"
   },
   {
     "classification": "Royal Sword Pokémon",
@@ -8135,7 +8135,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 1.7,
     "generation": 6,
     "is_legendary": false,
-    "spriteURL": "aegislash.png"
+    "spriteURL": "aegislash"
   },
   {
     "classification": "Perfume Pokémon",
@@ -8147,7 +8147,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 0.2,
     "generation": 6,
     "is_legendary": false,
-    "spriteURL": "spritzee.png"
+    "spriteURL": "spritzee"
   },
   {
     "classification": "Fragrance Pokémon",
@@ -8159,7 +8159,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 0.8,
     "generation": 6,
     "is_legendary": false,
-    "spriteURL": "aromatisse.png"
+    "spriteURL": "aromatisse"
   },
   {
     "classification": "Cotton Candy Pokémon",
@@ -8171,7 +8171,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 0.4,
     "generation": 6,
     "is_legendary": false,
-    "spriteURL": "swirlix.png"
+    "spriteURL": "swirlix"
   },
   {
     "classification": "Meringue Pokémon",
@@ -8183,7 +8183,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 0.8,
     "generation": 6,
     "is_legendary": false,
-    "spriteURL": "slurpuff.png"
+    "spriteURL": "slurpuff"
   },
   {
     "classification": "Revolving Pokémon",
@@ -8195,7 +8195,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 0.4,
     "generation": 6,
     "is_legendary": false,
-    "spriteURL": "inkay.png"
+    "spriteURL": "inkay"
   },
   {
     "classification": "Overturning Pokémon",
@@ -8207,7 +8207,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 1.5,
     "generation": 6,
     "is_legendary": false,
-    "spriteURL": "malamar.png"
+    "spriteURL": "malamar"
   },
   {
     "classification": "Two-Handed Pokémon",
@@ -8219,7 +8219,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 0.5,
     "generation": 6,
     "is_legendary": false,
-    "spriteURL": "binacle.png"
+    "spriteURL": "binacle"
   },
   {
     "classification": "Collective Pokémon",
@@ -8231,7 +8231,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 1.3,
     "generation": 6,
     "is_legendary": false,
-    "spriteURL": "barbaracle.png"
+    "spriteURL": "barbaracle"
   },
   {
     "classification": "Mock Kelp Pokémon",
@@ -8243,7 +8243,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 0.5,
     "generation": 6,
     "is_legendary": false,
-    "spriteURL": "skrelp.png"
+    "spriteURL": "skrelp"
   },
   {
     "classification": "Mock Kelp Pokémon",
@@ -8255,7 +8255,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 1.8,
     "generation": 6,
     "is_legendary": false,
-    "spriteURL": "dragalge.png"
+    "spriteURL": "dragalge"
   },
   {
     "classification": "Water Gun Pokémon",
@@ -8267,7 +8267,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 0.5,
     "generation": 6,
     "is_legendary": false,
-    "spriteURL": "clauncher.png"
+    "spriteURL": "clauncher"
   },
   {
     "classification": "Howitzer Pokémon",
@@ -8279,7 +8279,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 1.3,
     "generation": 6,
     "is_legendary": false,
-    "spriteURL": "clawitzer.png"
+    "spriteURL": "clawitzer"
   },
   {
     "classification": "Generator Pokémon",
@@ -8291,7 +8291,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 0.5,
     "generation": 6,
     "is_legendary": false,
-    "spriteURL": "helioptile.png"
+    "spriteURL": "helioptile"
   },
   {
     "classification": "Generator Pokémon",
@@ -8303,7 +8303,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 1,
     "generation": 6,
     "is_legendary": false,
-    "spriteURL": "heliolisk.png"
+    "spriteURL": "heliolisk"
   },
   {
     "classification": "Royal Heir Pokémon",
@@ -8315,7 +8315,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 0.8,
     "generation": 6,
     "is_legendary": false,
-    "spriteURL": "tyrunt.png"
+    "spriteURL": "tyrunt"
   },
   {
     "classification": "Despot Pokémon",
@@ -8327,7 +8327,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 2.5,
     "generation": 6,
     "is_legendary": false,
-    "spriteURL": "tyrantrum.png"
+    "spriteURL": "tyrantrum"
   },
   {
     "classification": "Tundra Pokémon",
@@ -8339,7 +8339,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 1.3,
     "generation": 6,
     "is_legendary": false,
-    "spriteURL": "amaura.png"
+    "spriteURL": "amaura"
   },
   {
     "classification": "Tundra Pokémon",
@@ -8351,7 +8351,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 2.7,
     "generation": 6,
     "is_legendary": false,
-    "spriteURL": "aurorus.png"
+    "spriteURL": "aurorus"
   },
   {
     "classification": "Intertwining Pokémon",
@@ -8363,7 +8363,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 1,
     "generation": 6,
     "is_legendary": false,
-    "spriteURL": "sylveon.png"
+    "spriteURL": "sylveon"
   },
   {
     "classification": "Wrestling Pokémon",
@@ -8375,7 +8375,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 0.8,
     "generation": 6,
     "is_legendary": false,
-    "spriteURL": "hawlucha.png"
+    "spriteURL": "hawlucha"
   },
   {
     "classification": "Antenna Pokémon",
@@ -8387,7 +8387,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 0.2,
     "generation": 6,
     "is_legendary": false,
-    "spriteURL": "dedenne.png"
+    "spriteURL": "dedenne"
   },
   {
     "classification": "Jewel Pokémon",
@@ -8399,7 +8399,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 0.3,
     "generation": 6,
     "is_legendary": false,
-    "spriteURL": "carbink.png"
+    "spriteURL": "carbink"
   },
   {
     "classification": "Soft Tissue Pokémon",
@@ -8411,7 +8411,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 0.3,
     "generation": 6,
     "is_legendary": false,
-    "spriteURL": "goomy.png"
+    "spriteURL": "goomy"
   },
   {
     "classification": "Soft Tissue Pokémon",
@@ -8423,7 +8423,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 0.8,
     "generation": 6,
     "is_legendary": false,
-    "spriteURL": "sliggoo.png"
+    "spriteURL": "sliggoo"
   },
   {
     "classification": "Dragon Pokémon",
@@ -8435,7 +8435,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 2,
     "generation": 6,
     "is_legendary": false,
-    "spriteURL": "goodra.png"
+    "spriteURL": "goodra"
   },
   {
     "classification": "Key Ring Pokémon",
@@ -8447,7 +8447,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 0.2,
     "generation": 6,
     "is_legendary": false,
-    "spriteURL": "klefki.png"
+    "spriteURL": "klefki"
   },
   {
     "classification": "Stump Pokémon",
@@ -8459,7 +8459,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 0.4,
     "generation": 6,
     "is_legendary": false,
-    "spriteURL": "phantump.png"
+    "spriteURL": "phantump"
   },
   {
     "classification": "Elder Tree Pokémon",
@@ -8471,7 +8471,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 1.5,
     "generation": 6,
     "is_legendary": false,
-    "spriteURL": "trevenant.png"
+    "spriteURL": "trevenant"
   },
   {
     "classification": "Pumpkin Pokémon",
@@ -8483,7 +8483,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 0.8,
     "generation": 6,
     "is_legendary": false,
-    "spriteURL": "pumpkaboo.png"
+    "spriteURL": "pumpkaboo"
   },
   {
     "classification": "Pumpkin Pokémon",
@@ -8495,7 +8495,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 1.7,
     "generation": 6,
     "is_legendary": false,
-    "spriteURL": "gourgeist.png"
+    "spriteURL": "gourgeist"
   },
   {
     "classification": "Ice Chunk Pokémon",
@@ -8507,7 +8507,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 1,
     "generation": 6,
     "is_legendary": false,
-    "spriteURL": "bergmite.png"
+    "spriteURL": "bergmite"
   },
   {
     "classification": "Iceberg Pokémon",
@@ -8519,7 +8519,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 2,
     "generation": 6,
     "is_legendary": false,
-    "spriteURL": "avalugg.png"
+    "spriteURL": "avalugg"
   },
   {
     "classification": "Sound Wave Pokémon",
@@ -8531,7 +8531,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 0.5,
     "generation": 6,
     "is_legendary": false,
-    "spriteURL": "noibat.png"
+    "spriteURL": "noibat"
   },
   {
     "classification": "Sound Wave Pokémon",
@@ -8543,7 +8543,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 1.5,
     "generation": 6,
     "is_legendary": false,
-    "spriteURL": "noivern.png"
+    "spriteURL": "noivern"
   },
   {
     "classification": "Life Pokémon",
@@ -8555,7 +8555,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 3,
     "generation": 6,
     "is_legendary": true,
-    "spriteURL": "xerneas.png"
+    "spriteURL": "xerneas"
   },
   {
     "classification": "Destruction Pokémon",
@@ -8567,7 +8567,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 5.8,
     "generation": 6,
     "is_legendary": true,
-    "spriteURL": "yveltal.png"
+    "spriteURL": "yveltal"
   },
   {
     "classification": "Order Pokémon",
@@ -8579,7 +8579,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 5,
     "generation": 6,
     "is_legendary": true,
-    "spriteURL": "zygarde.png"
+    "spriteURL": "zygarde"
   },
   {
     "classification": "Jewel Pokémon",
@@ -8591,7 +8591,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 0.7,
     "generation": 6,
     "is_legendary": true,
-    "spriteURL": "diancie.png"
+    "spriteURL": "diancie"
   },
   {
     "classification": "Mischief Pokémon (Confined)Djinn Pokémonn (Unbound)",
@@ -8601,7 +8601,7 @@ export const PokemonList: Array<Pokemon> =  [
     "type2": "ghost",
     "generation": 6,
     "is_legendary": true,
-    "spriteURL": "hoopa.png"
+    "spriteURL": "hoopa"
   },
   {
     "classification": "Steam Pokémon",
@@ -8613,7 +8613,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 1.7,
     "generation": 6,
     "is_legendary": true,
-    "spriteURL": "volcanion.png"
+    "spriteURL": "volcanion"
   },
   {
     "classification": "Grass Quill Pokémon",
@@ -8625,7 +8625,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 0.3,
     "generation": 7,
     "is_legendary": false,
-    "spriteURL": "rowlet.png"
+    "spriteURL": "rowlet"
   },
   {
     "classification": "Blade Quill Pokémon",
@@ -8637,7 +8637,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 0.7,
     "generation": 7,
     "is_legendary": false,
-    "spriteURL": "dartrix.png"
+    "spriteURL": "dartrix"
   },
   {
     "classification": "Arrow Quill Pokémon",
@@ -8649,7 +8649,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 1.6,
     "generation": 7,
     "is_legendary": false,
-    "spriteURL": "decidueye.png"
+    "spriteURL": "decidueye"
   },
   {
     "classification": "Fire Cat Pokémon",
@@ -8661,7 +8661,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 0.4,
     "generation": 7,
     "is_legendary": false,
-    "spriteURL": "litten.png"
+    "spriteURL": "litten"
   },
   {
     "classification": "Fire Cat Pokémon",
@@ -8673,7 +8673,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 0.7,
     "generation": 7,
     "is_legendary": false,
-    "spriteURL": "torracat.png"
+    "spriteURL": "torracat"
   },
   {
     "classification": "Heel Pokémon",
@@ -8685,7 +8685,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 1.8,
     "generation": 7,
     "is_legendary": false,
-    "spriteURL": "incineroar.png"
+    "spriteURL": "incineroar"
   },
   {
     "classification": "Sea Lion Pokémon",
@@ -8697,7 +8697,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 0.4,
     "generation": 7,
     "is_legendary": false,
-    "spriteURL": "popplio.png"
+    "spriteURL": "popplio"
   },
   {
     "classification": "Pop Star Pokémon",
@@ -8709,7 +8709,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 0.6,
     "generation": 7,
     "is_legendary": false,
-    "spriteURL": "brionne.png"
+    "spriteURL": "brionne"
   },
   {
     "classification": "Soloist Pokémon",
@@ -8721,7 +8721,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 1.8,
     "generation": 7,
     "is_legendary": false,
-    "spriteURL": "primarina.png"
+    "spriteURL": "primarina"
   },
   {
     "classification": "Woodpecker Pokémon",
@@ -8733,7 +8733,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 0.3,
     "generation": 7,
     "is_legendary": false,
-    "spriteURL": "pikipek.png"
+    "spriteURL": "pikipek"
   },
   {
     "classification": "Bugle Beak Pokémon",
@@ -8745,7 +8745,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 0.6,
     "generation": 7,
     "is_legendary": false,
-    "spriteURL": "trumbeak.png"
+    "spriteURL": "trumbeak"
   },
   {
     "classification": "Cannon Pokémon",
@@ -8757,7 +8757,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 1.1,
     "generation": 7,
     "is_legendary": false,
-    "spriteURL": "toucannon.png"
+    "spriteURL": "toucannon"
   },
   {
     "classification": "Loitering Pokémon",
@@ -8769,7 +8769,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 0.4,
     "generation": 7,
     "is_legendary": false,
-    "spriteURL": "yungoos.png"
+    "spriteURL": "yungoos"
   },
   {
     "classification": "Stakeout Pokémon",
@@ -8781,7 +8781,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 0.7,
     "generation": 7,
     "is_legendary": false,
-    "spriteURL": "gumshoos.png"
+    "spriteURL": "gumshoos"
   },
   {
     "classification": "Larva Pokémon",
@@ -8793,7 +8793,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 0.4,
     "generation": 7,
     "is_legendary": false,
-    "spriteURL": "grubbin.png"
+    "spriteURL": "grubbin"
   },
   {
     "classification": "Battery Pokémon",
@@ -8805,7 +8805,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 0.5,
     "generation": 7,
     "is_legendary": false,
-    "spriteURL": "charjabug.png"
+    "spriteURL": "charjabug"
   },
   {
     "classification": "Stag Beetle Pokémon",
@@ -8817,7 +8817,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 1.5,
     "generation": 7,
     "is_legendary": false,
-    "spriteURL": "vikavolt.png"
+    "spriteURL": "vikavolt"
   },
   {
     "classification": "Boxing Pokémon",
@@ -8829,7 +8829,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 0.6,
     "generation": 7,
     "is_legendary": false,
-    "spriteURL": "crabrawler.png"
+    "spriteURL": "crabrawler"
   },
   {
     "classification": "Woolly Crab Pokémon",
@@ -8841,7 +8841,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 1.7,
     "generation": 7,
     "is_legendary": false,
-    "spriteURL": "crabominable.png"
+    "spriteURL": "crabominable"
   },
   {
     "classification": "Dancing Pokémon",
@@ -8853,7 +8853,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 0.6,
     "generation": 7,
     "is_legendary": false,
-    "spriteURL": "oricorio.png"
+    "spriteURL": "oricorio"
   },
   {
     "classification": "Bee Fly Pokémon",
@@ -8865,7 +8865,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 0.1,
     "generation": 7,
     "is_legendary": false,
-    "spriteURL": "cutiefly.png"
+    "spriteURL": "cutiefly"
   },
   {
     "classification": "Bee Fly Pokémon",
@@ -8877,7 +8877,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 0.2,
     "generation": 7,
     "is_legendary": false,
-    "spriteURL": "ribombee.png"
+    "spriteURL": "ribombee"
   },
   {
     "classification": "Puppy Pokémon",
@@ -8889,7 +8889,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 0.5,
     "generation": 7,
     "is_legendary": false,
-    "spriteURL": "rockruff.png"
+    "spriteURL": "rockruff"
   },
   {
     "classification": "Wolf Pokémon",
@@ -8899,7 +8899,7 @@ export const PokemonList: Array<Pokemon> =  [
     "type2": null,
     "generation": 7,
     "is_legendary": false,
-    "spriteURL": "lycanroc.png"
+    "spriteURL": "lycanroc"
   },
   {
     "classification": "Small Fry Pokémon",
@@ -8911,7 +8911,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 0.2,
     "generation": 7,
     "is_legendary": false,
-    "spriteURL": "wishiwashi.png"
+    "spriteURL": "wishiwashi"
   },
   {
     "classification": "Brutal Star Pokémon",
@@ -8923,7 +8923,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 0.4,
     "generation": 7,
     "is_legendary": false,
-    "spriteURL": "mareanie.png"
+    "spriteURL": "mareanie"
   },
   {
     "classification": "Brutal Star Pokémon",
@@ -8935,7 +8935,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 0.7,
     "generation": 7,
     "is_legendary": false,
-    "spriteURL": "toxapex.png"
+    "spriteURL": "toxapex"
   },
   {
     "classification": "Donkey Pokémon",
@@ -8947,7 +8947,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 1,
     "generation": 7,
     "is_legendary": false,
-    "spriteURL": "mudbray.png"
+    "spriteURL": "mudbray"
   },
   {
     "classification": "Draft Horse Pokémon",
@@ -8959,7 +8959,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 2.5,
     "generation": 7,
     "is_legendary": false,
-    "spriteURL": "mudsdale.png"
+    "spriteURL": "mudsdale"
   },
   {
     "classification": "Water Bubble Pokémon",
@@ -8971,7 +8971,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 0.3,
     "generation": 7,
     "is_legendary": false,
-    "spriteURL": "dewpider.png"
+    "spriteURL": "dewpider"
   },
   {
     "classification": "Water Bubble Pokémon",
@@ -8983,7 +8983,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 1.8,
     "generation": 7,
     "is_legendary": false,
-    "spriteURL": "araquanid.png"
+    "spriteURL": "araquanid"
   },
   {
     "classification": "Sickle Grass Pokémon",
@@ -8995,7 +8995,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 0.3,
     "generation": 7,
     "is_legendary": false,
-    "spriteURL": "fomantis.png"
+    "spriteURL": "fomantis"
   },
   {
     "classification": "Bloom Sickle Pokémon",
@@ -9007,7 +9007,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 0.9,
     "generation": 7,
     "is_legendary": false,
-    "spriteURL": "lurantis.png"
+    "spriteURL": "lurantis"
   },
   {
     "classification": "Illuminating Pokémon",
@@ -9019,7 +9019,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 0.2,
     "generation": 7,
     "is_legendary": false,
-    "spriteURL": "morelull.png"
+    "spriteURL": "morelull"
   },
   {
     "classification": "Illuminating Pokémon",
@@ -9031,7 +9031,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 1,
     "generation": 7,
     "is_legendary": false,
-    "spriteURL": "shiinotic.png"
+    "spriteURL": "shiinotic"
   },
   {
     "classification": "Toxic Lizard Pokémon",
@@ -9043,7 +9043,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 0.6,
     "generation": 7,
     "is_legendary": false,
-    "spriteURL": "salandit.png"
+    "spriteURL": "salandit"
   },
   {
     "classification": "Toxic Lizard Pokémon",
@@ -9055,7 +9055,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 1.2,
     "generation": 7,
     "is_legendary": false,
-    "spriteURL": "salazzle.png"
+    "spriteURL": "salazzle"
   },
   {
     "classification": "Flailing Pokémon",
@@ -9067,7 +9067,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 0.5,
     "generation": 7,
     "is_legendary": false,
-    "spriteURL": "stufful.png"
+    "spriteURL": "stufful"
   },
   {
     "classification": "Strong Arm Pokémon",
@@ -9079,7 +9079,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 2.1,
     "generation": 7,
     "is_legendary": false,
-    "spriteURL": "bewear.png"
+    "spriteURL": "bewear"
   },
   {
     "classification": "Fruit Pokémon",
@@ -9091,7 +9091,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 0.3,
     "generation": 7,
     "is_legendary": false,
-    "spriteURL": "bounsweet.png"
+    "spriteURL": "bounsweet"
   },
   {
     "classification": "Fruit Pokémon",
@@ -9103,7 +9103,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 0.7,
     "generation": 7,
     "is_legendary": false,
-    "spriteURL": "steenee.png"
+    "spriteURL": "steenee"
   },
   {
     "classification": "Fruit Pokémon",
@@ -9115,7 +9115,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 1.2,
     "generation": 7,
     "is_legendary": false,
-    "spriteURL": "tsareena.png"
+    "spriteURL": "tsareena"
   },
   {
     "classification": "Posy Picker Pokémon",
@@ -9127,7 +9127,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 0.1,
     "generation": 7,
     "is_legendary": false,
-    "spriteURL": "comfey.png"
+    "spriteURL": "comfey"
   },
   {
     "classification": "Sage Pokémon",
@@ -9139,7 +9139,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 1.5,
     "generation": 7,
     "is_legendary": false,
-    "spriteURL": "oranguru.png"
+    "spriteURL": "oranguru"
   },
   {
     "classification": "Teamwork Pokémon",
@@ -9151,7 +9151,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 2,
     "generation": 7,
     "is_legendary": false,
-    "spriteURL": "passimian.png"
+    "spriteURL": "passimian"
   },
   {
     "classification": "Turn Tail Pokémon",
@@ -9163,7 +9163,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 0.5,
     "generation": 7,
     "is_legendary": false,
-    "spriteURL": "wimpod.png"
+    "spriteURL": "wimpod"
   },
   {
     "classification": "Hard Scale Pokémon",
@@ -9175,7 +9175,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 2,
     "generation": 7,
     "is_legendary": false,
-    "spriteURL": "golisopod.png"
+    "spriteURL": "golisopod"
   },
   {
     "classification": "Sand Heap Pokémon",
@@ -9187,7 +9187,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 0.5,
     "generation": 7,
     "is_legendary": false,
-    "spriteURL": "sandygast.png"
+    "spriteURL": "sandygast"
   },
   {
     "classification": "Sand Castle Pokémon",
@@ -9199,7 +9199,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 1.3,
     "generation": 7,
     "is_legendary": false,
-    "spriteURL": "palossand.png"
+    "spriteURL": "palossand"
   },
   {
     "classification": "Sea Cucumber Pokémon",
@@ -9211,7 +9211,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 0.3,
     "generation": 7,
     "is_legendary": false,
-    "spriteURL": "pyukumuku.png"
+    "spriteURL": "pyukumuku"
   },
   {
     "classification": "Synthetic Pokémon",
@@ -9223,7 +9223,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 1.9,
     "generation": 7,
     "is_legendary": false,
-    "spriteURL": "type-null.png"
+    "spriteURL": "type-null"
   },
   {
     "classification": "Synthetic Pokémon",
@@ -9235,7 +9235,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 2.3,
     "generation": 7,
     "is_legendary": false,
-    "spriteURL": "silvally.png"
+    "spriteURL": "silvally"
   },
   {
     "classification": "Meteor Pokémon",
@@ -9247,7 +9247,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 0.3,
     "generation": 7,
     "is_legendary": false,
-    "spriteURL": "minior.png"
+    "spriteURL": "minior"
   },
   {
     "classification": "Drowsing Pokémon",
@@ -9259,7 +9259,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 0.4,
     "generation": 7,
     "is_legendary": false,
-    "spriteURL": "komala.png"
+    "spriteURL": "komala"
   },
   {
     "classification": "Blast Turtle Pokémon",
@@ -9271,7 +9271,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 2,
     "generation": 7,
     "is_legendary": false,
-    "spriteURL": "turtonator.png"
+    "spriteURL": "turtonator"
   },
   {
     "classification": "Roly-Poly Pokémon",
@@ -9283,7 +9283,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 0.3,
     "generation": 7,
     "is_legendary": false,
-    "spriteURL": "togedemaru.png"
+    "spriteURL": "togedemaru"
   },
   {
     "classification": "Disguise Pokémon",
@@ -9295,7 +9295,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 0.2,
     "generation": 7,
     "is_legendary": false,
-    "spriteURL": "mimikyu.png"
+    "spriteURL": "mimikyu"
   },
   {
     "classification": "Gnash Teeth Pokémon",
@@ -9307,7 +9307,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 0.9,
     "generation": 7,
     "is_legendary": false,
-    "spriteURL": "bruxish.png"
+    "spriteURL": "bruxish"
   },
   {
     "classification": "Placid Pokémon",
@@ -9319,7 +9319,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 3,
     "generation": 7,
     "is_legendary": false,
-    "spriteURL": "drampa.png"
+    "spriteURL": "drampa"
   },
   {
     "classification": "Sea Creeper Pokémon",
@@ -9331,7 +9331,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 3.9,
     "generation": 7,
     "is_legendary": false,
-    "spriteURL": "dhelmise.png"
+    "spriteURL": "dhelmise"
   },
   {
     "classification": "Scaly Pokémon",
@@ -9343,7 +9343,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 0.6,
     "generation": 7,
     "is_legendary": false,
-    "spriteURL": "jangmo-o.png"
+    "spriteURL": "jangmo-o"
   },
   {
     "classification": "Scaly Pokémon",
@@ -9355,7 +9355,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 1.2,
     "generation": 7,
     "is_legendary": false,
-    "spriteURL": "hakamo-o.png"
+    "spriteURL": "hakamo-o"
   },
   {
     "classification": "Scaly Pokémon",
@@ -9367,7 +9367,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 1.6,
     "generation": 7,
     "is_legendary": false,
-    "spriteURL": "kommo-o.png"
+    "spriteURL": "kommo-o"
   },
   {
     "classification": "Land Spirit Pokémon",
@@ -9379,7 +9379,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 1.8,
     "generation": 7,
     "is_legendary": true,
-    "spriteURL": "tapu-koko.png"
+    "spriteURL": "tapu-koko"
   },
   {
     "classification": "Land Spirit Pokémon",
@@ -9391,7 +9391,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 1.2,
     "generation": 7,
     "is_legendary": true,
-    "spriteURL": "tapu-lele.png"
+    "spriteURL": "tapu-lele"
   },
   {
     "classification": "Land Spirit Pokémon",
@@ -9403,7 +9403,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 1.9,
     "generation": 7,
     "is_legendary": true,
-    "spriteURL": "tapu-bulu.png"
+    "spriteURL": "tapu-bulu"
   },
   {
     "classification": "Land Spirit Pokémon",
@@ -9415,7 +9415,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 1.3,
     "generation": 7,
     "is_legendary": true,
-    "spriteURL": "tapu-fini.png"
+    "spriteURL": "tapu-fini"
   },
   {
     "classification": "Nebula Pokémon",
@@ -9427,7 +9427,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 0.2,
     "generation": 7,
     "is_legendary": true,
-    "spriteURL": "cosmog.png"
+    "spriteURL": "cosmog"
   },
   {
     "classification": "Protostar Pokémon",
@@ -9439,7 +9439,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 0.1,
     "generation": 7,
     "is_legendary": true,
-    "spriteURL": "cosmoem.png"
+    "spriteURL": "cosmoem"
   },
   {
     "classification": "Sunne Pokémon",
@@ -9451,7 +9451,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 3.4,
     "generation": 7,
     "is_legendary": true,
-    "spriteURL": "solgaleo.png"
+    "spriteURL": "solgaleo"
   },
   {
     "classification": "Moone Pokémon",
@@ -9463,7 +9463,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 4,
     "generation": 7,
     "is_legendary": true,
-    "spriteURL": "lunala.png"
+    "spriteURL": "lunala"
   },
   {
     "classification": "Parasite Pokémon",
@@ -9475,7 +9475,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 1.2,
     "generation": 7,
     "is_legendary": true,
-    "spriteURL": "nihilego.png"
+    "spriteURL": "nihilego"
   },
   {
     "classification": "Swollen Pokémon",
@@ -9487,7 +9487,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 2.4,
     "generation": 7,
     "is_legendary": true,
-    "spriteURL": "buzzwole.png"
+    "spriteURL": "buzzwole"
   },
   {
     "classification": "Lissome Pokémon",
@@ -9499,7 +9499,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 1.8,
     "generation": 7,
     "is_legendary": true,
-    "spriteURL": "pheromosa.png"
+    "spriteURL": "pheromosa"
   },
   {
     "classification": "Glowing Pokémon",
@@ -9511,7 +9511,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 3.8,
     "generation": 7,
     "is_legendary": true,
-    "spriteURL": "xurkitree.png"
+    "spriteURL": "xurkitree"
   },
   {
     "classification": "Launch Pokémon",
@@ -9523,7 +9523,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 9.2,
     "generation": 7,
     "is_legendary": true,
-    "spriteURL": "celesteela.png"
+    "spriteURL": "celesteela"
   },
   {
     "classification": "Drawn Sword Pokémon",
@@ -9535,7 +9535,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 0.3,
     "generation": 7,
     "is_legendary": true,
-    "spriteURL": "kartana.png"
+    "spriteURL": "kartana"
   },
   {
     "classification": "Junkivore Pokémon",
@@ -9547,7 +9547,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 5.5,
     "generation": 7,
     "is_legendary": true,
-    "spriteURL": "guzzlord.png"
+    "spriteURL": "guzzlord"
   },
   {
     "classification": "Prism Pokémon",
@@ -9559,7 +9559,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 2.4,
     "generation": 7,
     "is_legendary": true,
-    "spriteURL": "necrozma.png"
+    "spriteURL": "necrozma"
   },
   {
     "classification": "Artificial Pokémon",
@@ -9571,6 +9571,6 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 1,
     "generation": 7,
     "is_legendary": true,
-    "spriteURL": "magearna.png"
+    "spriteURL": "magearna"
   }
 ]

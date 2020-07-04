@@ -1,1 +1,11 @@
-<p>poke-guess works!</p>
+<div class='pokeGuessMain'>
+    <div *ngIf='pokemon' class='pokeImg'>
+        <img src='../../../assets/pokemon_pictures/{{ pokemon.spriteURL }}.jpg'>
+    </div>
+    <div *ngIf='pokemon' class='pokeInfo'>
+        <ul>
+            <li>{{ pokemon.name }}</li>
+        </ul>
+    </div>
+    <button mat-raised-button (click)='getNextPokemon()'>Get Next</button>
+</div>
