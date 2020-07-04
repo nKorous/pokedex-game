@@ -5231,7 +5231,7 @@ export const PokemonList: Array<Pokemon> =  [
     "height_m": 0.6,
     "generation": 4,
     "is_legendary": false,
-    "spriteURL": "mime-jr."
+    "spriteURL": "mime-jr"
   },
   {
     "classification": "Playhouse Pokémon",
