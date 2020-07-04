@@ -1,1 +1,22 @@
-<p>poke-dex works!</p>
+<dx-data-grid [dataSource]='pokemonList'>
+
+    <dxi-column [width]='75' dataField='pokedexNumber' dataType='number' caption='#'></dxi-column>
+    <dxi-column [width]='75' cellTemplate='spriteTemplate' caption=''></dxi-column>
+    <dxi-column [width]='150' dataField='name' dataType='string' caption='Name'></dxi-column>
+    <dxi-column [width]='200' dataField='classification' dataType='string' caption='Classification'></dxi-column>
+    <dxi-column [width]='150' dataField='type1' dataType='string' caption='Primary Type'></dxi-column>
+    <dxi-column [width]='150' dataField='type2' dataType='string' caption='Secondary Type'></dxi-column>
+    <dxi-column [width]='100' dataField='height_m' dataType='number' caption='Height(m)'></dxi-column>
+    <dxi-column [width]='100' dataField='weight_kg' dataType='number' caption='Weight(km)'></dxi-column>
+    <dxi-column [width]='100' dataField='generation' datatype='number' caption='Generation'></dxi-column>
+    <dxi-column [width]='100' dataField='is_legendary' dataType='boolean' caption='Legendary'></dxi-column>
+
+    <div *dxTemplate='let data of "spriteTemplate"'>
+        <img src='../../../assets/pokemon_sprites/{{ data.data.spriteURL }}'>
+    </div>
+
+    <dxo-search-panel 
+    [visible]="true" 
+    [width]="240" 
+    placeholder="Search..."></dxo-search-panel>
+</dx-data-grid>

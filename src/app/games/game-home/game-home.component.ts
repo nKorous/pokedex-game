@@ -19,7 +19,7 @@ export class GameHomeComponent implements OnInit {
 
   getPlayerInfo() {
     this.playerService.getPlayerName().subscribe((name) => {
-      if(!name) this.router.navigate(['/gameSelect'])
+      //if(!name) this.router.navigate(['/gameSelect'])
       this.playerName = name
     });
 
