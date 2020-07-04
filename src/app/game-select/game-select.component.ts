@@ -16,18 +16,9 @@ export class GameSelectComponent {
 
   pokeMessage: Array<PokeMessage> = [
     { id: 'Start', message: `Welcome to the world of Pokemon!` },
-    {
-      id: '',
-      message: `It's an exciting time to be starting on your very own journey!`,
-    },
-    {
-      id: '',
-      message: `A whole new world of possibilities and adventures is about to unfold!`,
-    },
-    {
-      id: 'Name',
-      message: `Erm... Before we begin... What was your name again?`,
-    },
+    { id: '', message: `It's an exciting time to be starting on your very own journey!`, },
+    { id: '', message: `A whole new world of possibilities and adventures is about to unfold!`, },
+    { id: 'Name', message: `Erm... Before we begin... What was your name again?`, },
   ];
 
   constructor(private playerService: PlayerService) {}
@@ -50,13 +41,7 @@ export class GameSelectComponent {
     this.playerService.setPlayerName(this.playerName);
     this.pokeMessage = [
       ...this.pokeMessage,
-      {
-        id: '',
-        message:
-          'Of course! Your name is ' +
-          this.playerName +
-          '! How could I have forgotten?!',
-      },
+      { id: '', message: 'Of course! Your name is ' + this.playerName + '! How could I have forgotten?!', },
       { id: '', message: `...` },
       { id: '', message: `${this.playerName}! Your story is about to begin.` },
       { id: 'End', message: '' },
