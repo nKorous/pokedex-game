@@ -23,8 +23,6 @@ export class GameHomeComponent implements OnInit {
       this.playerName = name
     });
 
-    this.playerService
-      .getPlayerPoints()
-      .subscribe((points) => (this.playerPoints = points));
+    this.playerService.playerPoints$.subscribe(points => this.playerPoints = points)
   }
 }

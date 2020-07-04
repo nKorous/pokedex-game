@@ -1,13 +1,13 @@
 import { Injectable } from '@angular/core';
-import { of } from 'rxjs';
+import { of, BehaviorSubject } from 'rxjs';
 
 @Injectable({
   providedIn: 'root',
 })
 export class PlayerService {
   private playerName: string;
-  private selectedGame: SelectedGame;
-  private playerPoints: number = 0;
+  private playerPoints: number  = 0
+  playerPoints$: BehaviorSubject<number> = new BehaviorSubject(this.playerPoints);
 
   constructor() {}
 
@@ -19,21 +19,8 @@ export class PlayerService {
     return of(this.playerName);
   }
 
-  setSelectedGame(game: SelectedGame) {
-    this.selectedGame = game;
-  }
-
-  getSelectedGame() {
-    return of(this.selectedGame);
-  }
-
-  setPlayerPoints(points: number) {
-    this.playerPoints += points;
-  }
-
-  getPlayerPoints() {
-    return of(this.playerPoints);
+  addPlayerPoints(points: number) {
+    this.playerPoints += points
+    this.playerPoints$.next(this.playerPoints)
   }
 }
-
-type SelectedGame = 'Guess' | 'Types' | 'Evolution';

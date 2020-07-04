@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { PlayerService } from '../../services/player.service';
 
 @Component({
   selector: 'app-poke-guess',
@@ -7,9 +8,10 @@ import { Component, OnInit } from '@angular/core';
 })
 export class PokeGuessComponent implements OnInit {
 
-  constructor() { }
+  constructor(private playerService: PlayerService) { }
 
   ngOnInit(): void {
+
   }
 
 }
