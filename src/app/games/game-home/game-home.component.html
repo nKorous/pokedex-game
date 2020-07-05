@@ -1,5 +1,5 @@
 <mat-toolbar class="pokeColor gameToolbar">
-  <button mat-button>
+  <button mat-icon-button [matMenuTriggerFor]='menu'>
     <mat-icon>menu</mat-icon>
   </button>
 
@@ -8,5 +8,12 @@
   Trainer: {{ playerName }} /
   Points: {{ playerPoints }}
 </mat-toolbar>
+
+<mat-menu #menu='matMenu'>
+  <button mat-menu-item routerLink='/home' routerLinkActive='true'><mat-icon>home</mat-icon></button>
+  <button mat-menu-item routerLink='/games/pokeType' routerLinkeActive='true'>PokeType</button>
+  <button mat-menu-item routerLink='/games/pokeGuess' routerLinkeActive='true'>PokeGuess</button>
+  <button mat-menu-item routerLink='/games/pokeDex' routerLinkeActive='true'>PokeDex</button>
+</mat-menu>
 
 <router-outlet></router-outlet>

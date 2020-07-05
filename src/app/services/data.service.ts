@@ -29,7 +29,7 @@ export class DataService {
   }
 
   getRandomPokemon() {
-    let rand = Math.floor((Math.random() * this.pokeList.length + 1) + 1)
+    let rand = Math.floor((Math.random() * this.pokeList.length) + 1)
     return this.pokeList[rand]
   }
 }

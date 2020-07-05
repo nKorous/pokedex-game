@@ -9,6 +9,7 @@ import { MatButtonModule } from '@angular/material/button/'
 import { MatCardModule } from '@angular/material/card';
 import { MatToolbarModule } from '@angular/material/toolbar'
 import { MatIconModule } from '@angular/material/icon'
+import { MatMenuModule } from '@angular/material/menu'
 
 import { DxDataGridModule } from 'devextreme-angular'
 import { GameSelectComponent } from './game-select/game-select.component';
@@ -40,6 +41,7 @@ import { PokemonDetailComponent } from './games/poke-dex/pokemon-detail.componen
     MatCardModule,
     MatToolbarModule,
     MatIconModule,
+    MatMenuModule,
 
     DxDataGridModule,
     
