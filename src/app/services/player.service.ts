@@ -23,4 +23,10 @@ export class PlayerService {
     this.playerPoints += points
     this.playerPoints$.next(this.playerPoints)
   }
+
+  logOut() {
+    this.playerName = ''
+    this.playerPoints = 0
+    this.playerPoints$.next(this.playerPoints)
+  }
 }

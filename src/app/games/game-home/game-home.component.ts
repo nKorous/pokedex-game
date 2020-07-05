@@ -26,7 +26,8 @@ export class GameHomeComponent implements OnInit {
     this.playerService.playerPoints$.subscribe(points => this.playerPoints = points)
   }
 
-  navTo(route: string) {
-    this.router.navigate([`/${route}`])
+  logOut() {
+    this.playerService.logOut()
+    this.router.navigate(['/home'])
   }
 }
