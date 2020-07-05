@@ -1,11 +1,15 @@
-<div class='pokeGuessMain'>
-    <div *ngIf='pokemon' class='pokeImg'>
-        <img src='../../../assets/pokemon_pictures/{{ pokemon.spriteURL }}.png'>
+<div class="pokeGuessMain">
+  <div class='pokeHeader'>Who's That Pokemon?!</div>
+  <div class="pokeGuess">
+    <div *ngIf="pokemon" class="pokeImg">
+      <img
+        class="pokemonPicture"
+        src="../../../assets/pokemon_pictures/{{ pokemon.spriteURL }}.png"
+      />
     </div>
-    <div *ngIf='pokemon' class='pokeInfo'>
-        <ul>
-            <li>{{ pokemon.name }}</li>
-        </ul>
-    </div>
-    <button mat-raised-button (click)='getNextPokemon()'>Get Next</button>
+  </div>
+  <span *ngFor='let choice of pokeChoices' class='choiceListItem'>
+    <button (click)='checkAnswer(choice)' class='choiceButton' mat-raised-button > {{ choice }}</button>
+  </span>
+  <div *ngIf='lastPokemon' class='lastPokemon'>Last Guess of {{ lastPokemon.name }} was {{ lastPokemon.correct ? 'Correct!!' : 'Incorrect' }}</div>
 </div>

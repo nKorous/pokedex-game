@@ -1,0 +1,55 @@
+.pokeGuessMain {
+    text-align: center;
+    background-color: var(--poke-red);
+    height: 100%
+}
+
+.pokeHeader {
+    color: var(--poke-yellow);
+    font-weight: bold;
+    font-size: 55px;
+    padding: 10px;
+}
+
+.pokeGuess {
+    justify-content: center;
+    display: flex;
+}
+
+.pokeImg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 457px;
+    width: 457px;
+    border: 2px ridge black;
+    border-radius: 5px;
+    box-shadow: 3px 6px 9px var(--poke-deep-red);
+    padding: 3px;
+    background-color: white;
+}
+
+.pokemonPicture {
+    min-height: 405px;
+    min-width: 405px;
+    max-height: 455px;
+    max-width: 455px;
+}
+
+.pokeInfo {
+    padding: 15px;
+}
+
+.choiceButton {
+    background-color: var(--steel-color);
+    color: black;
+    width: 150px;
+}
+
+.choiceListItem {
+    padding: 5px;
+}
+
+.lastPokemon {
+    padding: 25px;
+}

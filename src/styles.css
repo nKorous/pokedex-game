@@ -1,8 +1,11 @@
 /* You can add global styles to this file, and also import other style files */
 
 :root {
-  --poke-blue: #2772ba;
-  --poke-yellow: #ffcc01;
+  --poke-blue: #3B4CCA;
+  --poke-yellow: #FFDE00;
+  --poke-red: #FF0000;
+  --poke-deep-red: #CC0000;
+  --poke-gold: #B3A125;
   --bug-color: #A8B820;																							
   --dark-color: #705848;																							
   --dragon-color: #7038F8;																							

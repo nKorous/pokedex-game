@@ -14,12 +14,16 @@ export class PokeGuessComponent implements OnInit {
   guessedName: string = ''
   lastPokemon: { name: string, correct: boolean };
 
+  pokeChoices: Array<string> = new Array()
+
   constructor(
     private playerService: PlayerService,
     private dataService: DataService
   ) {}
 
-  ngOnInit(): void {}
+  ngOnInit(): void {
+    this.getNextPokemon()
+  }
 
   getNextPokemon() {
     let pokemon = this.dataService.getRandomPokemon();
@@ -27,11 +31,13 @@ export class PokeGuessComponent implements OnInit {
       this.getNextPokemon();
     } else {
       this.pokemon = pokemon;
+      this.getPokeChoices(this.pokemon.name)
+      this.alreadyGuessed = this.alreadyGuessed.length > 150 ? [...this.alreadyGuessed, pokemon.pokedexNumber] : new Array()
     }
   }
 
-  checkAnswer() {
-    if(this.guessedName === this.pokemon.name) {
+  checkAnswer(guess: string) {
+    if(guess === this.pokemon.name) {
       this.playerService.addPlayerPoints(5)
       this.lastPokemon = { name: this.pokemon.name, correct: true}
       this.getNextPokemon()
@@ -40,5 +46,15 @@ export class PokeGuessComponent implements OnInit {
       this.lastPokemon = { name: this.pokemon.name, correct: false}
       this.getNextPokemon()
     }
+  }
+
+  getPokeChoices(correct: string) {
+    let choice1 = this.dataService.getRandomPokemon()
+    let choice2 = this.dataService.getRandomPokemon()
+    let choice3 = this.dataService.getRandomPokemon()
+
+    this.pokeChoices = [ choice1.name, choice2.name, choice3.name, correct].sort((a, b) => {
+      return a < b ? 1 : b < a ? -1 : 0
+    })
   }
 }
