@@ -1,1 +1,15 @@
-<p>poke-type works!</p>
+<div class="pokeGuessMain">
+    <div class='pokeHeader'>Guess this Pokemon's Type!</div>
+    <div class="pokeGuess">
+      <div *ngIf="pokemon" class="pokeImg">
+        <img
+          class="pokemonPicture"
+          src="../../../assets/pokemon_pictures/{{ pokemon.spriteURL }}.png"
+        />
+      </div>
+    </div>
+    <span *ngFor='let choice of pokeTypes' class='choiceListItem'>
+      <button (click)='checkAnswer(choice)' class='choiceButton' [style.background-color]='getTypeColor(choice)' mat-raised-button > {{ choice }}</button>
+    </span>
+  </div>
+  
