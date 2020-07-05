@@ -11,7 +11,6 @@ import { DataService } from '../../services/data.service';
 export class PokeGuessComponent implements OnInit {
   pokemon: Pokemon;
   alreadyGuessed: Array<number> = new Array();
-  guessedName: string = ''
   lastPokemon: { name: string, correct: boolean };
 
   pokeChoices: Array<string> = new Array()
@@ -32,7 +31,7 @@ export class PokeGuessComponent implements OnInit {
     } else {
       this.pokemon = pokemon;
       this.getPokeChoices(this.pokemon.name)
-      this.alreadyGuessed = this.alreadyGuessed.length > 150 ? [...this.alreadyGuessed, pokemon.pokedexNumber] : new Array()
+      this.alreadyGuessed = this.alreadyGuessed.length > 250 ? [...this.alreadyGuessed, pokemon.pokedexNumber] : [ pokemon.pokedexNumber ]
     }
   }
 
@@ -41,7 +40,6 @@ export class PokeGuessComponent implements OnInit {
       this.playerService.addPlayerPoints(5)
       this.lastPokemon = { name: this.pokemon.name, correct: true}
       this.getNextPokemon()
-      this.guessedName = ''
     } else {
       this.lastPokemon = { name: this.pokemon.name, correct: false}
       this.getNextPokemon()
