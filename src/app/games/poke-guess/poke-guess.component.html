@@ -11,5 +11,4 @@
   <span *ngFor='let choice of pokeChoices' class='choiceListItem'>
     <button (click)='checkAnswer(choice)' class='choiceButton' mat-raised-button > {{ choice }}</button>
   </span>
-  <div *ngIf='lastPokemon' class='lastPokemon'>Last Guess of {{ lastPokemon.name }} was {{ lastPokemon.correct ? 'Correct!!' : 'Incorrect' }}</div>
 </div>

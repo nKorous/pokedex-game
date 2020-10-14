@@ -1,7 +1,7 @@
 .pokeGuessMain {
     text-align: center;
     background-color: var(--poke-red);
-    height: 100%
+    height: 100%;
 }
 
 .pokeHeader {
@@ -9,6 +9,8 @@
     font-weight: bold;
     font-size: 55px;
     padding: 10px;
+    font-family: 'pokemonSolid', Robato;
+    letter-spacing: 3px;
 }
 
 .pokeGuess {
@@ -44,6 +46,8 @@
     background-color: var(--steel-color);
     color: black;
     width: 150px;
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 
 .choiceListItem {

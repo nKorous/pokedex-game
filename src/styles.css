@@ -1,5 +1,10 @@
 /* You can add global styles to this file, and also import other style files */
 
+@font-face{
+  font-family: 'pokemonSolid';
+  src: url('assets/fonts//pokemon_Solid.ttf') format('trueType');
+}
+
 :root {
   --poke-blue: #3B4CCA;
   --poke-yellow: #FFDE00;

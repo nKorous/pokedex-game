@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { PlayerService } from '../../services/player.service';
 import { Pokemon } from '../../models/pokemon';
 import { DataService } from '../../services/data.service';
+import { PopupService } from '../../services/popup.service';
 
 @Component({
   selector: 'app-poke-guess',
@@ -17,7 +18,8 @@ export class PokeGuessComponent implements OnInit {
 
   constructor(
     private playerService: PlayerService,
-    private dataService: DataService
+    private dataService: DataService,
+    private popup: PopupService
   ) {}
 
   ngOnInit(): void {
@@ -38,10 +40,10 @@ export class PokeGuessComponent implements OnInit {
   checkAnswer(guess: string) {
     if(guess === this.pokemon.name) {
       this.playerService.addPlayerPoints(5)
-      this.lastPokemon = { name: this.pokemon.name, correct: true}
+      this.popup.success(`${this.pokemon.name} was CORRECT! +5 Points!`)
       this.getNextPokemon()
     } else {
-      this.lastPokemon = { name: this.pokemon.name, correct: false}
+      this.popup.error(`${guess} was INCORRECT`)
       this.getNextPokemon()
     }
   }
