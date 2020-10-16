@@ -36,8 +36,13 @@ export class GameSelectComponent {
     this.currentMessageIndex++;
   }
 
-  setPlayerName(name: string) {
-    this.playerName = name;
+  writePlayerName(event: any) {
+    this.playerName = event
+
+    this.allowAdvance = true
+  }
+
+  setPlayerName() {
     this.playerService.setPlayerName(this.playerName);
     this.pokeMessage = [
       ...this.pokeMessage,

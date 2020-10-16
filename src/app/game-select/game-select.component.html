@@ -3,17 +3,33 @@
     <p>
       {{ pokeMessage[currentMessageIndex].message }}
     </p>
+    <p *ngIf="showNameInput">
+      {{ playerName }}
+    </p>
 
     <p *ngIf="showNameInput">
-      <input
+      <label>Name: </label
+      ><input
         #playerNameInput
-        (keyup.enter)="setPlayerName(playerNameInput.value)"
+        class="trainerName"
+        (keyup.enter)="setPlayerName()"
+        (keyup)="writePlayerName(playerNameInput.value)"
       />
-      <span style="margin-left: 3px;"> (press 'Enter' key to continue)</span>
     </p>
 
     <button
-      *ngIf="!showGameSelection"
+      *ngIf="showNameInput"
+      id="nextButton"
+      mat-raised-button
+      class="pokeColor"
+      (click)="setPlayerName()"
+      [disabled]="!allowAdvance"
+    >
+      Next...
+    </button>
+
+    <button
+      *ngIf="!showGameSelection && !showNameInput"
       id="nextButton"
       mat-raised-button
       class="pokeColor"
@@ -27,11 +43,29 @@
 
   <div *ngIf="showGameSelection">
     <h3>{{ playerName }}, Please select a game:</h3>
-  
-    <div class='selectionButtonContainer'>
-        <button class='pokeColor selectionButton' routerLink='/games/pokeType' routerLinkeActive='true'>PokeType</button>
-        <button class='pokeColor selectionButton' routerLink='/games/pokeGuess' routerLinkeActive='true'>PokeGuess</button>
-        <button class='pokeColor selectionButton' routerLink='/games/pokeDex' routerLinkeActive='true'>PokeDex</button>
+
+    <div class="selectionButtonContainer">
+      <button
+        class="pokeColor selectionButton"
+        routerLink="/games/pokeType"
+        routerLinkeActive="true"
+      >
+        PokeType
+      </button>
+      <button
+        class="pokeColor selectionButton"
+        routerLink="/games/pokeGuess"
+        routerLinkeActive="true"
+      >
+        PokeGuess
+      </button>
+      <button
+        class="pokeColor selectionButton"
+        routerLink="/games/pokeDex"
+        routerLinkeActive="true"
+      >
+        PokeDex
+      </button>
     </div>
   </div>
 </div>

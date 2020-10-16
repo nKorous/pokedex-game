@@ -14,15 +14,25 @@
     padding: 5px;
     border-radius: 15px 15px 0px 15px;
     font-size: 28px;
-    height: 200px;
+    height: 260px;
 }
 
 #nextButton {
     float: right;
+    font-size: 30px;
+    height: 50px;
+    letter-spacing: 2px;
 }
 
 .selectionButton {
     height: 100px;
     width: 150px;
     margin: 10px;
+}
+
+.trainerName {
+    height: 30px;
+    font-size: 24px;
+    border: 1px solid black;
+    width: 200px;
 }

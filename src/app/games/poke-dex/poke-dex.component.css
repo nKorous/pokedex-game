@@ -1,6 +1,9 @@
 .pokedexMain {
-    width: 100%;
+    width: 97%;
     padding: 25px;
+    display: flex;
+    justify-content: center;
+
 }
 
 :host ::ng-deep .dx-data-row td {
@@ -16,4 +19,5 @@
     color: white;
     padding-top: 5px;
     padding-bottom: 5px;
+    align-items: center;
 }

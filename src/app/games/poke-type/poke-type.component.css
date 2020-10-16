@@ -1,16 +1,16 @@
 .pokeGuessMain {
     text-align: center;
-    background-color: var(--poke-red);
-    height: 100%
+    background-color: whiteSmoke;
+    height: 100%;
 }
 
 .pokeHeader {
-    color: var(--poke-yellow);
+    color: var(--poke-red);
     font-weight: bold;
     font-size: 55px;
     padding: 10px;
     font-family: 'pokemonSolid', Robato;
-    letter-spacing: 3px;
+    letter-spacing: 4px;
 }
 
 .pokeGuess {
@@ -26,9 +26,10 @@
     width: 457px;
     border: 2px ridge black;
     border-radius: 5px;
-    box-shadow: 3px 6px 9px var(--poke-deep-red);
+    box-shadow: 3px 6px 9px var(--steel-color);
     padding: 3px;
     background-color: white;
+    margin-bottom: 5px;
 }
 
 .pokemonPicture {
