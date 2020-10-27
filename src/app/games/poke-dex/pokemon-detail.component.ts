@@ -10,7 +10,6 @@ export class PokemonDetailComponent implements OnInit {
 
   constructor(public dialogRef: MatDialogRef<PokemonDetailComponent>,
     @Inject(MAT_DIALOG_DATA) public data: { name: string, pokeDex: number}) { 
-      console.log(data)
     }
 
   ngOnInit(): void {

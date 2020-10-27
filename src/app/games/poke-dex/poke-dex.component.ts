@@ -25,8 +25,6 @@ export class PokeDexComponent implements OnInit {
   }
 
   showPokemonPicture(data) {
-    console.log(data)
-
     let dialogRef = this.picDialog.open(PokemonDetailComponent, {
       height: '90%',
       width: '50%',
