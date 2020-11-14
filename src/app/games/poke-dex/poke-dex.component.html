@@ -1,17 +1,18 @@
 <div class='pokedexMain'>
     <dx-data-grid [dataSource]='pokemonList' [rowAlternationEnabled]="true" [showBorders]="true" [height]='600'>
-        
+
         <dxi-column alignment='center' [width]='75' dataField='pokedexNumber' dataType='number' caption='#'></dxi-column>
         <dxi-column [width]='150' cellTemplate='spriteTemplate' caption=''></dxi-column>
         <dxi-column [width]='150' dataField='name' dataType='string' caption='Name'></dxi-column>
         <dxi-column [width]='200' dataField='classification' dataType='string' caption='Classification'></dxi-column>
         <dxi-column [width]='175' dataField='type1' dataType='string' caption='Primary Type' cellTemplate='primaryTypeCell'></dxi-column>
         <dxi-column [width]='175' dataField='type2' dataType='string' caption='Secondary Type' cellTemplate='secondaryTypeCell'></dxi-column>
+        <dxi-column [width]='175' dataField='evolution' alignment='center' dataType='string' caption='Evolution' cellTemplate='evolutionCell'></dxi-column>'
         <dxi-column [width]='100' alignment='center' dataField='height_m' dataType='number' caption='Height(m)'></dxi-column>
         <dxi-column [width]='100' alignment='center' dataField='weight_kg' dataType='number' caption='Weight(km)'></dxi-column>
         <dxi-column [width]='100' alignment='center' dataField='generation' datatype='number' caption='Generation'></dxi-column>
         <dxi-column [width]='75' dataField='is_legendary' dataType='boolean' caption='Legendary'></dxi-column>
-        
+
         <div *dxTemplate='let data of "spriteTemplate"'>
             <button mat-raised-button ><img src='../../../assets/pokemon_sprites/{{ data.data.spriteURL }}.png' (click)='showPokemonPicture(data)'> </button>
         </div>
@@ -22,6 +23,14 @@
 
         <div *dxTemplate='let data of "secondaryTypeCell"'>
             <button *ngIf='data.data.type2' [style.background-color]='getTypeColor(data.data.type2)' class='typeCell'>{{ data.data.type2 | uppercase }}</button>
+        </div>
+
+        <div *dxTemplate='let data of "evolutionCell"'>
+            <span matTooltip='{{data.data.evolution}}'>
+              {{ data.data.evolution[0] }}
+              <span *ngIf='data.data.evolution.length > 1'> +{{ data.data.evolution.length - 1 }} more</span>
+            </span>
+
         </div>
 
         <dxo-summary>

@@ -9,4 +9,5 @@ export interface Pokemon {
   is_legendary: boolean;
   height_m?: number;
   spriteURL?: string;
+  evolution?: Array<string>
 }

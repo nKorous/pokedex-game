@@ -1,6 +1,7 @@
 import { Injectable } from '@angular/core';
 import { Pokemon } from '../models/pokemon';
 import { PokemonList } from '../data/pokemon';
+import { evolutions } from '../data/evolution'
 import { of } from 'rxjs';
 
 @Injectable({
@@ -32,6 +33,11 @@ export class DataService {
   constructor() {}
 
   getPokeList() {
+    this.pokeList.map(pokemon => {
+      const evo = evolutions.find(f => f.name === pokemon.name)
+      pokemon.evolution = evo && evo.into ? evo.into : new Array()
+    })
+
     return of(this.pokeList);
   }
 

@@ -22,6 +22,7 @@ import { GameHomeComponent } from './games/game-home/game-home.component';
 import { PokeDexComponent } from './games/poke-dex/poke-dex.component';
 import { PokemonDetailComponent } from './games/poke-dex/pokemon-detail.component';
 import { PageNotFoundComponent } from './errors/page-not-found/page-not-found.component'
+import { MatTooltipModule } from '@angular/material/tooltip'
 
 @NgModule({
   declarations: [
@@ -46,9 +47,10 @@ import { PageNotFoundComponent } from './errors/page-not-found/page-not-found.co
     MatIconModule,
     MatMenuModule,
     MatDialogModule,
+    MatTooltipModule,
 
     DxDataGridModule,
-    
+
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -21,7 +21,9 @@ export class PokeDexComponent implements OnInit {
   }
 
   getFullList() {
-    this.dataService.getPokeList().subscribe(data => this.pokemonList = data)
+    this.dataService.getPokeList().subscribe(data => {
+      this.pokemonList = data;
+    })
   }
 
   showPokemonPicture(data) {
