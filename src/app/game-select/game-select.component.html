@@ -39,7 +39,9 @@
       Next...
     </button>
   </div>
-  <div class="oakPic"></div>
+      <div class="oakPic" *ngIf='!showGameSelection'>
+        <img src='assets/profOakLetsGo.png'>
+      </div>
 
   <div *ngIf="showGameSelection">
     <h3>{{ playerName }}, Please select a game:</h3>

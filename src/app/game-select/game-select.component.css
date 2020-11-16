@@ -36,3 +36,13 @@
     border: 1px solid black;
     width: 200px;
 }
+
+.oakPic {
+  margin-left: 5px;
+  box-shadow: 1px 3px 1px 1px lightgrey;
+  border-bottom-right-radius: 50%;
+  border-bottom-left-radius: 50%;
+  border-top-right-radius: 50%;
+  border-top-left-radius: 50%;
+  background: linear-gradient(red 50%, white 50%) !important
+}
