@@ -1,6 +1,6 @@
 .pokedexMain {
     width: 97%;
-    padding: 25px;
+    padding-left: 25px;
     display: flex;
     justify-content: center;
 
@@ -20,4 +20,24 @@
     padding-top: 5px;
     padding-bottom: 5px;
     align-items: center;
+}
+
+.pokePicture {
+  height: 200px;
+  width: 200px;
+  border: 1px solid black;
+  border-radius: 5px;
+  background-color: white;
+}
+
+.oakPic {
+  height: 100%;
+}
+
+.headerMain {
+  display: flex;
+  align-items: center;
+  margin-top: 5px;
+  margin-left: 25px;
+  height: 200px;
 }

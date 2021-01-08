@@ -42,12 +42,15 @@ export class PokeDexComponent implements OnInit {
   }
 
   getExtraPokemonInfo(event: any) {
-    let pokemonName = event.selectedRowsData[0].spriteURL
-    this.dataService.getPokemonExtraInfo(pokemonName).subscribe(pokemon => {
+    let pokemonIndex = event.selectedRowsData[0].pokedexNumber
+    this.dataService.getPokemonExtraInfo(pokemonIndex).subscribe(pokemon => {
       console.log(pokemon)
 
       this.selectedPokemon = pokemon
+
     })
+      event.component.collapseAll(-1)
+      event.component.expandRow(event.currentSelectedRowKeys[0])
   }
 
 }

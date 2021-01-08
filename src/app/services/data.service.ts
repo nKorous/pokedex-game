@@ -67,7 +67,7 @@ export class DataService {
     return of(this.pokeTypes)
   }
 
-  getPokemonExtraInfo(pokemonName: string) {
-    return this.http.get(`${BASE_POKEAPI}/pokemon/${pokemonName}`)
+  getPokemonExtraInfo(pokemonIndex: number) {
+    return this.http.get(`${BASE_POKEAPI}/pokemon/${pokemonIndex}`)
   }
 }

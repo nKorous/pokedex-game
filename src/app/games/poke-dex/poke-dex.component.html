@@ -1,6 +1,10 @@
+<div class='headerMain'>
+  <img class='oakPic' src='assets/profOakLetsGo.png'>
+  <h1>Select a Pokemon to learn more about it</h1>
+</div>
 <div class='pokedexMain'>
     <dx-data-grid [dataSource]='pokemonList' [rowAlternationEnabled]="true" [showBorders]="true" [height]='600'
-    (onSelectionChanged)='getExtraPokemonInfo($event)'>
+    (onSelectionChanged)='getExtraPokemonInfo($event)' [masterDetail]="{ enabled: false, template: 'detail' }">
 
         <dxi-column alignment='center' [width]='75' dataField='pokedexNumber' dataType='number' caption='#'></dxi-column>
         <dxi-column [width]='150' cellTemplate='spriteTemplate' caption=''></dxi-column>
@@ -15,7 +19,7 @@
         <dxi-column [width]='75' dataField='is_legendary' dataType='boolean' caption='Legendary'></dxi-column>
 
         <div *dxTemplate='let data of "spriteTemplate"'>
-            <button mat-raised-button ><img src='../../../assets/pokemon_sprites/{{ data.data.spriteURL }}.png' (click)='showPokemonPicture(data)'> </button>
+            <img src='../../../assets/pokemon_sprites/{{ data.data.spriteURL }}.png'>
         </div>
 
         <div *dxTemplate='let data of "primaryTypeCell"'>
@@ -32,6 +36,10 @@
               <span *ngIf='data.data.evolution.length > 1'> +{{ data.data.evolution.length - 1 }} more</span>
             </span>
 
+        </div>
+
+        <div *dxTemplate='let p of "detail"'>
+          <img class='pokePicture' src='assets/pokemon_pictures/{{ p.data.spriteURL }}.png' (click)='showPokemonPicture(p)'>
         </div>
 
         <dxo-summary>
