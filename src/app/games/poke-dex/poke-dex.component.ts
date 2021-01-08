@@ -11,6 +11,7 @@ import { PokemonDetailComponent } from './pokemon-detail.component';
 })
 export class PokeDexComponent implements OnInit {
   pokemonList: Array<Pokemon> = new Array()
+  selectedPokemon: any = null
 
 
   constructor(private dataService: DataService,
@@ -38,6 +39,15 @@ export class PokeDexComponent implements OnInit {
 
   getTypeColor(type: string) {
     return `var(--${type}-color)`
+  }
+
+  getExtraPokemonInfo(event: any) {
+    let pokemonName = event.selectedRowsData[0].spriteURL
+    this.dataService.getPokemonExtraInfo(pokemonName).subscribe(pokemon => {
+      console.log(pokemon)
+
+      this.selectedPokemon = pokemon
+    })
   }
 
 }

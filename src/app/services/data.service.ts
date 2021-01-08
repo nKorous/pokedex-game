@@ -3,6 +3,9 @@ import { Pokemon } from '../models/pokemon';
 import { PokemonList } from '../data/pokemon';
 import { evolutions } from '../data/evolution'
 import { of } from 'rxjs';
+import { HttpClient } from '@angular/common/http';
+
+const BASE_POKEAPI = 'https://pokeapi.co/api/v2'
 
 @Injectable({
   providedIn: 'root',
@@ -30,7 +33,7 @@ export class DataService {
     'water',
   ];
 
-  constructor() {}
+  constructor(private http: HttpClient) {}
 
   getPokeList() {
     this.pokeList.map(pokemon => {
@@ -62,5 +65,9 @@ export class DataService {
 
   getTypes() {
     return of(this.pokeTypes)
+  }
+
+  getPokemonExtraInfo(pokemonName: string) {
+    return this.http.get(`${BASE_POKEAPI}/pokemon/${pokemonName}`)
   }
 }

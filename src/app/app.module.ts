@@ -23,6 +23,7 @@ import { PokeDexComponent } from './games/poke-dex/poke-dex.component';
 import { PokemonDetailComponent } from './games/poke-dex/pokemon-detail.component';
 import { PageNotFoundComponent } from './errors/page-not-found/page-not-found.component'
 import { MatTooltipModule } from '@angular/material/tooltip'
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -41,6 +42,7 @@ import { MatTooltipModule } from '@angular/material/tooltip'
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
+    HttpClientModule,
     MatButtonModule,
     MatCardModule,
     MatToolbarModule,

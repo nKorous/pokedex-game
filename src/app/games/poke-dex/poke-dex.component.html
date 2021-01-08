@@ -1,5 +1,6 @@
 <div class='pokedexMain'>
-    <dx-data-grid [dataSource]='pokemonList' [rowAlternationEnabled]="true" [showBorders]="true" [height]='600'>
+    <dx-data-grid [dataSource]='pokemonList' [rowAlternationEnabled]="true" [showBorders]="true" [height]='600'
+    (onSelectionChanged)='getExtraPokemonInfo($event)'>
 
         <dxi-column alignment='center' [width]='75' dataField='pokedexNumber' dataType='number' caption='#'></dxi-column>
         <dxi-column [width]='150' cellTemplate='spriteTemplate' caption=''></dxi-column>
@@ -37,7 +38,7 @@
             <dxi-total-item column='pokedexNumber' summaryType='count' displayFormat='{0} Pokemon' showInColumn='Name'></dxi-total-item>
         </dxo-summary>
 
-
+        <dxo-selection mode='single'></dxo-selection>
         <dxo-load-panel [enabled]="true"></dxo-load-panel>
         <dxo-scrolling mode="virtual"></dxo-scrolling>
         <dxo-search-panel [visible]="true" [width]="240" placeholder="Search..."></dxo-search-panel>
