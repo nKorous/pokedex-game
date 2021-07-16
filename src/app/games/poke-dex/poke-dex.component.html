@@ -6,8 +6,8 @@
     <dx-data-grid [dataSource]='pokemonList' [rowAlternationEnabled]="true" [showBorders]="true" [height]='600'
     (onSelectionChanged)='getExtraPokemonInfo($event)' [masterDetail]="{ enabled: false, template: 'detail' }">
 
-        <dxi-column alignment='center' [width]='75' dataField='pokedexNumber' dataType='number' caption='#'></dxi-column>
-        <dxi-column [width]='150' cellTemplate='spriteTemplate' caption=''></dxi-column>
+        <dxi-column alignment='center' [width]='50' dataField='pokedexNumber' dataType='number' caption='#'></dxi-column>
+        <dxi-column [width]='100' cellTemplate='spriteTemplate' caption=''></dxi-column>
         <dxi-column [width]='150' dataField='name' dataType='string' caption='Name'></dxi-column>
         <dxi-column [width]='200' dataField='classification' dataType='string' caption='Classification'></dxi-column>
         <dxi-column [width]='175' dataField='type1' dataType='string' caption='Primary Type' cellTemplate='primaryTypeCell'></dxi-column>
@@ -15,8 +15,8 @@
         <dxi-column [width]='175' dataField='evolution' alignment='center' dataType='string' caption='Evolution' cellTemplate='evolutionCell'></dxi-column>'
         <dxi-column [width]='100' alignment='center' dataField='height_m' dataType='number' caption='Height(m)'></dxi-column>
         <dxi-column [width]='100' alignment='center' dataField='weight_kg' dataType='number' caption='Weight(km)'></dxi-column>
-        <dxi-column [width]='125' alignment='center' dataField='generation' datatype='number' caption='Generation'></dxi-column>
-        <dxi-column [width]='75' dataField='is_legendary' dataType='boolean' caption='Legendary'></dxi-column>
+        <dxi-column [width]='100' alignment='center' dataField='generation' datatype='number' caption='Generation'></dxi-column>
+        <dxi-column [width]='100' dataField='is_legendary' dataType='boolean' caption='Legendary'></dxi-column>
 
         <div *dxTemplate='let data of "spriteTemplate"'>
             <img src='../../../assets/pokemon_sprites/{{ data.data.spriteURL }}.png'>
@@ -39,8 +39,11 @@
         </div>
 
         <div *dxTemplate='let p of "detail"'>
-          <img class='pokePicture' src='assets/pokemon_pictures/{{ p.data.spriteURL }}.png' (click)='showPokemonPicture(p)'>
-          <div><label>Name:</label>{{ selectedPokemon.name }}</div>
+          <div>
+
+            <img class='pokePicture' src='assets/pokemon_pictures/{{ p.data.spriteURL }}.png' (click)='showPokemonPicture(p)'>
+            <div><label>Name:</label>{{ selectedPokemon.name }}</div>
+          </div>
         </div>
 
         <dxo-summary>
