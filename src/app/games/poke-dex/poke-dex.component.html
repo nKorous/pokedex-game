@@ -39,10 +39,18 @@
         </div>
 
         <div *dxTemplate='let p of "detail"'>
-          <div>
-
+          <div class='extraDetails'>
             <img class='pokePicture' src='assets/pokemon_pictures/{{ p.data.spriteURL }}.png' (click)='showPokemonPicture(p)'>
-            <div><label>Name:</label>{{ selectedPokemon.name }}</div>
+            <!-- Game Versions -->
+            <div>
+              <label>Game Versions</label>
+              <ul>
+                <li *ngFor='let game of selectedPokemon?.game_indices'>
+                  {{ game.version.name }}
+                </li>
+              </ul>
+            </div>
+
           </div>
         </div>
 

@@ -70,4 +70,8 @@ export class DataService {
   getPokemonExtraInfo(pokemonIndex: number) {
     return this.http.get(`${BASE_POKEAPI}/pokemon/${pokemonIndex}`)
   }
+
+  getPokemonEncounterInfo(pokemonIndex: number) {
+    return this.http.get(`${BASE_POKEAPI}/pokemon/${pokemonIndex}/encounters`)
+  }
 }

@@ -11,6 +11,7 @@ import { MatToolbarModule } from '@angular/material/toolbar'
 import { MatIconModule } from '@angular/material/icon'
 import { MatMenuModule } from '@angular/material/menu'
 import { MatDialogModule } from '@angular/material/dialog'
+import { MatDividerModule } from '@angular/material/divider'
 
 import { DxDataGridModule } from 'devextreme-angular'
 import { GameSelectComponent } from './game-select/game-select.component';
@@ -50,6 +51,7 @@ import { HttpClientModule } from '@angular/common/http';
     MatMenuModule,
     MatDialogModule,
     MatTooltipModule,
+    MatDividerModule,
 
     DxDataGridModule,
 

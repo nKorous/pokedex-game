@@ -3,6 +3,7 @@ import { DataService } from '../../services/data.service';
 import { Pokemon } from '../../models/pokemon';
 import { MatDialog } from '@angular/material/dialog';
 import { PokemonDetailComponent } from './pokemon-detail.component';
+import { forkJoin } from 'rxjs';
 
 @Component({
   selector: 'app-poke-dex',
@@ -43,10 +44,15 @@ export class PokeDexComponent implements OnInit {
 
   getExtraPokemonInfo(event: any) {
     let pokemonIndex = event.selectedRowsData[0].pokedexNumber
-    this.dataService.getPokemonExtraInfo(pokemonIndex).subscribe(pokemon => {
-      console.log(pokemon)
 
-      this.selectedPokemon = pokemon
+    forkJoin([
+      this.dataService.getPokemonExtraInfo(pokemonIndex),
+      this.dataService.getPokemonEncounterInfo(pokemonIndex)
+    ]).subscribe(([extraInfo, encounterInfo]) => {
+      this.selectedPokemon = extraInfo
+      this.selectedPokemon.encounters = encounterInfo
+
+      console.log({extraInfo, encounterInfo})
 
     })
       event.component.collapseAll(-1)
