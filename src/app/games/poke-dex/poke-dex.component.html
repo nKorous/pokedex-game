@@ -40,7 +40,14 @@
 
         <div *dxTemplate='let p of "detail"'>
           <div class='extraDetails'>
-            <img class='pokePicture' src='assets/pokemon_pictures/{{ p.data.spriteURL }}.png' (click)='showPokemonPicture(p)'>
+            <div>
+              <img class='pokePicture' src='assets/pokemon_pictures/{{ p.data.spriteURL }}.png' (click)='showPokemonPicture(p)'>
+              <br>
+              <button class='more-info-button' mat-raised-button color='primary'>More Info</button>
+            </div>
+
+            <mat-divider class='divider' [vertical]='true'></mat-divider>
+
             <!-- Game Versions -->
             <div>
               <label>Game Versions</label>
@@ -50,6 +57,10 @@
                 </li>
               </ul>
             </div>
+
+            <mat-divider class='divider' [vertical]='true'></mat-divider>
+
+
 
           </div>
         </div>
