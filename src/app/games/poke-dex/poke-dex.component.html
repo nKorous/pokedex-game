@@ -45,8 +45,8 @@
             <div>
               <label>Game Versions</label>
               <ul>
-                <li *ngFor='let game of selectedPokemon?.game_indices'>
-                  {{ game.version.name }}
+                <li *ngFor='let game of selectedPokemon?.speciesInfo.flavor_text_entries'>
+                  {{ game.version.name }} - {{ game.flavor_text}}
                 </li>
               </ul>
             </div>

@@ -47,12 +47,15 @@ export class PokeDexComponent implements OnInit {
 
     forkJoin([
       this.dataService.getPokemonExtraInfo(pokemonIndex),
-      this.dataService.getPokemonEncounterInfo(pokemonIndex)
-    ]).subscribe(([extraInfo, encounterInfo]) => {
+      this.dataService.getPokemonEncounterInfo(pokemonIndex),
+      this.dataService.getSpeciesInfo(pokemonIndex)
+    ]).subscribe(([extraInfo, encounterInfo, speciesInfo]) => {
       this.selectedPokemon = extraInfo
       this.selectedPokemon.encounters = encounterInfo
+      this.selectedPokemon.speciesInfo = speciesInfo
+      this.selectedPokemon.speciesInfo.flavor_text_entries = this.selectedPokemon.speciesInfo.flavor_text_entries.filter(fi => fi.language.name === 'en')
 
-      console.log({extraInfo, encounterInfo})
+      console.log({allInfo: this.selectedPokemon, encounterInfo, speciesInfo})
 
     })
       event.component.collapseAll(-1)

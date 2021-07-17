@@ -74,4 +74,8 @@ export class DataService {
   getPokemonEncounterInfo(pokemonIndex: number) {
     return this.http.get(`${BASE_POKEAPI}/pokemon/${pokemonIndex}/encounters`)
   }
+
+  getSpeciesInfo(pokemonIndex: number) {
+    return this.http.get(`${BASE_POKEAPI}/pokemon-species/${pokemonIndex}`)
+  }
 }
