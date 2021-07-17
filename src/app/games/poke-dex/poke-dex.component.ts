@@ -5,6 +5,8 @@ import { MatDialog } from '@angular/material/dialog';
 import { PokemonDetailComponent } from './pokemon-detail.component';
 import { forkJoin } from 'rxjs';
 
+const ARTWORK_URL = "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/"
+
 @Component({
   selector: 'app-poke-dex',
   templateUrl: './poke-dex.component.html',
@@ -32,7 +34,7 @@ export class PokeDexComponent implements OnInit {
     let dialogRef = this.picDialog.open(PokemonDetailComponent, {
       height: '90%',
       width: '50%',
-      data: { name: data.data.spriteURL, pokeDex: data.data.pokedexNumber }
+      data: { url: `${ARTWORK_URL}${data.data.pokedexNumber}.png`, pokeDex: data.data.pokedexNumber }
     })
 
     dialogRef.afterClosed().subscribe(result => {})

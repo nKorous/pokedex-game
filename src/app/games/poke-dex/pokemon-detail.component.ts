@@ -7,9 +7,12 @@ import { MatDialogRef, MAT_DIALOG_DATA } from '@angular/material/dialog';
   styleUrls: ['./pokemon-detail.component.css']
 })
 export class PokemonDetailComponent implements OnInit {
+  pokemonURL: string
+
 
   constructor(public dialogRef: MatDialogRef<PokemonDetailComponent>,
-    @Inject(MAT_DIALOG_DATA) public data: { name: string, pokeDex: number}) { 
+    @Inject(MAT_DIALOG_DATA) public data: { url: string, pokeDex: number}) {
+      this.pokemonURL = data.url
     }
 
   ngOnInit(): void {
