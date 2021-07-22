@@ -43,7 +43,7 @@
             <div>
               <img class='pokePicture' src='assets/pokemon_pictures/{{ p.data.spriteURL }}.png' (click)='showPokemonPicture(p)'>
               <br>
-              <button class='more-info-button' mat-raised-button color='primary'>More Info</button>
+              <button class='more-info-button' mat-raised-button color='primary' (click)="moreInfo(p.data.pokedexNumber)">More Info</button>
             </div>
 
             <mat-divider class='divider' [vertical]='true'></mat-divider>

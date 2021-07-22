@@ -4,6 +4,7 @@ import { Pokemon } from '../../models/pokemon';
 import { MatDialog } from '@angular/material/dialog';
 import { PokemonDetailComponent } from './pokemon-detail.component';
 import { forkJoin } from 'rxjs';
+import { Router } from '@angular/router';
 
 const ARTWORK_URL = "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/"
 
@@ -18,7 +19,8 @@ export class PokeDexComponent implements OnInit {
 
 
   constructor(private dataService: DataService,
-    public picDialog: MatDialog) { }
+    public picDialog: MatDialog,
+    private router: Router) { }
 
   ngOnInit(): void {
     this.getFullList()
@@ -62,6 +64,10 @@ export class PokeDexComponent implements OnInit {
     })
       event.component.collapseAll(-1)
       event.component.expandRow(event.currentSelectedRowKeys[0])
+  }
+
+  moreInfo(pokemon) {
+    this.router.navigate([`/games/pokeEntry/${pokemon}`])
   }
 
 }

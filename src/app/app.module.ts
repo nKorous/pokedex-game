@@ -25,6 +25,7 @@ import { PokemonDetailComponent } from './games/poke-dex/pokemon-detail.componen
 import { PageNotFoundComponent } from './errors/page-not-found/page-not-found.component'
 import { MatTooltipModule } from '@angular/material/tooltip'
 import { HttpClientModule } from '@angular/common/http';
+import { PokedexEntryComponent } from './games/poke-dex/pokedex-entry/pokedex-entry.component';
 
 @NgModule({
   declarations: [
@@ -37,7 +38,8 @@ import { HttpClientModule } from '@angular/common/http';
     GameHomeComponent,
     PokeDexComponent,
     PokemonDetailComponent,
-    PageNotFoundComponent
+    PageNotFoundComponent,
+    PokedexEntryComponent
   ],
   imports: [
     BrowserModule,

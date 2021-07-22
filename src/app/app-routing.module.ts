@@ -1,3 +1,4 @@
+import { PokedexEntryComponent } from './games/poke-dex/pokedex-entry/pokedex-entry.component';
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 import { HomePageComponent } from './home-page/home-page.component';
@@ -20,6 +21,7 @@ const routes: Routes = [
       { path: 'pokeType', component: PokeTypeComponent },
       { path: 'pokeGuess', component: PokeGuessComponent },
       { path: 'pokeDetail/:pokeDexNumber', component: PokemonDetailComponent },
+      { path: 'pokeEntry/:id', component: PokedexEntryComponent },
 
       //needs to be last for games
       { path: '**', component: PageNotFoundComponent }

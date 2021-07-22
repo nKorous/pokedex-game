@@ -2,7 +2,7 @@ import { Injectable } from '@angular/core';
 import { Pokemon } from '../models/pokemon';
 import { PokemonList } from '../data/pokemon';
 import { evolutions } from '../data/evolution'
-import { of } from 'rxjs';
+import { Observable, of } from 'rxjs';
 import { HttpClient } from '@angular/common/http';
 
 const BASE_POKEAPI = 'https://pokeapi.co/api/v2'
@@ -71,8 +71,8 @@ export class DataService {
     return this.http.get(`${BASE_POKEAPI}/pokemon/${pokemonIndex}`)
   }
 
-  getPokemonEncounterInfo(pokemonIndex: number) {
-    return this.http.get(`${BASE_POKEAPI}/pokemon/${pokemonIndex}/encounters`)
+  getPokemonEncounterInfo(pokemonIndex: number): Observable<any> {
+    return this.http.get<any>(`${BASE_POKEAPI}/pokemon/${pokemonIndex}/encounters`)
   }
 
   getSpeciesInfo(pokemonIndex: number) {
