@@ -5,12 +5,12 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
-import { MatButtonModule } from '@angular/material/button/'
-import { MatLegacyCardModule as MatCardModule } from '@angular/material/legacy-card';
+import { MatButtonModule } from '@angular/material/button'
+import { MatCardModule } from '@angular/material/card';
 import { MatToolbarModule } from '@angular/material/toolbar'
 import { MatIconModule } from '@angular/material/icon'
-import { MatLegacyMenuModule as MatMenuModule } from '@angular/material/legacy-menu'
-import { MatLegacyDialogModule as MatDialogModule } from '@angular/material/legacy-dialog'
+import { MatMenuModule } from '@angular/material/menu'
+import { MatDialogModule } from '@angular/material/dialog'
 
 import { DxDataGridModule } from 'devextreme-angular'
 import { GameSelectComponent } from './game-select/game-select.component';
@@ -22,7 +22,7 @@ import { GameHomeComponent } from './games/game-home/game-home.component';
 import { PokeDexComponent } from './games/poke-dex/poke-dex.component';
 import { PokemonDetailComponent } from './games/poke-dex/pokemon-detail.component';
 import { PageNotFoundComponent } from './errors/page-not-found/page-not-found.component'
-import { MatLegacyTooltipModule as MatTooltipModule } from '@angular/material/legacy-tooltip'
+import { MatTooltipModule } from '@angular/material/tooltip'
 
 @NgModule({
   declarations: [
