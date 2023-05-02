@@ -41,8 +41,8 @@ body {
 }
 
 .pokeColor {
-  color: var(--poke-yellow);
-  background-color: var(--poke-blue);
+  color: var(--poke-yellow) !important;
+  background-color: var(--poke-blue) !important;
 }
 
 
