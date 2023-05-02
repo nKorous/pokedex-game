@@ -125,5 +125,8 @@
       }
     }
   },
-  "defaultProject": "pokedex-game"
+  "defaultProject": "pokedex-game",
+  "cli": {
+    "analytics": false
+  }
 }
