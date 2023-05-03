@@ -1,5 +1,5 @@
 #!/bin/bash
-FROM alpine:3.16
+FROM node:alpine:3.16
 ENV NODE_VERSION 16.20.0
 WORKDIR /app
 COPY package*.json ./
