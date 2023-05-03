@@ -15,7 +15,7 @@ spec:
         "kubernetes.io/os": linux
       containers:
       - name: pokedex-game
-        image: nvtdemo.azurecr.io/pokedex-game:latest
+        image: nvtdemo.azurecr.io/pokedex-game:v1
         imagePullPolicy: Always
         resources:
           limits:

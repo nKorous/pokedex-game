@@ -1,10 +1,11 @@
 #!/bin/bash
-FROM --platform=linux/arm64 node:16
+FROM alpine:3.16
+ENV NODE_VERSION 16.20.0
 WORKDIR /app
 COPY package*.json ./
 RUN npm install
 COPY . .
-RUN npm run build
+RUN npm run build:prod
 EXPOSE 4200
 EXPOSE 8080
 CMD ["npm", "start"]
