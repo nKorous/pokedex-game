@@ -6,6 +6,6 @@ A quick game to determin pokemon type and pokemon name? You can play a live vers
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
-# Copywright
+# Copyright
 
 All Pokemon and their likeness are wholly owned by the &copy; Pokemon Company.
