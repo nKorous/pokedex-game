@@ -1,5 +1,5 @@
 #!/bin/bash
-FROM node:alpine:3.16
+FROM --platform=linux/amd64 node:lts-alpine
 ENV NODE_VERSION 16.20.0
 WORKDIR /app
 COPY package*.json ./

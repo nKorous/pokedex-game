@@ -15,14 +15,14 @@ spec:
         "kubernetes.io/os": linux
       containers:
       - name: pokedex-game
-        image: nvtdemo.azurecr.io/pokedex-game:v1
+        image: nvtdemo.azurecr.io/pokedex-game:latest
         imagePullPolicy: Always
         resources:
           limits:
             memory: "1Gi"
             cpu: "1000m"
         ports:
-        - containerPort: 80
+        - containerPort: 8080
 ---
 apiVersion: v1
 kind: Service
@@ -32,5 +32,6 @@ spec:
   type: LoadBalancer
   ports:
   - port: 80
+    targetPort: 8080
   selector:
     app: pokedex-game
