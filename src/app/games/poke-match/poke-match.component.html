@@ -1,0 +1,14 @@
+<div class="poke-match-container">
+    <div class="poke-match-header">
+        <div class="poke-match-header-text">Look For: {{ mainPokemon.name }}!</div>
+    </div>
+    <div class="poke-match-content">
+
+        <mat-grid-list cols="8" rowHeight="100px">
+            <mat-grid-tile *ngFor="let pokemon of pokemonList" class="poke-grid-tile" (click)="matchPokemon(pokemon)">
+                <img height="75px" width="75px" src="assets/pokemon_pictures/{{ pokemon.spriteURL }}.png">
+            </mat-grid-tile>
+        </mat-grid-list>
+
+    </div>
+</div>

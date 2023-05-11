@@ -9,6 +9,7 @@ import { PokeGuessComponent } from './games/poke-guess/poke-guess.component';
 import { PokeDexComponent } from './games/poke-dex/poke-dex.component';
 import { PokemonDetailComponent } from './games/poke-dex/pokemon-detail.component';
 import { PageNotFoundComponent } from './errors/page-not-found/page-not-found.component';
+import { PokeMatchComponent } from './games/poke-match/poke-match.component';
 
 const routes: Routes = [
   { path: '', component: HomePageComponent },
@@ -20,6 +21,7 @@ const routes: Routes = [
       { path: 'pokeType', component: PokeTypeComponent },
       { path: 'pokeGuess', component: PokeGuessComponent },
       { path: 'pokeDetail/:pokeDexNumber', component: PokemonDetailComponent },
+      { path: 'pokeMatch', component: PokeMatchComponent },
 
       //needs to be last for games
       { path: '**', component: PageNotFoundComponent }
