@@ -24,3 +24,10 @@
     font-size: 32px;
     font-weight: bold;
 }
+
+.footer {
+    position: absolute;
+    bottom: 0px;
+    text-align: center;
+    width: 100%;
+}
