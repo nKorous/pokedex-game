@@ -1,0 +1,12 @@
+.poke-match-header {
+    font-size: 42px;
+    font-family: 'pokemonSolid';
+    color: var(--poke-yellow);
+    -webkit-text-stroke: 3px var(--poke-blue);
+    letter-spacing: 3px;
+}
+
+.poke-grid-tile:hover {
+    background: lightgray;
+    cursor: pointer;
+}

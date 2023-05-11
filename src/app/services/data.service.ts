@@ -32,6 +32,10 @@ export class DataService {
 
   constructor() {}
 
+  getRandomNumber(min: number, max: number) {
+    return Math.floor(Math.random() * (max - min) + min)
+  }
+
   getPokeList() {
     this.pokeList.map(pokemon => {
       const evo = evolutions.find(f => f.name === pokemon.name)
@@ -56,11 +60,21 @@ export class DataService {
   }
 
   getRandomPokemon() {
-    let rand = Math.floor(Math.random() * this.pokeList.length + 1);
+    let rand = Math.floor(Math.random() * (this.pokeList.length - 1) + 1);
     return this.pokeList[rand];
   }
 
   getTypes() {
     return of(this.pokeTypes)
+  }
+
+  getPokeMatchList(matches: number) {
+    let pokeMatchList = []
+
+    for(let i = 0; i < matches; i++) {
+      pokeMatchList = [ ...pokeMatchList, this.getRandomPokemon()]
+    }
+
+    return of(pokeMatchList)
   }
 }
