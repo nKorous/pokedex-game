@@ -24,10 +24,24 @@
     letter-spacing: 2px;
 }
 
+#nextButton:disabled {
+    background: lightgray !important;
+    color: darkgray !important;
+}
+
 .selectionButton {
     height: 100px;
     width: 150px;
     margin: 10px;
+    cursor: pointer;
+    box-shadow: 3px 3px 3px lightgray;
+    border-radius: 10px;
+}
+
+.selectionButton:hover {
+    box-shadow: 3px 3px 3px var(--poke-yellow);
+    cursor: pointer;
+    border: 2px solid var(--poke-yellow)
 }
 
 .trainerName {
@@ -38,11 +52,19 @@
 }
 
 .oakPic {
-  margin-left: 5px;
-  box-shadow: 1px 3px 1px 1px lightgrey;
-  border-bottom-right-radius: 50%;
-  border-bottom-left-radius: 50%;
-  border-top-right-radius: 50%;
-  border-top-left-radius: 50%;
-  background: linear-gradient(red 50%, white 50%) !important
+    margin-left: 5px;
+    box-shadow: 1px 3px 1px 1px lightgrey;
+    border-bottom-right-radius: 50%;
+    border-bottom-left-radius: 50%;
+    border-top-right-radius: 50%;
+    border-top-left-radius: 50%;
+    background: linear-gradient(red 50%, white 50%) !important
+}
+
+.gameSelectionHeader {
+    font-family: 'pokemonSolid';
+    letter-spacing: 5px;
+    font-size: 60px;
+    color: var(--poke-yellow);
+    -webkit-text-stroke: 4px var(--poke-blue);
 }
