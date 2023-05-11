@@ -1,9 +1,32 @@
 .pokedexMain {
-    width: 97%;
-    padding: 25px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.pokedexHeader, .pokedexSubHeader {
+    width: 100%;
+    font-family: 'pokemonSolid';
+    letter-spacing: 2px;
+    color: var(--poke-yellow);
+    -webkit-text-stroke: 4px var(--poke-blue);
+    text-align: center;
+}
+
+.pokedexHeader {
+    font-size: 60px;
+}
+
+.pokedexSubHeader {
+    font-size: 50px;
+    letter-spacing: 4px !important;
+}
+
+.pokedexContent {
     display: flex;
     justify-content: center;
-
+    padding: 0px 25px 0px 25px;
 }
 
 :host ::ng-deep .dx-data-row td {

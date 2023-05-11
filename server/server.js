@@ -11,3 +11,7 @@ app.use(express.static(staticDist));
 app.get("/", (req, res) => {
   res.sendFile("index.html", { root: staticDist });
 });
+
+app.get('*', (req, res) => {
+  res.sendFile("index.html", { root: staticDist });
+})
