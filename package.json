@@ -24,6 +24,7 @@
     "devextreme": "20.1.4",
     "devextreme-angular": "20.1.4",
     "express": "^4.17.1",
+    "raygun4js": "^2.25.7",
     "rxjs": "~6.5.5",
     "tslib": "^2.0.0",
     "zone.js": "~0.11.4"
@@ -32,9 +33,9 @@
     "@angular-devkit/build-angular": "^15.2.7",
     "@angular/cli": "^15.2.7",
     "@angular/compiler-cli": "^15.2.8",
-    "@types/node": "^12.11.1",
     "@types/jasmine": "~3.6.0",
     "@types/jasminewd2": "~2.0.3",
+    "@types/node": "^12.11.1",
     "codelyzer": "^6.0.0",
     "jasmine-core": "~3.6.0",
     "jasmine-spec-reporter": "~5.0.0",

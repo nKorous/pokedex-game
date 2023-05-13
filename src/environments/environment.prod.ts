@@ -1,3 +1,4 @@
 export const environment = {
-  production: true
+  production: true,
+  raygunApiKey: 'NEAhh7Us5ukvpVhrdN2Mg'
 };

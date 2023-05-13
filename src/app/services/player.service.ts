@@ -1,5 +1,6 @@
 import { Injectable } from '@angular/core';
 import { of, BehaviorSubject } from 'rxjs';
+import * as rg4js from 'raygun4js'
 
 @Injectable({
   providedIn: 'root',
@@ -13,6 +14,12 @@ export class PlayerService {
 
   setPlayerName(name: string) {
     this.playerName = name;
+
+    rg4js('setUser', {
+      identifier: name,
+      isAnonymous: false,
+      fullName: name
+    })
   }
 
   getPlayerName() {
@@ -28,5 +35,9 @@ export class PlayerService {
     this.playerName = ''
     this.playerPoints = 0
     this.playerPoints$.next(this.playerPoints)
+
+    rg4js('setUser', {
+      isAnonymous: true
+    })
   }
 }
